@@ -1290,17 +1290,85 @@
     "id": 11,
     "name": "Candy",
     "description": "Actor, Model",
-    "profileRes": "pgfvdance",
-    "bannerRes": "pgfvhello",
-    "videos": []
+    "profileRes": "pgfvhello",
+    "bannerRes": "pgfvdance",
+    "videos": [
+      {
+        "action": "Dance",
+        "cost": 50,
+        "imageResId": "pgfvdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgfvdance.mp4"
+      },
+      {
+        "action": "Hair",
+        "cost": 50,
+        "imageResId": "pgfvhair",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgfvhair.mp4"
+      },
+      {
+        "action": "Hello",
+        "cost": 50,
+        "imageResId": "pgfvhello",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgfvhello.mp4"
+      },
+      {
+        "action": "Kiss",
+        "cost": 50,
+        "imageResId": "pgfvkiss",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgfvkiss.mp4"
+      },
+      {
+        "action": "Photo",
+        "cost": 50,
+        "imageResId": "pgfvphoto",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgfvphoto.mp4"
+      }
+    ]
   },
   {
     "id": 12,
     "name": "Gipsydeb",
     "description": "Actor, Model",
-    "profileRes": "pggvcaress",
-    "bannerRes": "pggvkiss",
-    "videos": []
+    "profileRes": "pggvkiss",
+    "bannerRes": "pggvdance",
+    "videos": [
+      {
+        "action": "Caress",
+        "cost": 50,
+        "imageResId": "pggvcaress",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pggvcaress.mp4"
+      },
+      {
+        "action": "Dance",
+        "cost": 50,
+        "imageResId": "pggvdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pggvdance.mp4"
+      },
+      {
+        "action": "Hair",
+        "cost": 50,
+        "imageResId": "pggvhair",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pggvhair.mp4"
+      },
+      {
+        "action": "Kiss",
+        "cost": 50,
+        "imageResId": "pggvkiss",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pggvkiss.mp4"
+      },
+      {
+        "action": "Pose",
+        "cost": 50,
+        "imageResId": "pggvpose",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pggvpose.mp4"
+      },
+      {
+        "action": "Smile",
+        "cost": 50,
+        "imageResId": "pggvsmile",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pggvsmile.mp4"
+      }
+    ]
   },
   {
     "id": 13,
