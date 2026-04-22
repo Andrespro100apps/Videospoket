@@ -1,0 +1,168 @@
+===============================================================
+COMO AGREGAR CHICAS NUEVAS SIN ACTUALIZAR LA APP
+Pocket Girl Classic - Sistema de Actualizacion Remota
+===============================================================
+
+FUNCIONAMIENTO ACTUAL:
+----------------------
+Este JSON contiene SOLO las chicas que funcionan 100%:
+- Carola Dantes (ID 13): 7 videos
+- Carola Waitress (ID 14): 4 videos  
+- Scarlett (ID 15): 30 videos
+- Scarlett Chic (ID 16): 26 videos
+- Pink (ID 19): 25 videos
+- Pink Elf (ID 20): 36 videos
+- Mia De Vil (ID 23): 4 videos
+
+TOTAL: 7 chicas, 132 videos
+
+
+PARA AGREGAR UNA CHICA NUEVA:
+==============================
+
+PASO 1: Preparar los archivos de video
+---------------------------------------
+1. Nombra los videos con el formato: PREFIXaccion.mp4
+   Ejemplo: pgnvhello.mp4 (PGNV = Nueva chica)
+   
+2. Sube los videos a GitHub en: https://github.com/Andrespro100apps/Videospoket
+
+3. Espera 5-10 minutos para que aparezcan en el CDN de jsDelivr
+   URL final: https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgnvhello.mp4
+
+
+PASO 2: Preparar las imagenes
+------------------------------
+1. Crea imagenes JPG con el mismo nombre del video (sin .mp4)
+   Ejemplo: pgnvhello.jpg para el video pgnvhello.mp4
+   
+2. Coloca las imagenes en: app/src/main/res/drawable/
+
+3. Compila la app con estas imagenes (solo una vez)
+   NOTA: Las imagenes DEBEN estar en la app, los videos NO
+
+
+PASO 3: Agregar al JSON remoto
+-------------------------------
+1. Edita este archivo: VideosData.json en GitHub
+   URL: https://github.com/Andrespro100apps/Videospoket/blob/main/VideosData.json
+
+2. Agrega una nueva entrada en el array (copia el formato):
+
+{
+  "id": 99,
+  "name": "Nueva Chica",
+  "description": "Actor, Model",
+  "profileRes": "pgnvdance",
+  "bannerRes": "pgnvhello",
+  "videos": [
+    {
+      "action": "Hello",
+      "cost": 50,
+      "imageResId": "pgnvhello",
+      "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgnvhello.mp4"
+    },
+    {
+      "action": "Dance",
+      "cost": 50,
+      "imageResId": "pgnvdance",
+      "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgnvdance.mp4"
+    }
+  ]
+}
+
+
+PASO 4: Reglas importantes
+---------------------------
+- ID: Debe ser unico (no repetir IDs existentes)
+- action: Nombre que aparece en la app (ej: "Hello", "Dance", "Kiss")
+- cost: Precio en monedas (recomendado: 50)
+- imageResId: Nombre de la imagen en drawable (sin R.drawable.)
+- videoUrl: URL completa del video en el CDN
+
+
+EJEMPLO COMPLETO - NUEVA CHICA:
+================================
+
+Supongamos que quieres agregar "Nueva Modelo" con ID 99:
+
+1. Videos a subir:
+   - pgnvhello.mp4
+   - pgnvdance.mp4
+   - pgnvkiss.mp4
+
+2. Imagenes a agregar a la app:
+   - pgnvhello.jpg
+   - pgnvdance.jpg
+   - pgnvkiss.jpg
+
+3. Entrada JSON:
+
+{
+  "id": 99,
+  "name": "Nueva Modelo",
+  "description": "Actor, Dancer",
+  "profileRes": "pgnvdance",
+  "bannerRes": "pgnvhello",
+  "videos": [
+    {
+      "action": "Hello",
+      "cost": 50,
+      "imageResId": "pgnvhello",
+      "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgnvhello.mp4"
+    },
+    {
+      "action": "Dance",
+      "cost": 50,
+      "imageResId": "pgnvdance",
+      "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgnvdance.mp4"
+    },
+    {
+      "action": "Kiss",
+      "cost": 50,
+      "imageResId": "pgnvkiss",
+      "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgnvkiss.mp4"
+    }
+  ]
+}
+
+
+TIMING - CUANDO APARECE EN LA APP:
+===================================
+
+1. Subes videos a GitHub: INMEDIATO
+2. Esperas sincronizacion CDN: 5-10 minutos
+3. Actualizas JSON en GitHub: INMEDIATO
+4. Usuario abre la app: Verá la chica inmediatamente
+
+TOTAL: ~10 minutos maximo
+
+
+VERIFICACION:
+==============
+
+Para verificar que el video esta disponible:
+https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/[NOMBRE_VIDEO].mp4
+
+Si carga en el navegador, esta listo para usar.
+
+
+TROUBLESHOOTING:
+=================
+
+- Si la chica no aparece: Verifica que el ID sea unico
+- Si el video no carga (403): El video no esta sincronizado en CDN aun
+- Si la app crashea: La imagen (imageResId) no existe en drawable
+- Si hay videos faltantes: Verifica que la URL este correcta
+
+
+CONTACTO:
+==========
+Para agregar mas chicas, sigue este proceso.
+
+URL del JSON: https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/VideosData.json
+
+===============================================================
+Documento creado: 21 Abril 2026
+Ultima actualizacion: 7 chicas funcionando perfecto
+===============================================================
