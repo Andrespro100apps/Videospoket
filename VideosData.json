@@ -1104,12 +1104,144 @@
     ]
   },
   {
+    "id": 8,
+    "name": "Gemma Bones",
+    "description": "Actor, Model",
+    "profileRes": "pgdvback",
+    "bannerRes": "pgdveat",
+    "videos": [
+      {
+        "action": "Back",
+        "cost": 50,
+        "imageResId": "pgdvback",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdvback.mp4"
+      },
+      {
+        "action": "Balloon",
+        "cost": 50,
+        "imageResId": "pgdvdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdvballoon.mp4"
+      },
+      {
+        "action": "Bodycream",
+        "cost": 50,
+        "imageResId": "pgdvdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdvbodycream.mp4"
+      },
+      {
+        "action": "Choccolate",
+        "cost": 50,
+        "imageResId": "pgdvdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdvchoccolate.mp4"
+      },
+      {
+        "action": "Cream",
+        "cost": 50,
+        "imageResId": "pgdvdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdvcream.mp4"
+      },
+      {
+        "action": "Dance",
+        "cost": 50,
+        "imageResId": "pgdvdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdvdance.mp4"
+      },
+      {
+        "action": "Eat",
+        "cost": 50,
+        "imageResId": "pgdveat",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdveat.mp4"
+      },
+      {
+        "action": "Hair",
+        "cost": 50,
+        "imageResId": "pgdvhair",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdvhair.mp4"
+      },
+      {
+        "action": "Hairdryer",
+        "cost": 50,
+        "imageResId": "pgdvdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdvhairdryer.mp4"
+      },
+      {
+        "action": "Lipstick",
+        "cost": 50,
+        "imageResId": "pgdvdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdvlipstick.mp4"
+      },
+      {
+        "action": "Strip",
+        "cost": 50,
+        "imageResId": "pgdvstrip",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdvstrip.mp4"
+      },
+      {
+        "action": "Withecream",
+        "cost": 50,
+        "imageResId": "pgdvdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdvwithecream.mp4"
+      },
+      {
+        "action": "Zoom",
+        "cost": 50,
+        "imageResId": "pgdvdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdvzoom.mp4"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Lady Maat",
+    "description": "Actor, Model",
+    "profileRes": "pgevback",
+    "bannerRes": "pgeveat",
+    "videos": [
+      {
+        "action": "Back",
+        "cost": 50,
+        "imageResId": "pgevback",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgevback.mp4"
+      },
+      {
+        "action": "Dance",
+        "cost": 50,
+        "imageResId": "pgevdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgevdance.mp4"
+      },
+      {
+        "action": "Eat",
+        "cost": 50,
+        "imageResId": "pgeveat",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgeveat.mp4"
+      },
+      {
+        "action": "Leg",
+        "cost": 50,
+        "imageResId": "pgevleg",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgevleg.mp4"
+      },
+      {
+        "action": "Strip",
+        "cost": 50,
+        "imageResId": "pgevstrip",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgevstrip.mp4"
+      }
+    ]
+  },
+  {
     "id": 10,
     "name": "Candy Gym",
     "description": "Actor, Model",
     "profileRes": "pgfgdance",
     "bannerRes": "pgfgjump",
     "videos": [
+      {
+        "action": "Dance",
+        "cost": 50,
+        "imageResId": "pgfgdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgfgdance.mp4"
+      },
       {
         "action": "Hello",
         "cost": 50,
@@ -2608,24 +2740,6 @@
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrvass.mp4"
       },
       {
-        "action": "Baloon",
-        "cost": 50,
-        "imageResId": "pgrvass",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrvbaloon.mp4"
-      },
-      {
-        "action": "Chocolate",
-        "cost": 50,
-        "imageResId": "pgrvass",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrvchocolate.mp4"
-      },
-      {
-        "action": "Cream",
-        "cost": 50,
-        "imageResId": "pgrvass",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrvcream.mp4"
-      },
-      {
         "action": "Dance",
         "cost": 50,
         "imageResId": "pgrvdance",
@@ -2636,30 +2750,6 @@
         "cost": 50,
         "imageResId": "pgrvhair",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrvhair.mp4"
-      },
-      {
-        "action": "Lipstick",
-        "cost": 50,
-        "imageResId": "pgrvass",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrvlipstick.mp4"
-      },
-      {
-        "action": "Lollipop",
-        "cost": 50,
-        "imageResId": "pgrvass",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrvlollipop.mp4"
-      },
-      {
-        "action": "Oil",
-        "cost": 50,
-        "imageResId": "pgrvass",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrvoil.mp4"
-      },
-      {
-        "action": "Parfum",
-        "cost": 50,
-        "imageResId": "pgrvass",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrvparfum.mp4"
       },
       {
         "action": "Strip",
