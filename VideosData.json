@@ -577,12 +577,6 @@
     "bannerRes": "pgbvkiss",
     "videos": [
       {
-        "action": "Ass",
-        "cost": 50,
-        "imageResId": "pgbvass",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgbvass.mp4"
-      },
-      {
         "action": "Chocolate",
         "cost": 50,
         "imageResId": "pgbvchocolate",
@@ -593,12 +587,6 @@
         "cost": 50,
         "imageResId": "pgbvcream",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgbvcream.mp4"
-      },
-      {
-        "action": "Dance",
-        "cost": 50,
-        "imageResId": "pgbvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgbvdance.mp4"
       },
       {
         "action": "Dress",
@@ -641,12 +629,6 @@
         "cost": 50,
         "imageResId": "pgbvpillow",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgbvpillow.mp4"
-      },
-      {
-        "action": "Sexy",
-        "cost": 50,
-        "imageResId": "pgbvsexy",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgbvsexy.mp4"
       },
       {
         "action": "Touch",
