@@ -1117,6 +1117,30 @@
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdvback.mp4"
       },
       {
+        "action": "Balloon",
+        "cost": 50,
+        "imageResId": "pgdvdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdvballoon.mp4"
+      },
+      {
+        "action": "Bodycream",
+        "cost": 50,
+        "imageResId": "pgdvdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdvbodycream.mp4"
+      },
+      {
+        "action": "Choccolate",
+        "cost": 50,
+        "imageResId": "pgdvdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdvchoccolate.mp4"
+      },
+      {
+        "action": "Cream",
+        "cost": 50,
+        "imageResId": "pgdvdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdvcream.mp4"
+      },
+      {
         "action": "Dance",
         "cost": 50,
         "imageResId": "pgdvdance",
@@ -1135,10 +1159,34 @@
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdvhair.mp4"
       },
       {
+        "action": "Hairdryer",
+        "cost": 50,
+        "imageResId": "pgdvdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdvhairdryer.mp4"
+      },
+      {
+        "action": "Lipstick",
+        "cost": 50,
+        "imageResId": "pgdvdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdvlipstick.mp4"
+      },
+      {
         "action": "Strip",
         "cost": 50,
         "imageResId": "pgdvstrip",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdvstrip.mp4"
+      },
+      {
+        "action": "Withecream",
+        "cost": 50,
+        "imageResId": "pgdvdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdvwithecream.mp4"
+      },
+      {
+        "action": "Zoom",
+        "cost": 50,
+        "imageResId": "pgdvdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdvzoom.mp4"
       }
     ]
   },
@@ -1437,7 +1485,7 @@
       {
         "action": "Hello",
         "cost": 50,
-        "imageResId": "pghwhello",
+        "imageResId": "pghwdance",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pghwhello.mp4"
       },
       {
@@ -1714,22 +1762,22 @@
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgicspray.mp4"
       },
       {
-        "action": "Stairs",
+        "action": "Tired",
         "cost": 50,
         "imageResId": "pgicdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgicstairs.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgictired.mp4"
       },
       {
-        "action": "Strip",
+        "action": "Umbrella",
         "cost": 50,
         "imageResId": "pgicdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgicstrip.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgicumbrella.mp4"
       },
       {
-        "action": "Towel",
+        "action": "Wather",
         "cost": 50,
         "imageResId": "pgicdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgictowel.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgicwather.mp4"
       }
     ]
   },
@@ -1741,22 +1789,88 @@
     "bannerRes": "pgivkiss",
     "videos": [
       {
+        "action": "Biscuit",
+        "cost": 50,
+        "imageResId": "pgivdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivbiscuit.mp4"
+      },
+      {
+        "action": "Bread",
+        "cost": 50,
+        "imageResId": "pgivdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivbread.mp4"
+      },
+      {
+        "action": "Call",
+        "cost": 50,
+        "imageResId": "pgivdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivcall.mp4"
+      },
+      {
+        "action": "Chat",
+        "cost": 50,
+        "imageResId": "pgivdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivchat.mp4"
+      },
+      {
+        "action": "Choccolate",
+        "cost": 50,
+        "imageResId": "pgivdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivchoccolate.mp4"
+      },
+      {
+        "action": "Cream",
+        "cost": 50,
+        "imageResId": "pgivdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivcream.mp4"
+      },
+      {
         "action": "Dance",
         "cost": 50,
         "imageResId": "pgivdance",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivdance.mp4"
       },
       {
+        "action": "Danceass",
+        "cost": 50,
+        "imageResId": "pgivdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivdanceass.mp4"
+      },
+      {
         "action": "Drink",
         "cost": 50,
-        "imageResId": "pgivdrink",
+        "imageResId": "pgivdance",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivdrink.mp4"
+      },
+      {
+        "action": "Dust",
+        "cost": 50,
+        "imageResId": "pgivdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivdust.mp4"
+      },
+      {
+        "action": "Eye",
+        "cost": 50,
+        "imageResId": "pgivdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgiveye.mp4"
+      },
+      {
+        "action": "Grape",
+        "cost": 50,
+        "imageResId": "pgivdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivgrape.mp4"
       },
       {
         "action": "Hair",
         "cost": 50,
-        "imageResId": "pgivhair",
+        "imageResId": "pgivdance",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivhair.mp4"
+      },
+      {
+        "action": "Hat",
+        "cost": 50,
+        "imageResId": "pgivdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivhat.mp4"
       },
       {
         "action": "Kiss",
@@ -1765,10 +1879,64 @@
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivkiss.mp4"
       },
       {
+        "action": "Lips",
+        "cost": 50,
+        "imageResId": "pgivdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivlips.mp4"
+      },
+      {
+        "action": "Lipstick",
+        "cost": 50,
+        "imageResId": "pgivdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivlipstick.mp4"
+      },
+      {
+        "action": "Makeup",
+        "cost": 50,
+        "imageResId": "pgivdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivmakeup.mp4"
+      },
+      {
+        "action": "Mask",
+        "cost": 50,
+        "imageResId": "pgivdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivmask.mp4"
+      },
+      {
+        "action": "Paper",
+        "cost": 50,
+        "imageResId": "pgivdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivpaper.mp4"
+      },
+      {
         "action": "Photo",
         "cost": 50,
-        "imageResId": "pgivphoto",
+        "imageResId": "pgivdance",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivphoto.mp4"
+      },
+      {
+        "action": "Pillow",
+        "cost": 50,
+        "imageResId": "pgivdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivpillow.mp4"
+      },
+      {
+        "action": "Showass",
+        "cost": 50,
+        "imageResId": "pgivdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivshowass.mp4"
+      },
+      {
+        "action": "Showslip",
+        "cost": 50,
+        "imageResId": "pgivdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivshowslip.mp4"
+      },
+      {
+        "action": "Spray",
+        "cost": 50,
+        "imageResId": "pgivdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivspray.mp4"
       },
       {
         "action": "Strip",
@@ -1786,34 +1954,22 @@
     "bannerRes": "pglvkiss",
     "videos": [
       {
-        "action": "Ass",
+        "action": "Assdance",
         "cost": 50,
         "imageResId": "pglvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvass.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvassdance.mp4"
       },
       {
-        "action": "Back",
+        "action": "Assslap",
         "cost": 50,
         "imageResId": "pglvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvback.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvassslap.mp4"
       },
       {
-        "action": "Boobs",
+        "action": "Ball",
         "cost": 50,
         "imageResId": "pglvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvboobs.mp4"
-      },
-      {
-        "action": "Bra",
-        "cost": 50,
-        "imageResId": "pglvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvbra.mp4"
-      },
-      {
-        "action": "Comb",
-        "cost": 50,
-        "imageResId": "pglvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvcomb.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvball.mp4"
       },
       {
         "action": "Dance",
@@ -1822,34 +1978,10 @@
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvdance.mp4"
       },
       {
-        "action": "Dildo",
+        "action": "Dress",
         "cost": 50,
         "imageResId": "pglvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvdildo.mp4"
-      },
-      {
-        "action": "Door",
-        "cost": 50,
-        "imageResId": "pglvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvdoor.mp4"
-      },
-      {
-        "action": "Dream",
-        "cost": 50,
-        "imageResId": "pglvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvdream.mp4"
-      },
-      {
-        "action": "Drink",
-        "cost": 50,
-        "imageResId": "pglvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvdrink.mp4"
-      },
-      {
-        "action": "Face",
-        "cost": 50,
-        "imageResId": "pglvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvface.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvdress.mp4"
       },
       {
         "action": "Hair",
@@ -1858,22 +1990,10 @@
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvhair.mp4"
       },
       {
-        "action": "Hello",
-        "cost": 50,
-        "imageResId": "pglvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvhello.mp4"
-      },
-      {
         "action": "Hot",
         "cost": 50,
         "imageResId": "pglvdance",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvhot.mp4"
-      },
-      {
-        "action": "Jump",
-        "cost": 50,
-        "imageResId": "pglvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvjump.mp4"
       },
       {
         "action": "Kiss",
@@ -1882,34 +2002,34 @@
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvkiss.mp4"
       },
       {
-        "action": "Laugh",
+        "action": "Legtouch",
         "cost": 50,
         "imageResId": "pglvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvlaugh.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvlegtouch.mp4"
       },
       {
-        "action": "Legs",
+        "action": "Lipstick",
         "cost": 50,
         "imageResId": "pglvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvlegs.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvlipstick.mp4"
       },
       {
-        "action": "Nipples",
+        "action": "Lollipop",
         "cost": 50,
         "imageResId": "pglvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvnipples.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvlollipop.mp4"
       },
       {
-        "action": "Popsicle",
+        "action": "Makeup",
         "cost": 50,
         "imageResId": "pglvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvpopsicle.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvmakeup.mp4"
       },
       {
-        "action": "Pose",
+        "action": "Pillow",
         "cost": 50,
         "imageResId": "pglvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvpose.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvpillow.mp4"
       },
       {
         "action": "Pussy",
@@ -1918,34 +2038,34 @@
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvpussy.mp4"
       },
       {
-        "action": "Sexy",
+        "action": "Scratch",
         "cost": 50,
         "imageResId": "pglvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvsexy.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvscratch.mp4"
       },
       {
-        "action": "Sleep",
+        "action": "Shake",
         "cost": 50,
         "imageResId": "pglvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvsleep.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvshake.mp4"
       },
       {
-        "action": "Slip",
+        "action": "Skirt",
         "cost": 50,
         "imageResId": "pglvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvslip.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvskirt.mp4"
       },
       {
-        "action": "Smile",
+        "action": "Skirt2",
         "cost": 50,
         "imageResId": "pglvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvsmile.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvskirt2.mp4"
       },
       {
-        "action": "Strip",
+        "action": "Touch",
         "cost": 50,
         "imageResId": "pglvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvstrip.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvtouch.mp4"
       }
     ]
   },
@@ -1957,40 +2077,34 @@
     "bannerRes": "pgmvkiss",
     "videos": [
       {
-        "action": "Ass",
+        "action": "Asscaress",
         "cost": 50,
         "imageResId": "pgmvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvass.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvasscaress.mp4"
       },
       {
-        "action": "Back",
+        "action": "Assdancing",
         "cost": 50,
         "imageResId": "pgmvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvback.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvassdancing.mp4"
       },
       {
-        "action": "Bra",
+        "action": "Assdown",
         "cost": 50,
         "imageResId": "pgmvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvbra.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvassdown.mp4"
       },
       {
-        "action": "Bum",
+        "action": "Assslap",
         "cost": 50,
         "imageResId": "pgmvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvbum.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvassslap.mp4"
       },
       {
-        "action": "Caress",
+        "action": "Asstouch",
         "cost": 50,
         "imageResId": "pgmvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvcaress.mp4"
-      },
-      {
-        "action": "Choco",
-        "cost": 50,
-        "imageResId": "pgmvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvchoco.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvasstouch.mp4"
       },
       {
         "action": "Dance",
@@ -1999,58 +2113,10 @@
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvdance.mp4"
       },
       {
-        "action": "Dildo",
-        "cost": 50,
-        "imageResId": "pgmvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvdildo.mp4"
-      },
-      {
-        "action": "Dildo2",
-        "cost": 50,
-        "imageResId": "pgmvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvdildo2.mp4"
-      },
-      {
-        "action": "Door",
-        "cost": 50,
-        "imageResId": "pgmvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvdoor.mp4"
-      },
-      {
-        "action": "Dress",
-        "cost": 50,
-        "imageResId": "pgmvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvdress.mp4"
-      },
-      {
-        "action": "Drink",
-        "cost": 50,
-        "imageResId": "pgmvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvdrink.mp4"
-      },
-      {
-        "action": "Face",
-        "cost": 50,
-        "imageResId": "pgmvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvface.mp4"
-      },
-      {
         "action": "Hair",
         "cost": 50,
-        "imageResId": "pgmvhair",
+        "imageResId": "pgmvdance",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvhair.mp4"
-      },
-      {
-        "action": "Hand",
-        "cost": 50,
-        "imageResId": "pgmvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvhand.mp4"
-      },
-      {
-        "action": "Hello",
-        "cost": 50,
-        "imageResId": "pgmvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvhello.mp4"
       },
       {
         "action": "Hot",
@@ -2065,46 +2131,40 @@
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvkiss.mp4"
       },
       {
-        "action": "Leg",
+        "action": "Lipstick",
         "cost": 50,
         "imageResId": "pgmvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvleg.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvlipstick.mp4"
       },
       {
-        "action": "Lick",
+        "action": "Lollipop",
         "cost": 50,
         "imageResId": "pgmvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvlick.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvlollipop.mp4"
       },
       {
-        "action": "Oil",
+        "action": "Parfum",
         "cost": 50,
         "imageResId": "pgmvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvoil.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvparfum.mp4"
       },
       {
-        "action": "Phone",
+        "action": "Pelouche",
         "cost": 50,
         "imageResId": "pgmvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvphone.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvpelouche.mp4"
       },
       {
-        "action": "Pose",
+        "action": "Scratch",
         "cost": 50,
         "imageResId": "pgmvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvpose.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvscratch.mp4"
       },
       {
-        "action": "Sexy",
+        "action": "Shake",
         "cost": 50,
         "imageResId": "pgmvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvsexy.mp4"
-      },
-      {
-        "action": "Sleep",
-        "cost": 50,
-        "imageResId": "pgmvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvsleep.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvshake.mp4"
       },
       {
         "action": "Smile",
@@ -2113,10 +2173,34 @@
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvsmile.mp4"
       },
       {
-        "action": "Tits",
+        "action": "Take",
         "cost": 50,
         "imageResId": "pgmvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvtits.mp4"
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvtake.mp4"
+      },
+      {
+        "action": "Touch",
+        "cost": 50,
+        "imageResId": "pgmvdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvtouch.mp4"
+      },
+      {
+        "action": "Touchbelly",
+        "cost": 50,
+        "imageResId": "pgmvdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvtouchbelly.mp4"
+      },
+      {
+        "action": "Touchdown",
+        "cost": 50,
+        "imageResId": "pgmvdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvtouchdown.mp4"
+      },
+      {
+        "action": "Touchhead",
+        "cost": 50,
+        "imageResId": "pgmvdance",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvtouchhead.mp4"
       },
       {
         "action": "Touchno",
@@ -2256,7 +2340,7 @@
       {
         "action": "Sleep",
         "cost": 50,
-        "imageResId": "pgncsleep",
+        "imageResId": "pgncdance",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgncsleep.mp4"
       },
       {
@@ -2409,7 +2493,7 @@
       {
         "action": "Hair",
         "cost": 50,
-        "imageResId": "pgnehair",
+        "imageResId": "pgnedance",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgnehair.mp4"
       },
       {
@@ -2487,7 +2571,7 @@
       {
         "action": "Sleep",
         "cost": 50,
-        "imageResId": "pgnesleep",
+        "imageResId": "pgnedance",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgnesleep.mp4"
       },
       {
@@ -2588,12 +2672,6 @@
         "cost": 50,
         "imageResId": "pgpvstrip",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgpvstrip.mp4"
-      },
-      {
-        "action": "Pose2",
-        "cost": 50,
-        "imageResId": "pgpvdance",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgpvpose2.mp4"
       }
     ]
   },
@@ -2601,7 +2679,7 @@
     "id": 22,
     "name": "Goldy",
     "description": "Actor, Model",
-    "profileRes": "pgqvapple",
+    "profileRes": "pgqvdance",
     "bannerRes": "pgqvhello",
     "videos": [
       {
@@ -2652,7 +2730,7 @@
     "id": 23,
     "name": "Mia De Vil",
     "description": "Actor, Model",
-    "profileRes": "pgrvass",
+    "profileRes": "pgrvdance",
     "bannerRes": "pgrvhair",
     "videos": [
       {
