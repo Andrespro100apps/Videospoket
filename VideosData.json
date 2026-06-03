@@ -8,7 +8,7 @@
     "videos": [
       {
         "action": "Hello",
-        "cost": 80,
+        "cost": 65,
         "imageResId": "hello",
         "videoUrl": ""
       },
@@ -20,79 +20,79 @@
       },
       {
         "action": "Hand",
-        "cost": 80,
+        "cost": 70,
         "imageResId": "hand",
         "videoUrl": ""
       },
       {
         "action": "Head",
-        "cost": 80,
+        "cost": 60,
         "imageResId": "head",
         "videoUrl": ""
       },
       {
         "action": "Kiss",
-        "cost": 80,
+        "cost": 75,
         "imageResId": "kiss",
         "videoUrl": ""
       },
       {
         "action": "Laugh",
-        "cost": 80,
+        "cost": 20,
         "imageResId": "laugh",
         "videoUrl": ""
       },
       {
         "action": "Pout",
-        "cost": 80,
+        "cost": 45,
         "imageResId": "pout",
         "videoUrl": ""
       },
       {
         "action": "Run",
-        "cost": 80,
+        "cost": 70,
         "imageResId": "run",
         "videoUrl": ""
       },
       {
         "action": "Scratch",
-        "cost": 80,
+        "cost": 10,
         "imageResId": "scratch",
         "videoUrl": ""
       },
       {
         "action": "Scream",
-        "cost": 80,
+        "cost": 45,
         "imageResId": "scream",
         "videoUrl": ""
       },
       {
         "action": "Shame",
-        "cost": 80,
+        "cost": 10,
         "imageResId": "shame",
         "videoUrl": ""
       },
       {
         "action": "Silence",
-        "cost": 80,
+        "cost": 15,
         "imageResId": "silence",
         "videoUrl": ""
       },
       {
         "action": "Slanderer",
-        "cost": 80,
+        "cost": 25,
         "imageResId": "slanderer",
         "videoUrl": ""
       },
       {
         "action": "Thighs",
-        "cost": 80,
+        "cost": 20,
         "imageResId": "thighs",
         "videoUrl": ""
       },
       {
         "action": "Photo",
-        "cost": 80,
+        "cost": 40,
         "imageResId": "photo",
         "videoUrl": ""
       },
@@ -104,7 +104,7 @@
       },
       {
         "action": "Hot",
-        "cost": 80,
+        "cost": 50,
         "imageResId": "poketgirlportada",
         "videoUrl": ""
       }
@@ -119,43 +119,43 @@
     "videos": [
       {
         "action": "Baila",
-        "cost": 15,
+        "cost": 35,
         "imageResId": "m3_baila",
         "videoUrl": ""
       },
       {
         "action": "Barre",
-        "cost": 15,
+        "cost": 80,
         "imageResId": "m3_barre",
         "videoUrl": ""
       },
       {
         "action": "Beso",
-        "cost": 15,
+        "cost": 30,
         "imageResId": "m3_beso",
         "videoUrl": ""
       },
       {
         "action": "Cabello",
-        "cost": 15,
+        "cost": 60,
         "imageResId": "m3_cabello",
         "videoUrl": ""
       },
       {
         "action": "Calor",
-        "cost": 15,
+        "cost": 10,
         "imageResId": "m3_calor",
         "videoUrl": ""
       },
       {
         "action": "Come",
-        "cost": 15,
+        "cost": 20,
         "imageResId": "m3_come",
         "videoUrl": ""
       },
       {
         "action": "Hola",
-        "cost": 15,
+        "cost": 45,
         "imageResId": "m3_hola",
         "videoUrl": ""
       },
@@ -167,61 +167,61 @@
       },
       {
         "action": "Piensa",
-        "cost": 15,
+        "cost": 25,
         "imageResId": "m3_piensa",
         "videoUrl": ""
       },
       {
         "action": "Pose",
-        "cost": 15,
+        "cost": 45,
         "imageResId": "m3_pose",
         "videoUrl": ""
       },
       {
         "action": "Salta",
-        "cost": 15,
+        "cost": 65,
         "imageResId": "m3_salta",
         "videoUrl": ""
       },
       {
         "action": "Saluda",
-        "cost": 15,
+        "cost": 75,
         "imageResId": "m3_saluda",
         "videoUrl": ""
       },
       {
         "action": "Tierna",
-        "cost": 15,
+        "cost": 70,
         "imageResId": "m3_tierna",
         "videoUrl": ""
       },
       {
         "action": "Ven",
-        "cost": 15,
+        "cost": 35,
         "imageResId": "m3_ven",
         "videoUrl": ""
       },
       {
         "action": "Chatea",
-        "cost": 15,
+        "cost": 40,
         "imageResId": "m3_chatea",
         "videoUrl": ""
       },
       {
         "action": "Corazon",
-        "cost": 15,
+        "cost": 40,
         "imageResId": "m3_corazon",
         "videoUrl": ""
       },
       {
         "action": "Disparo",
-        "cost": 15,
+        "cost": 30,
         "imageResId": "m3_disparo",
         "videoUrl": ""
       },
       {
         "action": "Enespera",
-        "cost": 15,
+        "cost": 70,
         "imageResId": "m3_enespera",
         "videoUrl": ""
       },
@@ -239,49 +239,49 @@
       },
       {
         "action": "Galleta",
-        "cost": 15,
+        "cost": 40,
         "imageResId": "m3_galleta",
         "videoUrl": ""
       },
       {
         "action": "Ladra",
-        "cost": 15,
+        "cost": 20,
         "imageResId": "m3_ladra",
         "videoUrl": ""
       },
       {
         "action": "Miau",
-        "cost": 15,
+        "cost": 65,
         "imageResId": "m3_miau",
         "videoUrl": ""
       },
       {
         "action": "Relax",
-        "cost": 15,
+        "cost": 20,
         "imageResId": "m3_relax",
         "videoUrl": ""
       },
       {
         "action": "Selfin",
-        "cost": 15,
+        "cost": 80,
         "imageResId": "m3_selfin",
         "videoUrl": ""
       },
       {
         "action": "Sientate",
-        "cost": 15,
+        "cost": 60,
         "imageResId": "m3_sientate",
         "videoUrl": ""
       },
       {
         "action": "Tocame",
-        "cost": 15,
+        "cost": 35,
         "imageResId": "m3_tocame",
         "videoUrl": ""
       },
       {
         "action": "Trota",
-        "cost": 15,
+        "cost": 30,
         "imageResId": "m3_trota",
         "videoUrl": ""
       }
@@ -296,25 +296,25 @@
     "videos": [
       {
         "action": "Ass",
-        "cost": 75,
+        "cost": 50,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmass.mp4"
       },
       {
         "action": "Balance",
-        "cost": 75,
+        "cost": 40,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmbalance.mp4"
       },
       {
         "action": "Call",
-        "cost": 75,
+        "cost": 50,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmcall.mp4"
       },
       {
         "action": "Chain",
-        "cost": 75,
+        "cost": 40,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmchain.mp4"
       },
@@ -326,37 +326,37 @@
       },
       {
         "action": "Clean2",
-        "cost": 75,
+        "cost": 40,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmclean2.mp4"
       },
       {
         "action": "Cook",
-        "cost": 75,
+        "cost": 55,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmcook.mp4"
       },
       {
         "action": "Creamspray",
-        "cost": 75,
+        "cost": 60,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmcreamspray.mp4"
       },
       {
         "action": "Cut",
-        "cost": 75,
+        "cost": 55,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmcut.mp4"
       },
       {
         "action": "Dance",
-        "cost": 75,
+        "cost": 50,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmdance.mp4"
       },
       {
         "action": "Disk",
-        "cost": 75,
+        "cost": 30,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmdisk.mp4"
       },
@@ -368,157 +368,157 @@
       },
       {
         "action": "Drill",
-        "cost": 75,
+        "cost": 40,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmdrill.mp4"
       },
       {
         "action": "Drink",
-        "cost": 75,
+        "cost": 15,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmdrink.mp4"
       },
       {
         "action": "Drink2",
-        "cost": 75,
+        "cost": 45,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmdrink2.mp4"
       },
       {
         "action": "Food",
-        "cost": 75,
+        "cost": 60,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmfood.mp4"
       },
       {
         "action": "Food2",
-        "cost": 75,
+        "cost": 20,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmfood2.mp4"
       },
       {
         "action": "Hammer",
-        "cost": 75,
+        "cost": 65,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmhammer.mp4"
       },
       {
         "action": "Key",
-        "cost": 75,
+        "cost": 50,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmkey.mp4"
       },
       {
         "action": "Kiss",
-        "cost": 75,
+        "cost": 60,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmkiss.mp4"
       },
       {
         "action": "Lamp",
-        "cost": 75,
+        "cost": 70,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmlamp.mp4"
       },
       {
         "action": "Leg",
-        "cost": 75,
+        "cost": 30,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmleg.mp4"
       },
       {
         "action": "Lipstick",
-        "cost": 75,
+        "cost": 30,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmlipstick.mp4"
       },
       {
         "action": "Pain",
-        "cost": 75,
+        "cost": 40,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmpain.mp4"
       },
       {
         "action": "Photo",
-        "cost": 75,
+        "cost": 10,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmphoto.mp4"
       },
       {
         "action": "Play",
-        "cost": 75,
+        "cost": 60,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmplay.mp4"
       },
       {
         "action": "Pump",
-        "cost": 75,
+        "cost": 20,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmpump.mp4"
       },
       {
         "action": "Scotch",
-        "cost": 75,
+        "cost": 60,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmscotch.mp4"
       },
       {
         "action": "Screwdriver",
-        "cost": 75,
+        "cost": 30,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmscrewdriver.mp4"
       },
       {
         "action": "Slap",
-        "cost": 75,
+        "cost": 35,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmslap.mp4"
       },
       {
         "action": "Slip",
-        "cost": 75,
+        "cost": 30,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmslip.mp4"
       },
       {
         "action": "Smoke",
-        "cost": 75,
+        "cost": 35,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmsmoke.mp4"
       },
       {
         "action": "Stink",
-        "cost": 75,
+        "cost": 40,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmstink.mp4"
       },
       {
         "action": "Toilet",
-        "cost": 75,
+        "cost": 70,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmtoilet.mp4"
       },
       {
         "action": "Touch",
-        "cost": 75,
+        "cost": 15,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmtouch.mp4"
       },
       {
         "action": "Toy",
-        "cost": 75,
+        "cost": 70,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmtoy.mp4"
       },
       {
         "action": "Wash",
-        "cost": 75,
+        "cost": 40,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmwash.mp4"
       },
       {
         "action": "Yes",
-        "cost": 75,
+        "cost": 10,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgtmyes.mp4"
       }
@@ -533,79 +533,79 @@
     "videos": [
       {
         "action": "Ass",
-        "cost": 75,
+        "cost": 55,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgbvass.mp4"
       },
       {
         "action": "Chocolate",
-        "cost": 75,
+        "cost": 55,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgbvchocolate.mp4"
       },
       {
         "action": "Cream",
-        "cost": 75,
+        "cost": 50,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgbvcream.mp4"
       },
       {
         "action": "Dance",
-        "cost": 75,
+        "cost": 25,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgbvdance.mp4"
       },
       {
         "action": "Dress",
-        "cost": 75,
+        "cost": 10,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgbvdress.mp4"
       },
       {
         "action": "Hair",
-        "cost": 75,
+        "cost": 40,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgbvhair.mp4"
       },
       {
         "action": "Kiss",
-        "cost": 75,
+        "cost": 70,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgbvkiss.mp4"
       },
       {
         "action": "Lipstick",
-        "cost": 75,
+        "cost": 20,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgbvlipstick.mp4"
       },
       {
         "action": "Lollipop",
-        "cost": 75,
+        "cost": 45,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgbvlollipop.mp4"
       },
       {
         "action": "Parfum",
-        "cost": 75,
+        "cost": 65,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgbvparfum.mp4"
       },
       {
         "action": "Pillow",
-        "cost": 75,
+        "cost": 40,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgbvpillow.mp4"
       },
       {
         "action": "Sexy",
-        "cost": 75,
+        "cost": 10,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgbvsexy.mp4"
       },
       {
         "action": "Touch",
-        "cost": 75,
+        "cost": 40,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgbvtouch.mp4"
       }
@@ -620,109 +620,109 @@
     "videos": [
       {
         "action": "Apple",
-        "cost": 10,
+        "cost": 60,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovapple.mp4"
       },
       {
         "action": "Ass",
-        "cost": 10,
+        "cost": 45,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovass.mp4"
       },
       {
         "action": "Back",
-        "cost": 10,
+        "cost": 70,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovback.mp4"
       },
       {
         "action": "Baloons",
-        "cost": 10,
+        "cost": 35,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovbaloons.mp4"
       },
       {
         "action": "Boobs",
-        "cost": 10,
+        "cost": 40,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovboobs.mp4"
       },
       {
         "action": "Call",
-        "cost": 10,
+        "cost": 50,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovcall.mp4"
       },
       {
         "action": "Chips",
-        "cost": 10,
+        "cost": 70,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovchips.mp4"
       },
       {
         "action": "Collant",
-        "cost": 10,
+        "cost": 50,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovcollant.mp4"
       },
       {
         "action": "Comb",
-        "cost": 10,
+        "cost": 20,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovcomb.mp4"
       },
       {
         "action": "Cut",
-        "cost": 10,
+        "cost": 65,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovcut.mp4"
       },
       {
         "action": "Dance",
-        "cost": 10,
+        "cost": 35,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovdance.mp4"
       },
       {
         "action": "Giude",
-        "cost": 10,
+        "cost": 35,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovgiude.mp4"
       },
       {
         "action": "Hair",
-        "cost": 10,
+        "cost": 15,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovhair.mp4"
       },
       {
         "action": "Hello",
-        "cost": 10,
+        "cost": 20,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovhello.mp4"
       },
       {
         "action": "Jacket",
-        "cost": 10,
+        "cost": 70,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovjacket.mp4"
       },
       {
         "action": "Jump",
-        "cost": 10,
+        "cost": 55,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovjump.mp4"
       },
       {
         "action": "Kiss",
-        "cost": 10,
+        "cost": 40,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovkiss.mp4"
       },
       {
         "action": "Leg",
-        "cost": 10,
+        "cost": 55,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovleg.mp4"
       },
@@ -734,7 +734,7 @@
       },
       {
         "action": "Makeup",
-        "cost": 10,
+        "cost": 75,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovmakeup.mp4"
       },
@@ -746,37 +746,37 @@
       },
       {
         "action": "Move",
-        "cost": 10,
+        "cost": 70,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovmove.mp4"
       },
       {
         "action": "Nude",
-        "cost": 10,
+        "cost": 45,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovnude.mp4"
       },
       {
         "action": "Parfum",
-        "cost": 10,
+        "cost": 60,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovparfum.mp4"
       },
       {
         "action": "Photo",
-        "cost": 10,
+        "cost": 65,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovphoto.mp4"
       },
       {
         "action": "Pillow",
-        "cost": 10,
+        "cost": 35,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovpillow.mp4"
       },
       {
         "action": "Pose",
-        "cost": 10,
+        "cost": 70,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovpose.mp4"
       },
@@ -788,31 +788,31 @@
       },
       {
         "action": "Selfie",
-        "cost": 10,
+        "cost": 30,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovselfie.mp4"
       },
       {
         "action": "Slip",
-        "cost": 10,
+        "cost": 50,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovslip.mp4"
       },
       {
         "action": "Smile",
-        "cost": 10,
+        "cost": 35,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovsmile.mp4"
       },
       {
         "action": "Strip",
-        "cost": 10,
+        "cost": 20,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovstrip.mp4"
       },
       {
         "action": "Tongue",
-        "cost": 10,
+        "cost": 25,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovtongue.mp4"
       },
@@ -824,7 +824,7 @@
       },
       {
         "action": "Zuchini",
-        "cost": 10,
+        "cost": 40,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgovzuchini.mp4"
       }
@@ -839,157 +839,157 @@
     "videos": [
       {
         "action": "Angry",
-        "cost": 10,
+        "cost": 40,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgeaangry.mp4"
       },
       {
         "action": "Apple",
-        "cost": 10,
+        "cost": 35,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgeaapple.mp4"
       },
       {
         "action": "Ass",
-        "cost": 10,
+        "cost": 35,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgeaass.mp4"
       },
       {
         "action": "Assslap",
-        "cost": 10,
+        "cost": 75,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgeaassslap.mp4"
       },
       {
         "action": "Breakfast",
-        "cost": 10,
+        "cost": 50,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgeabreakfast.mp4"
       },
       {
         "action": "Caress",
-        "cost": 10,
+        "cost": 65,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgeacaress.mp4"
       },
       {
         "action": "Comb",
-        "cost": 10,
+        "cost": 40,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgeacomb.mp4"
       },
       {
         "action": "Creamspray",
-        "cost": 10,
+        "cost": 30,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgeacreamspray.mp4"
       },
       {
         "action": "Dress",
-        "cost": 10,
+        "cost": 45,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgeadress.mp4"
       },
       {
         "action": "Drink",
-        "cost": 10,
+        "cost": 80,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgeadrink.mp4"
       },
       {
         "action": "Hair",
-        "cost": 10,
+        "cost": 60,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgeahair.mp4"
       },
       {
         "action": "Hat",
-        "cost": 10,
+        "cost": 45,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgeahat.mp4"
       },
       {
         "action": "Hello",
-        "cost": 10,
+        "cost": 35,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgeahello.mp4"
       },
       {
         "action": "Hug",
-        "cost": 10,
+        "cost": 80,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgeahug.mp4"
       },
       {
         "action": "Kiss",
-        "cost": 10,
+        "cost": 15,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgeakiss.mp4"
       },
       {
         "action": "Lipstick",
-        "cost": 10,
+        "cost": 70,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgealipstick.mp4"
       },
       {
         "action": "Makeup",
-        "cost": 10,
+        "cost": 30,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgeamakeup.mp4"
       },
       {
         "action": "Parfum",
-        "cost": 10,
+        "cost": 40,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgeaparfum.mp4"
       },
       {
         "action": "Photo",
-        "cost": 10,
+        "cost": 25,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgeaphoto.mp4"
       },
       {
         "action": "Pillow",
-        "cost": 10,
+        "cost": 35,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgeapillow.mp4"
       },
       {
         "action": "Pussy",
-        "cost": 10,
+        "cost": 75,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgeapussy.mp4"
       },
       {
         "action": "Rice",
-        "cost": 10,
+        "cost": 55,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgearice.mp4"
       },
       {
         "action": "Scarf",
-        "cost": 10,
+        "cost": 55,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgeascarf.mp4"
       },
       {
         "action": "Sleep",
-        "cost": 10,
+        "cost": 55,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgeasleep.mp4"
       },
       {
         "action": "Smile",
-        "cost": 10,
+        "cost": 45,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgeasmile.mp4"
       },
       {
         "action": "Strip",
-        "cost": 10,
+        "cost": 65,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgeastrip.mp4"
       }
@@ -1004,43 +1004,43 @@
     "videos": [
       {
         "action": "Angry",
-        "cost": 75,
+        "cost": 30,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgaaangry.mp4"
       },
       {
         "action": "Eat",
-        "cost": 75,
+        "cost": 45,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgaaeat.mp4"
       },
       {
         "action": "Hair",
-        "cost": 75,
+        "cost": 15,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgaahair.mp4"
       },
       {
         "action": "Hello",
-        "cost": 75,
+        "cost": 80,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgaahello.mp4"
       },
       {
         "action": "Jump",
-        "cost": 75,
+        "cost": 20,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgaajump.mp4"
       },
       {
         "action": "Leg",
-        "cost": 75,
+        "cost": 20,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgaaleg.mp4"
       },
       {
         "action": "Play",
-        "cost": 75,
+        "cost": 45,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgaaplay.mp4"
       },
@@ -1052,7 +1052,7 @@
       },
       {
         "action": "Strip",
-        "cost": 75,
+        "cost": 10,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgaastrip.mp4"
       }
@@ -1067,31 +1067,31 @@
     "videos": [
       {
         "action": "Back",
-        "cost": 60,
+        "cost": 65,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdvback.mp4"
       },
       {
         "action": "Dance",
-        "cost": 60,
+        "cost": 35,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdvdance.mp4"
       },
       {
         "action": "Eat",
-        "cost": 60,
+        "cost": 35,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdveat.mp4"
       },
       {
         "action": "Hair",
-        "cost": 60,
+        "cost": 10,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdvhair.mp4"
       },
       {
         "action": "Strip",
-        "cost": 60,
+        "cost": 15,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgdvstrip.mp4"
       }
@@ -1106,13 +1106,13 @@
     "videos": [
       {
         "action": "Back",
-        "cost": 25,
+        "cost": 80,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgevback.mp4"
       },
       {
         "action": "Dance",
-        "cost": 25,
+        "cost": 30,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgevdance.mp4"
       },
@@ -1124,13 +1124,13 @@
       },
       {
         "action": "Leg",
-        "cost": 25,
+        "cost": 30,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgevleg.mp4"
       },
       {
         "action": "Strip",
-        "cost": 25,
+        "cost": 75,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgevstrip.mp4"
       }
@@ -1145,31 +1145,31 @@
     "videos": [
       {
         "action": "Dance",
-        "cost": 15,
+        "cost": 35,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgfgdance.mp4"
       },
       {
         "action": "Hello",
-        "cost": 15,
+        "cost": 10,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgfghello.mp4"
       },
       {
         "action": "Jump",
-        "cost": 15,
+        "cost": 25,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgfgjump.mp4"
       },
       {
         "action": "Kiss",
-        "cost": 15,
+        "cost": 55,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgfgkiss.mp4"
       },
       {
         "action": "Photo",
-        "cost": 15,
+        "cost": 75,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgfgphoto.mp4"
       }
@@ -1184,31 +1184,31 @@
     "videos": [
       {
         "action": "Dance",
-        "cost": 25,
+        "cost": 65,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgfvdance.mp4"
       },
       {
         "action": "Hair",
-        "cost": 25,
+        "cost": 75,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgfvhair.mp4"
       },
       {
         "action": "Hello",
-        "cost": 25,
+        "cost": 75,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgfvhello.mp4"
       },
       {
         "action": "Kiss",
-        "cost": 25,
+        "cost": 40,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgfvkiss.mp4"
       },
       {
         "action": "Photo",
-        "cost": 25,
+        "cost": 80,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgfvphoto.mp4"
       }
@@ -1223,37 +1223,37 @@
     "videos": [
       {
         "action": "Caress",
-        "cost": 30,
+        "cost": 15,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pggvcaress.mp4"
       },
       {
         "action": "Dance",
-        "cost": 30,
+        "cost": 75,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pggvdance.mp4"
       },
       {
         "action": "Hair",
-        "cost": 30,
+        "cost": 55,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pggvhair.mp4"
       },
       {
         "action": "Kiss",
-        "cost": 30,
+        "cost": 80,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pggvkiss.mp4"
       },
       {
         "action": "Pose",
-        "cost": 30,
+        "cost": 50,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pggvpose.mp4"
       },
       {
         "action": "Smile",
-        "cost": 30,
+        "cost": 60,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pggvsmile.mp4"
       }
@@ -1268,7 +1268,7 @@
     "videos": [
       {
         "action": "Apple",
-        "cost": 40,
+        "cost": 55,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pghcapple.mp4"
       },
@@ -1280,31 +1280,31 @@
       },
       {
         "action": "Hello",
-        "cost": 40,
+        "cost": 10,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pghchello.mp4"
       },
       {
         "action": "Kiss",
-        "cost": 40,
+        "cost": 30,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pghckiss.mp4"
       },
       {
         "action": "Mouth",
-        "cost": 40,
+        "cost": 80,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pghcmouth.mp4"
       },
       {
         "action": "Photo",
-        "cost": 40,
+        "cost": 50,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pghcphoto.mp4"
       },
       {
         "action": "Sleep",
-        "cost": 40,
+        "cost": 70,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pghcsleep.mp4"
       }
@@ -1319,25 +1319,25 @@
     "videos": [
       {
         "action": "Dance",
-        "cost": 60,
+        "cost": 15,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pghwdance.mp4"
       },
       {
         "action": "Hello",
-        "cost": 60,
+        "cost": 35,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pghwhello.mp4"
       },
       {
         "action": "Kiss",
-        "cost": 60,
+        "cost": 40,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pghwkiss.mp4"
       },
       {
         "action": "Photo",
-        "cost": 60,
+        "cost": 80,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pghwphoto.mp4"
       }
@@ -1352,25 +1352,25 @@
     "videos": [
       {
         "action": "Dance",
-        "cost": 60,
+        "cost": 20,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgicdance.mp4"
       },
       {
         "action": "Hair",
-        "cost": 60,
+        "cost": 55,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgichair.mp4"
       },
       {
         "action": "Kiss",
-        "cost": 60,
+        "cost": 20,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgickiss.mp4"
       },
       {
         "action": "Photo",
-        "cost": 60,
+        "cost": 10,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgicphoto.mp4"
       }
@@ -1385,37 +1385,37 @@
     "videos": [
       {
         "action": "Dance",
-        "cost": 10,
+        "cost": 30,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivdance.mp4"
       },
       {
         "action": "Drink",
-        "cost": 10,
+        "cost": 55,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivdrink.mp4"
       },
       {
         "action": "Hair",
-        "cost": 10,
+        "cost": 25,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivhair.mp4"
       },
       {
         "action": "Kiss",
-        "cost": 10,
+        "cost": 30,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivkiss.mp4"
       },
       {
         "action": "Photo",
-        "cost": 10,
+        "cost": 70,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivphoto.mp4"
       },
       {
         "action": "Strip",
-        "cost": 10,
+        "cost": 80,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgivstrip.mp4"
       }
@@ -1430,13 +1430,13 @@
     "videos": [
       {
         "action": "Dance",
-        "cost": 40,
+        "cost": 70,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvdance.mp4"
       },
       {
         "action": "Hair",
-        "cost": 40,
+        "cost": 60,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvhair.mp4"
       },
@@ -1448,7 +1448,7 @@
       },
       {
         "action": "Pussy",
-        "cost": 40,
+        "cost": 10,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pglvpussy.mp4"
       }
@@ -1463,25 +1463,25 @@
     "videos": [
       {
         "action": "Dance",
-        "cost": 80,
+        "cost": 15,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvdance.mp4"
       },
       {
         "action": "Hair",
-        "cost": 80,
+        "cost": 60,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvhair.mp4"
       },
       {
         "action": "Kiss",
-        "cost": 80,
+        "cost": 60,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvkiss.mp4"
       },
       {
         "action": "Smile",
-        "cost": 80,
+        "cost": 55,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgmvsmile.mp4"
       }
@@ -1496,37 +1496,37 @@
     "videos": [
       {
         "action": "Apple",
-        "cost": 30,
+        "cost": 55,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgncapple.mp4"
       },
       {
         "action": "Dance",
-        "cost": 30,
+        "cost": 70,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgncdance.mp4"
       },
       {
         "action": "Hello",
-        "cost": 30,
+        "cost": 60,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgnchello.mp4"
       },
       {
         "action": "Jump",
-        "cost": 30,
+        "cost": 35,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgncjump.mp4"
       },
       {
         "action": "Pose",
-        "cost": 30,
+        "cost": 40,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgncpose.mp4"
       },
       {
         "action": "Sleep",
-        "cost": 30,
+        "cost": 35,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgncsleep.mp4"
       }
@@ -1541,49 +1541,49 @@
     "videos": [
       {
         "action": "Drink",
-        "cost": 10,
+        "cost": 60,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgnedrink.mp4"
       },
       {
         "action": "Dance",
-        "cost": 10,
+        "cost": 75,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgnedance.mp4"
       },
       {
         "action": "Hair",
-        "cost": 10,
+        "cost": 35,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgnehair.mp4"
       },
       {
         "action": "Kiss",
-        "cost": 10,
+        "cost": 15,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgnekiss.mp4"
       },
       {
         "action": "Photo",
-        "cost": 10,
+        "cost": 15,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgnephoto.mp4"
       },
       {
         "action": "Pose",
-        "cost": 10,
+        "cost": 45,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgnepose.mp4"
       },
       {
         "action": "Sleep",
-        "cost": 10,
+        "cost": 45,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgnesleep.mp4"
       },
       {
         "action": "Smile",
-        "cost": 10,
+        "cost": 25,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgnesmile.mp4"
       }
@@ -1598,37 +1598,37 @@
     "videos": [
       {
         "action": "Dance",
-        "cost": 15,
+        "cost": 80,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgpvdance.mp4"
       },
       {
         "action": "Hello",
-        "cost": 15,
+        "cost": 65,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgpvhello.mp4"
       },
       {
         "action": "Photo",
-        "cost": 15,
+        "cost": 55,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgpvphoto.mp4"
       },
       {
         "action": "Pose",
-        "cost": 15,
+        "cost": 55,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgpvpose.mp4"
       },
       {
         "action": "Strip",
-        "cost": 15,
+        "cost": 20,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgpvstrip.mp4"
       },
       {
         "action": "Play",
-        "cost": 15,
+        "cost": 20,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgpvplay.mp4"
       }
@@ -1643,43 +1643,43 @@
     "videos": [
       {
         "action": "Apple",
-        "cost": 55,
+        "cost": 75,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgqvapple.mp4"
       },
       {
         "action": "Dance",
-        "cost": 55,
+        "cost": 80,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgqvdance.mp4"
       },
       {
         "action": "Hair",
-        "cost": 55,
+        "cost": 60,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgqvhair.mp4"
       },
       {
         "action": "Hello",
-        "cost": 55,
+        "cost": 80,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgqvhello.mp4"
       },
       {
         "action": "Kiss",
-        "cost": 55,
+        "cost": 75,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgqvkiss.mp4"
       },
       {
         "action": "Photo",
-        "cost": 55,
+        "cost": 35,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgqvphoto.mp4"
       },
       {
         "action": "Sleep",
-        "cost": 55,
+        "cost": 70,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgqvsleep.mp4"
       }
@@ -1694,13 +1694,13 @@
     "videos": [
       {
         "action": "Ass",
-        "cost": 65,
+        "cost": 10,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrvass.mp4"
       },
       {
         "action": "Dance",
-        "cost": 65,
+        "cost": 45,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrvdance.mp4"
       },
@@ -1712,19 +1712,19 @@
       },
       {
         "action": "Strip",
-        "cost": 65,
+        "cost": 15,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrvstrip.mp4"
       },
       {
         "action": "Baloon",
-        "cost": 65,
+        "cost": 60,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrvbaloon.mp4"
       },
       {
         "action": "Chocolate",
-        "cost": 65,
+        "cost": 80,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrvchocolate.mp4"
       },
@@ -1736,25 +1736,25 @@
       },
       {
         "action": "Lipstick",
-        "cost": 65,
+        "cost": 70,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrvlipstick.mp4"
       },
       {
         "action": "Lollipop",
-        "cost": 65,
+        "cost": 60,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrvlollipop.mp4"
       },
       {
         "action": "Oil",
-        "cost": 65,
+        "cost": 70,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrvoil.mp4"
       },
       {
         "action": "Parfum",
-        "cost": 65,
+        "cost": 15,
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrvparfum.mp4"
       }
