@@ -1759,5 +1759,50 @@
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrvparfum.mp4"
       }
     ]
+  },
+  {
+    "id": 23,
+    "name": "Risitos",
+    "description": "Actor, Model",
+    "profileRes": "pgrs_profile",
+    "bannerRes": "pgrs_banner",
+    "videos": [
+      {
+        "action": "Giro",
+        "cost": 369,
+        "imageResId": "pgrsgiro",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrsgiro.mp4"
+      },
+      {
+        "action": "Kiss",
+        "cost": 333,
+        "imageResId": "pgrskiss",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrskiss.mp4"
+      },
+      {
+        "action": "Modeling kiss",
+        "cost": 330,
+        "imageResId": "pgrsmodelkiss",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrsmodelkiss.mp4"
+      },
+      {
+        "action": "Virgin",
+        "cost": 330,
+        "imageResId": "pgrsvirgin",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrsvirgin.mp4"
+      },
+      {
+        "action": "Greeting",
+        "cost": 330,
+        "imageResId": "pgrsgreeting",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrsgreeting.mp4"
+      },
+      {
+        "action": "Laugh",
+        "cost": 330,
+        "imageResId": "pgrslaugh",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrslaugh.mp4"
+      }
+    ]
   }
 ]
