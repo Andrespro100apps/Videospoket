@@ -1804,8 +1804,8 @@
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrslaugh.mp4"
       }
     ],
-    "profileFileName": "pgrs_profile.jpg",
-    "bannerFileName": "pgrs_banner.jpg"
+    "profileFileName": "pgrs_profile_v2.jpg",
+    "bannerFileName": "pgrs_banner_v2.jpg"
   },
   {
     "id": 24,
@@ -2021,304 +2021,70 @@
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagagvo034.mp4"
       },
       {
-        "action": "Phone",
-        "cost": 15,
-        "imageResId": "pgagagvo035",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagagvo035.mp4"
-      },
-      {
-        "action": "Torch",
-        "cost": 5,
-        "imageResId": "pgagagvo036",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagagvo036.mp4"
-      },
-      {
-        "action": "Broom",
-        "cost": 10,
-        "imageResId": "pgagagvo037",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagagvo037.mp4"
-      },
-      {
-        "action": "Banana",
-        "cost": 30,
-        "imageResId": "pgagagvo038",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagagvo038.mp4"
-      },
-      {
-        "action": "Kinder",
-        "cost": 20,
-        "imageResId": "pgagagvo039",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagagvo039.mp4"
-      },
-      {
-        "action": "Pizza",
-        "cost": 15,
-        "imageResId": "pgagagvo040",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagagvo040.mp4"
-      },
-      {
-        "action": "Cream",
-        "cost": 15,
-        "imageResId": "pgagagvo041",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagagvo041.mp4"
-      },
-      {
-        "action": "Apple",
-        "cost": 10,
-        "imageResId": "pgagagvo042",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagagvo042.mp4"
-      },
-      {
-        "action": "Walking",
-        "cost": 10,
-        "imageResId": "pgagagvo043",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagagvo043.mp4"
-      },
-      {
         "action": "Sit Down",
         "cost": 15,
         "imageResId": "pgagagvo044",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagagvo044.mp4"
       },
       {
+        "action": "Phone",
+        "cost": 5,
+        "imageResId": "pgagagvo035",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagagvo035.mp4"
+      },
+      {
+        "action": "Torch",
+        "cost": 10,
+        "imageResId": "pgagagvo036",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagagvo036.mp4"
+      },
+      {
+        "action": "Walking",
+        "cost": 30,
+        "imageResId": "pgagagvo043",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagagvo043.mp4"
+      },
+      {
+        "action": "Broom",
+        "cost": 20,
+        "imageResId": "pgagagvo037",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagagvo037.mp4"
+      },
+      {
+        "action": "Banana",
+        "cost": 15,
+        "imageResId": "pgagagvo038",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagagvo038.mp4"
+      },
+      {
+        "action": "Kinder",
+        "cost": 15,
+        "imageResId": "pgagagvo039",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagagvo039.mp4"
+      },
+      {
+        "action": "Cream",
+        "cost": 10,
+        "imageResId": "pgagagvo041",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagagvo041.mp4"
+      },
+      {
+        "action": "Pizza",
+        "cost": 10,
+        "imageResId": "pgagagvo040",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagagvo040.mp4"
+      },
+      {
+        "action": "Apple",
+        "cost": 15,
+        "imageResId": "pgagagvo042",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagagvo042.mp4"
+      },
+      {
         "action": "Skirt",
         "cost": 5,
         "imageResId": "pgagagvo047",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagagvo047.mp4"
-      },
-      {
-        "action": "Sgvo000",
-        "cost": 5,
-        "imageResId": "pgagsgvo000",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo000.mp4"
-      },
-      {
-        "action": "Sgvo001",
-        "cost": 20,
-        "imageResId": "pgagsgvo001",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo001.mp4"
-      },
-      {
-        "action": "Sgvo002",
-        "cost": 5,
-        "imageResId": "pgagsgvo002",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo002.mp4"
-      },
-      {
-        "action": "Sgvo003",
-        "cost": 15,
-        "imageResId": "pgagsgvo003",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo003.mp4"
-      },
-      {
-        "action": "Sgvo004",
-        "cost": 15,
-        "imageResId": "pgagsgvo004",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo004.mp4"
-      },
-      {
-        "action": "Sgvo005",
-        "cost": 25,
-        "imageResId": "pgagsgvo005",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo005.mp4"
-      },
-      {
-        "action": "Sgvo006",
-        "cost": 15,
-        "imageResId": "pgagsgvo006",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo006.mp4"
-      },
-      {
-        "action": "Sgvo007",
-        "cost": 5,
-        "imageResId": "pgagsgvo007",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo007.mp4"
-      },
-      {
-        "action": "Sgvo011",
-        "cost": 30,
-        "imageResId": "pgagsgvo011",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo011.mp4"
-      },
-      {
-        "action": "Sgvo012",
-        "cost": 20,
-        "imageResId": "pgagsgvo012",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo012.mp4"
-      },
-      {
-        "action": "Sgvo013",
-        "cost": 25,
-        "imageResId": "pgagsgvo013",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo013.mp4"
-      },
-      {
-        "action": "Sgvo014",
-        "cost": 5,
-        "imageResId": "pgagsgvo014",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo014.mp4"
-      },
-      {
-        "action": "Sgvo015",
-        "cost": 20,
-        "imageResId": "pgagsgvo015",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo015.mp4"
-      },
-      {
-        "action": "Sgvo016",
-        "cost": 5,
-        "imageResId": "pgagsgvo016",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo016.mp4"
-      },
-      {
-        "action": "Sgvo017",
-        "cost": 25,
-        "imageResId": "pgagsgvo017",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo017.mp4"
-      },
-      {
-        "action": "Sgvo018",
-        "cost": 15,
-        "imageResId": "pgagsgvo018",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo018.mp4"
-      },
-      {
-        "action": "Sgvo021",
-        "cost": 30,
-        "imageResId": "pgagsgvo021",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo021.mp4"
-      },
-      {
-        "action": "Sgvo022",
-        "cost": 25,
-        "imageResId": "pgagsgvo022",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo022.mp4"
-      },
-      {
-        "action": "Sgvo023",
-        "cost": 15,
-        "imageResId": "pgagsgvo023",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo023.mp4"
-      },
-      {
-        "action": "Sgvo024",
-        "cost": 25,
-        "imageResId": "pgagsgvo024",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo024.mp4"
-      },
-      {
-        "action": "Sgvo025",
-        "cost": 10,
-        "imageResId": "pgagsgvo025",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo025.mp4"
-      },
-      {
-        "action": "Sgvo026",
-        "cost": 30,
-        "imageResId": "pgagsgvo026",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo026.mp4"
-      },
-      {
-        "action": "Sgvo030",
-        "cost": 5,
-        "imageResId": "pgagsgvo030",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo030.mp4"
-      },
-      {
-        "action": "Sgvo031",
-        "cost": 5,
-        "imageResId": "pgagsgvo031",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo031.mp4"
-      },
-      {
-        "action": "Sgvo032",
-        "cost": 30,
-        "imageResId": "pgagsgvo032",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo032.mp4"
-      },
-      {
-        "action": "Sgvo033",
-        "cost": 10,
-        "imageResId": "pgagsgvo033",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo033.mp4"
-      },
-      {
-        "action": "Sgvo034",
-        "cost": 15,
-        "imageResId": "pgagsgvo034",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo034.mp4"
-      },
-      {
-        "action": "Sgvo035",
-        "cost": 5,
-        "imageResId": "pgagsgvo035",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo035.mp4"
-      },
-      {
-        "action": "Sgvo037",
-        "cost": 10,
-        "imageResId": "pgagsgvo037",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo037.mp4"
-      },
-      {
-        "action": "Sgvo038",
-        "cost": 5,
-        "imageResId": "pgagsgvo038",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo038.mp4"
-      },
-      {
-        "action": "Sgvo039",
-        "cost": 20,
-        "imageResId": "pgagsgvo039",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo039.mp4"
-      },
-      {
-        "action": "Sgvo040",
-        "cost": 15,
-        "imageResId": "pgagsgvo040",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo040.mp4"
-      },
-      {
-        "action": "Sgvo041",
-        "cost": 20,
-        "imageResId": "pgagsgvo041",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo041.mp4"
-      },
-      {
-        "action": "Sgvo042",
-        "cost": 30,
-        "imageResId": "pgagsgvo042",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo042.mp4"
-      },
-      {
-        "action": "Sgvo043",
-        "cost": 15,
-        "imageResId": "pgagsgvo043",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo043.mp4"
-      },
-      {
-        "action": "Sgvo044",
-        "cost": 10,
-        "imageResId": "pgagsgvo044",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo044.mp4"
-      },
-      {
-        "action": "Sgvo045",
-        "cost": 15,
-        "imageResId": "pgagsgvo045",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo045.mp4"
-      },
-      {
-        "action": "Sgvo046",
-        "cost": 15,
-        "imageResId": "pgagsgvo046",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo046.mp4"
-      },
-      {
-        "action": "Sgvo047",
-        "cost": 10,
-        "imageResId": "pgagsgvo047",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgagsgvo047.mp4"
       }
     ]
   },
@@ -2332,38 +2098,134 @@
     "bannerFileName": "pgapm_banner.jpg",
     "videos": [
       {
-        "action": "Pain",
+        "action": "Helmet",
         "cost": 30,
+        "imageResId": "pgapmopmvo001",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo001.mp4"
+      },
+      {
+        "action": "Bracelet",
+        "cost": 5,
+        "imageResId": "pgapmopmvo002",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo002.mp4"
+      },
+      {
+        "action": "Necklace",
+        "cost": 5,
+        "imageResId": "pgapmopmvo003",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo003.mp4"
+      },
+      {
+        "action": "Sunglasses",
+        "cost": 30,
+        "imageResId": "pgapmopmvo004",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo004.mp4"
+      },
+      {
+        "action": "Backpack",
+        "cost": 15,
+        "imageResId": "pgapmopmvo005",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo005.mp4"
+      },
+      {
+        "action": "Hat",
+        "cost": 10,
+        "imageResId": "pgapmopmvo006",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo006.mp4"
+      },
+      {
+        "action": "Joystick",
+        "cost": 10,
+        "imageResId": "pgapmopmvo007",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo007.mp4"
+      },
+      {
+        "action": "Ball",
+        "cost": 10,
+        "imageResId": "pgapmopmvo008",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo008.mp4"
+      },
+      {
+        "action": "Mobile",
+        "cost": 30,
+        "imageResId": "pgapmopmvo009",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo009.mp4"
+      },
+      {
+        "action": "Photo",
+        "cost": 5,
+        "imageResId": "pgapmopmvo010",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo010.mp4"
+      },
+      {
+        "action": "Straw",
+        "cost": 30,
+        "imageResId": "pgapmopmvo011",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo011.mp4"
+      },
+      {
+        "action": "Sweep",
+        "cost": 30,
+        "imageResId": "pgapmopmvo012",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo012.mp4"
+      },
+      {
+        "action": "Chips",
+        "cost": 25,
+        "imageResId": "pgapmopmvo014",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo014.mp4"
+      },
+      {
+        "action": "Cream",
+        "cost": 5,
+        "imageResId": "pgapmopmvo015",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo015.mp4"
+      },
+      {
+        "action": "Pear",
+        "cost": 25,
+        "imageResId": "pgapmopmvo016",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo016.mp4"
+      },
+      {
+        "action": "Glass",
+        "cost": 20,
+        "imageResId": "pgapmopmvo018",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo018.mp4"
+      },
+      {
+        "action": "Pain",
+        "cost": 5,
         "imageResId": "pgapmapmvo001",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo001.mp4"
       },
       {
         "action": "Sing",
-        "cost": 15,
+        "cost": 5,
         "imageResId": "pgapmapmvo002",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo002.mp4"
       },
       {
         "action": "Play",
-        "cost": 30,
+        "cost": 5,
         "imageResId": "pgapmapmvo003",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo003.mp4"
       },
       {
         "action": "Jump",
-        "cost": 30,
+        "cost": 10,
         "imageResId": "pgapmapmvo004",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo004.mp4"
       },
       {
         "action": "Scream",
-        "cost": 30,
+        "cost": 10,
         "imageResId": "pgapmapmvo005",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo005.mp4"
       },
       {
         "action": "Laugh",
-        "cost": 5,
+        "cost": 25,
         "imageResId": "pgapmapmvo006",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo006.mp4"
       },
@@ -2375,19 +2237,19 @@
       },
       {
         "action": "Up",
-        "cost": 30,
+        "cost": 5,
         "imageResId": "pgapmapmvo008",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo008.mp4"
       },
       {
         "action": "Down",
-        "cost": 10,
+        "cost": 25,
         "imageResId": "pgapmapmvo009",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo009.mp4"
       },
       {
         "action": "Dance",
-        "cost": 25,
+        "cost": 10,
         "imageResId": "pgapmapmvo010",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo010.mp4"
       },
@@ -2399,91 +2261,67 @@
       },
       {
         "action": "Hair",
-        "cost": 10,
+        "cost": 30,
         "imageResId": "pgapmapmvo012",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo012.mp4"
       },
       {
-        "action": "Apmvo014",
-        "cost": 10,
-        "imageResId": "pgapmapmvo014",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo014.mp4"
-      },
-      {
         "action": "Hands",
-        "cost": 20,
+        "cost": 30,
         "imageResId": "pgapmapmvo015",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo015.mp4"
       },
       {
         "action": "Kiss",
-        "cost": 20,
+        "cost": 25,
         "imageResId": "pgapmapmvo017",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo017.mp4"
       },
       {
-        "action": "Apmvo018",
-        "cost": 15,
-        "imageResId": "pgapmapmvo018",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo018.mp4"
-      },
-      {
         "action": "Turn",
-        "cost": 30,
+        "cost": 20,
         "imageResId": "pgapmapmvo020",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo020.mp4"
       },
       {
         "action": "Bend",
-        "cost": 30,
+        "cost": 10,
         "imageResId": "pgapmapmvo021",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo021.mp4"
       },
       {
-        "action": "Apmvo022",
-        "cost": 25,
-        "imageResId": "pgapmapmvo022",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo022.mp4"
-      },
-      {
-        "action": "Apmvo023",
-        "cost": 10,
-        "imageResId": "pgapmapmvo023",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo023.mp4"
-      },
-      {
         "action": "Tie",
-        "cost": 30,
+        "cost": 20,
         "imageResId": "pgapmapmvo024",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo024.mp4"
       },
       {
         "action": "Skirt",
-        "cost": 15,
+        "cost": 25,
         "imageResId": "pgapmapmvo025",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo025.mp4"
       },
       {
         "action": "Shirt",
-        "cost": 5,
+        "cost": 15,
         "imageResId": "pgapmapmvo026",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo026.mp4"
       },
       {
         "action": "Shoe",
-        "cost": 10,
+        "cost": 5,
         "imageResId": "pgapmapmvo027",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo027.mp4"
       },
       {
         "action": "Scratch",
-        "cost": 5,
+        "cost": 10,
         "imageResId": "pgapmapmvo028",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo028.mp4"
       },
       {
         "action": "Shake",
-        "cost": 15,
+        "cost": 30,
         "imageResId": "pgapmapmvo029",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo029.mp4"
       },
@@ -2500,340 +2338,10 @@
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo031.mp4"
       },
       {
-        "action": "Apmvo032",
-        "cost": 5,
-        "imageResId": "pgapmapmvo032",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo032.mp4"
-      },
-      {
-        "action": "Apmvo033",
-        "cost": 10,
-        "imageResId": "pgapmapmvo033",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo033.mp4"
-      },
-      {
         "action": "Collar",
-        "cost": 25,
+        "cost": 15,
         "imageResId": "pgapmapmvo034",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmapmvo034.mp4"
-      },
-      {
-        "action": "Helmet",
-        "cost": 30,
-        "imageResId": "pgapmopmvo001",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo001.mp4"
-      },
-      {
-        "action": "Bracelet",
-        "cost": 15,
-        "imageResId": "pgapmopmvo002",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo002.mp4"
-      },
-      {
-        "action": "Necklace",
-        "cost": 10,
-        "imageResId": "pgapmopmvo003",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo003.mp4"
-      },
-      {
-        "action": "Sunglasses",
-        "cost": 30,
-        "imageResId": "pgapmopmvo004",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo004.mp4"
-      },
-      {
-        "action": "Backpack",
-        "cost": 20,
-        "imageResId": "pgapmopmvo005",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo005.mp4"
-      },
-      {
-        "action": "Hat",
-        "cost": 20,
-        "imageResId": "pgapmopmvo006",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo006.mp4"
-      },
-      {
-        "action": "Joystick",
-        "cost": 30,
-        "imageResId": "pgapmopmvo007",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo007.mp4"
-      },
-      {
-        "action": "Ball",
-        "cost": 20,
-        "imageResId": "pgapmopmvo008",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo008.mp4"
-      },
-      {
-        "action": "Mobile",
-        "cost": 10,
-        "imageResId": "pgapmopmvo009",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo009.mp4"
-      },
-      {
-        "action": "Photo",
-        "cost": 15,
-        "imageResId": "pgapmopmvo010",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo010.mp4"
-      },
-      {
-        "action": "Straw",
-        "cost": 10,
-        "imageResId": "pgapmopmvo011",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo011.mp4"
-      },
-      {
-        "action": "Sweep",
-        "cost": 10,
-        "imageResId": "pgapmopmvo012",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo012.mp4"
-      },
-      {
-        "action": "Opmvo013",
-        "cost": 30,
-        "imageResId": "pgapmopmvo013",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo013.mp4"
-      },
-      {
-        "action": "Chips",
-        "cost": 25,
-        "imageResId": "pgapmopmvo014",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo014.mp4"
-      },
-      {
-        "action": "Cream",
-        "cost": 25,
-        "imageResId": "pgapmopmvo015",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo015.mp4"
-      },
-      {
-        "action": "Pear",
-        "cost": 15,
-        "imageResId": "pgapmopmvo016",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo016.mp4"
-      },
-      {
-        "action": "Opmvo017",
-        "cost": 30,
-        "imageResId": "pgapmopmvo017",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo017.mp4"
-      },
-      {
-        "action": "Glass",
-        "cost": 25,
-        "imageResId": "pgapmopmvo018",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmopmvo018.mp4"
-      },
-      {
-        "action": "Spmvo000",
-        "cost": 20,
-        "imageResId": "pgapmspmvo000",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo000.mp4"
-      },
-      {
-        "action": "Spmvo001",
-        "cost": 25,
-        "imageResId": "pgapmspmvo001",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo001.mp4"
-      },
-      {
-        "action": "Spmvo002",
-        "cost": 20,
-        "imageResId": "pgapmspmvo002",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo002.mp4"
-      },
-      {
-        "action": "Spmvo003",
-        "cost": 15,
-        "imageResId": "pgapmspmvo003",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo003.mp4"
-      },
-      {
-        "action": "Spmvo004",
-        "cost": 10,
-        "imageResId": "pgapmspmvo004",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo004.mp4"
-      },
-      {
-        "action": "Spmvo005",
-        "cost": 10,
-        "imageResId": "pgapmspmvo005",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo005.mp4"
-      },
-      {
-        "action": "Spmvo006",
-        "cost": 25,
-        "imageResId": "pgapmspmvo006",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo006.mp4"
-      },
-      {
-        "action": "Spmvo007",
-        "cost": 20,
-        "imageResId": "pgapmspmvo007",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo007.mp4"
-      },
-      {
-        "action": "Spmvo010",
-        "cost": 5,
-        "imageResId": "pgapmspmvo010",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo010.mp4"
-      },
-      {
-        "action": "Spmvo011",
-        "cost": 5,
-        "imageResId": "pgapmspmvo011",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo011.mp4"
-      },
-      {
-        "action": "Spmvo012",
-        "cost": 5,
-        "imageResId": "pgapmspmvo012",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo012.mp4"
-      },
-      {
-        "action": "Spmvo013",
-        "cost": 10,
-        "imageResId": "pgapmspmvo013",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo013.mp4"
-      },
-      {
-        "action": "Spmvo014",
-        "cost": 30,
-        "imageResId": "pgapmspmvo014",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo014.mp4"
-      },
-      {
-        "action": "Spmvo021",
-        "cost": 10,
-        "imageResId": "pgapmspmvo021",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo021.mp4"
-      },
-      {
-        "action": "Spmvo022",
-        "cost": 30,
-        "imageResId": "pgapmspmvo022",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo022.mp4"
-      },
-      {
-        "action": "Spmvo023",
-        "cost": 20,
-        "imageResId": "pgapmspmvo023",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo023.mp4"
-      },
-      {
-        "action": "Spmvo024",
-        "cost": 25,
-        "imageResId": "pgapmspmvo024",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo024.mp4"
-      },
-      {
-        "action": "Spmvo025",
-        "cost": 5,
-        "imageResId": "pgapmspmvo025",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo025.mp4"
-      },
-      {
-        "action": "Spmvo030",
-        "cost": 20,
-        "imageResId": "pgapmspmvo030",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo030.mp4"
-      },
-      {
-        "action": "Spmvo031",
-        "cost": 20,
-        "imageResId": "pgapmspmvo031",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo031.mp4"
-      },
-      {
-        "action": "Spmvo032",
-        "cost": 25,
-        "imageResId": "pgapmspmvo032",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo032.mp4"
-      },
-      {
-        "action": "Spmvo033",
-        "cost": 20,
-        "imageResId": "pgapmspmvo033",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo033.mp4"
-      },
-      {
-        "action": "Spmvo034",
-        "cost": 25,
-        "imageResId": "pgapmspmvo034",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo034.mp4"
-      },
-      {
-        "action": "Spmvo035",
-        "cost": 15,
-        "imageResId": "pgapmspmvo035",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo035.mp4"
-      },
-      {
-        "action": "Spmvo036",
-        "cost": 25,
-        "imageResId": "pgapmspmvo036",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo036.mp4"
-      },
-      {
-        "action": "Spmvo037",
-        "cost": 5,
-        "imageResId": "pgapmspmvo037",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo037.mp4"
-      },
-      {
-        "action": "Spmvo038",
-        "cost": 30,
-        "imageResId": "pgapmspmvo038",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo038.mp4"
-      },
-      {
-        "action": "Spmvo040",
-        "cost": 30,
-        "imageResId": "pgapmspmvo040",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo040.mp4"
-      },
-      {
-        "action": "Spmvo041",
-        "cost": 5,
-        "imageResId": "pgapmspmvo041",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo041.mp4"
-      },
-      {
-        "action": "Spmvo042",
-        "cost": 30,
-        "imageResId": "pgapmspmvo042",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo042.mp4"
-      },
-      {
-        "action": "Spmvo043",
-        "cost": 25,
-        "imageResId": "pgapmspmvo043",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo043.mp4"
-      },
-      {
-        "action": "Spmvo044",
-        "cost": 15,
-        "imageResId": "pgapmspmvo044",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo044.mp4"
-      },
-      {
-        "action": "Spmvo045",
-        "cost": 30,
-        "imageResId": "pgapmspmvo045",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo045.mp4"
-      },
-      {
-        "action": "Spmvo046",
-        "cost": 15,
-        "imageResId": "pgapmspmvo046",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo046.mp4"
-      },
-      {
-        "action": "Spmvo047",
-        "cost": 5,
-        "imageResId": "pgapmspmvo047",
-        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgapmspmvo047.mp4"
       }
     ]
   }
