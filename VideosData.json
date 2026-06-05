@@ -1222,6 +1222,42 @@
     "bannerRes": "ic_model_banner",
     "videos": [
       {
+        "action": "Caress",
+        "cost": 15,
+        "imageResId": "ic_model_profile",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pggvcaress.mp4"
+      },
+      {
+        "action": "Dance",
+        "cost": 75,
+        "imageResId": "ic_model_profile",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pggvdance.mp4"
+      },
+      {
+        "action": "Hair",
+        "cost": 55,
+        "imageResId": "ic_model_profile",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pggvhair.mp4"
+      },
+      {
+        "action": "Kiss",
+        "cost": 80,
+        "imageResId": "ic_model_profile",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pggvkiss.mp4"
+      },
+      {
+        "action": "Pose",
+        "cost": 50,
+        "imageResId": "ic_model_profile",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pggvpose.mp4"
+      },
+      {
+        "action": "Smile",
+        "cost": 60,
+        "imageResId": "ic_model_profile",
+        "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pggvsmile.mp4"
+      },
+      {
         "action": "Bicicleta",
         "cost": 25,
         "imageResId": "ic_model_profile",
@@ -1293,9 +1329,7 @@
         "imageResId": "ic_model_profile",
         "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pggvvino.mp4"
       }
-    ],
-    "profileFileName": "pggv_profile.jpg",
-    "bannerFileName": "pggv_banner.jpg"
+    ]
   },
   {
     "id": 12,
