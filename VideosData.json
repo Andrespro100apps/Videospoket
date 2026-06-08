@@ -331,7 +331,7 @@
                 "action": "Calor",
                 "cost": 10,
                 "imageResId": "m3_calor",
-                "videoUrl": ""
+                "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/m1_calor.mp4"
             },
             {
                 "action": "Come",
@@ -349,7 +349,7 @@
                 "action": "Lee",
                 "cost": 15,
                 "imageResId": "m3_lee",
-                "videoUrl": ""
+                "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/m1_lee.mp4"
             },
             {
                 "action": "Piensa",
