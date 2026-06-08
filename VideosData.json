@@ -139,12 +139,6 @@
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/amvo005.mp4"
             },
             {
-                "action": "Laugh",
-                "cost": 50,
-                "imageResId": "ic_model_profile",
-                "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/amvo006.mp4"
-            },
-            {
                 "action": "Smack",
                 "cost": 50,
                 "imageResId": "ic_model_profile",
@@ -161,30 +155,6 @@
                 "cost": 50,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/amvo009.mp4"
-            },
-            {
-                "action": "Dance",
-                "cost": 50,
-                "imageResId": "ic_model_profile",
-                "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/amvo010.mp4"
-            },
-            {
-                "action": "Ok",
-                "cost": 50,
-                "imageResId": "ic_model_profile",
-                "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/amvo011.mp4"
-            },
-            {
-                "action": "Hair",
-                "cost": 50,
-                "imageResId": "ic_model_profile",
-                "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/amvo012.mp4"
-            },
-            {
-                "action": "Apmvo014",
-                "cost": 50,
-                "imageResId": "ic_model_profile",
-                "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/amvo014.mp4"
             },
             {
                 "action": "Hands",
@@ -229,18 +199,6 @@
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/amvo023.mp4"
             },
             {
-                "action": "Tie",
-                "cost": 50,
-                "imageResId": "ic_model_profile",
-                "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/amvo024.mp4"
-            },
-            {
-                "action": "Skirt",
-                "cost": 50,
-                "imageResId": "ic_model_profile",
-                "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/amvo025.mp4"
-            },
-            {
                 "action": "Shirt",
                 "cost": 50,
                 "imageResId": "ic_model_profile",
@@ -253,46 +211,16 @@
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/amvo027.mp4"
             },
             {
-                "action": "Scratch",
-                "cost": 50,
-                "imageResId": "ic_model_profile",
-                "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/amvo028.mp4"
-            },
-            {
-                "action": "Shake",
-                "cost": 50,
-                "imageResId": "ic_model_profile",
-                "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/amvo029.mp4"
-            },
-            {
                 "action": "Neck",
                 "cost": 50,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/amvo030.mp4"
             },
             {
-                "action": "Thigh",
-                "cost": 50,
-                "imageResId": "ic_model_profile",
-                "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/amvo031.mp4"
-            },
-            {
-                "action": "Apmvo032",
-                "cost": 50,
-                "imageResId": "ic_model_profile",
-                "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/amvo032.mp4"
-            },
-            {
                 "action": "Apmvo033",
                 "cost": 50,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/amvo033.mp4"
-            },
-            {
-                "action": "Collar",
-                "cost": 50,
-                "imageResId": "ic_model_profile",
-                "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/amvo034.mp4"
             },
             {
                 "action": "Helmet",
