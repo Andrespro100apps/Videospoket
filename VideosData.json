@@ -343,7 +343,7 @@
                 "action": "Hola",
                 "cost": 45,
                 "imageResId": "m3_hola",
-                "videoUrl": ""
+                "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/m1_hola.mp4"
             },
             {
                 "action": "Lee",
@@ -361,7 +361,7 @@
                 "action": "Pose",
                 "cost": 45,
                 "imageResId": "m3_pose",
-                "videoUrl": ""
+                "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/m1_pose.mp4"
             },
             {
                 "action": "Salta",
@@ -415,13 +415,13 @@
                 "action": "Enesperafondo",
                 "cost": 15,
                 "imageResId": "m3_enesperafondo",
-                "videoUrl": ""
+                "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/m1_enesperafondo.mp4"
             },
             {
                 "action": "Galleta",
                 "cost": 40,
                 "imageResId": "m3_galleta",
-                "videoUrl": ""
+                "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/m1_galleta.mp4"
             },
             {
                 "action": "Ladra",
