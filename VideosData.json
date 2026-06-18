@@ -2021,85 +2021,85 @@
         "videos": [
             {
                 "action": "Giro",
-                "cost": 35,
+                "cost": 200,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrsgiro.mp4"
             },
             {
                 "action": "Kiss",
-                "cost": 10,
+                "cost": 115,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrskiss.mp4"
             },
             {
                 "action": "Modeling kiss",
-                "cost": 55,
+                "cost": 100,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrsmodelkiss.mp4"
             },
             {
                 "action": "Virgin",
-                "cost": 10,
+                "cost": 140,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrsvirgin.mp4"
             },
             {
                 "action": "Greeting",
-                "cost": 75,
+                "cost": 135,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrsgreeting.mp4"
             },
             {
                 "action": "Laugh",
-                "cost": 10,
+                "cost": 135,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrslaugh.mp4"
             },
             {
                 "action": "Pie Izquierdo",
-                "cost": 45,
+                "cost": 120,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrspielizquierdo.mp4"
             },
             {
                 "action": "Pie Derecho",
-                "cost": 55,
+                "cost": 115,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrspiederecho.mp4"
             },
             {
                 "action": "Mano Izquierda",
-                "cost": 20,
+                "cost": 185,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrsmanoizquierda.mp4"
             },
             {
                 "action": "Mano Derecha",
-                "cost": 50,
+                "cost": 110,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrsmanoderecha.mp4"
             },
             {
                 "action": "Ombligo",
-                "cost": 60,
+                "cost": 190,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrsombligo.mp4"
             },
             {
                 "action": "Hombro Izquierdo",
-                "cost": 60,
+                "cost": 165,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrshombroizquierdo.mp4"
             },
             {
                 "action": "Cabeza",
-                "cost": 45,
+                "cost": 105,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrscabeza.mp4"
             },
             {
                 "action": "Buy",
-                "cost": 70,
+                "cost": 100,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrsbuy.mp4"
             }
@@ -2654,67 +2654,67 @@
         "videos": [
             {
                 "action": "Buy",
-                "cost": 70,
+                "cost": 110,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrs2buy.mp4"
             },
             {
                 "action": "Buy 2",
-                "cost": 15,
+                "cost": 130,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrs2buy2.mp4"
             },
             {
                 "action": "Heart",
-                "cost": 40,
+                "cost": 135,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrs2corazon.mp4"
             },
             {
                 "action": "Glasses",
-                "cost": 40,
+                "cost": 180,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrs2lentes.mp4"
             },
             {
                 "action": "Modeling",
-                "cost": 15,
+                "cost": 195,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrs2modelaje.mp4"
             },
             {
                 "action": "Turn right",
-                "cost": 60,
+                "cost": 100,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrs2posegiroderecha.mp4"
             },
             {
                 "action": "Scratch",
-                "cost": 35,
+                "cost": 185,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrs2racaste.mp4"
             },
             {
                 "action": "Kiss",
-                "cost": 35,
+                "cost": 130,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrs2saludabeso.mp4"
             },
             {
                 "action": "Top Left",
-                "cost": 80,
+                "cost": 200,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrs2suiperiorizquierda.mp4"
             },
             {
                 "action": "Virgin",
-                "cost": 35,
+                "cost": 185,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrs2virgen.mp4"
             },
             {
                 "action": "Turn around",
-                "cost": 55,
+                "cost": 165,
                 "imageResId": "ic_model_profile",
                 "videoUrl": "https://cdn.jsdelivr.net/gh/Andrespro100apps/Videospoket@main/pgrs2vuelta.mp4"
             }
