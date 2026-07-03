@@ -1,0 +1,10 @@
+{
+	"Type": "Live2D Expression",
+	"Parameters": [
+		{
+			"Id": "ParamhairCollar",
+			"Value": 1.799,
+			"Blend": "Add"
+		}
+	]
+}

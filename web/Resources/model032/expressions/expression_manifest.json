@@ -1,0 +1,486 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "folderName": "defaults",
+      "allTextures": [],
+      "expressions": [
+        {
+          "name": "none",
+          "file": "defaults/none.exp3.json",
+          "channel": "4"
+        },
+        {
+          "name": "no_bottom",
+          "file": "defaults/no_bottom.exp3.json",
+          "channel": "10"
+        },
+        {
+          "name": "no_upper",
+          "file": "defaults/no_upper.exp3.json",
+          "channel": "8"
+        }
+      ]
+    },
+    {
+      "folderName": "emotions",
+      "allTextures": [],
+      "expressions": [
+        {
+          "name": "angry",
+          "file": "emotions/angry.exp3.json"
+        },
+        {
+          "name": "excited",
+          "file": "emotions/excited.exp3.json"
+        },
+        {
+          "name": "happy",
+          "file": "emotions/happy.exp3.json"
+        },
+        {
+          "name": "sad",
+          "file": "emotions/sad.exp3.json"
+        },
+        {
+          "name": "shy",
+          "file": "emotions/shy.exp3.json"
+        },
+        {
+          "name": "sleep",
+          "file": "emotions/sleep.exp3.json"
+        },
+        {
+          "name": "surprised",
+          "file": "emotions/surprised.exp3.json"
+        },
+        {
+          "name": "thoughtful",
+          "file": "emotions/thoughtful.exp3.json"
+        }
+      ]
+    },
+    {
+      "folderName": "eyes_color",
+      "allTextures": [],
+      "expressions": [
+        {
+          "name": "blue_eyes",
+          "file": "eyes_color/blue_eyes.exp3.json",
+          "channel": "3"
+        },
+        {
+          "name": "pink_eyes",
+          "file": "eyes_color/pink_eyes.exp3.json",
+          "channel": "3"
+        },
+        {
+          "name": "purple_eyes",
+          "file": "eyes_color/purple_eyes.exp3.json",
+          "channel": "3"
+        },
+        {
+          "name": "yellow_eyes",
+          "file": "eyes_color/yellow_eyes.exp3.json",
+          "channel": "3"
+        }
+      ]
+    },
+    {
+      "folderName": "face_effects",
+      "allTextures": [],
+      "expressions": [
+        {
+          "name": "cheek",
+          "file": "face_effects/cheek.exp3.json",
+          "channel": "4"
+        },
+        {
+          "name": "grass",
+          "file": "face_effects/grass.exp3.json",
+          "channel": "4"
+        },
+        {
+          "name": "guruguru",
+          "file": "face_effects/guruguru.exp3.json",
+          "channel": "4"
+        },
+        {
+          "name": "heart",
+          "file": "face_effects/heart.exp3.json",
+          "channel": "4"
+        },
+        {
+          "name": "jitome",
+          "file": "face_effects/jitome.exp3.json",
+          "channel": "4"
+        },
+        {
+          "name": "kirakira",
+          "file": "face_effects/kirakira.exp3.json",
+          "channel": "4"
+        },
+        {
+          "name": "mouth_inside",
+          "file": "face_effects/mouth_inside.exp3.json"
+        },
+        {
+          "name": "shock",
+          "file": "face_effects/shock.exp3.json",
+          "channel": "4"
+        },
+        {
+          "name": "tear",
+          "file": "face_effects/tear.exp3.json"
+        }
+      ]
+    },
+    {
+      "folderName": "glasses",
+      "allTextures": [],
+      "expressions": [
+        {
+          "name": "cute_glasses",
+          "file": "glasses/cute_glasses.exp3.json",
+          "channel": "5"
+        }
+      ]
+    },
+    {
+      "folderName": "hair",
+      "allTextures": [],
+      "expressions": [
+        {
+          "name": "front_hair_b",
+          "file": "hair/front_hair_b.exp3.json",
+          "channel": "1"
+        },
+        {
+          "name": "long_hair",
+          "file": "hair/long_hair.exp3.json",
+          "channel": "1"
+        },
+        {
+          "name": "short_hair",
+          "file": "hair/short_hair.exp3.json",
+          "channel": "1"
+        },
+        {
+          "name": "short_hair_b",
+          "file": "hair/short_hair_b.exp3.json",
+          "channel": "1"
+        },
+        {
+          "name": "twin_tail",
+          "file": "hair/twin_tail.exp3.json",
+          "channel": "1"
+        }
+      ]
+    },
+    {
+      "folderName": "hair_color/black_hair",
+      "allTextures": [
+        "texture_02.png"
+      ],
+      "expressions": [
+        {
+          "name": "black_hair",
+          "file": "hair_color/black_hair/black_hair.exp3.json",
+          "channel": "2"
+        }
+      ]
+    },
+    {
+      "folderName": "hair_color/brown_hair",
+      "allTextures": [
+        "texture_05.png"
+      ],
+      "expressions": [
+        {
+          "name": "brown_hair",
+          "file": "hair_color/brown_hair/brown_hair.exp3.json",
+          "channel": "2"
+        }
+      ]
+    },
+    {
+      "folderName": "hair_color/light_purple_hair",
+      "allTextures": [
+        "texture_01.png"
+      ],
+      "expressions": [
+        {
+          "name": "light_purple_hair",
+          "file": "hair_color/light_purple_hair/light_purple_hair.exp3.json",
+          "channel": "2"
+        }
+      ]
+    },
+    {
+      "folderName": "hair_color/pink_hair",
+      "allTextures": [
+        "texture_03.png"
+      ],
+      "expressions": [
+        {
+          "name": "pink_hair",
+          "file": "hair_color/pink_hair/pink_hair.exp3.json",
+          "channel": "2"
+        }
+      ]
+    },
+    {
+      "folderName": "hair_color/white_hair",
+      "allTextures": [
+        "texture_06.png"
+      ],
+      "expressions": [
+        {
+          "name": "white_hair",
+          "file": "hair_color/white_hair/white_hair.exp3.json",
+          "channel": "2"
+        }
+      ]
+    },
+    {
+      "folderName": "head_accessory",
+      "allTextures": [
+        "texture_19.png"
+      ],
+      "expressions": [
+        {
+          "name": "head_bear",
+          "file": "head_accessory/head_bear.exp3.json",
+          "channel": "0"
+        },
+        {
+          "name": "head_cat",
+          "file": "head_accessory/head_cat.exp3.json",
+          "channel": "0"
+        },
+        {
+          "name": "head_rabbit",
+          "file": "head_accessory/head_rabbit.exp3.json",
+          "channel": "0"
+        }
+      ]
+    },
+    {
+      "folderName": "outer_coat",
+      "allTextures": [
+        "texture_20.png"
+      ],
+      "expressions": [
+        {
+          "name": "white_outer_up_coat",
+          "file": "outer_coat/white_outer_up_coat.exp3.json",
+          "channel": "9"
+        }
+      ]
+    },
+    {
+      "folderName": "outfits/bikini",
+      "allTextures": [
+        "texture_17.png"
+      ],
+      "expressions": [
+        {
+          "name": "bikini_bottom",
+          "file": "outfits/bikini/bikini_bottom.exp3.json",
+          "channel": "10"
+        },
+        {
+          "name": "bikini_top",
+          "file": "outfits/bikini/bikini_top.exp3.json",
+          "channel": "8"
+        }
+      ]
+    },
+    {
+      "folderName": "outfits/bunny",
+      "allTextures": [
+        "texture_18.png"
+      ],
+      "expressions": [
+        {
+          "name": "bunny_shoes",
+          "file": "outfits/bunny/bunny_shoes.exp3.json"
+        },
+        {
+          "name": "bunny_stockings",
+          "file": "outfits/bunny/bunny_stockings.exp3.json"
+        },
+        {
+          "name": "bunny_suit",
+          "file": "outfits/bunny/bunny_suit.exp3.json"
+        }
+      ]
+    },
+    {
+      "folderName": "outfits/sleepwear",
+      "allTextures": [
+        "texture_07.png"
+      ],
+      "expressions": [
+        {
+          "name": "fluffy_slipper",
+          "file": "outfits/sleepwear/fluffy_slipper.exp3.json"
+        },
+        {
+          "name": "white_socks",
+          "file": "outfits/sleepwear/white_socks.exp3.json"
+        }
+      ]
+    },
+    {
+      "folderName": "outfits/sleepwear/blue",
+      "allTextures": [
+        "texture_07.png",
+        "texture_11.png"
+      ],
+      "expressions": [
+        {
+          "name": "sleepwear_blue",
+          "file": "outfits/sleepwear/blue/sleepwear_blue.exp3.json",
+          "channel": "8"
+        }
+      ]
+    },
+    {
+      "folderName": "outfits/sleepwear/pink",
+      "allTextures": [
+        "texture_07.png",
+        "texture_09.png"
+      ],
+      "expressions": [
+        {
+          "name": "sleepwear_pink",
+          "file": "outfits/sleepwear/pink/sleepwear_pink.exp3.json",
+          "channel": "8"
+        }
+      ]
+    },
+    {
+      "folderName": "outfits/sleepwear/purple",
+      "allTextures": [
+        "texture_07.png",
+        "texture_08.png"
+      ],
+      "expressions": [
+        {
+          "name": "sleepwear_purple",
+          "file": "outfits/sleepwear/purple/sleepwear_purple.exp3.json",
+          "channel": "8"
+        }
+      ]
+    },
+    {
+      "folderName": "outfits/sleepwear/yellow",
+      "allTextures": [
+        "texture_07.png",
+        "texture_10.png"
+      ],
+      "expressions": [
+        {
+          "name": "sleepwear_yellow",
+          "file": "outfits/sleepwear/yellow/sleepwear_yellow.exp3.json",
+          "channel": "8"
+        }
+      ]
+    },
+    {
+      "folderName": "outfits/uniform",
+      "allTextures": [
+        "texture_12.png"
+      ],
+      "expressions": [
+        {
+          "name": "leather_shoes",
+          "file": "outfits/uniform/leather_shoes.exp3.json",
+          "channel": "12"
+        },
+        {
+          "name": "long_white_socks",
+          "file": "outfits/uniform/long_white_socks.exp3.json",
+          "channel": "11"
+        }
+      ]
+    },
+    {
+      "folderName": "outfits/uniform/green",
+      "allTextures": [
+        "texture_12.png",
+        "texture_16.png"
+      ],
+      "expressions": [
+        {
+          "name": "uniform_bottom_green",
+          "file": "outfits/uniform/green/uniform_bottom_green.exp3.json",
+          "channel": "10"
+        },
+        {
+          "name": "uniform_upper_green",
+          "file": "outfits/uniform/green/uniform_upper_green.exp3.json",
+          "channel": "8"
+        }
+      ]
+    },
+    {
+      "folderName": "outfits/uniform/navy",
+      "allTextures": [
+        "texture_12.png",
+        "texture_13.png"
+      ],
+      "expressions": [
+        {
+          "name": "uniform_bottom_navy",
+          "file": "outfits/uniform/navy/uniform_bottom_navy.exp3.json",
+          "channel": "10"
+        },
+        {
+          "name": "uniform_upper_navy",
+          "file": "outfits/uniform/navy/uniform_upper_navy.exp3.json",
+          "channel": "8"
+        }
+      ]
+    },
+    {
+      "folderName": "outfits/uniform/pink",
+      "allTextures": [
+        "texture_12.png",
+        "texture_14.png"
+      ],
+      "expressions": [
+        {
+          "name": "uniform_bottom_pink",
+          "file": "outfits/uniform/pink/uniform_bottom_pink.exp3.json",
+          "channel": "10"
+        },
+        {
+          "name": "uniform_upper_pink",
+          "file": "outfits/uniform/pink/uniform_upper_pink.exp3.json",
+          "channel": "8"
+        }
+      ]
+    },
+    {
+      "folderName": "outfits/uniform/yellow",
+      "allTextures": [
+        "texture_12.png",
+        "texture_15.png"
+      ],
+      "expressions": [
+        {
+          "name": "uniform_bottom_yellow",
+          "file": "outfits/uniform/yellow/uniform_bottom_yellow.exp3.json",
+          "channel": "10"
+        },
+        {
+          "name": "uniform_upper_yellow",
+          "file": "outfits/uniform/yellow/uniform_upper_yellow.exp3.json",
+          "channel": "8"
+        }
+      ]
+    }
+  ]
+}

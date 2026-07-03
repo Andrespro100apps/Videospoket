@@ -1,0 +1,651 @@
+{
+  "_meta": {
+    "title": "Las Chicas del Verano Eterno",
+    "version": "3.0.0",
+    "lang": "es",
+    "inspired": "Inspirado en Katawa Shoujo, Higurashi y novelas visuales de misterio y psicología. Uso completo de todos los recursos gráficos."
+  },
+  "title": "Las Chicas del Verano Eterno",
+  "startVars": {
+    "confianza_aiko": 0,
+    "confianza_yumi": 0,
+    "confianza_sora": 0,
+    "confianza_saki": 0,
+    "confianza_hina": 0,
+    "sospecha": 0,
+    "miedo": 0,
+    "verdad": 0,
+    "sabe_sotano": false,
+    "sabe_accidente": false,
+    "confronto_aiko": false
+  },
+  "scenes": {
+    "start": {
+      "chapter": "Prólogo: La Llegada a la Villa",
+      "bg": "img/venue_home.jpg",
+      "bgm": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[Una novela visual interactiva de misterio, psicología y romance. Todas las decisiones alteran la historia.]"
+        },
+        {
+          "speaker": "narrator",
+          "text": "El sol brilla con una intensidad sofocante. El zumbido constante de las cigarras resuena en tus oídos, como un segundero invisible de un reloj que se niega a avanzar."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Caminas con tu maleta por el polvoriento sendero. A lo lejos, las colinas tiemblan bajo el efecto del calor. No hay viento, solo el denso olor a tierra seca."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Finalmente, llegas a la Villa del Verano Eterno. Es una vieja mansión de madera de estilo tradicional, rodeada de frondosos árboles de cerezo que misteriosamente aún conservan hojas verdes en lugar de flores."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Al cruzar el umbral del portón de madera, tres chicas te reciben. Sus miradas se clavan en ti, mezclando sorpresa, alivio y una extraña familiaridad que no logras comprender."
+        },
+        {
+          "speaker": "Aiko",
+          "sprite": "img/aiko_cat.png",
+          "expr": "happy",
+          "text": "¡Hola! Qué alegría verte por aquí. Estábamos esperándote con los brazos abiertos. ¡Entra rápido antes de que te derritas bajo este sol abrasador!"
+        },
+        {
+          "speaker": "Yumi",
+          "sprite": "img/girls/girl2_happy.png",
+          "expr": "happy",
+          "text": "H-hola... Bienvenida a nuestra Villa. Es un gusto conocerte. Esperamos de todo corazón que tu estancia aquí... sea inolvidable y pacífica."
+        },
+        {
+          "speaker": "Sora",
+          "sprite": "img/aiko_pinky.png",
+          "expr": "happy",
+          "text": "¡Bienvenido, viajero! No te quedes ahí parado en la entrada. He preparado una jarra grande de té helado de cebada en la cocina. Ven a refrescarte."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Las tres chicas parecen amables, pero notas que visten ropa inusual para un día común en el campo: Sora lleva un traje de sirvienta, Aiko tiene orejas de gato decorativas y Yumi te mira con una timidez casi temerosa."
+        },
+        {
+          "speaker": "narrator",
+          "text": "¿A quién decides acompañar primero para conocer los alrededores?"
+        }
+      ],
+      "choices": [
+        {
+          "text": "Explorar el pueblo con Aiko (Chica Gato)",
+          "next": "go_town",
+          "set": { "confianza_aiko": 2 }
+        },
+        {
+          "text": "Visitar la cafetería local con Sora (Sirvienta)",
+          "next": "go_tea_shop",
+          "set": { "confianza_sora": 2 }
+        },
+        {
+          "text": "Acompañar a Yumi a los viejos archivos del pueblo",
+          "next": "go_archives",
+          "set": { "confianza_yumi": 2 }
+        }
+      ]
+    },
+    "go_town": {
+      "chapter": "Capítulo 1: Las Calles del Verano",
+      "bg": "img/bg_map_town.jpg",
+      "bgm": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Decides salir con Aiko. Caminan a través de las empinadas calles empedradas de la villa. Aiko camina dando saltitos, haciendo sonar los cascabeles de su diadema."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Al mirar alrededor, notas algo extraño: las tiendas están abiertas, los faroles encendidos, pero no hay un solo habitante cruzando la calle. Es un silencio absoluto."
+        },
+        {
+          "speaker": "Aiko",
+          "sprite": "img/aiko_cat.png",
+          "expr": "happy",
+          "text": "¿No es hermoso este lugar? Aquí el verano nunca termina. No hay inviernos grises, ni otoños tristes donde las hojas mueren. Solo este eterno día soleado... una y otra vez."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Su comentario te produce un leve escalofrío. Habla de la eternidad con una sonrisa, pero hay una profunda melancolía oculta en sus ojos verdes."
+        },
+        {
+          "speaker": "narrator",
+          "text": "De repente, doblando una esquina de la calle principal, una chica enérgica vestida con un colorido traje de sirvienta se acerca corriendo hacia ustedes."
+        },
+        {
+          "speaker": "Saki",
+          "sprite": "img/sprite_saki.png",
+          "text": "¡Aiko! ¡Hola! ¡Qué alegría verlas paseando! Y... ¡espera! ¿Quién es tu nuevo acompañante? ¿Es acaso el invitado de honor del que hablaban?"
+        },
+        {
+          "speaker": "Aiko",
+          "sprite": "img/aiko_cat.png",
+          "expr": "happy",
+          "text": "Así es, Saki. Acaba de llegar hoy mismo. Le estoy mostrando las calles del pueblo antes de que caiga la noche."
+        },
+        {
+          "speaker": "Saki",
+          "sprite": "img/sprite_saki.png",
+          "text": "¡Qué genial! ¡Bienvenido a nuestro rincón del mundo! Si se cansan de caminar bajo este calor, por favor pasen por el Maid Café en la plaza. ¡Les prepararé un parfait gigante de fresa!"
+        },
+        {
+          "speaker": "narrator",
+          "text": "Saki sonríe con entusiasmo desbordante. Su energía contrasta fuertemente con la quietud fantasmal de los edificios vacíos del pueblo."
+        }
+      ],
+      "choices": [
+        {
+          "text": "Prometer visitar el café de Saki más tarde",
+          "next": "saki_promise",
+          "set": { "confianza_saki": 2 }
+        },
+        {
+          "text": "Preguntar a Aiko sobre la extraña ausencia de personas",
+          "next": "town_suspicion",
+          "set": { "sospecha": 2 }
+        }
+      ]
+    },
+    "saki_promise": {
+      "chapter": "Capítulo 1: Calles del Verano",
+      "bg": "img/bg_map_street.jpg",
+      "lines": [
+        {
+          "speaker": "Saki",
+          "sprite": "img/sprite_saki.png",
+          "text": "¡Es una promesa! Estaré esperándolos en la barra principal con las tazas listas. ¡No me vayan a fallar, eh!"
+        },
+        {
+          "speaker": "narrator",
+          "text": "Saki da una media vuelta alegre, haciendo volar su delantal, y entra corriendo a un edificio con un letrero luminoso que parpadea."
+        },
+        {
+          "speaker": "Aiko",
+          "sprite": "img/aiko_cat.png",
+          "expr": "happy",
+          "text": "Saki siempre ha sido así de alegre. Es agradable tener a alguien que mantenga el ánimo alto aquí. Sigamos adelante."
+        }
+      ],
+      "next": "night_fall"
+    },
+    "town_suspicion": {
+      "chapter": "Capítulo 1: Calles del Verano",
+      "bg": "img/bg_map_street.jpg",
+      "lines": [
+        {
+          "speaker": "Aiko",
+          "sprite": "img/aiko_cat.png",
+          "expr": "happy",
+          "text": "¿Ausencia de personas? Oh... es solo que todos están descansando en sus casas debido a la ola de calor del mediodía. No pienses demasiado en eso... solo relájate y disfruta del sol."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Su respuesta suena ensayada, casi mecánica. Miras hacia las ventanas de las casas vecinas, pero no ves sombras ni movimiento de cortinas. Solo cristales oscuros reflejando el cielo azul inmóvil."
+        }
+      ],
+      "next": "night_fall"
+    },
+    "go_tea_shop": {
+      "chapter": "Capítulo 1: Dulce Aroma",
+      "bg": "img/bg_scene3.jfif",
+      "bgm": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Decides ir con Sora. Ella te lleva a una pintoresca tetería local llamada 'Aroma de Canela'. Las paredes son de madera pulida y el ambiente huele a canela fresca y hojas de té tostadas."
+        },
+        {
+          "speaker": "Sora",
+          "sprite": "img/aiko_pinky.png",
+          "expr": "happy",
+          "text": "Me encanta venir aquí por las tardes. Siempre hay una paz absoluta y el aroma calma mis pensamientos. La camarera principal es una buena amiga mía."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Al entrar, una chica con un elegante uniforme de sirvienta victoriana les da la bienvenida con una reverencia perfecta."
+        },
+        {
+          "speaker": "Maid",
+          "sprite": "img/sprite_cafe_maid.png",
+          "text": "Sean muy bienvenidos a nuestra tetería. Por favor, tomen asiento junto a la ventana. ¿Qué les apetecería degustar en esta cálida tarde de verano?"
+        },
+        {
+          "speaker": "Sora",
+          "sprite": "img/aiko_pinky.png",
+          "expr": "happy",
+          "text": "Trae dos de tus famosos tés fríos especiales y una porción de tu tarta de manzana recién horneada, por favor."
+        },
+        {
+          "speaker": "Maid",
+          "sprite": "img/sprite_cafe_maid.png",
+          "text": "Excelente elección. Prepararé su pedido de inmediato. Que disfruten de su conversación."
+        },
+        {
+          "speaker": "narrator",
+          "text": "La camarera se retira en silencio. Miras de reojo a Sora, quien acomoda su delantal de sirvienta con timidez, jugando con sus dedos."
+        }
+      ],
+      "choices": [
+        {
+          "text": "Halagar a Sora y decirle que su traje le queda hermoso",
+          "next": "tea_sweet",
+          "set": { "confianza_sora": 2 }
+        },
+        {
+          "text": "Preguntar a la camarera si nota algo inusual en el clima del pueblo",
+          "next": "tea_ask_maid",
+          "set": { "sospecha": 2 }
+        }
+      ]
+    },
+    "tea_sweet": {
+      "chapter": "Capítulo 1: Dulce Aroma",
+      "bg": "img/bg_scene3.jfif",
+      "lines": [
+        {
+          "speaker": "Sora",
+          "sprite": "img/aiko_pinky.png",
+          "expr": "happy",
+          "text": "¡Ay! ¡Qué cosas dices!... Me esfuerzo mucho en vestirme así cuando vienen personas especiales a la Villa. Me alegra muchísimo que te guste cómo me veo..."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Sora desvía la mirada con las mejillas sonrojadas, sonriendo dulcemente mientras saborea el té frío que la camarera acaba de dejar en la mesa."
+        }
+      ],
+      "next": "night_fall"
+    },
+    "tea_ask_maid": {
+      "chapter": "Capítulo 1: Dulce Aroma",
+      "bg": "img/bg_scene3.jfif",
+      "lines": [
+        {
+          "speaker": "Maid",
+          "sprite": "img/sprite_cafe_maid.png",
+          "text": "¿Algo inusual? Bueno... ahora que lo menciona, no recuerdo haber visto nubes ni lluvia en mi memoria reciente. Los días siempre son soleados y hermosos. Pero la rutina aquí es tan perfecta que nadie se queja nunca."
+        },
+        {
+          "speaker": "narrator",
+          "text": "La respuesta de la camarera es serena, casi hipnótica. Sora interviene rápidamente con una sonrisa algo forzada."
+        },
+        {
+          "speaker": "Sora",
+          "sprite": "img/aiko_pinky.png",
+          "expr": "happy",
+          "text": "¡Exacto! El clima soleado es fantástico para estar de vacaciones, ¿no crees? Disfrutemos del té."
+        }
+      ],
+      "next": "night_fall"
+    },
+    "go_archives": {
+      "chapter": "Capítulo 1: Susurros del Pasado",
+      "bg": "img/bg_scene2.jfif",
+      "bgm": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Acompañas a Yumi. Ella te guía hasta un antiguo edificio de piedra gris en las afueras del pueblo. Al entrar, el aire huele a papel viejo, cuero y polvo acumulado durante décadas."
+        },
+        {
+          "speaker": "Yumi",
+          "sprite": "img/girls/girl2_sad.png",
+          "expr": "sad",
+          "text": "Vengo aquí a menudo a buscar... respuestas. Siento un vacío constante en mi mente, como si una parte crucial de mi pasado y mis recuerdos hubiera sido borrada de golpe."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Yumi camina entre los altos estantes llenos de libros encuadernados en cuero negro. De repente, una chica con lentes circulares y expresión seria sale detrás de un escritorio con unos folletos desgastados."
+        },
+        {
+          "speaker": "Mai",
+          "sprite": "img/sprite_mai.png",
+          "text": "¿Buscando registros antiguos en las secciones restringidas? Tengan cuidado con lo que revuelven. La verdad a veces pesa mucho más de lo que una mente humana puede soportar."
+        },
+        {
+          "speaker": "Yumi",
+          "sprite": "img/girls/girl2_sad.png",
+          "expr": "sad",
+          "text": "Solo... queremos saber más de la historia de los fundadores del pueblo, Mai. ¿Hay registros de hace un año?"
+        },
+        {
+          "speaker": "Mai",
+          "sprite": "img/sprite_mai.png",
+          "text": "Este pueblo no tiene registros históricos reales. Solo tiene... un presente estático que gira en círculos y nunca avanza."
+        }
+      ],
+      "choices": [
+        {
+          "text": "Ayudar a Yumi a buscar en las carpetas de diarios antiguos",
+          "next": "archives_search",
+          "set": { "verdad": 2, "sabe_accidente": true }
+        },
+        {
+          "text": "Preguntar a Mai a qué se refiere con que el tiempo no avanza",
+          "next": "archives_confront_mai",
+          "set": { "sospecha": 3 }
+        }
+      ]
+    },
+    "archives_search": {
+      "chapter": "Capítulo 1: Archivos",
+      "bg": "img/bg_scene2.jfif",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Hojear un archivador polvoriento etiquetado como 'Noticias Locales'. Encuentras un recorte de prensa de hace exactamente un año."
+        },
+        {
+          "speaker": "narrator",
+          "text": "El titular reza: 'Terrible accidente en la autopista de la montaña deja a tres jóvenes de la Villa en coma profundo. Los médicos luchan por sus vidas'."
+        },
+        {
+          "speaker": "narrator",
+          "text": "La fotografía muestra un coche rojo destrozado. Yumi mira la foto sobre tu hombro y se lleva las manos a la boca, temblando."
+        },
+        {
+          "speaker": "Yumi",
+          "sprite": "img/girls/girl2_sad.png",
+          "expr": "sad",
+          "text": "Ese coche... es idéntico al que recuerdo en mis pesadillas... Siento un frío terrible en mi pecho, como si estuviera... muriendo..."
+        }
+      ],
+      "next": "night_fall"
+    },
+    "archives_confront_mai": {
+      "chapter": "Capítulo 1: Archivos",
+      "bg": "img/bg_scene2.jfif",
+      "lines": [
+        {
+          "speaker": "Mai",
+          "sprite": "img/sprite_mai.png",
+          "text": "Miren los relojes de las paredes. Ninguno avanza de las doce en punto. Las manecillas tiemblan pero regresan al mismo lugar. Todo esto es una simulación creada por sus subconscientes para mantener la calma mientras sus cuerpos reales luchan en el hospital."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Yumi se abraza a sí misma con fuerza, con los ojos llenos de pánico."
+        },
+        {
+          "speaker": "Yumi",
+          "sprite": "img/girls/girl2_sad.png",
+          "expr": "sad",
+          "text": "No... no puede ser real lo que dices... por favor, no sigas..."
+        }
+      ],
+      "next": "night_fall"
+    },
+    "night_fall": {
+      "chapter": "Capítulo 2: Sombras de la Noche",
+      "bg": "img/bg_scene7.jfif",
+      "bgm": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "La noche cae de golpe sobre la villa. No hay atardecer intermedio, la luz solar se apaga como si alguien hubiera accionado un interruptor gigante."
+        },
+        {
+          "speaker": "narrator",
+          "text": "El viento empieza a aullar entre las ramas de los cerezos secos. Un frío glacial penetra por las grietas de la Villa del Verano Eterno."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Te acuestas en tu futón, pero no logras dormir. En medio de la oscuridad absoluta, escuchas un susurro misterioso que parece llamarte desde el exterior."
+        }
+      ],
+      "choices": [
+        {
+          "text": "Seguir la voz hacia el sendero del Santuario en el bosque",
+          "next": "shrine_path",
+          "set": { "miedo": 2 }
+        },
+        {
+          "text": "Investigar los crujidos que provienen del sótano de la villa",
+          "next": "cellar_explore",
+          "set": { "sabe_sotano": true, "verdad": 2 }
+        }
+      ]
+    },
+    "shrine_path": {
+      "chapter": "Capítulo 2: El Camino de Linternas",
+      "bg": "img/bg_scene6.jfif",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Sales en silencio y caminas por un sendero de tierra bordeado de antiguas linternas de piedra que emiten una luz azulada y mortecina. El follaje del bosque susurra a tu alrededor."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Al llegar al claro del altar, una figura enigmática encapuchada vestida con túnicas ceremoniales oscuras te bloquea el paso."
+        },
+        {
+          "speaker": "Misterio",
+          "sprite": "img/sprite_mystery.png",
+          "text": "Caminas entre el mundo de los vivos y el de los muertos, viajero. Las almas que habitan esta villa están al borde del colapso energético. Si no las guías a despertar, este ciclo falso las consumirá para siempre."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Tratas de acercarte para ver su rostro, pero la silueta se disuelve en una densa niebla gris antes de que puedas pronunciar una sola palabra."
+        }
+      ],
+      "next": "day_2"
+    },
+    "cellar_explore": {
+      "chapter": "Capítulo 2: La Cripta de la Memoria",
+      "bg": "img/bg_scene8.jfif",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Bajas lentamente las crujientes escaleras de madera hacia el sótano. En el centro de la sala, hay una vieja radio de tubos emitiendo estática y voces distorsionadas."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Sobre una mesa metálica, encuentras tres carpetas con informes médicos detallados pertenecientes a Aiko, Yumi y Sora, con gráficos de pulso cardíaco casi planos."
+        },
+        {
+          "speaker": "narrator",
+          "fx": "glitch",
+          "text": "De repente, un frío insoportable inunda la habitación. Una sombra se proyecta sobre la pared. Es Sora, quien te observa desde las escaleras con una mirada seria."
+        },
+        {
+          "speaker": "Sora",
+          "sprite": "img/aiko_pinky.png",
+          "expr": "happy",
+          "text": "No deberías estar buscando cosas en la oscuridad. A veces, la ignorancia es el mayor y más piadoso de los regalos en este mundo..."
+        }
+      ],
+      "next": "day_2"
+    },
+    "day_2": {
+      "chapter": "Capítulo 3: El Día Glitch",
+      "bg": "img/bg_scene4.jfif",
+      "bgm": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "El amanecer del día siguiente es aterrador: el cielo tiene una tonalidad rojiza distorsionada y la gravedad parece fallar por momentos, haciendo que pequeños objetos floten en el aire."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Caminas hacia la plaza central buscando respuestas. Allí encuentras a una chica sentada en el suelo, dibujando de forma compulsiva en una libreta."
+        },
+        {
+          "speaker": "Hina",
+          "sprite": "img/sprite_chica_manga.png",
+          "text": "Las líneas de mi dibujo se tuercen solas... El código de esta realidad se está quebrando y nadie parece darse cuenta de que el mundo se desmorona. ¿Tú también lo ves, verdad?"
+        }
+      ],
+      "choices": [
+        {
+          "text": "Pedir a Hina que te ayude a encontrar la salida de esta simulación",
+          "next": "hina_help",
+          "set": { "confianza_hina": 2, "verdad": 3 }
+        },
+        {
+          "text": "Huir asustado hacia el parque para calmar tus nervios",
+          "next": "park_escape",
+          "set": { "miedo": 2 }
+        }
+      ]
+    },
+    "hina_help": {
+      "chapter": "Capítulo 3: Glitch",
+      "bg": "img/bg_scene4.jfif",
+      "lines": [
+        {
+          "speaker": "Hina",
+          "sprite": "img/sprite_chica_manga.png",
+          "text": "La anomalía principal está en el lago del pueblo... Al atardecer, cuando la barrera de datos entre este sueño y la realidad real sea más delgada, podrás usar tu voluntad para romper el cristal del coma."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Hina te entrega un mapa con coordenadas trazadas en tinta roja brillante que apunta directamente al centro del gran lago de la villa."
+        }
+      ],
+      "next": "day_3_climax"
+    },
+    "park_escape": {
+      "chapter": "Capítulo 3: Refugio Verde",
+      "bg": "img/bg_map_park.webp",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Corres hacia el parque buscando un rincón donde esconderte. Al sentarte en un banco de madera, notas que el césped se siente de plástico bajo tus manos."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Una misteriosa chica vestida con ropa escolar de manga aparece a tu lado en silencio."
+        },
+        {
+          "speaker": "Manga Girl",
+          "sprite": "img/sprite_manga_girl.png",
+          "text": "Es inútil correr o asustarse. Todos somos parte del sueño veraniego de alguien más. Te sugiero que disfrutes de la brisa artificial mientras los servidores sigan encendidos..."
+        }
+      ],
+      "next": "day_3_climax"
+    },
+    "day_3_climax": {
+      "chapter": "Capítulo 4: El Fin de la Ilusión",
+      "bg": "img/bg_scene5.jfif",
+      "bgm": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Un terremoto violento sacude la villa. El cielo se desgarra en patrones de píxeles negros y las aguas del lago adquieren una tonalidad carmesí brillante."
+        },
+        {
+          "speaker": "Aiko",
+          "sprite": "img/aiko_cat.png",
+          "expr": "happy",
+          "text": "El verano eterno se apaga por completo... La ilusión médica colapsará en cuestión de segundos. Debes tomar tu decisión final ahora mismo o quedarás atrapado en los restos de esta memoria vacía."
+        }
+      ],
+      "choices": [
+        {
+          "text": "Confrontar la realidad y romper el bucle (Final Verdadero)",
+          "if": "verdad >= 3 && sabe_accidente",
+          "next": "route_true"
+        },
+        {
+          "text": "Cerrar los ojos y aceptar el fin del ciclo (Final Trágico)",
+          "next": "route_tragic"
+        },
+        {
+          "text": "Intentar huir solo a través de la estación de trenes (Final Malo)",
+          "next": "route_bad"
+        },
+        {
+          "text": "Quedarse para siempre en el sueño veraniego (Final Dulce)",
+          "next": "route_sweet"
+        }
+      ]
+    },
+    "route_true": {
+      "chapter": "Epílogo: El Despertar",
+      "bg": "img/bg_scene9.jfif",
+      "bgm": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Abres los ojos con gran dificultad. La intensa luz blanca de una sala de hospital te ciega por un instante. Escuchas el pitido rítmico y real de los monitores de ritmo cardíaco."
+        },
+        {
+          "speaker": "Yumi",
+          "sprite": "img/girls/girl2_happy.png",
+          "expr": "happy",
+          "text": "Despertaste... Los doctores dijeron que era un auténtico milagro médico. Lo logramos... gracias a tu valentía logramos romper el ciclo de nuestras mentes y volver a la vida."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Miras a tus lados y ves a Aiko y Sora sonriendo desde sus respectivas camillas de recuperación. El verano eterno en la villa ha terminado, pero vuestras verdaderas vidas acaban de comenzar en el mundo exterior."
+        }
+      ],
+      "ending": {
+        "desc": "Conseguiste romper las paradojas del coma y trajiste a todos de vuelta a la vida real. Un final profundo y feliz.",
+        "type": "true"
+      }
+    },
+    "route_tragic": {
+      "chapter": "Epílogo: La Falla del Sistema",
+      "bg": "img/bg_scene11.jfif",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Decides no luchar más. El cielo se fractura en miles de pedazos brillantes. Un frío invernal congela el lago y todo a tu alrededor se apaga, sumergiéndose en una estática de televisión analógica."
+        },
+        {
+          "speaker": "Aiko",
+          "sprite": "img/girls/girl2_scared.png",
+          "expr": "scared",
+          "text": "Todo se rompe... ¿Por qué tuvimos que buscar la verdad en primer lugar? Duele tanto... me desvanezco..."
+        }
+      ],
+      "ending": {
+        "desc": "La realidad del sueño colapsó sin una guía real, dejando a las almas flotando en la nada de la inconsciencia eterna.",
+        "type": "bad"
+      }
+    },
+    "route_bad": {
+      "chapter": "Epílogo: Estación del Olvido",
+      "bg": "img/bg_scene10.jfif",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Corres desesperadamente a la estación de trenes abandonada en las afueras. Subes a toda prisa al último vagón mientras el pueblo entero se desmorona y se hunde en el vacío a tus espaldas."
+        },
+        {
+          "speaker": "narrator",
+          "text": "El tren arranca silenciosamente y avanza hacia una oscuridad infinita y fría. Viajarás solo en este vagón vacío por toda la eternidad, incapaz de despertar o regresar."
+        }
+      ],
+      "ending": {
+        "desc": "Huiste solo de las responsabilidades y quedaste atrapado en un tren sin destino ni fin.",
+        "type": "bad"
+      }
+    },
+    "route_sweet": {
+      "chapter": "Epílogo: Cielo Estrellado",
+      "bg": "img/bg_scene12.jfif",
+      "bgm": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Decides ignorar la cruda realidad del hospital y decides quedarte con ellas en esta hermosa e interminable noche estrellada de la villa."
+        },
+        {
+          "speaker": "Aiko",
+          "sprite": "img/aiko_cat.png",
+          "expr": "happy",
+          "text": "Sabía que elegirías quedarte con nosotras, viajero. El sol volverá a salir mañana, y jugaremos juntos de nuevo bajo este cielo cálido que nunca cambiará."
+        }
+      ],
+      "ending": {
+        "desc": "Elegiste la ignorancia feliz, disfrutando de un eterno verano de fantasía y risas bajo el cielo estrellado.",
+        "type": "good"
+      }
+    }
+  }
+}

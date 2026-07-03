@@ -1,0 +1,20 @@
+{
+	"Type": "Live2D Expression",
+	"Parameters": [
+		{
+			"Id": "Paramuniformupperpartcolor",
+			"Value": 0.7,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Paramuniformupperbase",
+			"Value": 1,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Paramuniformtieupperpartcolor",
+			"Value": 0.7,
+			"Blend": "Add"
+		}
+	]
+}

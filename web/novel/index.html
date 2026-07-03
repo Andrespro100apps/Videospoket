@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Historia Pocket</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="game" class="hidden">
+  <!-- Capa de fondo de escena -->
+  <div id="bg-layer">
+    <img id="bg-img" src="" alt="">
+    <div id="bg-overlay"></div>
+  </div>
+
+  <!-- Capa de personaje/sprite -->
+  <div id="char-layer">
+    <img id="char-img" src="" alt="">
+  </div>
+
+  <!-- Capa de efectos (temblor, glitch, sangre, etc.) -->
+  <canvas id="fx-canvas"></canvas>
+
+  <!-- Capa de sangre (efecto de terror) -->
+  <div id="blood-layer"></div>
+
+  <!-- Nombre del hablante -->
+  <div id="speaker-box" class="hidden"></div>
+
+  <!-- Caja de diálogo -->
+  <div id="dialog-box">
+    <div id="dialog-text"></div>
+    <div id="continue-indicator">▼</div>
+  </div>
+
+  <!-- Contenedor de opciones -->
+  <div id="choices-box" class="hidden"></div>
+
+  <!-- HUD superior: capítulo, progreso, botón menú -->
+  <div id="hud-top">
+    <button id="btn-menu" class="hud-btn">☰</button>
+    <div id="chapter-label"></div>
+    <button id="btn-skip" class="hud-btn">⏭</button>
+  </div>
+
+  <!-- Menú de pausa -->
+  <div id="pause-menu" class="overlay hidden">
+    <div class="overlay-card">
+      <h2>Pausa</h2>
+      <button class="menu-btn" data-action="resume">▶ Continuar</button>
+      <button class="menu-btn" data-action="save">💾 Guardar</button>
+      <button class="menu-btn" data-action="load">📂 Cargar</button>
+      <button class="menu-btn" data-action="restart">🔁 Reiniciar capítulo</button>
+      <button class="menu-btn" data-action="exit">✖ Salir</button>
+    </div>
+  </div>
+
+  <!-- Pantalla de final -->
+  <div id="ending-screen" class="overlay hidden">
+    <div class="overlay-card">
+      <h2 id="ending-title"></h2>
+      <p id="ending-desc"></p>
+      <button class="menu-btn" data-action="restart">🔁 Volver a jugar</button>
+      <button class="menu-btn" data-action="exit">✖ Menú principal</button>
+    </div>
+  </div>
+
+  <!-- Efecto de pantalla rota (inmersivo) -->
+  <div id="screen-crack"></div>
+
+</div>
+
+<!-- Pantalla de carga -->
+<div id="loading-screen">
+  <div class="loader-circle"></div>
+  <div id="loading-text">Cargando historia…</div>
+</div>
+
+<script src="engine.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+	"Type": "Live2D Expression",
+	"Parameters": [
+		{
+			"Id": "Paramuniformbottombasepartcolor",
+			"Value": 0.7,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Paramuniformbottombase",
+			"Value": 1,
+			"Blend": "Add"
+		}
+	]
+}

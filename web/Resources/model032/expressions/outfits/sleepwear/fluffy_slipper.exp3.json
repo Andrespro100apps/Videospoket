@@ -1,0 +1,15 @@
+{
+	"Type": "Live2D Expression",
+	"Parameters": [
+		{
+			"Id": "ParamFlufflySlipper",
+			"Value": 1,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamFootShrink",
+			"Value": 1,
+			"Blend": "Add"
+		}
+	]
+}

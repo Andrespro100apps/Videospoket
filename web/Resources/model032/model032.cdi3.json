@@ -1,0 +1,911 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "Paramtie",
+			"GroupId": "",
+			"Name": "tie x"
+		},
+		{
+			"Id": "Paramtie2",
+			"GroupId": "",
+			"Name": "tie y"
+		},
+		{
+			"Id": "Paramuniformtieupperpartcolor",
+			"GroupId": "",
+			"Name": "uniform tie upper part color"
+		},
+		{
+			"Id": "ParamARMPHYX",
+			"GroupId": "",
+			"Name": "SKRT PHY X"
+		},
+		{
+			"Id": "ParamARMPHYX2",
+			"GroupId": "",
+			"Name": "SKRT PHY X"
+		},
+		{
+			"Id": "ParamARMPHYX3",
+			"GroupId": "",
+			"Name": "SKRT PHY X"
+		},
+		{
+			"Id": "ParamARMPHYY",
+			"GroupId": "",
+			"Name": "SKRT PHY Y"
+		},
+		{
+			"Id": "ParamARMPHYY2",
+			"GroupId": "",
+			"Name": "SKRT PHY Y"
+		},
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "ParamGroup",
+			"Name": "角度 X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "ParamGroup",
+			"Name": "角度 Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "ParamGroup",
+			"Name": "角度 Z"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "ParamGroup",
+			"Name": "体　X (body X)"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "ParamGroup",
+			"Name": "体　Y (body Y)"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "ParamGroup",
+			"Name": "体　Z (body Zy)"
+		},
+		{
+			"Id": "ParamBodyAngleX2",
+			"GroupId": "ParamGroup",
+			"Name": "腰　X"
+		},
+		{
+			"Id": "ParamBodyAngleY2",
+			"GroupId": "ParamGroup",
+			"Name": "腰　Y"
+		},
+		{
+			"Id": "ParamBodyAngleZ2",
+			"GroupId": "ParamGroup",
+			"Name": "腰　Z (body Zx)"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "ParamGroup",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "ParamGroup2",
+			"Name": "左目　開閉"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "ParamGroup2",
+			"Name": "左目　笑顔"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "ParamGroup2",
+			"Name": "右目　開閉"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "ParamGroup2",
+			"Name": "右目　笑顔"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "ParamGroup2",
+			"Name": "目玉 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "ParamGroup2",
+			"Name": "目玉 Y"
+		},
+		{
+			"Id": "ParamshakeeyeL",
+			"GroupId": "ParamGroup2",
+			"Name": "左瞳の揺れ"
+		},
+		{
+			"Id": "ParamshakeeyeL3",
+			"GroupId": "ParamGroup2",
+			"Name": "左瞳の揺れ2"
+		},
+		{
+			"Id": "ParamshakeeyeL2",
+			"GroupId": "ParamGroup2",
+			"Name": "左瞳 縮小"
+		},
+		{
+			"Id": "ParamshakeeyeR",
+			"GroupId": "ParamGroup2",
+			"Name": "右瞳の揺れ"
+		},
+		{
+			"Id": "ParamshakeeyeR3",
+			"GroupId": "ParamGroup2",
+			"Name": "右瞳の揺れ2"
+		},
+		{
+			"Id": "ParamshakeeyeR2",
+			"GroupId": "ParamGroup2",
+			"Name": "右瞳 縮小"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "ParamGroup3",
+			"Name": "左眉　上下"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "ParamGroup3",
+			"Name": "左眉　左右"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "ParamGroup3",
+			"Name": "左眉　角度"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "ParamGroup3",
+			"Name": "左眉　変形"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "ParamGroup3",
+			"Name": "右眉　上下"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "ParamGroup3",
+			"Name": "右眉　左右"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "ParamGroup3",
+			"Name": "右眉　角度"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "ParamGroup3",
+			"Name": "右眉　変形"
+		},
+		{
+			"Id": "ParambustshakeY",
+			"GroupId": "ParamGroup6",
+			"Name": "胸揺れY (boobs y)"
+		},
+		{
+			"Id": "ParambustshakeX",
+			"GroupId": "ParamGroup6",
+			"Name": "胸揺れX (boobs x)"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "ParamGroup6",
+			"Name": "bobbs x1"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "ParamGroup6",
+			"Name": "bobbs x2"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "ParamGroup6",
+			"Name": "bobbs y1"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "ParamGroup6",
+			"Name": "bobbs y2"
+		},
+		{
+			"Id": "ParamFshakeY1",
+			"GroupId": "ParamGroup6",
+			"Name": "服揺れ　Y1"
+		},
+		{
+			"Id": "ParamFshakeY2",
+			"GroupId": "ParamGroup6",
+			"Name": "服揺れ　Y2"
+		},
+		{
+			"Id": "ParamFshakeX1",
+			"GroupId": "ParamGroup6",
+			"Name": "服揺れ　X1"
+		},
+		{
+			"Id": "ParamFshakeX2",
+			"GroupId": "ParamGroup6",
+			"Name": "服揺れ　X2"
+		},
+		{
+			"Id": "ParamBshake",
+			"GroupId": "ParamGroup6",
+			"Name": "体揺れ　1 (arm phy1)"
+		},
+		{
+			"Id": "ParamBshake2",
+			"GroupId": "ParamGroup6",
+			"Name": "体揺れ　2 (arm phy2)"
+		},
+		{
+			"Id": "ParamBshake3",
+			"GroupId": "ParamGroup6",
+			"Name": "体揺れ　3 (arm phy3)"
+		},
+		{
+			"Id": "ParamaccessoryS",
+			"GroupId": "ParamGroup6",
+			"Name": "アクセサリー揺れ"
+		},
+		{
+			"Id": "ParamaccessoryS2",
+			"GroupId": "ParamGroup6",
+			"Name": "アクセサリー揺れ2"
+		},
+		{
+			"Id": "ParamHairX",
+			"GroupId": "ParamGroup4",
+			"Name": "髪揺れ　X1"
+		},
+		{
+			"Id": "ParamHairX2",
+			"GroupId": "ParamGroup4",
+			"Name": "髪揺れ　X2"
+		},
+		{
+			"Id": "ParamHairX3",
+			"GroupId": "ParamGroup4",
+			"Name": "髪揺れ　X3"
+		},
+		{
+			"Id": "ParamHairY",
+			"GroupId": "ParamGroup4",
+			"Name": "髪揺れ　Y1"
+		},
+		{
+			"Id": "ParamHairY2",
+			"GroupId": "ParamGroup4",
+			"Name": "髪揺れ　Y2"
+		},
+		{
+			"Id": "ParamHairY3",
+			"GroupId": "ParamGroup4",
+			"Name": "髪揺れ　Y3"
+		},
+		{
+			"Id": "ParamHairZ",
+			"GroupId": "ParamGroup4",
+			"Name": "髪揺れ　Z1"
+		},
+		{
+			"Id": "ParamHairZ2",
+			"GroupId": "ParamGroup4",
+			"Name": "髪揺れ　Z2"
+		},
+		{
+			"Id": "ParamHairZ3",
+			"GroupId": "ParamGroup4",
+			"Name": "髪揺れ　Z3"
+		},
+		{
+			"Id": "ParamHairX4",
+			"GroupId": "ParamGroup7",
+			"Name": "髪揺れ長　X1"
+		},
+		{
+			"Id": "ParamHairX5",
+			"GroupId": "ParamGroup7",
+			"Name": "髪揺れ長　X2"
+		},
+		{
+			"Id": "ParamHairX6",
+			"GroupId": "ParamGroup7",
+			"Name": "髪揺れ長　X3"
+		},
+		{
+			"Id": "ParamHairY4",
+			"GroupId": "ParamGroup7",
+			"Name": "髪揺れ長　Y1"
+		},
+		{
+			"Id": "ParamHairY5",
+			"GroupId": "ParamGroup7",
+			"Name": "髪揺れ長　Y2"
+		},
+		{
+			"Id": "ParamHairY6",
+			"GroupId": "ParamGroup7",
+			"Name": "髪揺れ長　Y3"
+		},
+		{
+			"Id": "ParamHairZ4",
+			"GroupId": "ParamGroup7",
+			"Name": "髪揺れ長　Z1"
+		},
+		{
+			"Id": "ParamHairZ5",
+			"GroupId": "ParamGroup7",
+			"Name": "髪揺れ長　Z2"
+		},
+		{
+			"Id": "ParamHairZ6",
+			"GroupId": "ParamGroup7",
+			"Name": "髪揺れ長　Z3"
+		},
+		{
+			"Id": "ParamHairZ7",
+			"GroupId": "ParamGroup7",
+			"Name": "髪揺れ長　Z4"
+		},
+		{
+			"Id": "ParamCheek10",
+			"GroupId": "ParamGroup5",
+			"Name": "mouth_toggle"
+		},
+		{
+			"Id": "ParamCheek4",
+			"GroupId": "ParamGroup5",
+			"Name": "angry_toggle"
+		},
+		{
+			"Id": "ParamCheek5",
+			"GroupId": "ParamGroup5",
+			"Name": "excited_toggle"
+		},
+		{
+			"Id": "ParamCheek7",
+			"GroupId": "ParamGroup5",
+			"Name": "suprised_toggle"
+		},
+		{
+			"Id": "ParamCheek6",
+			"GroupId": "ParamGroup5",
+			"Name": "tear_toggle"
+		},
+		{
+			"Id": "ParamCheek8",
+			"GroupId": "ParamGroup5",
+			"Name": "thoughtful_toggle"
+		},
+		{
+			"Id": "ParamCheek9",
+			"GroupId": "ParamGroup5",
+			"Name": "sad_toggle"
+		},
+		{
+			"Id": "ParamCheek3",
+			"GroupId": "ParamGroup5",
+			"Name": "shy_toggle"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "ParamGroup5",
+			"Name": "blush_toggle"
+		},
+		{
+			"Id": "Paramshock",
+			"GroupId": "ParamGroup5",
+			"Name": "scared_shadow_toggle"
+		},
+		{
+			"Id": "Paramhearteye",
+			"GroupId": "ParamGroup5",
+			"Name": "eyes_star_toggle"
+		},
+		{
+			"Id": "Paramkiraeye",
+			"GroupId": "ParamGroup5",
+			"Name": "eyes_star_toggle"
+		},
+		{
+			"Id": "Paramgurueye",
+			"GroupId": "ParamGroup5",
+			"Name": "eyes_dizzy_toggle"
+		},
+		{
+			"Id": "Paramhighlightoff",
+			"GroupId": "ParamGroup5",
+			"Name": "eyes_highlight_off"
+		},
+		{
+			"Id": "Paramgrass",
+			"GroupId": "ParamGroup5",
+			"Name": "眼鏡 (glasses)"
+		},
+		{
+			"Id": "Parampin",
+			"GroupId": "ParamGroup5",
+			"Name": "hair_pin_toggle"
+		},
+		{
+			"Id": "Paramshoulderoff",
+			"GroupId": "ParamGroup5",
+			"Name": "肩ひもoff (chest acc off)"
+		},
+		{
+			"Id": "Paramchoker",
+			"GroupId": "ParamGroup5",
+			"Name": "nekcless_toggle"
+		},
+		{
+			"Id": "Paramearring",
+			"GroupId": "ParamGroup5",
+			"Name": "ear_ring_toggle"
+		},
+		{
+			"Id": "Paramfronthairoff",
+			"GroupId": "ParamGroup5",
+			"Name": "base_front_hair_off"
+		},
+		{
+			"Id": "Paramfronthair",
+			"GroupId": "ParamGroup5",
+			"Name": "front_hair_toggle"
+		},
+		{
+			"Id": "Paramlonghairoff",
+			"GroupId": "ParamGroup5",
+			"Name": "long_hair_toggle"
+		},
+		{
+			"Id": "Paramtwintail",
+			"GroupId": "ParamGroup5",
+			"Name": "hair_ponitail_toggle"
+		},
+		{
+			"Id": "Paramhead",
+			"GroupId": "ParamGroup14",
+			"Name": "head_band_toggle"
+		},
+		{
+			"Id": "Paramheadcat",
+			"GroupId": "ParamGroup14",
+			"Name": "cat_ear_toggle"
+		},
+		{
+			"Id": "Paramheadbear",
+			"GroupId": "ParamGroup14",
+			"Name": "bear_ear_toggle"
+		},
+		{
+			"Id": "Paramheadrabbit",
+			"GroupId": "ParamGroup14",
+			"Name": "rabbit_ear_toggle"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "ParamGroup14",
+			"Name": "bunny_ear_toggle"
+		},
+		{
+			"Id": "Param9",
+			"GroupId": "ParamGroup8",
+			"Name": "base_upper_toggle"
+		},
+		{
+			"Id": "Paramuniformupperbase",
+			"GroupId": "ParamGroup8",
+			"Name": "uniform_upper_toggle"
+		},
+		{
+			"Id": "Paramuniformupperpartcolor",
+			"GroupId": "ParamGroup8",
+			"Name": "uniform_upper_color"
+		},
+		{
+			"Id": "Paramshirt",
+			"GroupId": "ParamGroup8",
+			"Name": "sleepwear_chest_toggle"
+		},
+		{
+			"Id": "ParamSleepwearToggle",
+			"GroupId": "ParamGroup8",
+			"Name": "sleepwear_toggle"
+		},
+		{
+			"Id": "ParaminnerCollar",
+			"GroupId": "ParamGroup8",
+			"Name": "sleepwear_color"
+		},
+		{
+			"Id": "ParamCheek2",
+			"GroupId": "ParamGroup8",
+			"Name": "bikini_top_toggle"
+		},
+		{
+			"Id": "bunny_inner_up_toggle",
+			"GroupId": "ParamGroup8",
+			"Name": "bunny_toggle"
+		},
+		{
+			"Id": "Paramouter",
+			"GroupId": "ParamGroup11",
+			"Name": "white_coat_toggle"
+		},
+		{
+			"Id": "Param11",
+			"GroupId": "ParamGroup11",
+			"Name": "shrink_shoulder"
+		},
+		{
+			"Id": "Param10",
+			"GroupId": "ParamGroup9",
+			"Name": "base_bottom_toggle"
+		},
+		{
+			"Id": "Paramuniformbottombasepartcolor",
+			"GroupId": "ParamGroup9",
+			"Name": "uniform_bottom_color"
+		},
+		{
+			"Id": "Paramuniformbottombase",
+			"GroupId": "ParamGroup9",
+			"Name": "uniform_bottom_toggle"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "ParamGroup9",
+			"Name": "bikini_bottom_toggle"
+		},
+		{
+			"Id": "Paramlongsocks",
+			"GroupId": "ParamGroup13",
+			"Name": "white_long_socks_toggle"
+		},
+		{
+			"Id": "ParamWhiteSocks",
+			"GroupId": "ParamGroup13",
+			"Name": "white_socks_toggle"
+		},
+		{
+			"Id": "Param8",
+			"GroupId": "ParamGroup13",
+			"Name": "bunny_socks_toggle"
+		},
+		{
+			"Id": "Paramshoes",
+			"GroupId": "ParamGroup12",
+			"Name": "leather_shoes_toggle"
+		},
+		{
+			"Id": "ParamFlufflySlipper",
+			"GroupId": "ParamGroup12",
+			"Name": "fluffy_slipper_toggle"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "ParamGroup12",
+			"Name": "bunny_shoes_toggle"
+		},
+		{
+			"Id": "ParamFootShrink",
+			"GroupId": "ParamGroup12",
+			"Name": "foot_shrink"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "mouth_form"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "mouth_open"
+		},
+		{
+			"Id": "ParamMouthX",
+			"GroupId": "",
+			"Name": "mouth_horizontal_move"
+		},
+		{
+			"Id": "ParameyeCollarL",
+			"GroupId": "",
+			"Name": "left_eye_color"
+		},
+		{
+			"Id": "ParameyeCollarR",
+			"GroupId": "",
+			"Name": "right_eye_color"
+		},
+		{
+			"Id": "ParamhairCollar",
+			"GroupId": "",
+			"Name": "hair_color"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "角度 (angle&body)"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "目 (eye)"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "眉 (brow)"
+		},
+		{
+			"Id": "ParamGroup6",
+			"GroupId": "",
+			"Name": "服・体揺れ (closth phy)"
+		},
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "髪揺れ 短 (short hair phy)"
+		},
+		{
+			"Id": "ParamGroup7",
+			"GroupId": "",
+			"Name": "髪揺れ 長 (long hair phy)"
+		},
+		{
+			"Id": "ParamGroup5",
+			"GroupId": "",
+			"Name": "差分 (toggle)"
+		},
+		{
+			"Id": "ParamGroup14",
+			"GroupId": "",
+			"Name": "Head Accessory"
+		},
+		{
+			"Id": "ParamGroup8",
+			"GroupId": "",
+			"Name": "Upper Wear"
+		},
+		{
+			"Id": "ParamGroup11",
+			"GroupId": "",
+			"Name": "Upper Coat"
+		},
+		{
+			"Id": "ParamGroup9",
+			"GroupId": "",
+			"Name": "Bottom Wear"
+		},
+		{
+			"Id": "ParamGroup13",
+			"GroupId": "",
+			"Name": "Socks"
+		},
+		{
+			"Id": "ParamGroup12",
+			"GroupId": "",
+			"Name": "Shoes"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part45",
+			"Name": "model032 bunny outfit.psd (Corresponding layer not found)"
+		},
+		{
+			"Id": "Part19",
+			"Name": "SHY"
+		},
+		{
+			"Id": "Part7",
+			"Name": "NEW OUTFIT"
+		},
+		{
+			"Id": "Part23",
+			"Name": "1"
+		},
+		{
+			"Id": "Part25",
+			"Name": "head"
+		},
+		{
+			"Id": "Part6",
+			"Name": "アウター"
+		},
+		{
+			"Id": "Part38",
+			"Name": "long_hair_2"
+		},
+		{
+			"Id": "Part31",
+			"Name": "long hair"
+		},
+		{
+			"Id": "Part21",
+			"Name": "white_coat_front"
+		},
+		{
+			"Id": "Part8",
+			"Name": "上半身"
+		},
+		{
+			"Id": "Part10",
+			"Name": "腕"
+		},
+		{
+			"Id": "Part9",
+			"Name": "下半身"
+		},
+		{
+			"Id": "Part26",
+			"Name": "white_coat_back"
+		},
+		{
+			"Id": "Part11",
+			"Name": "ツインテール"
+		},
+		{
+			"Id": "Part12",
+			"Name": "後ろ髪(ショート)"
+		},
+		{
+			"Id": "Part13",
+			"Name": "後ろ髪(ロング)"
+		},
+		{
+			"Id": "Part16",
+			"Name": "透かしパーツ"
+		},
+		{
+			"Id": "Part37",
+			"Name": "hair_front_right_3"
+		},
+		{
+			"Id": "Part36",
+			"Name": "hair_front_left_3"
+		},
+		{
+			"Id": "Part33",
+			"Name": "hair_front_right_2"
+		},
+		{
+			"Id": "Part32",
+			"Name": "hair_front_left_2"
+		},
+		{
+			"Id": "Part34",
+			"Name": "hair_front_center"
+		},
+		{
+			"Id": "Part35",
+			"Name": "hair_front_right_1"
+		},
+		{
+			"Id": "Part14",
+			"Name": "hair_front_left_1"
+		},
+		{
+			"Id": "Part18",
+			"Name": "head accessories"
+		},
+		{
+			"Id": "Part2",
+			"Name": "前髪"
+		},
+		{
+			"Id": "Part41",
+			"Name": "pony_tails"
+		},
+		{
+			"Id": "Part",
+			"Name": "メガネ"
+		},
+		{
+			"Id": "Part15",
+			"Name": "眉"
+		},
+		{
+			"Id": "Part3",
+			"Name": "顔"
+		},
+		{
+			"Id": "Part20",
+			"Name": "uniform_upper"
+		},
+		{
+			"Id": "Part46",
+			"Name": "bikini_upper"
+		},
+		{
+			"Id": "Bunny",
+			"Name": "Bunny"
+		},
+		{
+			"Id": "Part24",
+			"Name": "skirt"
+		},
+		{
+			"Id": "Part43",
+			"Name": "uniform_bottom"
+		},
+		{
+			"Id": "Part44",
+			"Name": "bikini_bottom"
+		},
+		{
+			"Id": "Part30",
+			"Name": "outter_socks"
+		},
+		{
+			"Id": "Part29",
+			"Name": "shoes"
+		},
+		{
+			"Id": "Part27",
+			"Name": "socks"
+		},
+		{
+			"Id": "Part28",
+			"Name": "foots"
+		},
+		{
+			"Id": "Part22",
+			"Name": "LEGS"
+		},
+		{
+			"Id": "Part17",
+			"Name": "目隠し前髪"
+		},
+		{
+			"Id": "Part42",
+			"Name": "pony_tail_accessory"
+		},
+		{
+			"Id": "Part40",
+			"Name": "pony_tail_right"
+		},
+		{
+			"Id": "Part39",
+			"Name": "pony_tail_left"
+		},
+		{
+			"Id": "Part4",
+			"Name": "目"
+		},
+		{
+			"Id": "Part5",
+			"Name": "口"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		],
+		[
+			"ParamBrowLY",
+			"ParamBrowLX"
+		],
+		[
+			"ParamBrowRY",
+			"ParamBrowRX"
+		]
+	]
+}

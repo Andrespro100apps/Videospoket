@@ -1,0 +1,15 @@
+{
+	"Type": "Live2D Expression",
+	"Parameters": [
+		{
+			"Id": "ParameyeCollarL",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParameyeCollarR",
+			"Value": 0,
+			"Blend": "Add"
+		}
+	]
+}

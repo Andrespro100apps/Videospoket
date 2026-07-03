@@ -1,0 +1,1917 @@
+{
+  "schemaVersion": 3,
+  "modelId": "model032",
+  "generatedAt": "2026-04-04T16:28:19.872Z",
+  "avatarId": "aiko_default",
+  "displayName": {
+    "en": "Aiko",
+    "zh": "愛子",
+    "ja": "アイコ"
+  },
+  "description": {
+    "en": "Advanced model with extensive wardrobe and customization options",
+    "zh": "進階模型,擁有豐富的服裝與自訂選項",
+    "ja": "豊富なワードローブとカスタマイズオプションを備えた高度なモデル"
+  },
+  "previewImage": "assets/characters/aiko_preview.png",
+  "previewImageUrl": null,
+  "isDefault": true,
+  "isUnlocked": true,
+  "tags": [
+    "default",
+    "classic"
+  ],
+  "defaultOutfit": {
+    "hair": "d4e5f6a7-b8c9-40d1-e2f3-a4b5c6d7e8f9",
+    "hair_color": "d2e3f4a5-b6c7-48d9-e0f1-a2b3c4d5e6f7",
+    "head_accessory": "a7b8c9d0-e1f2-43a4-b5c6-d7e8f9a0b1c2",
+    "neck_accessory": "d0e1f2a3-b4c5-46d7-e8f9-a0b1c2d3e4f5",
+    "ear_accessory": "e1f2a3b4-c5d6-47e8-f9a0-b1c2d3e4f5a6",
+    "outer_up_wear": "f2a3b4c5-d6e7-48f9-a0b1-c2d3e4f5a6b7",
+    "inner_up_clothes": "c5d6e7f8-a9b0-41c2-d3e4-f5a6b7c8d9e0",
+    "effect_face": "c7d8e9f0-a1b2-43c4-d5e6-f7a8b9c0d1e2"
+  },
+  "channelOrder": [
+    "head_accessory",
+    "hair",
+    "hair_color",
+    "eyes_color",
+    "effect_face",
+    "glasses",
+    "ear_accessory",
+    "neck_accessory",
+    "upper_wear",
+    "upper_coat",
+    "bottom_wear",
+    "socks",
+    "shoes"
+  ],
+  "channels": {
+    "head_accessory": {
+      "channelId": "head_accessory",
+      "channelType": "wearable",
+      "displayName": {
+        "en": "Head Accessory",
+        "zh": "頭飾",
+        "ja": "ヘッドアクセサリー"
+      },
+      "allowMultiple": false,
+      "maxItems": 1,
+      "showForUser": true,
+      "itemOrder": [
+        "f6a7b8c9-d0e1-42f3-a4b5-c6d7e8f9a0b1",
+        "a7b8c9d0-e1f2-43a4-b5c6-d7e8f9a0b1c2",
+        "b8c9d0e1-f2a3-44b5-c6d7-e8f9a0b1c2d3",
+        "c9d0e1f2-a3b4-45c6-d7e8-f9a0b1c2d3e4"
+      ],
+      "items": {
+        "f6a7b8c9-d0e1-42f3-a4b5-c6d7e8f9a0b1": {
+          "itemId": "f6a7b8c9-d0e1-42f3-a4b5-c6d7e8f9a0b1",
+          "displayName": {
+            "en": "Nonee",
+            "zh": "無",
+            "ja": "なし",
+            "es": "Ninguno",
+            "fr": "Aucun",
+            "id": "Tidak Ada",
+            "pt": "Nenhum",
+            "ar": "لا شيء"
+          },
+          "type": "expression",
+          "expressions": [
+            "none"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "no hair accessories",
+            "zh": "無髮飾",
+            "ja": "ヘアアクセサリーなし"
+          },
+          "previewAsset": null,
+          "previewImageUrl": null,
+          "isUnlocked": true,
+          "isDefault": false,
+          "tags": [
+            "basic",
+            "default"
+          ],
+          "rarity": -1,
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "a7b8c9d0-e1f2-43a4-b5c6-d7e8f9a0b1c2": {
+          "itemId": "a7b8c9d0-e1f2-43a4-b5c6-d7e8f9a0b1c2",
+          "displayName": {
+            "en": "Cat Ears",
+            "zh": "貓耳",
+            "ja": "猫耳",
+            "es": "Orejas de Gato",
+            "fr": "Oreilles de Chat",
+            "id": "Telinga Kucing",
+            "pt": "Orelhas de Gato",
+            "ar": "آذان قط"
+          },
+          "type": "expression",
+          "expressions": [
+            "head_cat"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "cat-ear headband",
+            "zh": "貓耳髮箍",
+            "ja": "猫耳カチューシャ"
+          },
+          "previewAsset": "previews/eaeb59378f7bdae9-mhdeoz7o.png",
+          "previewImageUrl": "https://aiko-storage.gamiflytech.com/models/model032/previews/eaeb59378f7bdae9-mhdeoz7o.png",
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [
+            "cute",
+            "animal"
+          ],
+          "rarity": 2,
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "b8c9d0e1-f2a3-44b5-c6d7-e8f9a0b1c2d3": {
+          "itemId": "b8c9d0e1-f2a3-44b5-c6d7-e8f9a0b1c2d3",
+          "displayName": {
+            "en": "Bear Ears",
+            "zh": "熊耳",
+            "ja": "熊耳",
+            "es": "Orejas de Oso",
+            "fr": "Oreilles d'Ours",
+            "id": "Telinga Beruang",
+            "pt": "Orelhas de Urso",
+            "ar": "آذان دب"
+          },
+          "type": "expression",
+          "expressions": [
+            "head_bear"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "bear-ear headband",
+            "zh": "熊耳髮箍",
+            "ja": "熊耳カチューシャ"
+          },
+          "previewAsset": "previews/d182ddd6a10dba60-mhdep3vo.png",
+          "previewImageUrl": "https://aiko-storage.gamiflytech.com/models/model032/previews/d182ddd6a10dba60-mhdep3vo.png",
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [
+            "cute",
+            "animal"
+          ],
+          "rarity": 2,
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "c9d0e1f2-a3b4-45c6-d7e8-f9a0b1c2d3e4": {
+          "itemId": "c9d0e1f2-a3b4-45c6-d7e8-f9a0b1c2d3e4",
+          "displayName": {
+            "en": "Rabbit Ears",
+            "zh": "兔耳",
+            "ja": "うさぎ耳",
+            "es": "Orejas de Conejo",
+            "fr": "Oreilles de Lapin",
+            "id": "Telinga Kelinci",
+            "pt": "Orelhas de Coelho",
+            "ar": "آذان أرنب"
+          },
+          "type": "expression",
+          "expressions": [
+            "head_rabbit"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "rabbit-ear headband",
+            "zh": "兔耳髮箍",
+            "ja": "うさぎ耳カチューシャ"
+          },
+          "previewAsset": "previews/246842e6ca3ea18d-mhdep8gw.png",
+          "previewImageUrl": "https://aiko-storage.gamiflytech.com/models/model032/previews/246842e6ca3ea18d-mhdep8gw.png",
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [
+            "cute",
+            "animal"
+          ],
+          "rarity": 2,
+          "availableFrom": null,
+          "availableTo": null
+        }
+      }
+    },
+    "hair": {
+      "channelId": "hair",
+      "channelType": "body",
+      "displayName": {
+        "en": "Hairstyle",
+        "zh": "髮型",
+        "ja": "ヘアスタイル"
+      },
+      "allowMultiple": false,
+      "maxItems": 1,
+      "showForUser": false,
+      "itemOrder": [
+        "a1b2c3d4-e5f6-47a8-b9c0-d1e2f3a4b5c6",
+        "b2c3d4e5-f6a7-48b9-c0d1-e2f3a4b5c6d7",
+        "c3d4e5f6-a7b8-49c0-d1e2-f3a4b5c6d7e8",
+        "d4e5f6a7-b8c9-40d1-e2f3-a4b5c6d7e8f9",
+        "e5f6a7b8-c9d0-41e2-f3a4-b5c6d7e8f9a0"
+      ],
+      "items": {
+        "a1b2c3d4-e5f6-47a8-b9c0-d1e2f3a4b5c6": {
+          "itemId": "a1b2c3d4-e5f6-47a8-b9c0-d1e2f3a4b5c6",
+          "displayName": {
+            "en": "Short Hair",
+            "zh": "短髮",
+            "ja": "ショートヘア",
+            "es": "Pelo Corto",
+            "fr": "Cheveux Courts",
+            "id": "Rambut Pendek",
+            "pt": "Cabelo Curto",
+            "ar": "شعر قصير"
+          },
+          "type": "expression",
+          "expressions": [
+            "short_hair"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "short layered haircut",
+            "zh": "短層次髮",
+            "ja": "ショートレイヤーヘア"
+          },
+          "previewAsset": "assets/wardrobe/aiko/hair_short.png",
+          "previewImageUrl": null,
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [
+            "basic",
+            "default"
+          ],
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "b2c3d4e5-f6a7-48b9-c0d1-e2f3a4b5c6d7": {
+          "itemId": "b2c3d4e5-f6a7-48b9-c0d1-e2f3a4b5c6d7",
+          "displayName": {
+            "en": "Twin Tail",
+            "zh": "雙馬尾",
+            "ja": "ツインテール",
+            "es": "Colas Gemelas",
+            "fr": "Queue de Cheval Double",
+            "id": "Ekor Kembar",
+            "pt": "Rabo Duplo",
+            "ar": "ذيل مزدوج"
+          },
+          "type": "expression",
+          "expressions": [
+            "twin_tail"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "twin-tail hairstyle",
+            "zh": "雙馬尾髮型",
+            "ja": "ツインテールヘアスタイル"
+          },
+          "previewAsset": "assets/wardrobe/aiko/hair_twintail.png",
+          "previewImageUrl": null,
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [
+            "cute"
+          ],
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "c3d4e5f6-a7b8-49c0-d1e2-f3a4b5c6d7e8": {
+          "itemId": "c3d4e5f6-a7b8-49c0-d1e2-f3a4b5c6d7e8",
+          "displayName": {
+            "en": "Front Bangs B",
+            "zh": "前瀏海B",
+            "ja": "前髪B",
+            "es": "Flequillo Frontal B",
+            "fr": "Franges Avant B",
+            "id": "Poni Depan B",
+            "pt": "Franja Frontal B",
+            "ar": "الانفجارات الأمامية ب"
+          },
+          "type": "expression",
+          "expressions": [
+            "front_hair_b",
+            "long_hair"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "alternative front bangs style",
+            "zh": "替代前瀏海造型",
+            "ja": "代替前髪スタイル"
+          },
+          "previewAsset": "assets/wardrobe/aiko/hair_fronthairB.png",
+          "previewImageUrl": null,
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [
+            "basic"
+          ],
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "d4e5f6a7-b8c9-40d1-e2f3-a4b5c6d7e8f9": {
+          "itemId": "d4e5f6a7-b8c9-40d1-e2f3-a4b5c6d7e8f9",
+          "displayName": {
+            "en": "Long Hair",
+            "zh": "長髮",
+            "ja": "ロングヘア",
+            "es": "Pelo Largo",
+            "fr": "Cheveux Longs",
+            "id": "Rambut Panjang",
+            "pt": "Cabelo Longo",
+            "ar": "شعر طويل"
+          },
+          "type": "expression",
+          "expressions": [
+            "long_hair"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "flowing long hairstyle",
+            "zh": "飄逸的長髮造型",
+            "ja": "流れるロングヘアスタイル"
+          },
+          "previewAsset": "previews/83066ad34e1915f9-mhd9d5ad.png",
+          "previewImageUrl": "https://aiko-storage.gamiflytech.com/models/model032/previews/83066ad34e1915f9-mhd9d5ad.png",
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [
+            "elegant"
+          ],
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "e5f6a7b8-c9d0-41e2-f3a4-b5c6d7e8f9a0": {
+          "itemId": "e5f6a7b8-c9d0-41e2-f3a4-b5c6d7e8f9a0",
+          "displayName": {
+            "en": "Short Hair B",
+            "zh": "短髮B",
+            "ja": "ショートヘアB",
+            "es": "Pelo Corto B",
+            "fr": "Cheveux Courts B",
+            "id": "Rambut Pendek B",
+            "pt": "Cabelo Curto B",
+            "ar": "شعر قصير ب"
+          },
+          "type": "expression",
+          "expressions": [
+            "short_hair_b"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "alternative short hairstyle",
+            "zh": "替代短髮造型",
+            "ja": "代替ショートヘアスタイル"
+          },
+          "previewAsset": "assets/wardrobe/aiko/hair_short_b.png",
+          "previewImageUrl": null,
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [
+            "basic"
+          ],
+          "availableFrom": null,
+          "availableTo": null
+        }
+      }
+    },
+    "hair_color": {
+      "channelId": "hair_color",
+      "channelType": "body",
+      "displayName": {
+        "en": "Hair Color",
+        "zh": "髮色",
+        "ja": "髪の色"
+      },
+      "allowMultiple": false,
+      "maxItems": 1,
+      "showForUser": false,
+      "itemOrder": [
+        "f8a9b0c1-d2e3-44f5-a6b7-c8d9e0f1a2b3",
+        "a9b0c1d2-e3f4-45a6-b7c8-d9e0f1a2b3c4",
+        "b0c1d2e3-f4a5-46b7-c8d9-e0f1a2b3c4d5",
+        "c1d2e3f4-a5b6-47c8-d9e0-f1a2b3c4d5e6",
+        "d2e3f4a5-b6c7-48d9-e0f1-a2b3c4d5e6f7"
+      ],
+      "items": {
+        "f8a9b0c1-d2e3-44f5-a6b7-c8d9e0f1a2b3": {
+          "itemId": "f8a9b0c1-d2e3-44f5-a6b7-c8d9e0f1a2b3",
+          "displayName": {
+            "en": "Black Hair",
+            "zh": "黑髮",
+            "ja": "黒髪",
+            "es": "Pelo Negro",
+            "fr": "Cheveux Noirs",
+            "id": "Rambut Hitam",
+            "pt": "Cabelo Preto",
+            "ar": "شعر أسود"
+          },
+          "type": "expression",
+          "expressions": [
+            "black_hair"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "black hair color",
+            "zh": "黑色髮色",
+            "ja": "黒い髪の色"
+          },
+          "previewAsset": "assets/wardrobe/aiko/hair_color_black.png",
+          "previewImageUrl": null,
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [
+            "color",
+            "elegant"
+          ],
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "a9b0c1d2-e3f4-45a6-b7c8-d9e0f1a2b3c4": {
+          "itemId": "a9b0c1d2-e3f4-45a6-b7c8-d9e0f1a2b3c4",
+          "displayName": {
+            "en": "Brown Hair",
+            "zh": "棕髮",
+            "ja": "茶髪",
+            "es": "Pelo Castaño",
+            "fr": "Cheveux Bruns",
+            "id": "Rambut Coklat",
+            "pt": "Cabelo Castanho",
+            "ar": "شعر بني"
+          },
+          "type": "expression",
+          "expressions": [
+            "brown_hair"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "brown hair color",
+            "zh": "棕色髮色",
+            "ja": "茶色の髪の色"
+          },
+          "previewAsset": "assets/wardrobe/aiko/hair_color_brown.png",
+          "previewImageUrl": null,
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [
+            "color",
+            "natural"
+          ],
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "b0c1d2e3-f4a5-46b7-c8d9-e0f1a2b3c4d5": {
+          "itemId": "b0c1d2e3-f4a5-46b7-c8d9-e0f1a2b3c4d5",
+          "displayName": {
+            "en": "Light Purple Hair",
+            "zh": "淺紫髮",
+            "ja": "薄紫髪",
+            "es": "Pelo Lila Claro",
+            "fr": "Cheveux Violet Clair",
+            "id": "Rambut Ungu Muda",
+            "pt": "Cabelo Roxo Claro",
+            "ar": "شعر أرجواني فاتح"
+          },
+          "type": "expression",
+          "expressions": [
+            "light_purple_hair"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "light purple hair color",
+            "zh": "淺紫色髮色",
+            "ja": "薄紫の髪の色"
+          },
+          "previewAsset": "assets/wardrobe/aiko/hair_color_light_purple.png",
+          "previewImageUrl": null,
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [
+            "color",
+            "fantasy"
+          ],
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "c1d2e3f4-a5b6-47c8-d9e0-f1a2b3c4d5e6": {
+          "itemId": "c1d2e3f4-a5b6-47c8-d9e0-f1a2b3c4d5e6",
+          "displayName": {
+            "en": "Pink Hair",
+            "zh": "粉紅髮",
+            "ja": "ピンク髪",
+            "es": "Pelo Rosa",
+            "fr": "Cheveux Roses",
+            "id": "Rambut Merah Muda",
+            "pt": "Cabelo Rosa",
+            "ar": "شعر وردي"
+          },
+          "type": "expression",
+          "expressions": [
+            "pink_hair"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "pink hair color",
+            "zh": "粉紅色髮色",
+            "ja": "ピンクの髪の色"
+          },
+          "previewAsset": "assets/wardrobe/aiko/hair_color_pink.png",
+          "previewImageUrl": null,
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [
+            "color",
+            "cute"
+          ],
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "d2e3f4a5-b6c7-48d9-e0f1-a2b3c4d5e6f7": {
+          "itemId": "d2e3f4a5-b6c7-48d9-e0f1-a2b3c4d5e6f7",
+          "displayName": {
+            "en": "White Hair",
+            "zh": "白髮",
+            "ja": "白髪",
+            "es": "Pelo Blanco",
+            "fr": "Cheveux Blancs",
+            "id": "Rambut Putih",
+            "pt": "Cabelo Branco",
+            "ar": "شعر أبيض"
+          },
+          "type": "expression",
+          "expressions": [
+            "white_hair"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "white hair color",
+            "zh": "白色髮色",
+            "ja": "白い髪の色"
+          },
+          "previewAsset": "assets/wardrobe/aiko/hair_color_white.png",
+          "previewImageUrl": null,
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [
+            "color",
+            "elegant"
+          ],
+          "availableFrom": null,
+          "availableTo": null
+        }
+      }
+    },
+    "eyes_color": {
+      "channelId": "eyes_color",
+      "channelType": "body",
+      "displayName": {
+        "en": "Eye Color",
+        "zh": "瞳色",
+        "ja": "瞳の色"
+      },
+      "allowMultiple": false,
+      "maxItems": 1,
+      "showForUser": false,
+      "itemOrder": [
+        "e3f4a5b6-c7d8-49e0-f1a2-b3c4d5e6f7a8",
+        "f4a5b6c7-d8e9-40f1-a2b3-c4d5e6f7a8b9",
+        "a5b6c7d8-e9f0-41a2-b3c4-d5e6f7a8b9c0",
+        "b6c7d8e9-f0a1-42b3-c4d5-e6f7a8b9c0d1"
+      ],
+      "items": {
+        "e3f4a5b6-c7d8-49e0-f1a2-b3c4d5e6f7a8": {
+          "itemId": "e3f4a5b6-c7d8-49e0-f1a2-b3c4d5e6f7a8",
+          "displayName": {
+            "en": "Blue Eyes",
+            "zh": "藍瞳",
+            "ja": "青い瞳",
+            "es": "Ojos Azules",
+            "fr": "Yeux Bleus",
+            "id": "Mata Biru",
+            "pt": "Olhos Azuis",
+            "ar": "عيون زرقاء"
+          },
+          "type": "expression",
+          "expressions": [
+            "blue_eyes"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "blue eye color",
+            "zh": "藍色瞳孔",
+            "ja": "青い瞳の色"
+          },
+          "previewAsset": "assets/wardrobe/aiko/eyes_color_blue.png",
+          "previewImageUrl": null,
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [
+            "color",
+            "cool"
+          ],
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "f4a5b6c7-d8e9-40f1-a2b3-c4d5e6f7a8b9": {
+          "itemId": "f4a5b6c7-d8e9-40f1-a2b3-c4d5e6f7a8b9",
+          "displayName": {
+            "en": "Pink Eyes",
+            "zh": "粉紅瞳",
+            "ja": "ピンクの瞳",
+            "es": "Ojos Rosados",
+            "fr": "Yeux Roses",
+            "id": "Mata Merah Muda",
+            "pt": "Olhos Rosa",
+            "ar": "عيون وردية"
+          },
+          "type": "expression",
+          "expressions": [
+            "pink_eyes"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "pink eye color",
+            "zh": "粉紅色瞳孔",
+            "ja": "ピンクの瞳の色"
+          },
+          "previewAsset": "assets/wardrobe/aiko/eyes_color_pink.png",
+          "previewImageUrl": null,
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [
+            "color",
+            "cute"
+          ],
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "a5b6c7d8-e9f0-41a2-b3c4-d5e6f7a8b9c0": {
+          "itemId": "a5b6c7d8-e9f0-41a2-b3c4-d5e6f7a8b9c0",
+          "displayName": {
+            "en": "Purple Eyes",
+            "zh": "紫瞳",
+            "ja": "紫の瞳",
+            "es": "Ojos Púrpura",
+            "fr": "Yeux Violets",
+            "id": "Mata Ungu",
+            "pt": "Olhos Roxos",
+            "ar": "عيون أرجوانية"
+          },
+          "type": "expression",
+          "expressions": [
+            "purple_eyes"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "purple eye color",
+            "zh": "紫色瞳孔",
+            "ja": "紫の瞳の色"
+          },
+          "previewAsset": "assets/wardrobe/aiko/eyes_color_purple.png",
+          "previewImageUrl": null,
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [
+            "color",
+            "mysterious"
+          ],
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "b6c7d8e9-f0a1-42b3-c4d5-e6f7a8b9c0d1": {
+          "itemId": "b6c7d8e9-f0a1-42b3-c4d5-e6f7a8b9c0d1",
+          "displayName": {
+            "en": "Yellow Eyes",
+            "zh": "黃瞳",
+            "ja": "黄色い瞳",
+            "es": "Ojos Amarillos",
+            "fr": "Yeux Jaunes",
+            "id": "Mata Kuning",
+            "pt": "Olhos Amarelos",
+            "ar": "عيون صفراء"
+          },
+          "type": "expression",
+          "expressions": [
+            "yellow_eyes"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "yellow eye color",
+            "zh": "黃色瞳孔",
+            "ja": "黄色い瞳の色"
+          },
+          "previewAsset": "assets/wardrobe/aiko/eyes_color_yellow.png",
+          "previewImageUrl": null,
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [
+            "color",
+            "unique"
+          ],
+          "availableFrom": null,
+          "availableTo": null
+        }
+      }
+    },
+    "effect_face": {
+      "channelId": "effect_face",
+      "channelType": "body",
+      "displayName": {
+        "en": "Face Effects",
+        "zh": "面部效果",
+        "ja": "顔エフェクト"
+      },
+      "allowMultiple": false,
+      "maxItems": 1,
+      "showForUser": false,
+      "itemOrder": [
+        "c7d8e9f0-a1b2-43c4-d5e6-f7a8b9c0d1e2",
+        "d8e9f0a1-b2c3-44d5-e6f7-a8b9c0d1e2f3",
+        "e9f0a1b2-c3d4-45e6-f7a8-b9c0d1e2f3a4",
+        "f0a1b2c3-d4e5-46f7-a8b9-c0d1e2f3a4b5",
+        "a1b2c3d4-e5f6-47a8-b9c0-d1e2f3a4b5c7",
+        "b2c3d4e5-f6a7-48b9-c0d1-e2f3a4b5c6d8",
+        "c3d4e5f6-a7b8-49c0-d1e2-f3a4b5c6d7e9",
+        "d4e5f6a7-b8c9-40d1-e2f3-a4b5c6d7e8f0"
+      ],
+      "items": {
+        "c7d8e9f0-a1b2-43c4-d5e6-f7a8b9c0d1e2": {
+          "itemId": "c7d8e9f0-a1b2-43c4-d5e6-f7a8b9c0d1e2",
+          "displayName": {
+            "en": "Normal",
+            "zh": "正常",
+            "ja": "通常",
+            "es": "Normal",
+            "fr": "Normal",
+            "id": "Normal",
+            "pt": "Normal",
+            "ar": "عادي"
+          },
+          "type": "expression",
+          "expressions": [
+            "none"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "normal face without special effects",
+            "zh": "正常臉部無特效",
+            "ja": "通常の顔（特殊効果なし）"
+          },
+          "previewAsset": null,
+          "previewImageUrl": null,
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [
+            "basic",
+            "default"
+          ],
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "d8e9f0a1-b2c3-44d5-e6f7-a8b9c0d1e2f3": {
+          "itemId": "d8e9f0a1-b2c3-44d5-e6f7-a8b9c0d1e2f3",
+          "displayName": {
+            "en": "Blushing",
+            "zh": "臉紅",
+            "ja": "頬を赤らめる",
+            "es": "Sonrojado",
+            "fr": "Rougissant",
+            "id": "Memerah",
+            "pt": "Corando",
+            "ar": "تورد الخدين"
+          },
+          "type": "expression",
+          "expressions": [
+            "cheek"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "blushing cheeks",
+            "zh": "臉頰泛紅",
+            "ja": "頬が赤くなる"
+          },
+          "previewAsset": null,
+          "previewImageUrl": null,
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [
+            "basic",
+            "emotion"
+          ],
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "e9f0a1b2-c3d4-45e6-f7a8-b9c0d1e2f3a4": {
+          "itemId": "e9f0a1b2-c3d4-45e6-f7a8-b9c0d1e2f3a4",
+          "displayName": {
+            "en": "Half-Lidded Eyes",
+            "zh": "半瞇眼",
+            "ja": "通常",
+            "es": "Ojos Entrecerrados",
+            "fr": "Yeux Mi-Clos",
+            "id": "Mata Setengah Terpejam",
+            "pt": "Olhos Semi-cerrados",
+            "ar": "عيون نصف مغلقة"
+          },
+          "type": "expression",
+          "expressions": [
+            "jitome"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "half-lidded suspicious eyes",
+            "zh": "半瞇懷疑的眼神",
+            "ja": "半目で疑わしそうな目"
+          },
+          "previewAsset": null,
+          "previewImageUrl": null,
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [
+            "basic",
+            "emotion"
+          ],
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "f0a1b2c3-d4e5-46f7-a8b9-c0d1e2f3a4b5": {
+          "itemId": "f0a1b2c3-d4e5-46f7-a8b9-c0d1e2f3a4b5",
+          "displayName": {
+            "en": "Shocked",
+            "zh": "震驚",
+            "ja": "ショック",
+            "es": "Sorprendido",
+            "fr": "Choqué",
+            "id": "Terkejut",
+            "pt": "Chocado",
+            "ar": "مصدوم"
+          },
+          "type": "expression",
+          "expressions": [
+            "shock"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "shocked or surprised expression",
+            "zh": "震驚或驚訝的表情",
+            "ja": "ショックや驚きの表情"
+          },
+          "previewAsset": null,
+          "previewImageUrl": null,
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [
+            "basic",
+            "emotion"
+          ],
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "a1b2c3d4-e5f6-47a8-b9c0-d1e2f3a4b5c7": {
+          "itemId": "a1b2c3d4-e5f6-47a8-b9c0-d1e2f3a4b5c7",
+          "displayName": {
+            "en": "Sparkling Eyes",
+            "zh": "閃亮眼睛",
+            "ja": "キラキラ",
+            "es": "Ojos Brillantes",
+            "fr": "Yeux Étincelants",
+            "id": "Mata Berkilau",
+            "pt": "Olhos Brilhantes",
+            "ar": "عيون متلألئة"
+          },
+          "type": "expression",
+          "expressions": [
+            "kirakira"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "sparkling excited eyes",
+            "zh": "興奮的閃亮眼睛",
+            "ja": "輝く興奮した目"
+          },
+          "previewAsset": "assets/wardrobe/aiko/face_kirakira.png",
+          "previewImageUrl": null,
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [
+            "cute",
+            "emotion"
+          ],
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "b2c3d4e5-f6a7-48b9-c0d1-e2f3a4b5c6d8": {
+          "itemId": "b2c3d4e5-f6a7-48b9-c0d1-e2f3a4b5c6d8",
+          "displayName": {
+            "en": "Heart Eyes",
+            "zh": "愛心眼",
+            "ja": "ハート目",
+            "es": "Ojos con Corazones",
+            "fr": "Yeux en Cœur",
+            "id": "Mata Berbentuk Hati",
+            "pt": "Olhos de Coração",
+            "ar": "عيون على شكل قلب"
+          },
+          "type": "expression",
+          "expressions": [
+            "heart"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "heart-shaped eyes showing love",
+            "zh": "愛心形狀的眼睛表達愛意",
+            "ja": "愛を表すハート型の目"
+          },
+          "previewAsset": "assets/wardrobe/aiko/face_heart.png",
+          "previewImageUrl": null,
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [
+            "cute",
+            "emotion",
+            "love"
+          ],
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "c3d4e5f6-a7b8-49c0-d1e2-f3a4b5c6d7e9": {
+          "itemId": "c3d4e5f6-a7b8-49c0-d1e2-f3a4b5c6d7e9",
+          "displayName": {
+            "en": "Dizzy",
+            "zh": "暈眩",
+            "ja": "ぐるぐる",
+            "es": "Mareado",
+            "fr": "Vertige",
+            "id": "Pusing",
+            "pt": "Tonto",
+            "ar": "دوار"
+          },
+          "type": "expression",
+          "expressions": [
+            "guruguru"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "dizzy or confused spiraling eyes",
+            "zh": "暈眩或困惑的螺旋眼睛",
+            "ja": "めまいや混乱のぐるぐる目"
+          },
+          "previewAsset": "assets/wardrobe/aiko/face_guruguru.png",
+          "previewImageUrl": null,
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [
+            "funny",
+            "emotion"
+          ],
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "d4e5f6a7-b8c9-40d1-e2f3-a4b5c6d7e8f0": {
+          "itemId": "d4e5f6a7-b8c9-40d1-e2f3-a4b5c6d7e8f0",
+          "displayName": {
+            "en": "Grass (wwww)",
+            "zh": "草 (笑)",
+            "ja": "草 (笑)",
+            "es": "Hierba (wwww)",
+            "fr": "Herbe (wwww)",
+            "id": "Rumput (wwww)",
+            "pt": "Grama (wwww)",
+            "ar": "عشب (وووو)"
+          },
+          "type": "expression",
+          "expressions": [
+            "grass"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "laughing expression (Japanese internet slang)",
+            "zh": "大笑表情（日本網路俚語）",
+            "ja": "笑っている表情（ネットスラング）"
+          },
+          "previewAsset": "assets/wardrobe/aiko/face_grass.png",
+          "previewImageUrl": null,
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [
+            "funny",
+            "emotion"
+          ],
+          "availableFrom": null,
+          "availableTo": null
+        }
+      }
+    },
+    "glasses": {
+      "channelId": "glasses",
+      "channelType": null,
+      "displayName": {
+        "en": "Glasses"
+      },
+      "allowMultiple": false,
+      "maxItems": 0,
+      "showForUser": true,
+      "itemOrder": [
+        "itm_38a359de-de0e-41a1-8c8c-1369a7a4fc32",
+        "itm_17b22115-a7e9-4047-ba87-b1d2c96f7b9b"
+      ],
+      "items": {
+        "itm_38a359de-de0e-41a1-8c8c-1369a7a4fc32": {
+          "itemId": "itm_38a359de-de0e-41a1-8c8c-1369a7a4fc32",
+          "displayName": {
+            "en": "None",
+            "ja": "なし",
+            "es": "Ninguno",
+            "fr": "Aucun",
+            "id": "Tidak Ada",
+            "pt": "Nenhum",
+            "zh": "無",
+            "ar": "لا شيء"
+          },
+          "type": "expression",
+          "expressions": [
+            "none"
+          ],
+          "textures": [],
+          "aiDescription": {},
+          "previewAsset": null,
+          "previewImageUrl": null,
+          "isUnlocked": true,
+          "isDefault": false,
+          "tags": [],
+          "rarity": -1,
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "itm_17b22115-a7e9-4047-ba87-b1d2c96f7b9b": {
+          "itemId": "itm_17b22115-a7e9-4047-ba87-b1d2c96f7b9b",
+          "displayName": {
+            "en": "Cute Glasses",
+            "ja": "かわいいメガネ",
+            "es": "Gafas Bonitas",
+            "fr": "Lunettes mignonnes",
+            "id": "Kacamata Imut",
+            "pt": "Óculos Fofos",
+            "zh": "可爱眼镜",
+            "ar": "نظارات لطيفة"
+          },
+          "type": "expression",
+          "expressions": [
+            "cute_glasses"
+          ],
+          "textures": [],
+          "aiDescription": {},
+          "previewAsset": "previews/74709cc4ad16ee90-mjo37tb4.png",
+          "previewImageUrl": "https://aiko-storage.gamiflytech.com/models/model032/previews/74709cc4ad16ee90-mjo37tb4.png",
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [],
+          "rarity": 2,
+          "availableFrom": null,
+          "availableTo": null
+        }
+      }
+    },
+    "ear_accessory": {
+      "channelId": "ear_accessory",
+      "channelType": "wearable",
+      "displayName": {
+        "en": "Ear Accessory",
+        "zh": "耳飾",
+        "ja": "イヤーアクセサリー"
+      },
+      "allowMultiple": false,
+      "maxItems": 1,
+      "showForUser": false,
+      "itemOrder": [
+        "e1f2a3b4-c5d6-47e8-f9a0-b1c2d3e4f5a6"
+      ],
+      "items": {
+        "e1f2a3b4-c5d6-47e8-f9a0-b1c2d3e4f5a6": {
+          "itemId": "e1f2a3b4-c5d6-47e8-f9a0-b1c2d3e4f5a6",
+          "displayName": {
+            "en": "None",
+            "zh": "無",
+            "ja": "なし",
+            "es": "Ninguno",
+            "fr": "Aucun",
+            "id": "Tidak Ada",
+            "pt": "Nenhum",
+            "ar": "لا شيء"
+          },
+          "type": "expression",
+          "expressions": [
+            "no_earring"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "no earrings",
+            "zh": "無耳環",
+            "ja": "イヤリングなし"
+          },
+          "previewAsset": null,
+          "previewImageUrl": null,
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [
+            "basic",
+            "default"
+          ],
+          "rarity": -1,
+          "availableFrom": null,
+          "availableTo": null
+        }
+      }
+    },
+    "neck_accessory": {
+      "channelId": "neck_accessory",
+      "channelType": "wearable",
+      "displayName": {
+        "en": "Neck Accessory",
+        "zh": "頸飾",
+        "ja": "ネックアクセサリー"
+      },
+      "allowMultiple": false,
+      "maxItems": 1,
+      "showForUser": false,
+      "itemOrder": [
+        "d0e1f2a3-b4c5-46d7-e8f9-a0b1c2d3e4f5"
+      ],
+      "items": {
+        "d0e1f2a3-b4c5-46d7-e8f9-a0b1c2d3e4f5": {
+          "itemId": "d0e1f2a3-b4c5-46d7-e8f9-a0b1c2d3e4f5",
+          "displayName": {
+            "en": "None",
+            "zh": "無",
+            "ja": "なし",
+            "es": "Ninguno",
+            "fr": "Aucun",
+            "id": "Tidak Ada",
+            "pt": "Nenhum",
+            "ar": "لا شيء"
+          },
+          "type": "expression",
+          "expressions": [
+            "no_choker"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "no neck accessory",
+            "zh": "無頸飾",
+            "ja": "ネックアクセサリーなし"
+          },
+          "previewAsset": null,
+          "previewImageUrl": null,
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [
+            "basic",
+            "default"
+          ],
+          "rarity": -1,
+          "availableFrom": null,
+          "availableTo": null
+        }
+      }
+    },
+    "upper_wear": {
+      "channelId": "upper_wear",
+      "channelType": "wearable",
+      "displayName": {
+        "en": "Upper Wear"
+      },
+      "allowMultiple": false,
+      "maxItems": 1,
+      "showForUser": true,
+      "itemOrder": [
+        "itm_58045891-1ad1-4bc1-9660-f5af8e4c11ad",
+        "b4c5d6e7-f8a9-40b1-c2d3-e4f5a6b7c8d9",
+        "d6e7f8a9-b0c1-42d3-e4f5-a6b7c8d9e0f1",
+        "e7f8a9b0-c1d2-43e4-f5a6-b7c8d9e0f1a2",
+        "c5d6e7f8-a9b0-41c2-d3e4-f5a6b7c8d9e0",
+        "itm_fbe217df-a546-4519-a692-cfe62744161f",
+        "itm_875dc3b9-2619-4ed9-b183-ef62cf32e0c5",
+        "itm_7075cd0b-3d52-4412-b1d1-4d95a41cb0ae",
+        "itm_d3e680d7-6a86-49da-b58c-5d5c623c0111",
+        "itm_80abbe2c-3506-4d44-a630-c35c40de6fc6"
+      ],
+      "items": {
+        "itm_58045891-1ad1-4bc1-9660-f5af8e4c11ad": {
+          "itemId": "itm_58045891-1ad1-4bc1-9660-f5af8e4c11ad",
+          "displayName": {
+            "en": "None",
+            "ja": "なし",
+            "es": "Ninguno",
+            "fr": "Aucun",
+            "id": "Tidak Ada",
+            "pt": "Nenhum",
+            "zh": "無",
+            "ar": "لا شيء"
+          },
+          "type": "expression",
+          "expressions": [
+            "no_upper"
+          ],
+          "textures": [],
+          "aiDescription": {},
+          "previewAsset": null,
+          "previewImageUrl": null,
+          "isUnlocked": true,
+          "isDefault": false,
+          "tags": [],
+          "rarity": -1,
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "b4c5d6e7-f8a9-40b1-c2d3-e4f5a6b7c8d9": {
+          "itemId": "b4c5d6e7-f8a9-40b1-c2d3-e4f5a6b7c8d9",
+          "displayName": {
+            "en": "Blue Sleepwear",
+            "zh": "藍色睡衣",
+            "ja": "青いパジャマ",
+            "es": "Pijama Azul",
+            "fr": "Pyjama Bleu",
+            "id": "Piyama Biru",
+            "pt": "Pijama Azul",
+            "ar": "ملابس نوم زرقاء"
+          },
+          "type": "expression",
+          "expressions": [
+            "sleepwear_blue"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "blue sleepwear outfit",
+            "zh": "藍色睡衣套裝",
+            "ja": "青いパジャマ"
+          },
+          "previewAsset": "previews/b41c5e6e2fd6dca8-mhdejxxl.png",
+          "previewImageUrl": "https://aiko-storage.gamiflytech.com/models/model032/previews/b41c5e6e2fd6dca8-mhdejxxl.png",
+          "isUnlocked": true,
+          "isDefault": false,
+          "tags": [
+            "sleepwear",
+            "cozy"
+          ],
+          "rarity": 1,
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "d6e7f8a9-b0c1-42d3-e4f5-a6b7c8d9e0f1": {
+          "itemId": "d6e7f8a9-b0c1-42d3-e4f5-a6b7c8d9e0f1",
+          "displayName": {
+            "en": "Purple Sleepwear",
+            "zh": "紫色睡衣",
+            "ja": "紫のパジャマ",
+            "es": "Pijama Púrpura",
+            "fr": "Pyjama Violet",
+            "id": "Piyama Ungu",
+            "pt": "Pijama Roxo",
+            "ar": "ملابس نوم بنفسجية"
+          },
+          "type": "expression",
+          "expressions": [
+            "sleepwear_purple"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "purple sleepwear outfit",
+            "zh": "紫色睡衣套裝",
+            "ja": "紫のパジャマ"
+          },
+          "previewAsset": "previews/6bd1cf75b1534f60-mhdek5rf.png",
+          "previewImageUrl": "https://aiko-storage.gamiflytech.com/models/model032/previews/6bd1cf75b1534f60-mhdek5rf.png",
+          "isUnlocked": true,
+          "isDefault": false,
+          "tags": [
+            "sleepwear",
+            "elegant"
+          ],
+          "rarity": 1,
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "e7f8a9b0-c1d2-43e4-f5a6-b7c8d9e0f1a2": {
+          "itemId": "e7f8a9b0-c1d2-43e4-f5a6-b7c8d9e0f1a2",
+          "displayName": {
+            "en": "Yellow Sleepwear",
+            "zh": "黃色睡衣",
+            "ja": "黄色いパジャマ",
+            "es": "Pijama Amarillo",
+            "fr": "Pyjama Jaune",
+            "id": "Piyama Kuning",
+            "pt": "Pijama Amarelo",
+            "ar": "ملابس نوم صفراء"
+          },
+          "type": "expression",
+          "expressions": [
+            "sleepwear_yellow"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "yellow sleepwear outfit",
+            "zh": "黃色睡衣套裝",
+            "ja": "黄色いパジャマ"
+          },
+          "previewAsset": "previews/079103d3b65967b7-mhdekahk.png",
+          "previewImageUrl": "https://aiko-storage.gamiflytech.com/models/model032/previews/079103d3b65967b7-mhdekahk.png",
+          "isUnlocked": true,
+          "isDefault": false,
+          "tags": [
+            "sleepwear",
+            "cheerful"
+          ],
+          "rarity": 1,
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "c5d6e7f8-a9b0-41c2-d3e4-f5a6b7c8d9e0": {
+          "itemId": "c5d6e7f8-a9b0-41c2-d3e4-f5a6b7c8d9e0",
+          "displayName": {
+            "en": "Pink Sleepwear",
+            "zh": "粉紅睡衣",
+            "ja": "ピンクのパジャマ",
+            "es": "Pijama Rosa",
+            "fr": "Pyjama Rose",
+            "id": "Piyama Merah Muda",
+            "pt": "Pijama Rosa",
+            "ar": "ملابس نوم وردية"
+          },
+          "type": "expression",
+          "expressions": [
+            "sleepwear_pink"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "pink sleepwear outfit",
+            "zh": "粉紅色睡衣套裝",
+            "ja": "ピンクのパジャマ"
+          },
+          "previewAsset": "previews/acf2d379140eeca1-mhdek111.png",
+          "previewImageUrl": "https://aiko-storage.gamiflytech.com/models/model032/previews/acf2d379140eeca1-mhdek111.png",
+          "isUnlocked": true,
+          "isDefault": false,
+          "tags": [
+            "sleepwear",
+            "cute"
+          ],
+          "rarity": 1,
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "itm_fbe217df-a546-4519-a692-cfe62744161f": {
+          "itemId": "itm_fbe217df-a546-4519-a692-cfe62744161f",
+          "displayName": {
+            "en": "School Uniform Blouse (Green)",
+            "ja": "スクールブラウス（グリーン）",
+            "es": "Blusa de Uniforme Escolar (Verde)",
+            "fr": "Chemisier d'Uniforme Scolaire (Vert)",
+            "id": "Blus Seragam Sekolah (Hijau)",
+            "pt": "Blusa de Uniforme Escolar (Verde)",
+            "zh": "校服衬衫（绿色）",
+            "ar": "بلوزة زي مدرسي (أخضر)"
+          },
+          "type": "expression",
+          "expressions": [
+            "uniform_upper_green"
+          ],
+          "textures": [],
+          "aiDescription": {},
+          "previewAsset": "previews/a483d0b18bedd941-mjo0wcmh.png",
+          "previewImageUrl": "https://aiko-storage.gamiflytech.com/models/model032/previews/a483d0b18bedd941-mjo0wcmh.png",
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [],
+          "rarity": 2,
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "itm_875dc3b9-2619-4ed9-b183-ef62cf32e0c5": {
+          "itemId": "itm_875dc3b9-2619-4ed9-b183-ef62cf32e0c5",
+          "displayName": {
+            "en": "School Uniform Blouse (Yellow)",
+            "ja": "学校用ブラウス（イエロー）",
+            "es": "Blusa de Uniforme Escolar (Amarillo)",
+            "fr": "Chemisier d'Uniforme Scolaire (Jaune)",
+            "id": "Blus Seragam Sekolah (Kuning)",
+            "pt": "Blusa de Uniforme Escolar (Amarela)",
+            "zh": "校服衬衫（黄色）",
+            "ar": "بلوزة زي مدرسي (أصفر)"
+          },
+          "type": "expression",
+          "expressions": [
+            "uniform_upper_yellow"
+          ],
+          "textures": [],
+          "aiDescription": {},
+          "previewAsset": "previews/f7e69c28f92f1931-mjo0zv84.png",
+          "previewImageUrl": "https://aiko-storage.gamiflytech.com/models/model032/previews/f7e69c28f92f1931-mjo0zv84.png",
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [],
+          "rarity": 2,
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "itm_7075cd0b-3d52-4412-b1d1-4d95a41cb0ae": {
+          "itemId": "itm_7075cd0b-3d52-4412-b1d1-4d95a41cb0ae",
+          "displayName": {
+            "en": "School Uniform Blouse (Pink)",
+            "ja": "学校用ブラウス（ピンク）",
+            "es": "Blusa de Uniforme Escolar (Rosa)",
+            "fr": "Chemisier d'Uniforme Scolaire (Rose)",
+            "id": "Blus Seragam Sekolah (Merah Muda)",
+            "pt": "Blusa de Uniforme Escolar (Rosa)",
+            "zh": "校服衬衫（粉色）",
+            "ar": "بلوزة زي مدرسي (وردي)"
+          },
+          "type": "expression",
+          "expressions": [
+            "uniform_upper_pink"
+          ],
+          "textures": [],
+          "aiDescription": {},
+          "previewAsset": "previews/e663fa85893bb83f-mjo10ghq.png",
+          "previewImageUrl": "https://aiko-storage.gamiflytech.com/models/model032/previews/e663fa85893bb83f-mjo10ghq.png",
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [],
+          "rarity": 2,
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "itm_d3e680d7-6a86-49da-b58c-5d5c623c0111": {
+          "itemId": "itm_d3e680d7-6a86-49da-b58c-5d5c623c0111",
+          "displayName": {
+            "en": "School Uniform Blouse (Navy)",
+            "ja": "学校制服ブラウス（ネイビー）",
+            "es": "Blusa de Uniforme Escolar (Azul Marino)",
+            "fr": "Chemisier d'Uniforme Scolaire (Marine)",
+            "id": "Blus Seragam Sekolah (Biru Laut)",
+            "pt": "Blusa de Uniforme Escolar (Marinho)",
+            "zh": "校服衬衫（海军蓝）",
+            "ar": "بلوزة زي مدرسي (كحلي)"
+          },
+          "type": "expression",
+          "expressions": [
+            "uniform_upper_navy"
+          ],
+          "textures": [],
+          "aiDescription": {},
+          "previewAsset": "previews/04a38d2fa0cbdea0-mjo110k3.png",
+          "previewImageUrl": "https://aiko-storage.gamiflytech.com/models/model032/previews/04a38d2fa0cbdea0-mjo110k3.png",
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [],
+          "rarity": 2,
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "itm_80abbe2c-3506-4d44-a630-c35c40de6fc6": {
+          "itemId": "itm_80abbe2c-3506-4d44-a630-c35c40de6fc6",
+          "displayName": {
+            "en": "Bikini (White)",
+            "ja": "ビキニ（ホワイト）",
+            "es": "Bikini (Blanco)",
+            "fr": "Bikini (Blanc)",
+            "id": "Bikini (Putih)",
+            "pt": "Biquíni (Branco)",
+            "zh": "比基尼（白色）",
+            "ar": "بيكيني (أبيض)"
+          },
+          "type": "expression",
+          "expressions": [
+            "bikini_top"
+          ],
+          "textures": [],
+          "aiDescription": {},
+          "previewAsset": "previews/0c9b0b7adaa89ea9-mjo2eekt.png",
+          "previewImageUrl": "https://aiko-storage.gamiflytech.com/models/model032/previews/0c9b0b7adaa89ea9-mjo2eekt.png",
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [],
+          "rarity": 4,
+          "availableFrom": null,
+          "availableTo": null
+        }
+      }
+    },
+    "upper_coat": {
+      "channelId": "upper_coat",
+      "channelType": "wearable",
+      "displayName": {
+        "en": "Upper Coat"
+      },
+      "allowMultiple": false,
+      "maxItems": 1,
+      "showForUser": true,
+      "itemOrder": [
+        "f2a3b4c5-d6e7-48f9-a0b1-c2d3e4f5a6b7",
+        "a3b4c5d6-e7f8-49a0-b1c2-d3e4f5a6b7c8"
+      ],
+      "items": {
+        "f2a3b4c5-d6e7-48f9-a0b1-c2d3e4f5a6b7": {
+          "itemId": "f2a3b4c5-d6e7-48f9-a0b1-c2d3e4f5a6b7",
+          "displayName": {
+            "en": "None",
+            "zh": "無",
+            "ja": "なし",
+            "es": "Ninguno",
+            "fr": "Aucun",
+            "id": "Tidak Ada",
+            "pt": "Nenhum",
+            "ar": "لا شيء"
+          },
+          "type": "expression",
+          "expressions": [
+            "none"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "no outer garment",
+            "zh": "無外衣",
+            "ja": "アウターなし"
+          },
+          "previewAsset": null,
+          "previewImageUrl": null,
+          "isUnlocked": true,
+          "isDefault": false,
+          "tags": [
+            "basic",
+            "default"
+          ],
+          "rarity": -1,
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "a3b4c5d6-e7f8-49a0-b1c2-d3e4f5a6b7c8": {
+          "itemId": "a3b4c5d6-e7f8-49a0-b1c2-d3e4f5a6b7c8",
+          "displayName": {
+            "en": "White Outer Coat",
+            "zh": "白色外套",
+            "ja": "白いアウター",
+            "es": "Abrigo Exterior Blanco",
+            "fr": "Manteau Extérieur Blanc",
+            "id": "Mantel Luar Putih",
+            "pt": "Casaco Branco",
+            "ar": "معطف خارجي أبيض"
+          },
+          "type": "expression",
+          "expressions": [
+            "white_outer_up_coat"
+          ],
+          "textures": [],
+          "aiDescription": {
+            "en": "a crisp white coat that adds a refined touch",
+            "zh": "俐落的白色外套,增添精緻感",
+            "ja": "洗練された印象を与える白いアウター"
+          },
+          "previewAsset": "previews/9acfe0d7f02726ab-mhdef1ij.png",
+          "previewImageUrl": "https://aiko-storage.gamiflytech.com/models/model032/previews/9acfe0d7f02726ab-mhdef1ij.png",
+          "isUnlocked": true,
+          "isDefault": false,
+          "tags": [
+            "outerwear",
+            "stylish"
+          ],
+          "rarity": 1,
+          "availableFrom": null,
+          "availableTo": null
+        }
+      }
+    },
+    "bottom_wear": {
+      "channelId": "bottom_wear",
+      "channelType": "wearable",
+      "displayName": {
+        "en": "Bottom Wear"
+      },
+      "allowMultiple": false,
+      "maxItems": 0,
+      "showForUser": true,
+      "itemOrder": [
+        "itm_51a0da2e-e63f-41e6-b146-67c4bc325117",
+        "itm_9391148a-4c65-4d10-b817-f5e7f071bba3",
+        "itm_61fecad1-090e-406a-b5cf-a1a4c2f61135",
+        "itm_404296d6-b05e-424f-8d8d-f0c94d52b8c9",
+        "itm_f10bd14c-6b76-4d96-904b-e70320507adc",
+        "itm_34376968-07b6-4a5b-a809-480864830cd5"
+      ],
+      "items": {
+        "itm_51a0da2e-e63f-41e6-b146-67c4bc325117": {
+          "itemId": "itm_51a0da2e-e63f-41e6-b146-67c4bc325117",
+          "displayName": {
+            "en": "None",
+            "ja": "なし",
+            "es": "Ninguno",
+            "fr": "Aucun",
+            "id": "Tidak Ada",
+            "pt": "Nenhum",
+            "zh": "無",
+            "ar": "لا شيء"
+          },
+          "type": "expression",
+          "expressions": [
+            "no_bottom"
+          ],
+          "textures": [],
+          "aiDescription": {},
+          "previewAsset": null,
+          "previewImageUrl": null,
+          "isUnlocked": true,
+          "isDefault": false,
+          "tags": [],
+          "rarity": -1,
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "itm_9391148a-4c65-4d10-b817-f5e7f071bba3": {
+          "itemId": "itm_9391148a-4c65-4d10-b817-f5e7f071bba3",
+          "displayName": {
+            "en": "School Uniform Skirt (Green)",
+            "ja": "学校制服スカート（緑）",
+            "es": "Falda de Uniforme Escolar (Verde)",
+            "fr": "Jupe d'uniforme scolaire (Vert)",
+            "id": "Rok Seragam Sekolah (Hijau)",
+            "pt": "Saia do Uniforme Escolar (Verde)",
+            "zh": "校服裙子（绿色）",
+            "ar": "تنورة الزي المدرسي (أخضر)"
+          },
+          "type": "expression",
+          "expressions": [
+            "uniform_bottom_green"
+          ],
+          "textures": [],
+          "aiDescription": {},
+          "previewAsset": "previews/8d6044a9dc4e963b-mjo2etcx.png",
+          "previewImageUrl": "https://aiko-storage.gamiflytech.com/models/model032/previews/8d6044a9dc4e963b-mjo2etcx.png",
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [],
+          "rarity": 2,
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "itm_61fecad1-090e-406a-b5cf-a1a4c2f61135": {
+          "itemId": "itm_61fecad1-090e-406a-b5cf-a1a4c2f61135",
+          "displayName": {
+            "en": "School Uniform Skirt (Yellow)",
+            "ja": "学校制服スカート（イエロー）",
+            "es": "Falda de Uniforme Escolar (Amarilla)",
+            "fr": "Jupe d'uniforme scolaire (Jaune)",
+            "id": "Rok Seragam Sekolah (Kuning)",
+            "pt": "Saia do Uniforme Escolar (Amarela)",
+            "zh": "校服裙子（黄色）",
+            "ar": "تنورة الزي المدرسي (أصفر)"
+          },
+          "type": "expression",
+          "expressions": [
+            "uniform_bottom_yellow"
+          ],
+          "textures": [],
+          "aiDescription": {},
+          "previewAsset": "previews/43c4aaa8d553922b-mjo2fisk.png",
+          "previewImageUrl": "https://aiko-storage.gamiflytech.com/models/model032/previews/43c4aaa8d553922b-mjo2fisk.png",
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [],
+          "rarity": 2,
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "itm_404296d6-b05e-424f-8d8d-f0c94d52b8c9": {
+          "itemId": "itm_404296d6-b05e-424f-8d8d-f0c94d52b8c9",
+          "displayName": {
+            "en": "School Uniform Skirt (Pink)",
+            "ja": "スクールユニフォームスカート（ピンク）",
+            "es": "Falda de Uniforme Escolar (Rosa)",
+            "fr": "Jupe d'uniforme scolaire (Rose)",
+            "id": "Rok Seragam Sekolah (Merah Muda)",
+            "pt": "Saia do Uniforme Escolar (Rosa)",
+            "zh": "校服裙子（粉色）",
+            "ar": "تنورة الزي المدرسي (وردي)"
+          },
+          "type": "expression",
+          "expressions": [
+            "uniform_bottom_pink"
+          ],
+          "textures": [],
+          "aiDescription": {},
+          "previewAsset": "previews/ee8617f16e6e7549-mjo2fx3e.png",
+          "previewImageUrl": "https://aiko-storage.gamiflytech.com/models/model032/previews/ee8617f16e6e7549-mjo2fx3e.png",
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [],
+          "rarity": 2,
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "itm_f10bd14c-6b76-4d96-904b-e70320507adc": {
+          "itemId": "itm_f10bd14c-6b76-4d96-904b-e70320507adc",
+          "displayName": {
+            "en": "School Uniform Skirt (Navy)",
+            "ja": "学校制服スカート（ネイビー）",
+            "es": "Falda de Uniforme Escolar (Azul Marino)",
+            "fr": "Jupe d'uniforme scolaire (Marine)",
+            "id": "Rok Seragam Sekolah (Biru Laut)",
+            "pt": "Saia do Uniforme Escolar (Azul-marinho)",
+            "zh": "校服裙子（海军蓝）",
+            "ar": "تنورة الزي المدرسي (كحلي)"
+          },
+          "type": "expression",
+          "expressions": [
+            "uniform_bottom_navy"
+          ],
+          "textures": [],
+          "aiDescription": {},
+          "previewAsset": "previews/5e1c39eb8a31ec71-mjo2gbuz.png",
+          "previewImageUrl": "https://aiko-storage.gamiflytech.com/models/model032/previews/5e1c39eb8a31ec71-mjo2gbuz.png",
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [],
+          "rarity": 2,
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "itm_34376968-07b6-4a5b-a809-480864830cd5": {
+          "itemId": "itm_34376968-07b6-4a5b-a809-480864830cd5",
+          "displayName": {
+            "en": "Bikini (White)",
+            "ja": "ビキニ（ホワイト）",
+            "es": "Bikini (Blanco)",
+            "fr": "Bikini (Blanc)",
+            "id": "Bikini (Putih)",
+            "pt": "Biquíni (Branco)",
+            "zh": "比基尼（白色）",
+            "ar": "بيكيني (أبيض)"
+          },
+          "type": "expression",
+          "expressions": [
+            "bikini_bottom"
+          ],
+          "textures": [],
+          "aiDescription": {},
+          "previewAsset": "previews/88af3d1ef9f02851-mjo2j7g5.png",
+          "previewImageUrl": "https://aiko-storage.gamiflytech.com/models/model032/previews/88af3d1ef9f02851-mjo2j7g5.png",
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [],
+          "rarity": 4,
+          "availableFrom": null,
+          "availableTo": null
+        }
+      }
+    },
+    "socks": {
+      "channelId": "socks",
+      "channelType": null,
+      "displayName": {
+        "en": "socks"
+      },
+      "allowMultiple": false,
+      "maxItems": 0,
+      "showForUser": true,
+      "itemOrder": [
+        "itm_90a53661-445f-40d2-a3d7-a14cebbfc1ee",
+        "itm_e7aee9b0-2c12-4fe1-8fbb-7b37cc380ffb"
+      ],
+      "items": {
+        "itm_90a53661-445f-40d2-a3d7-a14cebbfc1ee": {
+          "itemId": "itm_90a53661-445f-40d2-a3d7-a14cebbfc1ee",
+          "displayName": {
+            "en": "None",
+            "ar": "لا شيء",
+            "es": "Ninguno",
+            "fr": "Aucun",
+            "id": "Tidak Ada",
+            "ja": "なし",
+            "pt": "Nenhum",
+            "zh": "無"
+          },
+          "type": "expression",
+          "expressions": [
+            "none"
+          ],
+          "textures": [],
+          "aiDescription": {},
+          "previewAsset": null,
+          "previewImageUrl": null,
+          "isUnlocked": true,
+          "isDefault": false,
+          "tags": [],
+          "rarity": -1,
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "itm_e7aee9b0-2c12-4fe1-8fbb-7b37cc380ffb": {
+          "itemId": "itm_e7aee9b0-2c12-4fe1-8fbb-7b37cc380ffb",
+          "displayName": {
+            "en": "Long White Socks",
+            "ar": "جوارب طويلة بيضاء",
+            "es": "Calcetines Blancos Largos",
+            "fr": "Chaussettes Longues Blanches",
+            "id": "Kaus Kaki Putih Panjang",
+            "ja": "ロングホワイトソックス",
+            "pt": "Meias Brancas Longas",
+            "zh": "长白袜"
+          },
+          "type": "expression",
+          "expressions": [
+            "long_white_socks"
+          ],
+          "textures": [],
+          "aiDescription": {},
+          "previewAsset": "previews/9cd901f26c1743f3-mjz7z2gr.png",
+          "previewImageUrl": "https://aiko-storage.gamiflytech.com/models/model032/previews/9cd901f26c1743f3-mjz7z2gr.png",
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [],
+          "rarity": 3,
+          "availableFrom": null,
+          "availableTo": null
+        }
+      }
+    },
+    "shoes": {
+      "channelId": "shoes",
+      "channelType": null,
+      "displayName": {
+        "en": "shoes"
+      },
+      "allowMultiple": false,
+      "maxItems": 0,
+      "showForUser": true,
+      "itemOrder": [
+        "itm_c60bca4e-4647-4348-a5ef-aa5efae7451f",
+        "itm_7efd16bf-f9d0-4633-8739-5b43ab1f8c73"
+      ],
+      "items": {
+        "itm_c60bca4e-4647-4348-a5ef-aa5efae7451f": {
+          "itemId": "itm_c60bca4e-4647-4348-a5ef-aa5efae7451f",
+          "displayName": {
+            "en": "None",
+            "ar": "لا شيء",
+            "es": "Ninguno",
+            "fr": "Aucun",
+            "id": "Tidak Ada",
+            "ja": "なし",
+            "pt": "Nenhum",
+            "zh": "無"
+          },
+          "type": "expression",
+          "expressions": [
+            "none"
+          ],
+          "textures": [],
+          "aiDescription": {},
+          "previewAsset": null,
+          "previewImageUrl": null,
+          "isUnlocked": true,
+          "isDefault": false,
+          "tags": [],
+          "rarity": -1,
+          "availableFrom": null,
+          "availableTo": null
+        },
+        "itm_7efd16bf-f9d0-4633-8739-5b43ab1f8c73": {
+          "itemId": "itm_7efd16bf-f9d0-4633-8739-5b43ab1f8c73",
+          "displayName": {
+            "en": "Leather Shoes",
+            "ar": "أحذية جلدية",
+            "es": "Zapatos de Cuero",
+            "fr": "Chaussures en Cuir",
+            "id": "Sepatu Kulit",
+            "ja": "レザーシューズ",
+            "pt": "Sapatos de Couro",
+            "zh": "皮鞋"
+          },
+          "type": "expression",
+          "expressions": [
+            "leather_shoes"
+          ],
+          "textures": [],
+          "aiDescription": {},
+          "previewAsset": "previews/58e2ff1903b07b85-mjz80oqv.png",
+          "previewImageUrl": "https://aiko-storage.gamiflytech.com/models/model032/previews/58e2ff1903b07b85-mjz80oqv.png",
+          "isUnlocked": false,
+          "isDefault": false,
+          "tags": [],
+          "rarity": 2,
+          "availableFrom": null,
+          "availableTo": null
+        }
+      }
+    }
+  }
+}

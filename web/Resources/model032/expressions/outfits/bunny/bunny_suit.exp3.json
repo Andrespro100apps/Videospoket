@@ -1,0 +1,10 @@
+{
+	"Type": "Live2D Expression",
+	"Parameters": [
+		{
+			"Id": "bunny_inner_up_toggle",
+			"Value": 1,
+			"Blend": "Add"
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"Type": "Live2D Expression",
+	"Parameters": [
+		{
+			"Id": "ParaminnerCollar",
+			"Value": 7,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamSleepwearToggle",
+			"Value": 1,
+			"Blend": "Add"
+		}
+	]
+}
