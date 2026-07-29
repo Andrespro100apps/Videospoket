@@ -23,8 +23,26 @@
     "webUrl": "https://x.com/Andrespro_100",
     "isEnabled": true
   },
+  "discord": {
+    "username": "Pr\u00f3ximamente",
+    "appUrl": "https://discord.gg/comingsoon",
+    "webUrl": "https://discord.gg/comingsoon",
+    "isEnabled": true
+  },
+  "whatsapp": {
+    "username": "Pr\u00f3ximamente",
+    "appUrl": "https://chat.whatsapp.com/comingsoon",
+    "webUrl": "https://chat.whatsapp.com/comingsoon",
+    "isEnabled": true
+  },
+  "telegram": {
+    "username": "Pr\u00f3ximamente",
+    "appUrl": "https://t.me/comingsoon",
+    "webUrl": "https://t.me/comingsoon",
+    "isEnabled": true
+  },
   "rateUrl": "https://play.google.com/store/apps/details?id=com.bridewomanpro.pocketgirlclassic",
   "moreAppsUrl": "https://play.google.com/store/apps/developer?id=Andrespro100apps",
   "privacyUrl": "https://sites.google.com/view/politica-privacidad-pocketgirl/p%C3%A1gina-principal",
-  "activeActressIds": "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23"
+  "activeActressIds": "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26"
 }
