@@ -1,0 +1,2260 @@
+{
+  "_meta": {
+    "title": "Cuando los Cerezos Lloran",
+    "version": "7.0.0",
+    "author": "Pocket Girl Studio",
+    "inspired": "Katawa Shoujo x Higurashi no Naku Koro ni",
+    "targetDuration": "1 hour (45-60 min full reading)",
+    "phaseCount": 55
+  },
+  "title": {
+    "es": "Cuando los Cerezos Lloran",
+    "en": "When the Cherries Weep",
+    "ja": "桜が泣くとき"
+  },
+  "startVars": {
+    "heart_pulse": 100,
+    "paranoia": 0,
+    "aiko_affection": 0,
+    "sora_affection": 0,
+    "yumi_trust": 0,
+    "memory_fragments": 0,
+    "loop_count": 1
+  },
+  "scenes": {
+    "start": {
+      "chapter": {
+        "es": "Prólogo: El Diagnóstico",
+        "en": "Prologue: The Diagnosis"
+      },
+      "bg": "img/venue_bedroom.jpg",
+      "bgm": "audio/bgm_melancholy_satie.mp3",
+      "mood": "calm",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El veredicto del cardiólogo fue definitivo: arritmia ventricular refractaria. Cada latido irregular es un recordatorio de que tu tiempo es finito.",
+            "en": "The cardiologist's verdict was definitive: refractory ventricular arrhythmia. Every irregular beat is a reminder that your time is finite."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "La Academia y Sanatorio Yamaku Kaigan, aislada en un acantilado frente al mar, es tu nuevo y quizás último hogar.",
+            "en": "The Yamaku Kaigan Academy and Sanatorium, isolated on a coastal cliff facing the sea, is your new and perhaps final home."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Bajar del tren y mirar hacia el mar",
+            "en": "Step off the train and look out at the sea"
+          },
+          "next": "scene_02_yamaku_arrival"
+        }
+      ]
+    },
+    "scene_02_yamaku_arrival": {
+      "chapter": {
+        "es": "Fase 2: El Sendero de los Cerezos",
+        "en": "Phase 2: The Cherry Tree Path"
+      },
+      "bg": "img/venue_home.jpg",
+      "bgm": "audio/bgm_peace_debussy.mp3",
+      "mood": "calm",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El viento costero acaricia las ramas florecidas. A lo lejos, las gaviotas planean sobre aguas turquesas.",
+            "en": "The coastal wind caresses the blossoming branches. In the distance, seagulls glide over turquoise waters."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "En el sendero de adoquines, tres chicas conversan cerca de la cancela de madera.",
+            "en": "On the cobblestone path, three girls talk near the wooden gate."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Acercarte a la chica tímida que pinta (Aiko)",
+            "en": "Approach the shy girl sketching (Aiko)"
+          },
+          "next": "scene_03_meet_aiko",
+          "set": {
+            "aiko_affection": 1
+          }
+        },
+        {
+          "text": {
+            "es": "Saludar a la atleta con prótesis que estira (Sora)",
+            "en": "Greet the athlete with prosthetics stretching (Sora)"
+          },
+          "next": "scene_04_meet_sora",
+          "set": {
+            "sora_affection": 1
+          }
+        },
+        {
+          "text": {
+            "es": "Presentarte con la delegada de uniforme pulcro (Yumi)",
+            "en": "Introduce yourself to the neat student council rep (Yumi)"
+          },
+          "next": "scene_05_meet_yumi",
+          "set": {
+            "yumi_trust": 1
+          }
+        }
+      ]
+    },
+    "scene_03_meet_aiko": {
+      "chapter": {
+        "es": "Fase 3: El Cuaderno de Bocetos",
+        "en": "Phase 3: The Sketchbook"
+      },
+      "bg": "img/venue_home.jpg",
+      "sprite": "img/aiko_pinky.png",
+      "expr": "shy",
+      "bgm": "audio/bgm_peace_debussy.mp3",
+      "lines": [
+        {
+          "speaker": "Aiko",
+          "text": {
+            "es": "Ah... hola. Eres el alumno nuevo del que habló el doctor, ¿verdad? Me llamo Aiko.",
+            "en": "Ah... hello. You're the new transfer student the doctor mentioned, right? I'm Aiko."
+          }
+        },
+        {
+          "speaker": "Aiko",
+          "text": {
+            "es": "Pinto porque mis pulmones no me permiten correr. Cuando pinto el mar, siento que puedo respirar libremente.",
+            "en": "I paint because my lungs don't let me run. When I paint the ocean, I feel like I can breathe freely."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Notas la palidez de sus dedos y la fragilidad sincera en su voz. Una suave brisa agita sus cabellos.",
+            "en": "You notice the paleness of her fingers and the sincere fragility in her voice. A gentle breeze stirs her hair."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Elogiar la sensibilidad de su dibujo",
+            "en": "Praise the sensitivity of her drawing"
+          },
+          "next": "scene_06_first_dinner",
+          "set": {
+            "aiko_affection": 2
+          }
+        },
+        {
+          "text": {
+            "es": "Preguntarle sobre el sanatorio",
+            "en": "Ask her about the sanatorium"
+          },
+          "next": "scene_06_first_dinner",
+          "set": {
+            "paranoia": 1
+          }
+        }
+      ]
+    },
+    "scene_04_meet_sora": {
+      "chapter": {
+        "es": "Fase 4: Alas de Carbono",
+        "en": "Phase 4: Carbon Wings"
+      },
+      "bg": "img/venue_home.jpg",
+      "sprite": "img/aiko_cat.png",
+      "expr": "smile",
+      "bgm": "audio/bgm_peace_debussy.mp3",
+      "lines": [
+        {
+          "speaker": "Sora",
+          "text": {
+            "es": "¡Ey, bienvenido! ¡No te asustes por mis piernas de titanio! Todavía puedo ganarle a cualquiera en 100 metros.",
+            "en": "Hey, welcome! Don't let my titanium legs spook ya! I can still outrun anyone in the 100-meter dash."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Sora sonríe con una energía contagiosa que parece desafiar toda limitación médica.",
+            "en": "Sora smiles with an infectious energy that seems to defy any medical limitation."
+          }
+        },
+        {
+          "speaker": "Sora",
+          "text": {
+            "es": "Aquí todos tenemos piezas remendadas, pero mientras el corazón bombee sangre, ¡no hay motivo para rendirse!",
+            "en": "We all have patched-up parts here, but as long as our hearts keep pumping, there's no excuse to give up!"
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Sonreír y agradecer su optimismo",
+            "en": "Smile and thank her for her optimism"
+          },
+          "next": "scene_06_first_dinner",
+          "set": {
+            "sora_affection": 2
+          }
+        },
+        {
+          "text": {
+            "es": "Mirar sus prótesis con curiosidad silenciosa",
+            "en": "Look at her prosthetics with quiet curiosity"
+          },
+          "next": "scene_06_first_dinner",
+          "set": {
+            "sora_affection": 1
+          }
+        }
+      ]
+    },
+    "scene_05_meet_yumi": {
+      "chapter": {
+        "es": "Fase 5: La Guardiana de los Registros",
+        "en": "Phase 5: Guardian of Records"
+      },
+      "bg": "img/venue_home.jpg",
+      "sprite": "img/aiko_purple.png",
+      "expr": "serious",
+      "bgm": "audio/bgm_peace_debussy.mp3",
+      "lines": [
+        {
+          "speaker": "Yumi",
+          "text": {
+            "es": "Tu expediente ya está archivado. Debes tomar tus beta-bloqueantes cada doce horas exactas.",
+            "en": "Your file is already registered. You must take your beta-blockers every twelve hours sharp."
+          }
+        },
+        {
+          "speaker": "Yumi",
+          "text": {
+            "es": "Y un consejo: no te desvíes hacia el viejo faro ni hagas preguntas sobre los alumnos del verano anterior.",
+            "en": "And one piece of advice: do not wander toward the old lighthouse, and don't ask about last summer's students."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Sus ojos oscuros te examinan con una frialdad meticulosa. Una sombra de sospecha nace en tu pecho.",
+            "en": "Her dark eyes scan you with meticulous coolness. A seed of suspicion sprouts in your chest."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Prometer seguir el reglamento al pie de la letra",
+            "en": "Promise to follow the regulations strictly"
+          },
+          "next": "scene_06_first_dinner",
+          "set": {
+            "yumi_trust": 2
+          }
+        },
+        {
+          "text": {
+            "es": "Preguntar qué ocurrió el verano pasado",
+            "en": "Ask what happened last summer"
+          },
+          "next": "scene_06_first_dinner",
+          "set": {
+            "paranoia": 2
+          }
+        }
+      ]
+    },
+    "scene_06_first_dinner": {
+      "chapter": {
+        "es": "Fase 6: Calidez en el Comedor",
+        "en": "Phase 6: Warmth in the Dining Hall"
+      },
+      "bg": "img/venue_kitchen.jpg",
+      "bgm": "audio/bgm_peace_debussy.mp3",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El comedor huele a sopa de miso caliente y pescado a la plancha. Por primera vez en meses, no te sientes solo.",
+            "en": "The dining hall smells of warm miso soup and grilled fish. For the first time in months, you don't feel alone."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Aiko comparte un trozo de pastel contigo, mientras Sora bromea con su habitual entusiasmo.",
+            "en": "Aiko shares a slice of cake with you, while Sora jokes with her usual upbeat charm."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Agradecer la compañía de todos",
+            "en": "Thank everyone for their warm company"
+          },
+          "next": "scene_07_dorm_night"
+        }
+      ]
+    },
+    "scene_07_dorm_night": {
+      "chapter": {
+        "es": "Fase 7: Susurros en la Penumbra",
+        "en": "Phase 7: Whispers in the Gloom"
+      },
+      "bg": "img/venue_bedroom.jpg",
+      "bgm": "audio/amb_ocean_waves.wav",
+      "sfx": "audio/sfx_heartbeat_slow.wav",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "En tu habitación, el sonido rítmico del mar te adormece. 'Lub-dub... lub-dub...'",
+            "en": "In your room, the rhythmic ocean waves lull you. 'Lub-dub... lub-dub...'"
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "De pronto, pasos sigilosos cruzan el pasillo exterior. Una sombra se detiene frente a tu puerta antes de continuar.",
+            "en": "Suddenly, stealthy footsteps cross the outside corridor. A shadow pauses at your door before moving on."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Ignorarlo y tomar tu medicina",
+            "en": "Ignore it and take your medicine"
+          },
+          "next": "scene_08_morning_sun",
+          "set": {
+            "heart_pulse": 10
+          }
+        },
+        {
+          "text": {
+            "es": "Asomarte a la mirilla para ver la sombra",
+            "en": "Peek through the peephole to check the shadow"
+          },
+          "next": "scene_08_morning_sun",
+          "set": {
+            "paranoia": 1
+          }
+        }
+      ]
+    },
+    "scene_08_morning_sun": {
+      "chapter": {
+        "es": "Fase 8: Una Mañana Brillante",
+        "en": "Phase 8: A Radiant Morning"
+      },
+      "bg": "img/bg_room_3d.jpg",
+      "bgm": "audio/bgm_peace_debussy.mp3",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El sol inunda el sanatorio. Sora y Aiko te esperan en el patio con toallas y sombreros de paja.",
+            "en": "Sunlight floods the sanatorium. Sora and Aiko await you in the courtyard with towels and straw hats."
+          }
+        },
+        {
+          "speaker": "Sora",
+          "text": {
+            "es": "¡El doctor nos dio permiso para bajar a la cala privada hoy! ¡El agua está perfecta!",
+            "en": "The doctor gave us permission to visit the private cove today! The water is sparkling!"
+          }
+        },
+        {
+          "speaker": "Aiko",
+          "text": {
+            "es": "Llevaré mis acuarelas. Será divertido pintar juntas frente a las olas.",
+            "en": "I'll bring my watercolors. It will be fun to paint together by the waves."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Aceptar emocionado la excursión",
+            "en": "Excitedly accept the beach outing"
+          },
+          "next": "scene_09_beach_walk"
+        }
+      ]
+    },
+    "scene_09_beach_walk": {
+      "chapter": {
+        "es": "Fase 9: Rumbo a la Cala Escondida",
+        "en": "Phase 9: Toward the Hidden Cove"
+      },
+      "bg": "img/bg_map_park.webp",
+      "bgm": "audio/amb_ocean_waves.wav",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El sendero de tierra desciende entre pinos verdes hasta revelar la ensenada secreta.",
+            "en": "The dirt path descends through lush pines to reveal the secret cove."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El mar resplandece como un zafiro líquido bajo el cielo despejado.",
+            "en": "The sea shines like liquid sapphire under the cloudless sky."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Bajar a la arena dorada",
+            "en": "Walk down to the golden sand"
+          },
+          "next": "scene_10_beach_arrival"
+        }
+      ]
+    },
+    "scene_10_beach_arrival": {
+      "chapter": {
+        "es": "Fase 10: Paraíso Costero",
+        "en": "Phase 10: Coastal Paradise"
+      },
+      "bg": "img/bg_beach_sunny.jpg",
+      "bgm": "audio/amb_ocean_waves.wav",
+      "sfx": "audio/sfx_laugh.mp3",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "La brisa marina huele a salitre y verano. La espuma blanca rompe suavemente a tus pies.",
+            "en": "The ocean breeze smells of sea salt and summer. White foam gently laps at your feet."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Sora corre descalza hacia la orilla con su traje de baño deportivo, riendo sin complejos.",
+            "en": "Sora runs barefoot toward the water in her athletic swimsuit, laughing with pure freedom."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Acompañar a Sora al agua",
+            "en": "Join Sora by the water"
+          },
+          "next": "scene_11_beach_bikini_joy",
+          "set": {
+            "sora_affection": 2
+          }
+        },
+        {
+          "text": {
+            "es": "Sentarte con Aiko bajo la sombrilla",
+            "en": "Sit with Aiko under the parasol"
+          },
+          "next": "scene_11_beach_bikini_joy",
+          "set": {
+            "aiko_affection": 2
+          }
+        }
+      ]
+    },
+    "scene_11_beach_bikini_joy": {
+      "chapter": {
+        "es": "Fase 11: Risas en Traje de Baño",
+        "en": "Phase 11: Swimsuit Laughter"
+      },
+      "bg": "img/bg_beach_sunny.jpg",
+      "sprite": "img/aiko_beach.png",
+      "expr": "smile",
+      "bgm": "audio/bgm_peace_debussy.mp3",
+      "lines": [
+        {
+          "speaker": "Aiko",
+          "text": {
+            "es": "Hacía años que no sentía la arena tibia bajo mis pies... Gracias por venir con nosotras.",
+            "en": "It's been years since I last felt warm sand under my feet... Thank you for coming with us."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Aiko luce un traje de baño floral con mejillas sonrojadas. Por un momento, las cicatrices y enfermedades parecen no existir.",
+            "en": "Aiko wears a floral swimsuit with blushed cheeks. For a moment, scars and illnesses seem not to exist."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Sora salpica agua alegremente, mientras Yumi observa desde lejos con una sombrilla y expresión pensativa.",
+            "en": "Sora playfully splashes water, while Yumi watches from afar beneath a parasol with a thoughtful look."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Tomar la mano de Aiko con ternura",
+            "en": "Gently hold Aiko's hand"
+          },
+          "next": "scene_12_beach_talk",
+          "set": {
+            "aiko_affection": 3
+          }
+        },
+        {
+          "text": {
+            "es": "Llamar a Yumi para que se una a ustedes",
+            "en": "Call Yumi over to join in"
+          },
+          "next": "scene_12_beach_talk",
+          "set": {
+            "yumi_trust": 2
+          }
+        }
+      ]
+    },
+    "scene_12_beach_talk": {
+      "chapter": {
+        "es": "Fase 12: Confesiones Bajo el Sol",
+        "en": "Phase 12: Confessions in the Sun"
+      },
+      "bg": "img/bg_beach_sunny.jpg",
+      "sprite": "img/girls/girl2_happy.png",
+      "bgm": "audio/bgm_peace_debussy.mp3",
+      "lines": [
+        {
+          "speaker": "Sora",
+          "text": {
+            "es": "¿Sabes? Cuando perdí mis piernas pensé que mi vida había acabado. Pero aquí descubrí que el valor no está en el cuerpo, sino en las ganas de seguir.",
+            "en": "You know? When I lost my legs I thought my life was over. But here I learned courage isn't in your limbs, it's in your will to keep going."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Sus palabras resuenan en tu pecho. Tu arritmia late en un compás extrañamente sereno.",
+            "en": "Her words strike a deep chord in your chest. Your arrhythmia beats in an unusually calm rhythm."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Prometerle que siempre correrás a su lado",
+            "en": "Promise you will always run by her side"
+          },
+          "next": "scene_13_aiko_sketchbook",
+          "set": {
+            "sora_affection": 3
+          }
+        }
+      ]
+    },
+    "scene_13_aiko_sketchbook": {
+      "chapter": {
+        "es": "Fase 13: El Boceto Imposible",
+        "en": "Phase 13: The Impossible Sketch"
+      },
+      "bg": "img/bg_beach_sunny.jpg",
+      "sprite": "img/aiko_pinky.png",
+      "sfx": "audio/sfx_page_turn.wav",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El viento pasa una página de la libreta de Aiko. Tu mirada se clava en la hoja.",
+            "en": "The wind turns a page of Aiko's sketchbook. Your eyes freeze on the paper."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Hay un dibujo detallado de ti... colapsado en el suelo bajo una lluvia torrencial frente al viejo faro.",
+            "en": "There is a detailed drawing of you... collapsed on the ground in driving rain before the old lighthouse."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "¡Pero tú nunca has estado en ese faro ni has vivido esa tormenta!",
+            "en": "Yet you have never set foot in that lighthouse, nor lived through such a storm!"
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Preguntarle a Aiko cuándo dibujó eso [Fragmento de Memoria +1]",
+            "en": "Ask Aiko when she drew that [Memory Fragment +1]"
+          },
+          "next": "scene_14_beach_sunset",
+          "set": {
+            "memory_fragments": 1,
+            "paranoia": 1
+          }
+        },
+        {
+          "text": {
+            "es": "Cerrar la libreta disimulando tu desconcierto",
+            "en": "Close the sketchbook, concealing your bewilderment"
+          },
+          "next": "scene_14_beach_sunset"
+        }
+      ]
+    },
+    "scene_14_beach_sunset": {
+      "chapter": {
+        "es": "Fase 14: Ocaso Carmesí",
+        "en": "Phase 14: Crimson Sunset"
+      },
+      "bg": "img/bg_beach_sunset.jpg",
+      "bgm": "audio/bgm_melancholy_satie.mp3",
+      "mood": "romance",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El atardecer incendia el cielo en tonos violeta y naranja. El mar parece sangrar oro derretido.",
+            "en": "The sunset blazes across the sky in violet and orange. The ocean looks like bleeding molten gold."
+          }
+        },
+        {
+          "speaker": "Aiko",
+          "text": {
+            "es": "El tiempo pasa tan rápido... Ojalá este atardecer durara para siempre.",
+            "en": "Time slips by so quickly... I wish this sunset could last forever."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Sientes una opresión leve en el esternón. Un pinchazo de arritmia te recuerda tu fragilidad.",
+            "en": "You feel a faint tightness in your chest. A twinge of arrhythmia reminds you of your fragility."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Admirar el ocaso en silencio junto a ellas",
+            "en": "Watch the sunset in silence beside them"
+          },
+          "next": "scene_15_return_sanatorium"
+        }
+      ]
+    },
+    "scene_15_return_sanatorium": {
+      "chapter": {
+        "es": "Fase 15: Sombras en el Umbral",
+        "en": "Phase 15: Shadows on the Threshold"
+      },
+      "bg": "img/venue_home.jpg",
+      "sprite": "img/aiko_purple.png",
+      "bgm": "audio/bgm_higurashi_dread.mp3",
+      "mood": "tension",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Al regresar al sanatorio, la temperatura cae bruscamente. Yumi los aguarda en la entrada con brazos cruzados.",
+            "en": "Upon returning to the sanatorium, the temperature drops sharply. Yumi waits at the entrance with crossed arms."
+          }
+        },
+        {
+          "speaker": "Yumi",
+          "text": {
+            "es": "Llegan con media hora de retraso. El barómetro está desplomándose. Viene un frente frío desde el norte.",
+            "en": "You're thirty minutes late. The barometer is plummeting. A cold front is rushing in from the north."
+          }
+        },
+        {
+          "speaker": "Yumi",
+          "text": {
+            "es": "A partir de las diez de la noche, nadie abandona sus habitaciones. Son órdenes de la dirección médica.",
+            "en": "From ten o'clock tonight, no one is to leave their rooms. Strict medical orders."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Obedecer e ir directamente a descansar",
+            "en": "Obey and head straight to rest"
+          },
+          "next": "scene_16_night_infirmary"
+        },
+        {
+          "text": {
+            "es": "Sospechar del tono alarmado de Yumi",
+            "en": "Feel suspicious of Yumi's alarmed tone"
+          },
+          "next": "scene_16_night_infirmary",
+          "set": {
+            "paranoia": 2
+          }
+        }
+      ]
+    },
+    "scene_16_night_infirmary": {
+      "chapter": {
+        "es": "Fase 16: El Chequeo Nocturno",
+        "en": "Phase 16: The Nightly Checkup"
+      },
+      "bg": "img/venue_bedroom.jpg",
+      "bgm": "audio/bgm_higurashi_dread.mp3",
+      "sfx": "audio/sfx_heartbeat_slow.wav",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "En la enfermería, el monitor cardíaco emite un pulso verde. 'Bip... bip...'",
+            "en": "In the clinic, the heart monitor emits a green pulse. 'Beep... beep...'"
+          }
+        },
+        {
+          "speaker": "Yumi",
+          "text": {
+            "es": "Tu pulso está acelerado. ¿Has tenido dolores de cabeza o recuerdos extraños, como si ya hubieras estado aquí antes?",
+            "en": "Your pulse is elevated. Have you had headaches or strange memories, as if you had already been here before?"
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Confesar el dibujo del faro en la libreta de Aiko",
+            "en": "Confess about the lighthouse sketch in Aiko's book"
+          },
+          "next": "scene_17_night_wanderer",
+          "set": {
+            "yumi_trust": 2,
+            "paranoia": 1
+          }
+        },
+        {
+          "text": {
+            "es": "Mentir y decir que todo está normal",
+            "en": "Lie and say everything is completely normal"
+          },
+          "next": "scene_17_night_wanderer",
+          "set": {
+            "paranoia": 2
+          }
+        }
+      ]
+    },
+    "scene_17_night_wanderer": {
+      "chapter": {
+        "es": "Fase 17: La Puerta Prohibida",
+        "en": "Phase 17: The Forbidden Door"
+      },
+      "bg": "img/venue_bedroom.jpg",
+      "sfx": "audio/sfx_door.mp3",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Son las 2:15 AM. La sed te despierta. Al salir al pasillo en penumbra, ves una puerta entornada con una luz tenue.",
+            "en": "It's 2:15 AM. Thirst wakes you. Stepping into the dim hall, you spot an ajar door leaking faint light."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Es el archivo médico restringido.",
+            "en": "It's the restricted medical records archive."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Entrar a hurtadillas a investigar el archivo",
+            "en": "Sneak inside to investigate the archive"
+          },
+          "next": "scene_18_archive_discovery"
+        },
+        {
+          "text": {
+            "es": "Regresar a la cama para evitar problemas",
+            "en": "Go back to bed to avoid trouble"
+          },
+          "next": "scene_19_morning_tensions"
+        }
+      ]
+    },
+    "scene_18_archive_discovery": {
+      "chapter": {
+        "es": "Fase 18: El Expediente del Ciclo",
+        "en": "Phase 18: The Cycle Records"
+      },
+      "bg": "img/bg_room_3d.jpg",
+      "bgm": "audio/bgm_higurashi_dread.mp3",
+      "sfx": "audio/sfx_memory_fragment.wav",
+      "fx": "glitch",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Abres un cajón metálico carcomido por la humedad. Entre los expedientes amarillentos, encuentras tu propia foto.",
+            "en": "You pull open a rusted metal drawer. Among the yellowed files, you find your own photograph."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Fecha de ingreso: 'Verano de 1983... Fallecido por paro cardíaco'. Y abajo otra: 'Verano de 2004... Fallecido por caída en acantilado'.",
+            "en": "Admission date: 'Summer 1983... Deceased from cardiac arrest'. And below it: 'Summer 2004... Deceased from cliff fall'."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "¡No es tu primera vez en Yamaku! ¡Has muerto aquí una y otra vez!",
+            "en": "This isn't your first time in Yamaku! You have died here again and again!"
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Guardar el expediente en tu bolsillo [Fragmento +1]",
+            "en": "Pocket the file [Memory Fragment +1]"
+          },
+          "next": "scene_19_morning_tensions",
+          "set": {
+            "memory_fragments": 1,
+            "paranoia": 2
+          }
+        }
+      ]
+    },
+    "scene_19_morning_tensions": {
+      "chapter": {
+        "es": "Fase 19: Miradas de Sospecha",
+        "en": "Phase 19: Glances of Suspicion"
+      },
+      "bg": "img/venue_kitchen.jpg",
+      "bgm": "audio/bgm_higurashi_dread.mp3",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "En el desayuno, el ambiente es gélido. Yumi te clava la mirada mientras sirve el té.",
+            "en": "At breakfast, the air is freezing. Yumi locks her gaze onto you while pouring tea."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "¿Sabe que entraste al archivo? ¿O están todos confabulados?",
+            "en": "Does she know you entered the archive? Or is everyone in on it?"
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Buscar refugio con Aiko en el invernadero",
+            "en": "Seek comfort with Aiko in the greenhouse"
+          },
+          "next": "scene_20_aiko_greenhouse"
+        },
+        {
+          "text": {
+            "es": "Ir a la pista a entrenar con Sora",
+            "en": "Head to the track to train with Sora"
+          },
+          "next": "scene_22_sora_training"
+        }
+      ]
+    },
+    "scene_20_aiko_greenhouse": {
+      "chapter": {
+        "es": "Fase 20: Fragilidad Entre Jazmines",
+        "en": "Phase 20: Fragility Among Jasmine"
+      },
+      "bg": "img/bg_map_park.webp",
+      "sprite": "img/aiko_pinky.png",
+      "bgm": "audio/bgm_peace_debussy.mp3",
+      "lines": [
+        {
+          "speaker": "Aiko",
+          "text": {
+            "es": "Las flores de este invernadero necesitan cuidados constantes. Si una sola noche cae una helada, mueren sin remedio.",
+            "en": "The flowers in this greenhouse require constant care. If frost strikes on a single night, they wither without hope."
+          }
+        },
+        {
+          "speaker": "Aiko",
+          "text": {
+            "es": "A veces siento que mis pulmones son como estas flores de cristal...",
+            "en": "Sometimes I feel my lungs are just like these glass blossoms..."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Abrazarla y prometer protegerla pase lo que pase",
+            "en": "Embrace her and vow to protect her no matter what"
+          },
+          "next": "scene_21_aiko_collapse",
+          "set": {
+            "aiko_affection": 3
+          }
+        },
+        {
+          "text": {
+            "es": "Preguntarle qué sabe sobre el viejo faro",
+            "en": "Ask her what she knows about the old lighthouse"
+          },
+          "next": "scene_21_aiko_collapse",
+          "set": {
+            "paranoia": 1
+          }
+        }
+      ]
+    },
+    "scene_21_aiko_collapse": {
+      "chapter": {
+        "es": "Fase 21: El Ahogo Repentino",
+        "en": "Phase 21: Sudden Breathlessness"
+      },
+      "bg": "img/bg_map_park.webp",
+      "sprite": "img/aiko_scared.png",
+      "sfx": "audio/sfx_heartbeat_fast.wav",
+      "fx": "tremor",
+      "lines": [
+        {
+          "speaker": "Aiko",
+          "text": {
+            "es": "Cof... cof... n-no puedo... respirar...",
+            "en": "Cough... cough... I-I can't... breathe..."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Aiko cae de rodillas sujetándose la garganta. Sus labios se tornan azulados. ¡Su saturación de oxígeno está colapsando!",
+            "en": "Aiko drops to her knees clutching her throat. Her lips turn blue. Her oxygen saturation is collapsing!"
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Al levantarla en brazos para correr a la enfermería, tu propio pecho arde en un espasmo cardíaco doloroso.",
+            "en": "As you lift her into your arms to rush to the clinic, your own chest flares with a painful cardiac spasm."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Forzar tu cuerpo hasta el límite para salvarla",
+            "en": "Push your body to the limit to save her"
+          },
+          "next": "scene_24_festival_setup",
+          "set": {
+            "heart_pulse": -30,
+            "aiko_affection": 3
+          }
+        },
+        {
+          "text": {
+            "es": "Gritar pidiendo ayuda a gritos a Yumi",
+            "en": "Scream at the top of your lungs for Yumi"
+          },
+          "next": "scene_24_festival_setup",
+          "set": {
+            "yumi_trust": 2
+          }
+        }
+      ]
+    },
+    "scene_22_sora_training": {
+      "chapter": {
+        "es": "Fase 22: Esfuerzo en la Pista",
+        "en": "Phase 22: Exertion on the Track"
+      },
+      "bg": "img/bg_map_park.webp",
+      "sprite": "img/aiko_cat.png",
+      "bgm": "audio/bgm_peace_debussy.mp3",
+      "lines": [
+        {
+          "speaker": "Sora",
+          "text": {
+            "es": "¡Vamos! ¡Una vuelta más! Cuando corres, no hay pasado ni miedo, ¡solo el siguiente paso!",
+            "en": "Come on! One more lap! When you sprint, there is no past and no fear—only the next stride!"
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El sudor brilla en su frente. Sora corre con una pasión feroz, intentando sepultar el dolor de sus prótesis.",
+            "en": "Sweat glints on her forehead. Sora runs with fierce passion, striving to bury the pain of her prosthetics."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Aplaudiendo su tenacidad y determinación",
+            "en": "Applaud her grit and determination"
+          },
+          "next": "scene_23_sora_locker_tears",
+          "set": {
+            "sora_affection": 2
+          }
+        }
+      ]
+    },
+    "scene_23_sora_locker_tears": {
+      "chapter": {
+        "es": "Fase 23: Las Lágrimas del Vestuario",
+        "en": "Phase 23: Tears in the Locker Room"
+      },
+      "bg": "img/bg_room_3d.jpg",
+      "sprite": "img/girls/girl2_crying.png",
+      "bgm": "audio/bgm_melancholy_satie.mp3",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Al pasar por el vestuario para devolver una toalla, escuchas sollozos ahogados.",
+            "en": "Passing the locker room to return a towel, you hear muffled sobs."
+          }
+        },
+        {
+          "speaker": "Sora",
+          "text": {
+            "es": "Me duele tanto... Cada paso sobre estos muñones arde como fuego... Pero si me detengo, sentiré que ya estoy muerta...",
+            "en": "It hurts so much... Every step on these stumps burns like fire... But if I stop, I'll feel like I'm already dead..."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Sora abraza sus rodillas metálicas, llorando desconsoladamente en la soledad.",
+            "en": "Sora hugs her metal knees, weeping inconsolably in isolation."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Entrar y secar sus lágrimas con respeto y ternura",
+            "en": "Step in and gently wipe her tears with tenderness"
+          },
+          "next": "scene_24_festival_setup",
+          "set": {
+            "sora_affection": 3
+          }
+        },
+        {
+          "text": {
+            "es": "Dejar la toalla en silencio y marcharte",
+            "en": "Quietly leave the towel and step away"
+          },
+          "next": "scene_24_festival_setup"
+        }
+      ]
+    },
+    "scene_24_festival_setup": {
+      "chapter": {
+        "es": "Fase 24: Farolillos de Papel",
+        "en": "Phase 24: Paper Lanterns"
+      },
+      "bg": "img/venue_home.jpg",
+      "bgm": "audio/amb_rain.mp3",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El sanatorio prepara el Festival de Verano. Cuelgan farolillos de papel rojo bajo las cornisas.",
+            "en": "The sanatorium prepares for the Summer Festival. Red paper lanterns hang under the eaves."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Gotas gruesas de lluvia comienzan a repiquetear en los tejados. El cielo se tiñe de un gris cenizo ominoso.",
+            "en": "Heavy raindrops begin pattering against the rooftops. The sky turns an ominous ash gray."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Ayudar a resguardar los farolillos de la lluvia",
+            "en": "Help secure the lanterns from the rain"
+          },
+          "next": "scene_25_sky_darkens"
+        }
+      ]
+    },
+    "scene_25_sky_darkens": {
+      "chapter": {
+        "es": "Fase 25: La Barométrica en Caída",
+        "en": "Phase 25: Barometric Plunge"
+      },
+      "bg": "img/bg_beach_sunset.jpg",
+      "bgm": "audio/amb_rain.mp3",
+      "mood": "tension",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Las gaviotas han desaparecido. El oleaje del mar ruge con una furia descontrolada contra los arrecifes.",
+            "en": "The seagulls have vanished. The ocean surf roars with untamed fury against the reefs."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Las noticias en la radio confirman la llegada del supertifón número 14.",
+            "en": "Radio broadcasts confirm the landfall of Super Typhoon No. 14."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Asegurar las ventanas de los dormitorios",
+            "en": "Board up and secure the dorm windows"
+          },
+          "next": "scene_26_creepy_locker_note"
+        }
+      ]
+    },
+    "scene_26_creepy_locker_note": {
+      "chapter": {
+        "es": "Fase 26: La Nota Empapada",
+        "en": "Phase 26: The Soaked Note"
+      },
+      "bg": "img/venue_home.jpg",
+      "sfx": "audio/sfx_thunder.wav",
+      "fx": "flash-red",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "En tu casillero encuentras un sobre empapado con tinta roja corrida.",
+            "en": "In your locker, you find a soaked envelope with smeared red ink."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "'NO BEBAS EL MEDICAMENTO DE LAS 8 PM. ESTA NOCHE EL FARO EXIGE SU TRIBUTO'.",
+            "en": "'DO NOT DRINK THE 8 PM MEDICINE. TONIGHT THE LIGHTHOUSE DEMANDS ITS TRIBUTE'."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El trueno retumba haciendo vibrar los cristales.",
+            "en": "Thunder claps, making the glass panes shudder."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Guardar la nota como prueba [Fragmento +1]",
+            "en": "Keep the note as evidence [Memory Fragment +1]"
+          },
+          "next": "scene_27_rain_confrontation",
+          "set": {
+            "memory_fragments": 1,
+            "paranoia": 2
+          }
+        },
+        {
+          "text": {
+            "es": "Tirar la nota pensando que es una broma macabra",
+            "en": "Toss the note aside as a sick prank"
+          },
+          "next": "scene_27_rain_confrontation"
+        }
+      ]
+    },
+    "scene_27_rain_confrontation": {
+      "chapter": {
+        "es": "Fase 27: El Paso del Faro",
+        "en": "Phase 27: The Path to the Lighthouse"
+      },
+      "bg": "img/bg_map_street.webp",
+      "bgm": "audio/amb_rain.mp3",
+      "sfx": "audio/sfx_thunder.wav",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Bajo el aguacero, el camino que asciende al faro parece una boca de lobo abierta.",
+            "en": "Under the downpour, the winding path up to the lighthouse looks like a gaping abyss."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Ves una silueta con impermeable amarillo caminando hacia el acantilado.",
+            "en": "You glimpse a silhouette in a yellow raincoat heading toward the cliff."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Seguir a la silueta bajo la tormenta",
+            "en": "Follow the silhouette through the storm"
+          },
+          "next": "scene_28_yumi_intercepts",
+          "set": {
+            "paranoia": 2
+          }
+        },
+        {
+          "text": {
+            "es": "Regresar adentro a buscar a Sora y Aiko",
+            "en": "Go back inside to check on Sora and Aiko"
+          },
+          "next": "scene_28_yumi_intercepts"
+        }
+      ]
+    },
+    "scene_28_yumi_intercepts": {
+      "chapter": {
+        "es": "Fase 28: La Advertencia Desesperada",
+        "en": "Phase 28: Desperate Warning"
+      },
+      "bg": "img/venue_home.jpg",
+      "sprite": "img/aiko_purple.png",
+      "bgm": "audio/bgm_higurashi_dread.mp3",
+      "mood": "horror",
+      "lines": [
+        {
+          "speaker": "Yumi",
+          "text": {
+            "es": "¡Te dije que no salieras! ¿Es que no entiendes el peligro?",
+            "en": "I told you not to go out! Don't you understand the danger?"
+          }
+        },
+        {
+          "speaker": "Yumi",
+          "text": {
+            "es": "Cada vez que el tifón golpea en esta fecha, uno de nosotros muere y el tiempo se reinicia. ¡Llevo 14 bucles intentando romperlo!",
+            "en": "Every time the typhoon hits on this date, one of us dies and time resets. I've spent 14 loops trying to shatter it!"
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Yumi tiembla de frío y terror. Por primera vez, ves su máscara de frialdad completamente destrozada.",
+            "en": "Yumi shivers from cold and sheer terror. For the first time, her stoic facade lies completely shattered."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Confiar en ella y pedirle un plan juntos",
+            "en": "Trust her and forge an escape plan together"
+          },
+          "next": "scene_29_storm_blackout",
+          "set": {
+            "yumi_trust": 3
+          }
+        },
+        {
+          "text": {
+            "es": "Dudar de su cordura y retroceder",
+            "en": "Doubt her sanity and back away"
+          },
+          "next": "scene_29_storm_blackout",
+          "set": {
+            "paranoia": 3
+          }
+        }
+      ]
+    },
+    "scene_29_storm_blackout": {
+      "chapter": {
+        "es": "Fase 29: El Apagón Total",
+        "en": "Phase 29: Total Blackout"
+      },
+      "bg": "img/venue_home.jpg",
+      "sfx": "audio/sfx_glitch.wav",
+      "fx": "blackout",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Un chasquido eléctrico sacude el edificio. Las lámparas zumban y se apagan en un estallido de chispas.",
+            "en": "An electrical pop shakes the building. The fixtures buzz and die in a burst of sparks."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Oscuridad absoluta. Solo el estruendo salvaje del viento contra las persianas.",
+            "en": "Pitch-black darkness. Only the howling wind tearing at the window shutters."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Encender la linterna del teléfono móvil",
+            "en": "Turn on your phone's flashlight"
+          },
+          "next": "scene_30_scream_in_dark"
+        }
+      ]
+    },
+    "scene_30_scream_in_dark": {
+      "chapter": {
+        "es": "Fase 30: El Alarido en el Ala Oeste",
+        "en": "Phase 30: Shriek in the West Wing"
+      },
+      "bg": "img/bg_room_3d.jpg",
+      "sfx": "audio/sfx_glass_shatter.wav",
+      "fx": "tremor",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "¡CRASH! El sonido de cristales destrozados viene acompañado de un grito agudo que hiela la sangre.",
+            "en": "CRASH! The sound of shattering glass is accompanied by a bloodcurdling scream."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "¡Es la voz de Aiko!",
+            "en": "It's Aiko's voice!"
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Correr a toda prisa hacia la habitación de Aiko",
+            "en": "Sprint frantically toward Aiko's room"
+          },
+          "next": "scene_31_aiko_room_crisis",
+          "set": {
+            "heart_pulse": -20
+          }
+        }
+      ]
+    },
+    "scene_31_aiko_room_crisis": {
+      "chapter": {
+        "es": "Fase 31: El Rastro Escarlata",
+        "en": "Phase 31: The Scarlet Trail"
+      },
+      "bg": "img/venue_bedroom.jpg",
+      "bgm": "audio/bgm_higurashi_dread.mp3",
+      "fx": "blood",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "La puerta del dormitorio de Aiko está abierta de par en par. La ventana rota permite la entrada de una lluvia torrencial.",
+            "en": "Aiko's bedroom door stands wide open. The broken window admits a torrential blast of rain."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Su cama está vacía. En el marco de la ventana hay marcas de manos empapadas en sangre.",
+            "en": "Her bed is empty. On the sill lie wet bloody handprints."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El rastro se dirige escaleras arriba, hacia la salida del acantilado.",
+            "en": "The trail leads up the stairs toward the cliffside exit."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Seguir las huellas al exterior sin dudar",
+            "en": "Follow the tracks outside without hesitation"
+          },
+          "next": "scene_32_sora_panicked"
+        },
+        {
+          "text": {
+            "es": "Buscar a Sora primero para no ir solo",
+            "en": "Find Sora first so you don't go alone"
+          },
+          "next": "scene_32_sora_panicked"
+        }
+      ]
+    },
+    "scene_32_sora_panicked": {
+      "chapter": {
+        "es": "Fase 32: Sora en el Umbral del Colapso",
+        "en": "Phase 32: Sora on the Brink"
+      },
+      "bg": "img/venue_home.jpg",
+      "sprite": "img/girls/girl2_scared.png",
+      "sfx": "audio/sfx_thunder.wav",
+      "lines": [
+        {
+          "speaker": "Sora",
+          "text": {
+            "es": "¡No puedo encontrar mis prótesis de repuesto! ¡Alguien las escondió en el almacén!",
+            "en": "I can't find my spare blades! Someone hid them in the storehouse!"
+          }
+        },
+        {
+          "speaker": "Sora",
+          "text": {
+            "es": "Vi a Aiko... tenía la mirada perdida, como si estuviera en trance... murmuraba que debía 'pagar el precio del mar'...",
+            "en": "I saw Aiko... her eyes were completely hollow, like in a trance... she muttered she had to 'pay the sea's price'..."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Cargar a Sora o ayudarla a levantarse para ir juntos",
+            "en": "Carry Sora or help her up to go together"
+          },
+          "next": "scene_33_cardiac_spike",
+          "set": {
+            "sora_affection": 3,
+            "heart_pulse": -25
+          }
+        },
+        {
+          "text": {
+            "es": "Decirle que se quede a salvo mientras vas tú solo",
+            "en": "Tell her to stay safe while you go alone"
+          },
+          "next": "scene_33_cardiac_spike"
+        }
+      ]
+    },
+    "scene_33_cardiac_spike": {
+      "chapter": {
+        "es": "Fase 33: La Arritmia Mortal",
+        "en": "Phase 33: Deadly Arrhythmia"
+      },
+      "bg": "img/venue_home.jpg",
+      "sfx": "audio/sfx_heartbeat_fast.wav",
+      "fx": "flash-red",
+      "mood": "horror",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "¡Un latigazo de dolor te atraviesa el corazón! Caes sobre una rodilla, boqueando por aire.",
+            "en": "A whip of agony tears through your heart! You fall to one knee, gasping for air."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Tu ritmo cardíaco se dispara a 170 latidos por minuto en un fibrilar caótico. La vista se te llena de puntos negros.",
+            "en": "Your heart rate spikes to 170 bpm in a chaotic flutter. Black spots swim across your vision."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Tragar una pastilla de emergencia con agua de lluvia",
+            "en": "Swallow an emergency pill with rainwater"
+          },
+          "next": "scene_34_cliff_ascent",
+          "set": {
+            "heart_pulse": 40
+          }
+        },
+        {
+          "text": {
+            "es": "Avanzar por pura fuerza de voluntad ignorando el dolor",
+            "en": "Push forward on sheer willpower, ignoring the agony"
+          },
+          "next": "scene_34_cliff_ascent",
+          "set": {
+            "heart_pulse": -20,
+            "paranoia": 2
+          }
+        }
+      ]
+    },
+    "scene_34_cliff_ascent": {
+      "chapter": {
+        "es": "Fase 34: El Ascenso Bajo el Diluvio",
+        "en": "Phase 34: Ascent Through the Deluge"
+      },
+      "bg": "img/bg_lighthouse_storm.jpg",
+      "bgm": "audio/amb_rain.mp3",
+      "sfx": "audio/sfx_thunder.wav",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El tifón golpea con la fuerza de un muro de agua. Cada paso por el barro del sendero es una batalla campal.",
+            "en": "The typhoon hits with the force of a wall of water. Every step through the muddy path is a pitched battle."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "En lo alto del promontorio, la torre cilíndrica del viejo faro corta las nubes negras.",
+            "en": "At the summit of the bluff, the cylindrical tower of the old lighthouse pierces the black storm clouds."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Entrar por la pesada puerta de hierro del faro",
+            "en": "Enter through the heavy iron door of the lighthouse"
+          },
+          "next": "scene_35_lighthouse_interior"
+        }
+      ]
+    },
+    "scene_35_lighthouse_interior": {
+      "chapter": {
+        "es": "Fase 35: Las Escaleras de Caracol",
+        "en": "Phase 35: The Spiral Stairs"
+      },
+      "bg": "img/bg_lighthouse_storm.jpg",
+      "sfx": "audio/sfx_door.mp3",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Dentro del faro, las ráfagas aúllan a través de las rendijas. Los escalones de hierro oxidado resuenan bajo tus pisadas.",
+            "en": "Inside the lighthouse, gales howl through narrow slits. Rusted iron steps ring under your footsteps."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Arriba, en la linterna del faro, una silueta delgada se recorta contra el haz de luz giratorio.",
+            "en": "Above in the lantern room, a slender figure is silhouetted against the rotating beam of light."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Subir los últimos peldaños gritando su nombre",
+            "en": "Climb the final steps shouting her name"
+          },
+          "next": "scene_36_lighthouse_balcony"
+        }
+      ]
+    },
+    "scene_36_lighthouse_balcony": {
+      "chapter": {
+        "es": "Fase 36: En el Borde del Abismo",
+        "en": "Phase 36: At the Edge of the Abyss"
+      },
+      "bg": "img/bg_lighthouse_storm.jpg",
+      "sprite": "img/aiko_crying.png",
+      "sfx": "audio/sfx_thunder.wav",
+      "fx": "tremor",
+      "lines": [
+        {
+          "speaker": "Aiko",
+          "text": {
+            "es": "¡No te acerques! ¡Si me lanzo al mar, el ciclo se romperá y ustedes podrán vivir sanos!",
+            "en": "Don't come any closer! If I leap into the sea, the cycle will break and you all will live healthy!"
+          }
+        },
+        {
+          "speaker": "Aiko",
+          "text": {
+            "es": "Siempre he sido una carga... ¡mi cuerpo no sirve para nada!",
+            "en": "I've always been a burden... my broken body is useless!"
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El viento azota sus cabellos empapados. Está al borde de la barandilla de hierro carcomida.",
+            "en": "The wind whips her soaked hair. She stands right on the edge of the rusted railing."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Gritar que su vida tiene valor y que la amas",
+            "en": "Shout that her life has immense value and that you love her"
+          },
+          "next": "scene_37_emotional_confrontation",
+          "set": {
+            "aiko_affection": 5
+          }
+        },
+        {
+          "text": {
+            "es": "Decirle que el sacrificio es inútil porque el ciclo se repetirá",
+            "en": "Tell her sacrifice is useless because the loop will reset"
+          },
+          "next": "scene_37_emotional_confrontation",
+          "set": {
+            "paranoia": 2
+          }
+        }
+      ]
+    },
+    "scene_37_emotional_confrontation": {
+      "chapter": {
+        "es": "Fase 37: Desarmando la Pesadilla",
+        "en": "Phase 37: Dismantling the Nightmare"
+      },
+      "bg": "img/bg_lighthouse_storm.jpg",
+      "sprite": "img/aiko_crying.png",
+      "bgm": "audio/bgm_melancholy_satie.mp3",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "'Aiko... mírame. Mi corazón está fallando en este instante, pero no me importa morir aquí si es para sostener tu mano'.",
+            "en": "'Aiko... look at me. My heart is failing this very second, but I don't care if I die here as long as I hold your hand'."
+          }
+        },
+        {
+          "speaker": "Aiko",
+          "text": {
+            "es": "¿T-tú... de verdad darías tu vida por mí?",
+            "en": "W-Would you... truly give your life for me?"
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Las lágrimas de Aiko se mezclan con la lluvia torrencial. Su mano tiembla al extenderse hacia ti.",
+            "en": "Aiko's tears blend with the driving rain. Her trembling hand reaches out toward yours."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Abalanzarte hacia adelante para sujetarla",
+            "en": "Lunge forward to catch her hand"
+          },
+          "next": "scene_38_sora_yumi_arrival"
+        }
+      ]
+    },
+    "scene_38_sora_yumi_arrival": {
+      "chapter": {
+        "es": "Fase 38: La Fuerza de los Vínculos",
+        "en": "Phase 38: The Strength of Bonds"
+      },
+      "bg": "img/bg_lighthouse_storm.jpg",
+      "sprite": "img/girls/girl2_happy.png",
+      "sfx": "audio/sfx_thunder.wav",
+      "lines": [
+        {
+          "speaker": "Sora",
+          "text": {
+            "es": "¡No te soltaremos!",
+            "en": "We won't let you fall!"
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "¡Sora y Yumi irrumpen en el balcón del faro! Sora, apoyada en Yumi y forzando sus muñones al límite, agarra el otro brazo de Aiko.",
+            "en": "Sora and Yumi burst onto the lighthouse balcony! Sora, leaning on Yumi and pushing her stumps to the limit, grabs Aiko's other arm."
+          }
+        },
+        {
+          "speaker": "Yumi",
+          "text": {
+            "es": "¡Haleeen con todas sus fuerzas!",
+            "en": "Pull with everything you've got!"
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Tirar con todo tu ser para poner a salvo a Aiko",
+            "en": "Pull with all your might to pull Aiko to safety"
+          },
+          "next": "scene_39_safe_on_floor"
+        }
+      ]
+    },
+    "scene_39_safe_on_floor": {
+      "chapter": {
+        "es": "Fase 39: El Abrazo Empapado",
+        "en": "Phase 39: The Soaked Embrace"
+      },
+      "bg": "img/bg_lighthouse_storm.jpg",
+      "bgm": "audio/bgm_peace_debussy.mp3",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Los cuatro caen sobre el suelo metálico del faro, empapados pero vivos.",
+            "en": "All four collapse onto the lighthouse's metal grating, soaked to the bone but alive."
+          }
+        },
+        {
+          "speaker": "Aiko",
+          "text": {
+            "es": "Lo siento... lo siento tanto... creí que era la única forma...",
+            "en": "I'm sorry... I'm so sorry... I thought it was the only way..."
+          }
+        },
+        {
+          "speaker": "Sora",
+          "text": {
+            "es": "¡Tonta! ¡Tu vida es lo más valioso que tenemos aquí!",
+            "en": "You silly girl! Your life is the most precious thing we have here!"
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Sonreír aliviado mientras tu visión se nubla",
+            "en": "Smile in relief as your vision fades"
+          },
+          "next": "scene_40_heart_collapse_climax"
+        }
+      ]
+    },
+    "scene_40_heart_collapse_climax": {
+      "chapter": {
+        "es": "Fase 40: El Último Latido",
+        "en": "Phase 40: The Final Heartbeat"
+      },
+      "bg": "img/bg_lighthouse_storm.jpg",
+      "sfx": "audio/sfx_heartbeat_slow.wav",
+      "fx": "tremor",
+      "mood": "horror",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El esfuerzo sobrehumano cobra su precio. Tu pecho colapsa en un silencio sordo.",
+            "en": "The superhuman exertion exacts its price. Your chest collapses into a deadening silence."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El pitido de tu monitor mental se aplana. 'Biiiiip...'.",
+            "en": "The monitor beep in your mind flatlines. 'Beeeeeeep...'."
+          }
+        },
+        {
+          "speaker": "Yumi",
+          "text": {
+            "es": "¡Tiene un paro cardíaco! ¡Inicien RCP de inmediato!",
+            "en": "He's in cardiac arrest! Start CPR immediately!"
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Cerrar los ojos confiando plenamente en ellas",
+            "en": "Close your eyes, trusting in them completely"
+          },
+          "next": "scene_41_destiny_branch"
+        }
+      ]
+    },
+    "scene_41_destiny_branch": {
+      "chapter": {
+        "es": "Fase 41: La Encrucijada de Almas",
+        "en": "Phase 41: Crossroads of Souls"
+      },
+      "bg": "img/bg_beach_sunset.jpg",
+      "bgm": "audio/bgm_melancholy_satie.mp3",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "En el limbo entre la vida y la muerte, los ecos de tus decisiones resuenan en la penumbra.",
+            "en": "In the limbo between life and death, the echoes of your choices reverberate through the twilight."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "¿Qué sentimiento pesó más en tu corazón durante este verano?",
+            "en": "Which emotion weighed most heavily in your heart during this summer?"
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "La paranoia y el miedo al abismo",
+            "en": "Paranoia and fear of the abyss"
+          },
+          "next": "scene_46_ending_paranoia",
+          "if": "paranoia >= 4"
+        },
+        {
+          "text": {
+            "es": "El ciclo sin fin y la resignación",
+            "en": "The endless cycle and resignation"
+          },
+          "next": "scene_47_ending_loop",
+          "if": "memory_fragments < 2"
+        },
+        {
+          "text": {
+            "es": "El amor abnegado por Aiko",
+            "en": "Selfless devotion to Aiko"
+          },
+          "next": "scene_48_ending_aiko",
+          "if": "aiko_affection >= 5"
+        },
+        {
+          "text": {
+            "es": "La promesa de correr hacia el futuro con Sora",
+            "en": "The promise to run toward the future with Sora"
+          },
+          "next": "scene_49_ending_sora",
+          "if": "sora_affection >= 5"
+        },
+        {
+          "text": {
+            "es": "El milagro completo de la memoria y la verdad",
+            "en": "The complete miracle of memory and truth"
+          },
+          "next": "scene_50_true_miracle_setup",
+          "if": "memory_fragments >= 3 && yumi_trust >= 3"
+        }
+      ]
+    },
+    "scene_46_ending_paranoia": {
+      "chapter": {
+        "es": "Epílogo: Ecos en el Fondo del Mar",
+        "en": "Epilogue: Echoes at the Sea Floor"
+      },
+      "bg": "img/bg_lighthouse_storm.jpg",
+      "fx": "blackout",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "La desconfianza envenenó cada uno de tus pensamientos. En tu delirio, creíste que todos querían sacrificar tu corazón.",
+            "en": "Distrust poisoned every thought. In your delirium, you believed everyone wanted to sacrifice your heart."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Tu cuerpo sucumbió en las rocas heladas bajo el faro.",
+            "en": "Your body succumbed on the icy rocks beneath the lighthouse."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Ver Desenlace",
+            "en": "View Ending"
+          },
+          "next": "ending_paranoia"
+        }
+      ]
+    },
+    "scene_47_ending_loop": {
+      "chapter": {
+        "es": "Epílogo: El Despertar del Ciclo",
+        "en": "Epilogue: Reawakening of the Cycle"
+      },
+      "bg": "img/venue_bedroom.jpg",
+      "sfx": "audio/sfx_glitch.wav",
+      "fx": "glitch",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Todo se desvanece en una estática blanca...",
+            "en": "Everything dissolves into white static..."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "... Y de repente, abres los ojos. El traqueteo del tren. Es verano otra vez. Tus recuerdos se han desvanecido, listos para repetir el dolor.",
+            "en": "... And suddenly, you open your eyes. The rhythmic rattle of the train. It's summer once again. Your memories have vanished, ready to repeat the agony."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Ver Desenlace",
+            "en": "View Ending"
+          },
+          "next": "ending_loop"
+        }
+      ]
+    },
+    "scene_48_ending_aiko": {
+      "chapter": {
+        "es": "Epílogo: El Lienzo Inmortal",
+        "en": "Epilogue: The Immortal Canvas"
+      },
+      "bg": "img/bg_beach_sunset.jpg",
+      "sprite": "img/aiko_pinky.png",
+      "bgm": "audio/bgm_peace_debussy.mp3",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Logran reanimarte en la ambulancia. Pasan los meses.",
+            "en": "They manage to revive you in the ambulance. Months pass."
+          }
+        },
+        {
+          "speaker": "Aiko",
+          "text": {
+            "es": "Terminé nuestro cuadro... Míralo. Estamos los dos sonriendo frente a las olas de Yamaku.",
+            "en": "I finished our painting... Look. Here we are, both smiling before the waves of Yamaku."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Aunque sus pulmones sigan débiles y tu corazón lata con cautela, han aprendido que el amor no se mide en años, sino en la intensidad de cada segundo.",
+            "en": "Though her lungs remain fragile and your heart beats with caution, you have learned love isn't measured in years, but in the depth of every second."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Ver Desenlace",
+            "en": "View Ending"
+          },
+          "next": "ending_aiko"
+        }
+      ]
+    },
+    "scene_49_ending_sora": {
+      "chapter": {
+        "es": "Epílogo: Caminar Juntos al Amanecer",
+        "en": "Epilogue: Walking Together at Dawn"
+      },
+      "bg": "img/bg_beach_sunny.jpg",
+      "sprite": "img/girls/girl2_happy.png",
+      "bgm": "audio/bgm_peace_debussy.mp3",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "La primavera siguiente, la pista de atletismo se llena de pétalos de cerezo.",
+            "en": "The following spring, the running track is sprinkled with fallen cherry petals."
+          }
+        },
+        {
+          "speaker": "Sora",
+          "text": {
+            "es": "¡Mira! ¡Nuevas prótesis deportivas! Y esta vez, tú eres quien da la señal de salida con el silbato.",
+            "en": "Look! Brand new racing blades! And this time, you get to blow the whistle for the start!"
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Superaron el miedo a sus propias cicatrices. Cada paso que dan juntos es una victoria contra el destino.",
+            "en": "You conquered the dread of your own scars. Every step taken together is a triumph over fate."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Ver Desenlace",
+            "en": "View Ending"
+          },
+          "next": "ending_sora"
+        }
+      ]
+    },
+    "scene_50_true_miracle_setup": {
+      "chapter": {
+        "es": "Fase 50: La Verdad Revelada",
+        "en": "Phase 50: Truth Revealed"
+      },
+      "bg": "img/venue_home.jpg",
+      "bgm": "audio/bgm_peace_debussy.mp3",
+      "sfx": "audio/sfx_memory_fragment.wav",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Los tres fragmentos de memoria encajan en tu mente como piezas de un rompecabezas.",
+            "en": "The three memory fragments click into place in your mind like a finished jigsaw puzzle."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "No había ninguna maldición sobrenatural. El 'bucle' era el trauma disociativo y el dolor reprimido de cuatro jóvenes que creían no merecer vivir.",
+            "en": "There was never a supernatural curse. The 'loop' was dissociative trauma and the buried pain of four souls who believed they didn't deserve to live."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Despertar en la enfermería rodeado de luz",
+            "en": "Awaken in the clinic surrounded by light"
+          },
+          "next": "scene_51_true_awakening"
+        }
+      ]
+    },
+    "scene_51_true_awakening": {
+      "chapter": {
+        "es": "Fase 51: El Calor de Sus Manos",
+        "en": "Phase 51: Warmth of Their Hands"
+      },
+      "bg": "img/venue_bedroom.jpg",
+      "bgm": "audio/bgm_peace_debussy.mp3",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Tus ojos se abren despacio. El monitor cardíaco emite un pitido rítmico y saludable.",
+            "en": "Your eyes flutter open slowly. The heart monitor beeps with a rhythmic, healthy cadence."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Aiko, Sora y Yumi están sentadas junto a tu cama, agotadas pero con lágrimas de alegría incontenible en sus ojos.",
+            "en": "Aiko, Sora, and Yumi sit by your bedside, exhausted yet with tears of uncontainable joy in their eyes."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Apretar sus manos y sonreírles",
+            "en": "Squeeze their hands and smile warmly"
+          },
+          "next": "scene_52_beach_epilogue"
+        }
+      ]
+    },
+    "scene_52_beach_epilogue": {
+      "chapter": {
+        "es": "Fase 52: La Mañana Tras la Tormenta",
+        "en": "Phase 52: Morning After the Storm"
+      },
+      "bg": "img/bg_beach_sunny.jpg",
+      "bgm": "audio/amb_ocean_waves.wav",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El tifón ha desaparecido sin dejar rastro. La playa resplandece con una claridad que nunca antes habías visto.",
+            "en": "The typhoon has vanished without a trace. The beach glows with a crystalline clarity you've never seen before."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Aiko corre descalza por la orilla mostrando su nuevo cuadro, Sora practica saltos en la arena y Yumi ríe abiertamente sin su estricto uniforme.",
+            "en": "Aiko runs barefoot by the surf showing her new canvas, Sora practices bounds in the sand, and Yumi laughs openly without her stiff uniform."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Unirte a ellas en la orilla del mar",
+            "en": "Join them at the water's edge"
+          },
+          "next": "scene_53_heart_at_peace"
+        }
+      ]
+    },
+    "scene_53_heart_at_peace": {
+      "chapter": {
+        "es": "Fase 53: Un Latido Sincero",
+        "en": "Phase 53: A True Heartbeat"
+      },
+      "bg": "img/bg_beach_sunny.jpg",
+      "sprite": "img/aiko_beach.png",
+      "bgm": "audio/bgm_peace_debussy.mp3",
+      "lines": [
+        {
+          "speaker": "Aiko",
+          "text": {
+            "es": "¡Mira hacia el horizonte! ¡Los cerezos de la colina están floreciendo fuera de temporada!",
+            "en": "Look toward the horizon! The cherry trees on the bluff are blooming out of season!"
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Miles de pétalos rosados descienden sobre las olas turquesas como una lluvia bendita.",
+            "en": "Thousands of pink petals drift down over the turquoise waves like a blessed rain."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Pones tu mano en el pecho. Por primera vez en tu vida, tu corazón no duele. Late en perfecta armonía con el mar.",
+            "en": "You place a hand over your chest. For the first time ever, your heart does not ache. It beats in pure harmony with the ocean."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Abrazar el futuro junto a ellas",
+            "en": "Embrace the future together with them"
+          },
+          "next": "scene_54_final_credits"
+        }
+      ]
+    },
+    "scene_54_final_credits": {
+      "chapter": {
+        "es": "Fase 54: Cuando los Cerezos Florecen",
+        "en": "Phase 54: When the Cherries Bloom"
+      },
+      "bg": "img/bg_beach_sunset.jpg",
+      "bgm": "audio/bgm_peace_debussy.mp3",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El ciclo se ha roto para siempre. Las cicatrices ya no son cadenas, sino testimonios de que sobrevivieron juntos.",
+            "en": "The cycle is shattered forever. Scars are no longer chains, but medals testifying that you survived together."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Gracias por leer 'Cuando los Cerezos Lloran'.",
+            "en": "Thank you for reading 'When the Cherries Weep'."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Ver Final Verdadero",
+            "en": "View True Ending"
+          },
+          "next": "ending_true_miracle"
+        }
+      ]
+    },
+    "ending_paranoia": {
+      "ending": {
+        "id": "ending_paranoia",
+        "title": {
+          "es": "Final Trágico 1: Ecos en el Fondo del Mar",
+          "en": "Tragic Ending 1: Echoes at the Sea Floor"
+        },
+        "desc": {
+          "es": "La sospecha y la paranoia te consumieron. Huiste en soledad hacia el acantilado durante el tifón. Tu historia termina donde el mar ahoga los recuerdos.",
+          "en": "Suspicion and paranoia consumed your thoughts. You fled alone toward the cliffs during the typhoon. Your story ends where the sea drowns all memories."
+        },
+        "type": "bad"
+      }
+    },
+    "ending_loop": {
+      "ending": {
+        "id": "ending_loop",
+        "title": {
+          "es": "Final de Bucle 2: El Despertar del Ciclo",
+          "en": "Loop Ending 2: Reawakening of the Cycle"
+        },
+        "desc": {
+          "es": "Tu corazón no resistió el esfuerzo. Despiertas de nuevo en el tren hacia Yamaku sin recordar nada. El verano comienza una vez más.",
+          "en": "Your heart failed under the strain. You wake again aboard the train toward Yamaku with amnesia. The summer begins once more."
+        },
+        "type": "bad"
+      }
+    },
+    "ending_aiko": {
+      "ending": {
+        "id": "ending_aiko",
+        "title": {
+          "es": "Final de Aiko 3: El Lienzo Inmortal",
+          "en": "Aiko Ending 3: The Immortal Canvas"
+        },
+        "desc": {
+          "es": "Aiko y tú aprendieron que la fragilidad física no impide amar con devoción. Cada lienzo que ella pinta guarda el latido eterno de su promesa.",
+          "en": "Aiko and you learned that physical fragility is no barrier to boundless love. Every canvas she paints preserves the eternal beat of your vow."
+        },
+        "type": "good"
+      }
+    },
+    "ending_sora": {
+      "ending": {
+        "id": "ending_sora",
+        "title": {
+          "es": "Final de Sora 4: Caminar Juntos al Amanecer",
+          "en": "Sora Ending 4: Walking Together at Dawn"
+        },
+        "desc": {
+          "es": "Sora te enseñó que correr es más que mover las piernas: es negarse a agachar la cabeza. Juntos sonríen hacia un futuro brillante.",
+          "en": "Sora taught you that running is more than legs: it's refusing to bow to despair. Together you smile toward a bright future."
+        },
+        "type": "good"
+      }
+    },
+    "ending_true_miracle": {
+      "ending": {
+        "id": "ending_true_miracle",
+        "title": {
+          "es": "Final Verdadero 5: Cuando los Cerezos Florecen",
+          "en": "True Ending 5: When the Cherries Bloom"
+        },
+        "desc": {
+          "es": "Contra todo pronóstico médico y psicológico, sanaron sus corazones juntos. Bajo una lluvia milagrosa de pétalos sobre las olas turquesas, la vida comienza de verdad.",
+          "en": "Against all medical and psychological odds, you healed your hearts together. Under a miraculous rain of petals over turquoise waves, life truly begins."
+        },
+        "type": "true"
+      }
+    }
+  }
+}
