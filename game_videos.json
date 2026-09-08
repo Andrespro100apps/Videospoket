@@ -1,6 +1,6 @@
 {
   "rock": [
-    "game_piedra.mp4",
+    "game_tijeras.mp4",
     "game_piedra2.mp4"
   ],
   "paper": [
@@ -9,7 +9,7 @@
     "game_papel3.mp4"
   ],
   "scissors": [
-    "game_tijeras.mp4",
+    "game_piedra.mp4",
     "game_tijeras2.mp4"
   ]
 }
