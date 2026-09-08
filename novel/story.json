@@ -1,1865 +1,2046 @@
 {
-  "_meta": {
-    "title": "Cuando los Cerezos Lloran — Edición Yamaku",
-    "version": "8.0.0",
-    "author": "Pocket Girl Studio",
-    "inspired": "Katawa Shoujo x Higurashi no Naku Koro ni",
-    "targetDuration": "2 hours (82 scenes, complete multi-route narrative)",
-    "phaseCount": 82
-  },
   "title": {
-    "es": "Cuando los Cerezos Lloran",
-    "en": "When the Cherries Weep",
-    "ja": "桜が泣くとき"
+    "es": "Caminos del Corazón: Crónicas de Yamaku",
+    "en": "Heartpaths: Yamaku Chronicles"
   },
+  "author": "Pocket Novel Project",
+  "version": "3.5.0",
   "startVars": {
-    "heart_pulse": 100,
-    "paranoia": 0,
-    "aiko_affection": 0,
-    "sora_affection": 0,
-    "yumi_trust": 0,
-    "memory_fragments": 0,
-    "loop_count": 1
+    "sora_points": 0,
+    "yumi_points": 0,
+    "aiko_points": 0,
+    "elena_points": 0,
+    "rei_points": 0,
+    "kenji_points": 0,
+    "heart_strain": 0,
+    "has_meds": 1
   },
   "scenes": {
     "start": {
       "chapter": {
-        "es": "Acto I: El Latido que se Detuvo",
-        "en": "Act I: The Beat That Stopped"
+        "es": "Prólogo: El Invierno del Silencio",
+        "en": "Prologue: Winter of Silence"
       },
-      "bg": "img/ks_hosp_room.jpg",
-      "bgm": "audio/ks_painful_history.ogg",
-      "sfx": "audio/ks_heart_slow.ogg",
-      "mood": "calm",
+      "bg": "img/ks_op_snowywoods.jpg",
+      "bgm": "audio/ks_caged_heart.ogg",
+      "mood": "fear",
+      "bgEffect": "",
       "lines": [
         {
           "speaker": "narrator",
           "text": {
-            "es": "El silencio de la habitación de hospital solo era interrumpido por el goteo constante del suero. 'Lub-dub... lub-dub...'",
-            "en": "The sterile silence of the hospital room was broken only by the steady drip of the IV. 'Lub-dub... lub-dub...'"
-          }
+            "es": "El frío del invierno de aquel año calaba hondo en los huesos, pero no era el viento gélido lo que me detenía el aliento.",
+            "en": "That year's winter chill cut deep into the bones, but it wasn't the icy wind that took my breath away."
+          },
+          "expr": "neutral"
         },
         {
           "speaker": "narrator",
           "text": {
-            "es": "Meses atrás, un dolor lacerante en medio de la nieve te arrancó la conciencia. Arritmia ventricular mayor congénita. Tu corazón es una bomba de tiempo.",
-            "en": "Months ago, a searing agony in the snow claimed your consciousness. Major congenital ventricular arrhythmia. Your heart is a ticking time bomb."
-          }
+            "es": "Caminaba junto a ella por el parque cubierto de nieve. Las ramas desnudas de los cerezos parecían garras de ceniza contra el cielo plomizo.",
+            "en": "I was walking beside her through the snow-covered park. The bare cherry branches seemed like claws of ash against the leaden sky."
+          },
+          "expr": "neutral"
         },
         {
           "speaker": "narrator",
           "text": {
-            "es": "El médico firmó el traslado: 'Academia Yamaku Kaigan'. Una institución especializada en la costa para jóvenes con discapacidades y condiciones crónicas.",
-            "en": "The doctor signed the transfer papers: 'Yamaku Kaigan Academy'. A specialized coastal institute for youths with disabilities and chronic medical conditions."
-          }
+            "es": "Había una carta en mi bolsillo. Un sobre pulcro doblado con esmero. Mis manos temblaban, no por la escarcha, sino por la confesión que estaba a punto de pronunciar.",
+            "en": "There was a letter in my pocket. A neat envelope folded with care. My hands trembled, not from frost, but from the confession I was about to speak."
+          },
+          "expr": "neutral",
+          "style": "thought"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Entonces, el aire se volvió repentinamente sólido. Como si hubiera inhalado astillas de vidrio.",
+            "en": "Then, the air suddenly turned solid. As though I had inhaled splinters of glass."
+          },
+          "expr": "neutral",
+          "sfx": "audio/ks_heart_slow.ogg",
+          "fx": "heartbeat",
+          "mood": "tension"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Un dolor agudo y asfixiante me perforó el centro del pecho. Mi corazón... tropezó. Luego galopó en un ritmo desbocado, salvaje, caótico.",
+            "en": "A sharp, suffocating pain pierced the center of my chest. My heart... stumbled. Then galloped in a wild, chaotic rhythm."
+          },
+          "expr": "neutral",
+          "sfx": "audio/ks_heart_fast.ogg",
+          "fx": "tremor"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Mis rodillas cedieron contra la nieve helada. Escuché su grito ahogado a lo lejos, un sonido amortiguado por la tormenta que comenzaba a cubrir mi visión.",
+            "en": "My knees gave way against the icy snow. I heard her muffled gasp in the distance, a sound softened by the storm beginning to cover my vision."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "La oscuridad no cayó de golpe. Fue un desvanecimiento lento, una caída libre hacia un pozo donde los latidos se volvían cada vez más tenues...",
+            "en": "Darkness didn't fall at once. It was a slow fade, a free fall into a well where the heartbeats became fainter and fainter..."
+          },
+          "expr": "neutral",
+          "sfx": "audio/ks_heart_stop.ogg",
+          "fx": "blackout"
         }
       ],
-      "choices": [
-        {
-          "text": {
-            "es": "Tomar la maleta y abordar el tren hacia la costa",
-            "en": "Pick up your suitcase and board the coastal train"
-          },
-          "next": "scene_02_gate_arrival"
-        }
-      ]
+      "choices": [],
+      "next": "prologue_hospital"
     },
-    "scene_02_gate_arrival": {
+    "prologue_hospital": {
       "chapter": {
-        "es": "Acto I: Las Puertas de Yamaku",
-        "en": "Act I: The Gates of Yamaku"
+        "es": "Prólogo: La Habitación Blanca",
+        "en": "Prologue: The White Ward"
+      },
+      "bg": "img/ks_hosp_room.jpg",
+      "bgm": "audio/ks_painful_history.ogg",
+      "mood": "calm",
+      "bgEffect": "",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El olor a desinfectante y suelo esterilizado fue lo primero que me devolvió a la vigilia.",
+            "en": "The smell of disinfectant and sanitized floors was the first thing that brought me back to wakefulness."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Las paredes blancas me envolvían como un sudario. A través de la ventana, vi cómo los meses pasaban: la nieve dio paso a los brotes de primavera, y luego al calor sofocante del verano.",
+            "en": "The white walls enveloped me like a shroud. Through the window, I watched months slip by: snow yielded to spring buds, then to suffocating summer heat."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Mis compañeros de clase venían a visitarme al principio. Traían notas, flores que se marchitaban en jarrones de plástico y sonrisas forzadas.",
+            "en": "My classmates visited at first. They brought notes, flowers that withered in plastic vases, and forced smiles."
+          },
+          "expr": "neutral",
+          "style": "thought"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Pero con cada semana que pasaba, las visitas se espaciaron. Hasta que la habitación quedó en un silencio absoluto, habitada únicamente por el pitido constante del monitor cardíaco.",
+            "en": "But with each passing week, the visits spaced out. Until the room stood in absolute silence, inhabited only by the steady beep of the heart monitor."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El diagnóstico de los médicos era irreversible: arritmia severa. Una bomba de tiempo alojada en mi pecho que podía fallar ante cualquier esfuerzo desmedido.",
+            "en": "The doctors' diagnosis was irreversible: severe arrhythmia. A time bomb lodged in my chest that could fail under any undue exertion."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Para terminar la secundaria, mis padres y los médicos eligieron un solo lugar: Yamaku, una academia especializada en la cima de una colina, equipada con personal médico permanente.",
+            "en": "To finish high school, my parents and doctors chose only one place: Yamaku, a specialized hilltop academy equipped with permanent medical staff."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Un exilio dorado para aquellos cuyos cuerpos habían decidido romperse.",
+            "en": "A gilded exile for those whose bodies had decided to break."
+          },
+          "expr": "neutral",
+          "style": "thought"
+        }
+      ],
+      "choices": [],
+      "next": "act1_arrival"
+    },
+    "act1_arrival": {
+      "chapter": {
+        "es": "Acto 1: La Colina de los Pinos",
+        "en": "Act 1: The Pine Hill"
+      },
+      "bg": "img/ks_school_road.jpg",
+      "bgm": "audio/ks_wiosna.ogg",
+      "mood": "calm",
+      "bgEffect": "",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El camino ascendente hacia la academia serpenteaba entre pinos majestuosos y cerezos tardíos.",
+            "en": "The winding road up to the academy snaked between majestic pines and late-blooming cherry trees."
+          },
+          "expr": "neutral",
+          "sfx": "audio/ks_cicadas.ogg"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Llevaba una maleta en la mano derecha y una pequeña bolsa con mis medicamentos diarios en la izquierda. Sentía cada paso en la base del pecho, un eco pesado y vigilante.",
+            "en": "I carried a suitcase in my right hand and a small pouch with my daily medications in my left. I felt each step at the base of my chest, a heavy, watchful echo."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Me detuve a mitad de la colina para recuperar el aliento. El aire de la montaña era limpio, casi dulce comparado con el olor artificial del hospital.",
+            "en": "I paused halfway up the hill to catch my breath. The mountain air was clean, almost sweet compared to the artificial scent of the hospital."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "'Yamaku no es un hospital, Hisao', me había dicho mi madre antes de despedirnos en la estación. 'Es una escuela para que aprendas a vivir con tu nueva realidad'.",
+            "en": "'Yamaku isn't a hospital, Hisao,' my mother had told me before parting at the station. 'It's a school for you to learn how to live with your new reality.'"
+          },
+          "expr": "neutral",
+          "style": "thought"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Pero para mí, las murallas de ladrillo que se alzaban a lo lejos parecían los límites de un mundo aparte.",
+            "en": "Yet to me, the brick walls rising in the distance felt like the boundaries of a separate world."
+          },
+          "expr": "neutral"
+        }
+      ],
+      "choices": [],
+      "next": "act1_gates"
+    },
+    "act1_gates": {
+      "chapter": {
+        "es": "Acto 1: Las Puertas de Bronce",
+        "en": "Act 1: The Bronze Gates"
       },
       "bg": "img/ks_school_gate.jpg",
       "bgm": "audio/ks_wiosna.ogg",
       "mood": "calm",
+      "bgEffect": "",
       "lines": [
         {
           "speaker": "narrator",
           "text": {
-            "es": "El olor a salitre marino te recibe al descender de la estación. Al final de una empinada cuesta adoquinada se alzan las puertas de madera de Yamaku.",
-            "en": "The scent of sea salt welcomes you upon stepping off the station. At the summit of a steep cobblestone hill rise the wooden gates of Yamaku."
-          }
+            "es": "Las puertas principales de Yamaku estaban forjadas en bronce oscuro, abiertas de par en par a la brisa primaveral.",
+            "en": "The main gates of Yamaku were forged from dark bronze, standing wide open to the spring breeze."
+          },
+          "expr": "neutral"
         },
         {
           "speaker": "narrator",
           "text": {
-            "es": "Arriba, una arboleda centenaria de cerezos en flor mece sus ramas con la brisa. Pétalos rosados caen con suavidad sobre el suelo.",
-            "en": "Above, an ancient grove of blossoming cherry trees sways in the breeze. Pink petals drift softly over the ground."
-          }
+            "es": "Estudiantes de diversos cursos cruzaban el umbral. Algunos caminaban con muletas de titanio, otros se comunicaban con rápidos movimientos de manos, y otros simplemente caminaban en silencio, llevando heridas invisibles a simple vista.",
+            "en": "Students from various grades crossed the threshold. Some walked on titanium crutches, others conversed in swift hand gestures, and others merely walked in silence, carrying scars invisible to the naked eye."
+          },
+          "expr": "neutral"
         },
         {
           "speaker": "narrator",
           "text": {
-            "es": "Aquí comienza tu nueva vida. Un lugar donde nadie te mirará con lástima por estar enfermo.",
-            "en": "Here begins your new existence. A sanctuary where no one will look at you with pity for being broken."
-          }
+            "es": "Nadie me miró con curiosidad excesiva ni con lástima. En este lugar, ser imperfecto era la norma absoluta.",
+            "en": "No one looked at me with excessive curiosity or pity. In this place, imperfection was the absolute norm."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Mi primera orden del día según la carta de admisión: presentarme en la enfermería para registrar mi historial clínico.",
+            "en": "My first order of business according to the admission letter: report to the nurse's office to register my medical history."
+          },
+          "expr": "neutral"
         }
       ],
-      "choices": [
-        {
-          "text": {
-            "es": "Cruzar la cancela hacia el patio principal",
-            "en": "Step through the gates into the main courtyard"
-          },
-          "next": "scene_03_hallway_crash"
-        }
-      ]
+      "choices": [],
+      "next": "act1_nurse"
     },
-    "scene_03_hallway_crash": {
+    "act1_nurse": {
       "chapter": {
-        "es": "Acto I: El Torbellino de Coletas",
-        "en": "Act I: The Whirlwind of Pigtails"
+        "es": "Acto 1: El Guardián de la Salud",
+        "en": "Act 1: The Guardian of Health"
       },
-      "bg": "img/ks_hallway.jpg",
-      "sprite": "img/sora_shock.png",
-      "sfx": "audio/ks_running.ogg",
+      "bg": "img/ks_nurse_office.jpg",
+      "bgm": "audio/ks_everyday.ogg",
+      "mood": "calm",
+      "bgEffect": "",
       "lines": [
         {
           "speaker": "narrator",
           "text": {
-            "es": "Caminas por el pasillo de madera encerada buscando la secretaría cuando un sonido rítmico de pasos metálicos se aproxima a toda velocidad.",
-            "en": "You walk along the polished wooden corridor searching for the office when a rhythmic clatter of metallic footsteps approaches at breakneck speed."
-          }
+            "es": "La enfermería era espaciosa, con varias camas separadas por cortinas de lino blanco y estantes repletos de cajas de fármacos.",
+            "en": "The nurse's office was spacious, with several beds separated by white linen curtains and shelves lined with medication boxes."
+          },
+          "expr": "neutral"
         },
         {
-          "speaker": "???",
+          "speaker": "Enfermero",
           "text": {
-            "es": "¡CUIDAAAAADO!",
-            "en": "LOOK OUUUUT!"
-          }
+            "es": "¡Ah, debes ser Nakai Hisao! Pasa, muchacho, pasa y toma asiento antes de que se te caiga esa maleta encima.",
+            "en": "Ah, you must be Nakai Hisao! Come on in, boy, take a seat before that suitcase drops on your toes."
+          },
+          "sprite": "img/nurse_grin.png",
+          "expr": "grin"
         },
         {
           "speaker": "narrator",
           "text": {
-            "es": "¡PUM! Una chica con coletas castañas y ropa deportiva choca de lleno contra ti. Ambos ruedan por el suelo entre papeles volando.",
-            "en": "WHAM! A girl with auburn pigtails and track clothes collides head-on into you. You both tumble onto the floor amid flying sheets of paper."
-          }
+            "es": "El enfermero principal era un hombre de complexión robusta, bata impecable y una sonrisa tan ancha como su presencia.",
+            "en": "The head nurse was a burly man in an immaculate coat, sporting a smile as wide as his towering presence."
+          },
+          "expr": "neutral"
         },
         {
-          "speaker": "Sora",
+          "speaker": "Hisao",
           "text": {
-            "es": "¡Ay, ay, ay! ¡Perdón, perdón! ¡Mis piernas nuevas tienen demasiada tracción y no calculé la frenada!",
-            "en": "Ouch, ouch, ouch! Sorry, so sorry! My new running blades have way too much grip and I totally botched the braking!"
+            "es": "Buenas tardes. Traigo aquí mi expediente de la clínica central y las recetas de mi cardiólogo.",
+            "en": "Good afternoon. I have my clinic medical records here, along with my cardiologist's prescriptions."
           },
-          "sprite": "img/sora_annoyed.png"
+          "expr": "neutral"
         },
         {
-          "speaker": "narrator",
+          "speaker": "Enfermero",
           "text": {
-            "es": "Miras hacia abajo y te quedas sin habla: por debajo de sus rodillas, dos relucientes prótesis curvas de fibra de carbono brillan bajo la luz.",
-            "en": "You glance down and freeze: below her knees, two gleaming curved carbon-fiber prosthetics shine under the sunlight."
+            "es": "Veamos... arritmia severa, bloqueo auriculoventricular parcial. Tienes que tomar tus betabloqueantes sin falta a las ocho de la mañana y las píldoras de emergencia siempre en el bolsillo.",
+            "en": "Let's see... severe arrhythmia, partial AV heart block. You must take your beta-blockers without fail at eight every morning and keep your emergency pills in your pocket at all times."
           },
-          "sprite": "img/sora_grin.png"
+          "sprite": "img/nurse_neutral.png",
+          "expr": "serious"
         },
         {
-          "speaker": "Sora",
+          "speaker": "Enfermero",
           "text": {
-            "es": "¡Soy Sora! ¡De la pista de atletismo! ¿Tú debes ser el alumno nuevo de tercero, verdad?",
-            "en": "I'm Sora! From the track club! You must be the new third-year transfer, right?"
+            "es": "Escúchame bien, Hisao: Yamaku te dará toda la libertad del mundo, pero tu corazón es el árbitro final. Si sientes mareos, opresión o un nudo en la garganta, vienes aquí de inmediato. ¿Entendido?",
+            "en": "Listen to me closely, Hisao: Yamaku will grant you all the freedom in the world, but your heart is the final referee. If you feel dizziness, tightness, or a lump in your throat, you report here immediately. Understood?"
           },
-          "sprite": "img/sora_happy.png"
+          "sprite": "img/nurse_fabulous.png",
+          "expr": "fabulous"
+        },
+        {
+          "speaker": "Hisao",
+          "text": {
+            "es": "Entendido. No tengo ninguna intención de terminar en urgencias otra vez.",
+            "en": "Understood. I have zero desire to end up in emergency care again."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Enfermero",
+          "text": {
+            "es": "¡Esa es la actitud! Ahora ve al edificio principal, clase 3-3. Mutou es un tipo peculiar, pero no muerde a menos que te duermas en su clase de biología.",
+            "en": "That's the spirit! Now head to the main hall, room 3-3. Mutou is an odd fellow, but he doesn't bite unless you dose off during biology."
+          },
+          "sprite": "img/nurse_grin.png",
+          "expr": "grin"
         }
       ],
-      "choices": [
-        {
-          "text": {
-            "es": "Ayudarla a recoger los papeles con una sonrisa",
-            "en": "Help her gather the papers with a warm smile"
-          },
-          "next": "scene_04_classroom_intro",
-          "set": {
-            "sora_affection": 2
-          }
-        },
-        {
-          "text": {
-            "es": "Disculparte tímidamente por estar en medio del pasillo",
-            "en": "Apologize shyly for standing in the middle of the hall"
-          },
-          "next": "scene_04_classroom_intro",
-          "set": {
-            "sora_affection": 1
-          }
-        }
-      ]
+      "choices": [],
+      "next": "act1_classroom"
     },
-    "scene_04_classroom_intro": {
+    "act1_classroom": {
       "chapter": {
-        "es": "Acto I: Clase 3-3",
-        "en": "Act I: Classroom 3-3"
+        "es": "Acto 1: Aula 3-3 y Mutou Sensei",
+        "en": "Act 1: Classroom 3-3 and Sensei Mutou"
       },
-      "bg": "img/ks_hallway.jpg",
+      "bg": "img/ks_school_room34.jpg",
       "bgm": "audio/ks_school_days.ogg",
+      "mood": "calm",
+      "bgEffect": "",
       "lines": [
         {
           "speaker": "narrator",
           "text": {
-            "es": "El profesor Mutou carraspea frente a la pizarra. Veinte pares de ojos se clavan en ti con curiosidad benévola.",
-            "en": "Professor Mutou clears his throat before the chalkboard. Twenty pairs of eyes turn to you with benevolent curiosity."
-          }
+            "es": "El aula 3-3 estaba llena del murmullo característico del inicio del trimestre. Los escritorios de madera crujían con el movimiento de los alumnos.",
+            "en": "Classroom 3-3 hummed with the characteristic murmur of the new semester. Wooden desks creaked as students shifted about."
+          },
+          "expr": "neutral"
         },
         {
           "speaker": "narrator",
           "text": {
-            "es": "En la fila junto a la ventana, una chica de pelo corto y mirada enigmática te observa con expresión indescifrable mientras dibuja.",
-            "en": "In the window row, a short-haired girl with an enigmatic gaze observes you with an indecipherable look while sketching."
-          }
+            "es": "En el estrado se encontraba el profesor Mutou: alto, desgarbado, con el cabello desordenado como un nido de pájaros y gafas que resbalaban por su nariz.",
+            "en": "At the podium stood Professor Mutou: tall, lanky, with hair tousled like a bird's nest and spectacles slipping down his nose."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Mutou Sensei",
+          "text": {
+            "es": "Silencio, por favor... silencio... Tenemos un nuevo compañero transferido hoy. Se llama Nakai Hisao. Sean amables con él.",
+            "en": "Quiet, please... quiet... We have a transfer student joining us today. His name is Nakai Hisao. Please treat him kindly."
+          },
+          "sprite": "img/muto_normal.png",
+          "expr": "normal"
         },
         {
           "speaker": "narrator",
           "text": {
-            "es": "En el fondo de la clase, otra chica de flequillo largo se oculta tras un libro grueso, tapando el lado derecho de su rostro.",
-            "en": "At the very back of the room, another girl with long bangs hides behind a thick novel, shielding the right side of her face."
-          }
+            "es": "Di una breve presentación formal, inclinándome levemente. Sentí la mirada atenta de dos chicas en la primera fila: una de cabello castaño corto y gafas afiladas, y otra a su lado con coletas rosadas que me dedicó una sonrisa resplandeciente.",
+            "en": "I gave a brief formal introduction with a polite bow. I noticed two girls in the front row watching intently: one with short dark hair and sharp spectacles, and another beside her with bright pink drill-tails who flashed me a radiant grin."
+          },
+          "expr": "neutral",
+          "style": "thought"
+        },
+        {
+          "speaker": "Mutou Sensei",
+          "text": {
+            "es": "Nakai, tu asiento es el penúltimo de la fila junto a la ventana. Si te falta algún libro de texto, la biblioteca está abierta hasta las cinco.",
+            "en": "Nakai, your seat is the second to last in the window row. If you need textbooks, the library is open until five."
+          },
+          "sprite": "img/muto_smile.png",
+          "expr": "smile"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Caminé hacia mi asiento mientras la brisa de primavera hinchaba las cortinas blancas. Por primera vez en meses, sentí que volvía a ser un estudiante regular.",
+            "en": "I walked to my desk as the spring breeze billowed the white curtains. For the first time in months, I felt like an ordinary student again."
+          },
+          "expr": "neutral"
         }
       ],
-      "choices": [
+      "choices": [],
+      "next": "act1_hallway_sora"
+    },
+    "act1_hallway_sora": {
+      "chapter": {
+        "es": "Acto 1: El Torbellino de la Pista",
+        "en": "Act 1: The Whirlwind on the Track"
+      },
+      "bg": "img/ks_hallway.jpg",
+      "bgm": "audio/ks_stride.ogg",
+      "mood": "calm",
+      "bgEffect": "",
+      "lines": [
         {
+          "speaker": "narrator",
           "text": {
-            "es": "Sentarte cerca de la chica que dibuja (Aiko)",
-            "en": "Take the seat near the sketching girl (Aiko)"
+            "es": "Al sonar la campana del receso, salí al pasillo para orientarme hacia los casilleros.",
+            "en": "When the recess bell rang, I stepped into the hallway to get my bearings toward the lockers."
           },
-          "next": "scene_05_meet_aiko",
-          "set": {
-            "aiko_affection": 1
-          }
+          "expr": "neutral",
+          "sfx": "audio/ks_chaimu.ogg"
         },
         {
+          "speaker": "narrator",
           "text": {
-            "es": "Sentarte en la fila trasera cerca de la chica reservada (Yumi)",
-            "en": "Sit in the back row near the quiet girl (Yumi)"
+            "es": "De pronto, un sonido rítmico y acelerado resonó desde la esquina. ¡Clac-clac-clac-clac!",
+            "en": "Suddenly, a swift, rhythmic clicking echoed from around the corner. Clack-clack-clack-clack!"
           },
-          "next": "scene_06_meet_yumi",
-          "set": {
-            "yumi_trust": 1
-          }
+          "expr": "neutral",
+          "sfx": "audio/ks_running.ogg"
+        },
+        {
+          "speaker": "Voz Femenina",
+          "text": {
+            "es": "¡Cuidadooooo! ¡Freno sin pastillas!",
+            "en": "Out of the waaaaay! Brakes are shot!"
+          },
+          "expr": "neutral",
+          "sfx": "audio/ks_dropstuff.ogg",
+          "fx": "tremor"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Un impacto súbito me golpeó de lleno. Rodamos por el suelo de linóleo entre carpetas, bolígrafos y papeles esparcidos.",
+            "en": "A sudden impact struck me dead on. We tumbled across the linoleum floor amid scattering folders, pens, and papers."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Al levantar la vista, me encontré cara a cara con una chica pequeña de coletas castañas, ojos brillantes y mejillas sonrojadas por el esfuerzo.",
+            "en": "Looking up, I found myself face-to-face with a petite girl with twin chestnut tails, sparkling eyes, and cheeks flushed from exertion."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Y lo más impactante: donde deberían estar sus piernas por debajo de las rodillas, relucían unas prótesis de fibra de carbono aerodinámicas y elegantes.",
+            "en": "And most striking of all: where her legs should have been below the knees gleamed sleek, aerodynamic carbon-fiber running blades."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Sora",
+          "text": {
+            "es": "¡Ay, ay, ay! ¡Perdón, perdón, perdón! Iba cronometrando mi vuelta rápida al edificio y calculé mal la curva...",
+            "en": "Ouch, ouch, ouch! Sorry, sorry, so sorry! I was clocking my fast lap around the building and misjudged the apex..."
+          },
+          "sprite": "img/sora_shock.png",
+          "expr": "shock"
+        },
+        {
+          "speaker": "Hisao",
+          "text": {
+            "es": "Tranquila... no pasa nada. Aunque casi me dejas sin aire.",
+            "en": "Take it easy... it's alright. Though you nearly knocked the wind out of me."
+          },
+          "sprite": "img/sora_pout.png",
+          "expr": "pout"
+        },
+        {
+          "speaker": "Sora",
+          "text": {
+            "es": "¡Espera! ¿Tú eres el chico nuevo que llegó hoy? Nakai-kun, ¿verdad? ¡Soy Sora! Capitana, miembro estrella y casi único motor del equipo de pista.",
+            "en": "Wait! You're the transfer student who arrived today, aren't you? Nakai-kun, right? I'm Sora! Captain, star member, and practically the sole engine of the track team."
+          },
+          "sprite": "img/sora_grin.png",
+          "expr": "grin"
+        },
+        {
+          "speaker": "Sora",
+          "text": {
+            "es": "Deberías venir a la pista a verme correr algún día. ¡Nadie en esta colina puede alcanzarme cuando pongo quinta marcha!",
+            "en": "You should come down to the track to watch me run sometime. Nobody on this hill can touch me when I hit fifth gear!"
+          },
+          "sprite": "img/sora_happy.png",
+          "expr": "happy"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Antes de que pudiera responderle, Sora ya había recogido sus pertenencias con una agilidad pasmosa y se despidió con un guiño enérgico antes de salir disparada hacia el patio.",
+            "en": "Before I could utter a reply, Sora had gathered her belongings with astonishing speed, shooting me an energetic wink before rocketing off toward the courtyard."
+          },
+          "expr": "neutral"
         }
-      ]
+      ],
+      "choices": [],
+      "next": "act1_library_yumi"
     },
-    "scene_05_meet_aiko": {
+    "act1_library_yumi": {
       "chapter": {
-        "es": "Acto I: El Lenguaje de los Óleos",
-        "en": "Act I: The Language of Oils"
+        "es": "Acto 1: El Refugio de Papel",
+        "en": "Act 1: The Sanctuary of Paper"
+      },
+      "bg": "img/ks_library.jpg",
+      "bgm": "audio/ks_afternoon.ogg",
+      "mood": "calm",
+      "bgEffect": "",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Buscando un lugar tranquilo para dejar reposar mi respiración, me dirigí a la biblioteca de la academia.",
+            "en": "Seeking a quiet haven to settle my breathing, I headed toward the academy library."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El aroma a madera añeja, papel viejo y polvo flotando en los rayos de sol creaba una atmósfera casi sagrada.",
+            "en": "The fragrance of aged wood, old paper, and dust motes floating in sunbeams wove an almost sacred atmosphere."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "En el rincón más apartado, casi oculta entre las estanterías de historia medieval, una solitaria silueta leía con la cabeza inclinada.",
+            "en": "In the furthest secluded corner, nestled between towering medieval history shelves, a lone silhouette read with bowed head."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Llevaba el cabello negro azabache muy largo, cortado de tal manera que cubría por completo el lado derecho de su rostro.",
+            "en": "Her pitch-black hair cascaded long, cut deliberately to drape over the entire right half of her face."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Cuando di un paso hacia el pasillo, el sonido de mis suelas sobre el piso la hizo sobresaltarse como un ciervo asustado.",
+            "en": "As I stepped down the aisle, the creak of my shoes made her flinch like a startled deer."
+          },
+          "expr": "neutral",
+          "sfx": "audio/ks_paper.ogg"
+        },
+        {
+          "speaker": "Chica Tímida",
+          "text": {
+            "es": "¡Ah...! P-perdón... no quería estorbar...",
+            "en": "Ah...! S-sorry... I didn't mean to be in the way..."
+          },
+          "sprite": "img/yumi_worry.png",
+          "expr": "worry"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Al levantar la vista por una fracción de segundo, alcancé a ver las profundas cicatrices de quemaduras que marcaban su piel desde la sien hasta el cuello.",
+            "en": "When she lifted her gaze for a split second, I caught sight of the deep burn scars marring her skin from temple to collarbone."
+          },
+          "expr": "neutral",
+          "style": "thought"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Instintivamente, ella alzó la mano libre para cubrir su rostro, encogiéndose en su asiento con evidente angustia.",
+            "en": "Instinctively, she drew her free hand up to shield her face, shrinking into her seat in palpable distress."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Hisao",
+          "text": {
+            "es": "No, por favor, no te disculpes. El que interrumpió fui yo. Solo buscaba un libro para la clase de historia.",
+            "en": "No, please, don't apologize. I was the one intruding. I was just looking for a textbook for history class."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Chica Tímida",
+          "text": {
+            "es": "...Están... en el estante tres... sección B...",
+            "en": "...They are... on shelf three... section B..."
+          },
+          "sprite": "img/yumi_bashful.png",
+          "expr": "bashful"
+        },
+        {
+          "speaker": "Hisao",
+          "text": {
+            "es": "Muchas gracias. Me llamo Hisao, por cierto.",
+            "en": "Thank you very much. I'm Hisao, by the way."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Chica Tímida",
+          "text": {
+            "es": "...Yumi...",
+            "en": "...Yumi..."
+          },
+          "sprite": "img/yumi_smile.png",
+          "expr": "smile"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Pronunció su nombre con un susurro tan frágil que casi se disolvió en el aire silencioso de la biblioteca antes de volver a sumergirse en las páginas de su novela.",
+            "en": "She whispered her name so softly it nearly dissolved into the library's quiet air before immersing herself once more into the pages of her novel."
+          },
+          "expr": "neutral"
+        }
+      ],
+      "choices": [],
+      "next": "act1_art_aiko"
+    },
+    "act1_art_aiko": {
+      "chapter": {
+        "es": "Acto 1: El Lienzo del Infinito",
+        "en": "Act 1: Canvas of the Infinite"
       },
       "bg": "img/ks_art_room.jpg",
-      "sprite": "img/aiko_normal.png",
+      "bgm": "audio/ks_romance.ogg",
+      "mood": "calm",
+      "bgEffect": "",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Siguiendo mi recorrido por el ala oeste, el intenso olor a trementina y pintura al óleo me condujo al taller de arte.",
+            "en": "Continuing my exploration down the west wing, the pungent aroma of turpentine and oil paint drew me toward the art atelier."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Un inmenso lienzo de más de tres metros de ancho cubría la pared principal, salpicado de trazos azules, ocres y verdes que parecían un cielo fragmentado.",
+            "en": "An immense canvas stretching over three meters wide lined the back wall, splashed with blue, ochre, and green strokes resembling a fractured sky."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Frente al lienzo, sentada sobre un taburete alto, una chica de cabello rojizo corto y mirada distante sostenía un pincel grueso entre los dedos de su pie derecho.",
+            "en": "Before the canvas, perched on a tall stool, a girl with short auburn hair and vacant eyes held a thick paintbrush nimbly between the toes of her right foot."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Las mangas de su uniforme colgaban vacías a ambos lados de su torso.",
+            "en": "The sleeves of her school uniform hung empty on either side of her torso."
+          },
+          "expr": "neutral",
+          "style": "thought"
+        },
+        {
+          "speaker": "Chica del Pincel",
+          "text": {
+            "es": "Oye, tú. ¿Las nubes tienen peso, o solo son pensamientos que el cielo olvidó soltar?",
+            "en": "Hey, you. Do clouds have weight, or are they just thoughts the sky forgot to let go of?"
+          },
+          "sprite": "img/aiko_absent.png",
+          "expr": "absent"
+        },
+        {
+          "speaker": "Hisao",
+          "text": {
+            "es": "¿Eh? Bueno... técnicamente son toneladas de vapor de agua condensada.",
+            "en": "Huh? Well... technically they are tons of condensed water vapor."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Chica del Pincel",
+          "text": {
+            "es": "Qué respuesta tan aburrida. Las explicaciones técnicas le quitan el color a las cosas antes de que alcancen a secarse.",
+            "en": "What a boring answer. Technical explanations strip the color from things before the paint even has time to dry."
+          },
+          "sprite": "img/aiko_deadpan.png",
+          "expr": "deadpan"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Bajó el pie con una precisión quirúrgica, mojó el pincel en un cuenco de cerámica con agua y me miró de hito en hito.",
+            "en": "She lowered her foot with surgical grace, rinsed the brush in a ceramic bowl of water, and fixed me with an unblinking gaze."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Aiko",
+          "text": {
+            "es": "Me llamo Aiko. Dicen que soy un bicho raro porque pinto con los pies, pero a mí me parece más raro tener dos manos y usarlas solo para escribir cosas que nadie lee.",
+            "en": "I'm Aiko. People say I'm an oddball because I paint with my feet, but to me it seems stranger to have two hands and only use them to write things nobody reads."
+          },
+          "sprite": "img/aiko_smile.png",
+          "expr": "smile"
+        },
+        {
+          "speaker": "Hisao",
+          "text": {
+            "es": "Soy Hisao. Y debo admitir que tu mural es impresionante.",
+            "en": "I'm Hisao. And I have to admit, your mural is breathtaking."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Aiko",
+          "text": {
+            "es": "No es impresionante todavía. Le falta el color de alguien que esté a punto de perder la cabeza. Vuelve cuando lo descubra.",
+            "en": "It's not breathtaking yet. It's missing the color of someone on the verge of losing their mind. Come back when I figure it out."
+          },
+          "sprite": "img/aiko_amused.png",
+          "expr": "amused"
+        }
+      ],
+      "choices": [],
+      "next": "act1_tea_elena"
+    },
+    "act1_tea_elena": {
+      "chapter": {
+        "es": "Acto 1: La Gracia en la Penumbra",
+        "en": "Act 1: Grace in the Shadows"
+      },
+      "bg": "img/ks_courtyard.jpg",
       "bgm": "audio/ks_comfort.ogg",
+      "mood": "calm",
+      "bgEffect": "",
       "lines": [
         {
           "speaker": "narrator",
           "text": {
-            "es": "Durante el descanso sigues a la chica de la ventana hasta el aula de arte. El ambiente huele a barniz, trementina y polvo soleado.",
-            "en": "During the break you follow the window girl to the art studio. The air is rich with varnish, turpentine, and sunny dust."
-          }
-        },
-        {
-          "speaker": "Aiko",
-          "text": {
-            "es": "¿Por qué la gente siempre pregunta qué significa un cuadro? ¿Acaso las nubes tienen que significar algo para llover?",
-            "en": "Why do people always ask what a painting means? Do clouds have to mean something just to rain?"
+            "es": "Salí al patio interior en busca de aire fresco. Bajo la sombra de un gazebo de glicinas, una figura solitaria reposaba junto a una mesa de té.",
+            "en": "I stepped into the inner courtyard for fresh air. Beneath the canopy of a wisteria gazebo, a solitary figure rested beside a tea table."
           },
-          "sprite": "img/aiko_deadpan.png"
-        },
-        {
-          "speaker": "Aiko",
-          "text": {
-            "es": "Me llamo Aiko. No tengo brazos útiles, pero mis pies mezclan mejor el azul de prusia que las manos de cualquier crítico.",
-            "en": "I'm Aiko. I don't have working arms, but my feet blend Prussian blue better than any critic's hands."
-          },
-          "sprite": "img/aiko_amused.png"
+          "expr": "neutral"
         },
         {
           "speaker": "narrator",
           "text": {
-            "es": "Sobre un gran lienzo de tela cruda, una marea de olas y flores abstractas parece vibrar con vida propia.",
-            "en": "Upon a vast canvas of raw cloth, a surge of abstract waves and petals seems to pulse with its own heartbeat."
+            "es": "Era una muchacha rubia, alta y de porte aristocrático. Un bastón blanco plegable descansaba apoyado contra su silla.",
+            "en": "She was a tall, blonde girl of aristocratic poise. A white folding cane leaned gently against her chair."
           },
-          "sprite": "img/aiko_smile.png"
-        }
-      ],
-      "choices": [
-        {
-          "text": {
-            "es": "Decirle que su pintura transmite una libertad conmovedora",
-            "en": "Tell her that her painting radiates a touching sense of freedom"
-          },
-          "next": "scene_07_nurse_office",
-          "set": {
-            "aiko_affection": 2
-          }
+          "expr": "neutral"
         },
         {
+          "speaker": "narrator",
           "text": {
-            "es": "Preguntarle si le duele pintar durante tantas horas",
-            "en": "Ask her if it hurts to paint for so many hours"
+            "es": "Sus ojos celestes permanecían serenos, mirando hacia la nada con esa suave quietud que delataba una ceguera total desde la infancia.",
+            "en": "Her sky-blue eyes remained serene, gazing into the distance with that gentle stillness revealing complete blindness since childhood."
           },
-          "next": "scene_07_nurse_office",
-          "set": {
-            "aiko_affection": 1
-          }
+          "expr": "neutral",
+          "style": "thought"
+        },
+        {
+          "speaker": "Muchacha Rubia",
+          "text": {
+            "es": "¿Quién camina por allí? Esos pasos son dubitativos... no los reconozco.",
+            "en": "Who walks there? Those steps are hesitant... I do not recognize them."
+          },
+          "sprite": "img/elena_cane_ara.png",
+          "expr": "calm"
+        },
+        {
+          "speaker": "Hisao",
+          "text": {
+            "es": "Disculpa. Soy Nakai Hisao, el estudiante nuevo. No quería interrumpir tu descanso.",
+            "en": "Pardon me. I'm Nakai Hisao, the new transfer student. I didn't mean to disturb your rest."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Elena",
+          "text": {
+            "es": "Un recién llegado. Por favor, toma asiento si gustas. El té Earl Grey recién infusionado siempre sabe mejor cuando se comparte en buena compañía.",
+            "en": "A newcomer. Please, take a seat if you wish. Freshly steeped Earl Grey always tastes sweetest when shared in good company."
+          },
+          "sprite": "img/elena_basic_ara_cas_close.png",
+          "expr": "smile",
+          "sfx": "audio/ks_teacup.ogg"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Con movimientos de una delicadeza asombrosa, sirvió una taza de porcelana humeante sin derramar una sola gota.",
+            "en": "With movements of astounding delicacy, she poured a steaming porcelain cup without spilling a single drop."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Elena",
+          "text": {
+            "es": "Mi nombre es Elena Satou. Represento a la clase 3-2. Es un placer darte la bienvenida a Yamaku, Hisao.",
+            "en": "My name is Elena Satou. I represent class 3-2. It is a pleasure to welcome you to Yamaku, Hisao."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Hisao",
+          "text": {
+            "es": "El placer es mío, Elena. Tienes una calma envidiable.",
+            "en": "The pleasure is mine, Elena. You carry an enviable calm."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Elena",
+          "text": {
+            "es": "Cuando el mundo visible se apaga, uno aprende que la verdadera música de las personas está en la cadencia de su voz y en el ritmo de su respiración.",
+            "en": "When the visual world falls quiet, one learns that the true music of people lies in the cadence of their voice and the rhythm of their breathing."
+          },
+          "sprite": "img/elena_cane_ara.png",
+          "expr": "gentle"
         }
-      ]
+      ],
+      "choices": [],
+      "next": "act1_council_rei"
     },
-    "scene_06_meet_yumi": {
+    "act1_council_rei": {
       "chapter": {
-        "es": "Acto I: Entre Páginas Silenciosas",
-        "en": "Act I: Among Silent Pages"
+        "es": "Acto 1: El Consejo de la Voluntad",
+        "en": "Act 1: Council of Will"
       },
-      "bg": "img/ks_library.jpg",
-      "sprite": "img/yumi_cover_worry.png",
-      "bgm": "audio/ks_raindrops.ogg",
+      "bg": "img/ks_school_council.jpg",
+      "bgm": "audio/ks_the_student_council.ogg",
+      "mood": "calm",
+      "bgEffect": "",
       "lines": [
         {
           "speaker": "narrator",
           "text": {
-            "es": "Sigues a la chica solitaria hasta el fondo de la biblioteca escolar, entre altos anaqueles de roble.",
-            "en": "You follow the reclusive girl to the quietest alcove of the school library, surrounded by towering oak shelves."
-          }
+            "es": "Antes de que terminara la tarde, un mensaje en el tablero de anuncios me convocó a la sala del Consejo Estudiantil.",
+            "en": "Before the afternoon concluded, a notice on the bulletin board summoned me to the Student Council room."
+          },
+          "expr": "neutral"
         },
         {
           "speaker": "narrator",
           "text": {
-            "es": "Al notar tus pasos, se sobresalta y se lleva la manga para cubrir la mitad derecha de su cara y cuello.",
-            "en": "Noticing your footsteps, she flinches, pulling her long sleeve up to conceal the right side of her cheek and throat."
-          }
+            "es": "Al cruzar la puerta, fui recibido por una ráfaga de risas descontroladas y el chasquido enérgico de dedos sobre una mesa.",
+            "en": "Crossing the doorway, I was greeted by a burst of unrestrained laughter and sharp snapping of fingers against a desk."
+          },
+          "expr": "neutral"
         },
         {
-          "speaker": "Yumi",
+          "speaker": "Chica de Pelo Rosa",
           "text": {
-            "es": "P-por favor... no me mires... no hay nada que ver aquí...",
-            "en": "P-Please... don't stare at me... there is nothing to see here..."
+            "es": "¡Wahaha~! ¡Llegó, Shicchan, llegó! ¡El nuevo cachorro ha mordido el anzuelo!",
+            "en": "Wahaha~! He's here, Shicchan, he's here! The new puppy took the bait!"
           },
-          "sprite": "img/yumi_worry.png"
+          "sprite": "img/shiina_perky_smile.png",
+          "expr": "smile"
         },
         {
           "speaker": "narrator",
           "text": {
-            "es": "Bajo el flequillo entreabierto alcanzas a vislumbrar las huellas de graves quemaduras cicatrizadas. Su mirada es la de un ciervo herido.",
-            "en": "Beneath her parted bangs you glimpse the marks of severe burn scars. Her eyes carry the terror of a wounded fawn."
+            "es": "La presidenta del consejo, la chica de gafas que había visto en clase, me miraba con ojos inquisitivos y ceño fruncido.",
+            "en": "The council president, the bespectacled girl from class, regarded me with inquisitive eyes and a knitted brow."
           },
-          "sprite": "img/yumi_sad.png"
+          "expr": "neutral"
         },
         {
-          "speaker": "Yumi",
+          "speaker": "narrator",
           "text": {
-            "es": "M-me llamo Yumi... Lilly me dijo que vendría alguien nuevo... pero no pensé que hablarías conmigo...",
-            "en": "M-My name is Yumi... Lilly told me someone new was coming... but I didn't think you'd talk to me..."
+            "es": "Comenzó a mover las manos con una velocidad vertiginosa en un lenguaje de señas impecable, autoritario y preciso.",
+            "en": "Her hands erupted into motion at dazzling speed in flawless, authoritative, and precise sign language."
           },
-          "sprite": "img/yumi_bashful.png"
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Chica de Pelo Rosa",
+          "text": {
+            "es": "¡Traducción simultánea a cargo de la maravillosa Shiina Mikado! Shicchan dice: 'Nakai Hisao, como alumno transferido tienes el deber cívico de colaborar en los preparativos del festival escolar'.",
+            "en": "Simultaneous translation courtesy of the magnificent Shiina Mikado! Shicchan says: 'Nakai Hisao, as a transfer student you have a civic duty to assist in school festival preparations.'"
+          },
+          "sprite": "img/rei_adjust_smug_cas_close.png",
+          "expr": "smug"
+        },
+        {
+          "speaker": "Hisao",
+          "text": {
+            "es": "Espera... ¡acabo de llegar hace seis horas!",
+            "en": "Wait... I just got here six hours ago!"
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Rei golpeó la mesa con los nudillos, ajustándose las gafas con una sonrisa de victoria irrefutable.",
+            "en": "Rei tapped the desk with her knuckles, adjusting her glasses with a grin of undeniable triumph."
+          },
+          "sprite": "img/rei_cross_wut_close.png",
+          "expr": "confident"
+        },
+        {
+          "speaker": "Shiina",
+          "text": {
+            "es": "¡Wahaha! En Yamaku el tiempo vuela, Hisao. Shicchan es sorda y muda, ¡pero te aseguro que su voluntad se escucha más fuerte que un trueno!",
+            "en": "Wahaha! Time flies at Yamaku, Hisao. Shicchan may be deaf and mute, but I guarantee her will roars louder than thunder!"
+          },
+          "sprite": "img/shiina_cross_grin_close.png",
+          "expr": "grin"
         }
       ],
-      "choices": [
-        {
-          "text": {
-            "es": "Hablarle con voz suave y respetar su espacio",
-            "en": "Speak to her in a gentle tone and respect her space"
-          },
-          "next": "scene_07_nurse_office",
-          "set": {
-            "yumi_trust": 2
-          }
-        },
-        {
-          "text": {
-            "es": "Preguntarle qué libro está leyendo para romper el hielo",
-            "en": "Ask what book she's reading to break the ice"
-          },
-          "next": "scene_07_nurse_office",
-          "set": {
-            "yumi_trust": 1
-          }
-        }
-      ]
+      "choices": [],
+      "next": "act1_kenji_night"
     },
-    "scene_07_nurse_office": {
+    "act1_kenji_night": {
       "chapter": {
-        "es": "Acto I: El Guardián de la Salud",
-        "en": "Act I: Guardian of Health"
-      },
-      "bg": "img/ks_nurse_office.jpg",
-      "bgm": "audio/ks_everyday.ogg",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "La enfermería de Yamaku está equipada como una sala de urgencias de primer nivel. El enfermero jefe te recibe con una sonrisa relajada.",
-            "en": "Yamaku's infirmary is equipped like a top-tier urgent care clinic. The head nurse greets you with a relaxed, warm grin."
-          }
-        },
-        {
-          "speaker": "Enfermero",
-          "text": {
-            "es": "Bienvenido, chico nuevo. Ya tengo tu historial del hospital central. Arritmia severa, beta-bloqueantes cada 12 horas.",
-            "en": "Welcome, transfer. I have your file right here from central hospital. Severe arrhythmia, beta-blockers every 12 hours sharp."
-          }
-        },
-        {
-          "speaker": "Enfermero",
-          "text": {
-            "es": "Aquí no eres un bicho raro. Todos cargan con su propio equipaje. La clave es conocer tus límites y no tener miedo de pedir ayuda.",
-            "en": "You're no freak here. Everyone carries their own luggage. The secret is knowing your limits and never fearing to ask for help."
-          }
-        }
-      ],
-      "choices": [
-        {
-          "text": {
-            "es": "Prometer que serás prudente con tu corazón",
-            "en": "Promise to be prudent with your heart"
-          },
-          "next": "scene_08_dorm_night"
-        }
-      ]
-    },
-    "scene_08_dorm_night": {
-      "chapter": {
-        "es": "Acto I: La Primera Noche",
-        "en": "Act I: The First Night"
+        "es": "Acto 1: La Conspiración Nocturna",
+        "en": "Act 1: Nocturnal Conspiracy"
       },
       "bg": "img/ks_dorm_room.jpg",
-      "bgm": "audio/ks_romance.ogg",
-      "sfx": "audio/ks_heart_slow.ogg",
+      "bgm": "audio/ks_air_guitar.ogg",
+      "mood": "calm",
+      "bgEffect": "",
       "lines": [
         {
           "speaker": "narrator",
           "text": {
-            "es": "Desempacas tus pocas pertenencias en el dormitorio masculino. La ventana da hacia el bosque y la costa lejana.",
-            "en": "You unpack your modest belongings in the boys' dorm. The window frames the pine forest and the distant coastline."
-          }
+            "es": "Llegué a mi habitación en el dormitorio masculino agotado. Desempaqué mis sábanas y ordené los frascos de pastillas sobre la mesa de noche.",
+            "en": "I returned to my room in the boys' dorm completely exhausted. I unpacked my sheets and lined up my medicine bottles on the nightstand."
+          },
+          "expr": "neutral"
         },
         {
           "speaker": "narrator",
           "text": {
-            "es": "A lo lejos, en el acantilado rocoso, el haz de luz blanca de un viejo faro corta las sombras de la noche.",
-            "en": "Far away upon the rocky cliff, the white light beam of an old lighthouse slices through the nocturnal shadows."
-          }
+            "es": "De repente, un aporreo violento sacudió la puerta de madera. ¡BAM, BAM, BAM!",
+            "en": "Suddenly, a violent pounding rattled the wooden door. BAM, BAM, BAM!"
+          },
+          "expr": "neutral",
+          "sfx": "audio/ks_doorknock.ogg"
+        },
+        {
+          "speaker": "Voz Extraña",
+          "text": {
+            "es": "¡Abre, Nakai! ¡Sé que estás ahí! ¡No bajes la guardia!",
+            "en": "Open up, Nakai! I know you're in there! Don't let your guard down!"
+          },
+          "expr": "neutral"
         },
         {
           "speaker": "narrator",
           "text": {
-            "es": "Por primera vez en mucho tiempo, sientes que hay esperanza en tu futuro.",
-            "en": "For the first time in a very long time, you feel a flicker of genuine hope for your future."
-          }
+            "es": "Abrí con cautela. Frente a mí había un tipo con gafas de fondo de botella tan gruesas que sus ojos parecían dos puntos microscópicos.",
+            "en": "I opened with caution. Facing me stood a guy wearing bottle-thick glasses that magnified his eyes into microscopic pinpricks."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Kenji",
+          "text": {
+            "es": "Soy Kenji. Vivo en la habitación de al lado. Tengo que advertirte antes de que sea tarde: este lugar está infestado de espías del sindicato feminista global.",
+            "en": "I'm Kenji. I live next door. I must warn you before it's too late: this place is crawling with global feminist syndicate operatives."
+          },
+          "sprite": "img/kenji_neutral.png",
+          "expr": "serious"
+        },
+        {
+          "speaker": "Hisao",
+          "text": {
+            "es": "¿El sindicato... qué? Kenji, solo son chicas comunes de secundaria.",
+            "en": "The syndicate... what? Kenji, they're just ordinary high school girls."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Kenji",
+          "text": {
+            "es": "¡Eso es exactamente lo que quieren que creas! Una te sonríe, otra te ofrece té envenenado y la otra corre a sesenta kilómetros por hora para atropellarte. ¡Mantén tus ojos abiertos, Nakai!",
+            "en": "That's exactly what they want you to think! One smiles at you, another offers poisoned tea, and the other runs at sixty miles an hour to mow you down. Keep your eyes peeled, Nakai!"
+          },
+          "sprite": "img/kenji_rage.png",
+          "expr": "rage"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Me arrojó una bolsa de galletas saladas rancias antes de escabullirse por el pasillo en puntillas, como si el piso estuviera minado.",
+            "en": "He tossed me a bag of stale crackers before scuttling down the hall on tiptoe, as if the floorboards were rigged with landmines."
+          },
+          "expr": "neutral"
         }
       ],
-      "choices": [
-        {
-          "text": {
-            "es": "Descansar y prepararte para el nuevo día",
-            "en": "Rest and prepare for the brand new day"
-          },
-          "next": "scene_09_courtyard_morning"
-        }
-      ]
+      "choices": [],
+      "next": "act1_crossroads"
     },
-    "scene_09_courtyard_morning": {
+    "act1_crossroads": {
       "chapter": {
-        "es": "Acto I: Bajo los Pétalos de Mayo",
-        "en": "Act I: Beneath May Petals"
-      },
-      "bg": "img/ks_courtyard.jpg",
-      "bgm": "audio/ks_wiosna.ogg",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "El patio central de Yamaku bulle de vida matutina. Los estudiantes charlan entre risas bajo los cerezos.",
-            "en": "Yamaku's central courtyard buzzes with morning energy. Students chat with easy smiles beneath the cherry trees."
-          }
-        },
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "Sora saluda agitando la mano desde el camino de la pista. Aiko observa las hojas desde el banco de piedra. Yumi camina sigilosa hacia la biblioteca.",
-            "en": "Sora waves energetically from the track path. Aiko watches the leaves from a stone bench. Yumi walks quietly toward the library."
-          }
-        }
-      ],
-      "choices": [
-        {
-          "text": {
-            "es": "Ir con Sora a entrenar a la pista deportiva",
-            "en": "Head to the running track to join Sora"
-          },
-          "next": "scene_12_track_session",
-          "set": {
-            "sora_affection": 2
-          }
-        },
-        {
-          "text": {
-            "es": "Acompañar a Aiko al invernadero botánico",
-            "en": "Accompany Aiko to the botanical greenhouse"
-          },
-          "next": "scene_16_aiko_botanical",
-          "set": {
-            "aiko_affection": 2
-          }
-        },
-        {
-          "text": {
-            "es": "Buscar a Yumi para compartir la hora del té",
-            "en": "Seek out Yumi to share tea time"
-          },
-          "next": "scene_19_yumi_tea",
-          "set": {
-            "yumi_trust": 2
-          }
-        }
-      ]
-    },
-    "scene_12_track_session": {
-      "chapter": {
-        "es": "Acto II: El Viento en la Pista",
-        "en": "Act II: Wind on the Track"
-      },
-      "bg": "img/ks_track_day.jpg",
-      "sprite": "img/sora_gym_happy.png",
-      "bgm": "audio/ks_comfort.ogg",
-      "lines": [
-        {
-          "speaker": "Sora",
-          "text": {
-            "es": "¡Llegas justo a tiempo! ¡Una vuelta de calentamiento y luego series de velocidad!",
-            "en": "You're right on time! One warmup lap and then sprint intervals!"
-          }
-        },
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "Sora salta sobre sus prótesis con una agilidad felina. En la pista de ceniza parece flotar.",
-            "en": "Sora bounces on her running blades with feline agility. On the cinder track she seems almost weightless."
-          },
-          "sprite": "img/sora_gym_grin.png"
-        },
-        {
-          "speaker": "Sora",
-          "text": {
-            "es": "No pongas esa cara de susto. Tu doctor me dijo que caminar a paso ligero te hace bien al corazón. ¡Yo seré tu entrenadora personal!",
-            "en": "Don't make that panicked face! Your doctor told me brisk walking is great for your heart. I'll be your personal coach!"
-          },
-          "sprite": "img/sora_grin.png"
-        }
-      ],
-      "choices": [
-        {
-          "text": {
-            "es": "Aceptar el reto y empezar a trotar despacio a su lado",
-            "en": "Accept the challenge and begin jogging slowly by her side"
-          },
-          "next": "scene_13_track_heart",
-          "set": {
-            "sora_affection": 3,
-            "heart_pulse": -10
-          }
-        },
-        {
-          "text": {
-            "es": "Decirle que tienes que vigilar tu arritmia con precaución",
-            "en": "Tell her you must monitor your arrhythmia cautiously"
-          },
-          "next": "scene_13_track_heart",
-          "set": {
-            "sora_affection": 1
-          }
-        }
-      ]
-    },
-    "scene_13_track_heart": {
-      "chapter": {
-        "es": "Acto II: Almuerzo Sobre las Nubes",
-        "en": "Act II: Lunch Above the Clouds"
-      },
-      "bg": "img/ks_roof_day.jpg",
-      "sprite": "img/sora_smile.png",
-      "bgm": "audio/ks_daylight.ogg",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "Suben al tejado del edificio principal para compartir el almuerzo. La brisa marina agita sus coletas.",
-            "en": "You climb to the main building's rooftop to share lunch. The ocean breeze ruffles her pigtails."
-          }
-        },
-        {
-          "speaker": "Sora",
-          "text": {
-            "es": "Aquí arriba nadie te molesta. Cuando corro siento que puedo dejar atrás todo el dolor de las operaciones.",
-            "en": "Up here no one bothers you. When I run, I feel like I can leave behind all the hospital surgery pain."
-          },
-          "sprite": "img/sora_sad.png"
-        },
-        {
-          "speaker": "Sora",
-          "text": {
-            "es": "A veces tengo pesadillas con el choque en el coche donde perdí a mi padre... Pero si sonrío, siento que él todavía me está animando desde la meta.",
-            "en": "Sometimes I still have nightmares about the car crash where I lost my dad... But when I smile, I feel like he's cheering for me from the finish line."
-          },
-          "sprite": "img/sora_happy.png"
-        },
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "Ves una lágrima furtiva en su mejilla que ella limpia rápidamente con el dorso de su muñeca.",
-            "en": "You notice a stray tear on her cheek, which she brushes away in a flash with the back of her wrist."
-          }
-        }
-      ],
-      "choices": [
-        {
-          "text": {
-            "es": "Poner tu mano sobre la suya y prometer correr siempre juntos",
-            "en": "Place your hand over hers and promise to run together always"
-          },
-          "next": "scene_22_beach_invitation",
-          "set": {
-            "sora_affection": 4
-          }
-        }
-      ]
-    },
-    "scene_16_aiko_botanical": {
-      "chapter": {
-        "es": "Acto II: El Invernadero de Cristal",
-        "en": "Act II: The Glass Greenhouse"
-      },
-      "bg": "img/ks_greenhouse.jpg",
-      "sprite": "img/aiko_normal.png",
-      "bgm": "audio/ks_comfort.ogg",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "El invernadero de Yamaku está repleto de helechos gigantes y orquídeas exóticas. La luz cae filtrada en haces dorados.",
-            "en": "Yamaku's greenhouse is packed with giant ferns and exotic orchids. Filtered light cascades in golden beams."
-          }
-        },
-        {
-          "speaker": "Aiko",
-          "text": {
-            "es": "Las plantas no tienen prisa. Crecen, florecen y se marchitan sin quejarse de su condición.",
-            "en": "Plants are never in a rush. They sprout, bloom, and wither without ever whining about their lot."
-          },
-          "sprite": "img/aiko_absent.png"
-        },
-        {
-          "speaker": "Aiko",
-          "text": {
-            "es": "A veces pienso que mi mente funciona al revés que la del resto del mundo. ¿A ti también te pasa cuando tu corazón falla?",
-            "en": "Sometimes I feel my head works in reverse compared to everyone else. Does that happen to you when your heart skips?"
-          },
-          "sprite": "img/aiko_smile.png"
-        },
-        {
-          "speaker": "Aiko",
-          "text": {
-            "es": "Quiero que posees para mí. No para un retrato común... sino para capturar el latido que intentas ocultar.",
-            "en": "I want you to pose for me. Not for a boring portrait... but to capture the heartbeat you try so hard to hide."
-          },
-          "sprite": "img/aiko_blush.png"
-        }
-      ],
-      "choices": [
-        {
-          "text": {
-            "es": "Aceptar posar para ella con total sinceridad",
-            "en": "Agree to pose for her with complete sincerity"
-          },
-          "next": "scene_22_beach_invitation",
-          "set": {
-            "aiko_affection": 4
-          }
-        }
-      ]
-    },
-    "scene_19_yumi_tea": {
-      "chapter": {
-        "es": "Acto II: La Taza Entre Manos Temblorosas",
-        "en": "Act II: The Cup in Trembling Hands"
-      },
-      "bg": "img/ks_gardens.jpg",
-      "sprite": "img/yumi_bashful.png",
-      "bgm": "audio/ks_raindrops.ogg",
-      "sfx": "audio/ks_teacup.ogg",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "En un cenador de madera cubierto de glicinas, Yumi vierte té caliente con movimientos meticulosos.",
-            "en": "In a wooden gazebo draped with wisteria, Yumi pours hot tea with meticulous, cautious movements."
-          }
-        },
-        {
-          "speaker": "Yumi",
-          "text": {
-            "es": "E-es té negro con canela... Lilly me enseñó a prepararlo... Espero que no esté muy amargo...",
-            "en": "I-It's black tea with cinnamon... Lilly taught me how to brew it... I hope it's not too bitter..."
-          }
-        },
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "El vapor tibio se eleva entre los dos. Poco a poco, la tensión de sus hombros comienza a disiparse.",
-            "en": "Warm steam drifts between the two of you. Slowly, the defensive tension in her shoulders begins to melt away."
-          },
-          "sprite": "img/yumi_smile.png"
-        },
-        {
-          "speaker": "Yumi",
-          "text": {
-            "es": "Después del incendio en mi casa... creí que nunca volvería a sentarme a hablar con alguien sin que sintieran repulsión por mis cicatrices...",
-            "en": "After the fire at my home... I thought I'd never sit and talk with someone without them feeling sickened by my scars..."
-          },
-          "sprite": "img/yumi_sad.png"
-        },
-        {
-          "speaker": "Yumi",
-          "text": {
-            "es": "Pero tú... tú me miras a los ojos. Gracias.",
-            "en": "Yet you... you look into my eyes. Thank you."
-          },
-          "sprite": "img/yumi_blush.png"
-        }
-      ],
-      "choices": [
-        {
-          "text": {
-            "es": "Asegurarle que su belleza reside en su valentía y gentileza",
-            "en": "Assure her that her true beauty lies in her courage and kindness"
-          },
-          "next": "scene_22_beach_invitation",
-          "set": {
-            "yumi_trust": 4
-          }
-        }
-      ]
-    },
-    "scene_22_beach_invitation": {
-      "chapter": {
-        "es": "Acto II: La Promesa de la Cala",
-        "en": "Act II: The Promise of the Cove"
-      },
-      "bg": "img/ks_courtyard_sunset.jpg",
-      "bgm": "audio/ks_romance.ogg",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "El sol poniente tiñe el patio de Yamaku de violeta y oro. Las tres chicas se reúnen junto al estanque.",
-            "en": "The setting sun bathes Yamaku's courtyard in purple and amber. All three girls gather near the pond."
-          }
-        },
-        {
-          "speaker": "Sora",
-          "text": {
-            "es": "¡Este sábado nos escapamos todos a la cala privada de la costa! ¡El doctor ya firmó los permisos!",
-            "en": "This Saturday we're all sneaking off to the private coastal cove! The doctor already signed off on our passes!"
-          },
-          "sprite": "img/sora_grin.png"
-        },
-        {
-          "speaker": "Aiko",
-          "text": {
-            "es": "Llevaré óleos y cuadernos para pintar las olas al mediodía.",
-            "en": "I'll pack oils and sketchbooks to paint the waves at high noon."
-          },
-          "sprite": "img/aiko_smile.png"
-        },
-        {
-          "speaker": "Yumi",
-          "text": {
-            "es": "Y-yo... compré un traje de baño nuevo... aunque me da algo de vergüenza...",
-            "en": "I-I... bought a new swimsuit... though I'm a bit embarrassed to wear it..."
-          },
-          "sprite": "img/yumi_bashful.png"
-        }
-      ],
-      "choices": [
-        {
-          "text": {
-            "es": "Prometer que será un día inolvidable para todos",
-            "en": "Promise that it will be an unforgettable day for everyone"
-          },
-          "next": "scene_23_beach_arrival"
-        }
-      ]
-    },
-    "scene_23_beach_arrival": {
-      "chapter": {
-        "es": "Acto III: El Paraíso Turquesa",
-        "en": "Act III: The Turquoise Paradise"
-      },
-      "bg": "img/bg_beach_sunny.jpg",
-      "bgm": "audio/ks_daylight.ogg",
-      "sfx": "audio/amb_ocean_waves.wav",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "El sendero entre los acantilados desemboca en una playa de arena dorada y fina como el polvo. Las aguas cristalinas brillan bajo el sol de verano.",
-            "en": "The path through coastal bluffs opens up to a paradise of golden sand as fine as powder. Crystal waters gleam under the high summer sun."
-          }
-        },
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "La brisa marina huele a libertad, salitre y juventud. Por primera vez en años, los hospitales y diagnósticos quedan atrás.",
-            "en": "The sea breeze smells of freedom, salt, and untamed youth. For the first time in years, hospitals and death sentences feel light-years away."
-          }
-        }
-      ],
-      "choices": [
-        {
-          "text": {
-            "es": "Dejar las mochilas y correr hacia la orilla",
-            "en": "Drop your bags and rush toward the shoreline"
-          },
-          "next": "scene_24_girls_bikini_fun"
-        }
-      ]
-    },
-    "scene_24_girls_bikini_fun": {
-      "chapter": {
-        "es": "Acto III: Risas en Traje de Baño",
-        "en": "Act III: Laughter in Swimwear"
-      },
-      "bg": "img/bg_beach_sunny.jpg",
-      "sprite": "img/sora_gym_happy.png",
-      "bgm": "audio/ks_everyday.ogg",
-      "sfx": "audio/sfx_laugh.mp3",
-      "lines": [
-        {
-          "speaker": "Sora",
-          "text": {
-            "es": "¡Miren el agua! ¡Está tibia y perfecta!",
-            "en": "Look at the water! It's warm and completely perfect!"
-          }
-        },
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "Sora luce un traje de baño atlético de dos piezas rojo y negro, corriendo descalza sin ningún pudor por sus piernas.",
-            "en": "Sora sports an athletic two-piece black-and-red swimsuit, dashing barefoot without an ounce of self-consciousness about her blades."
-          },
-          "sprite": "img/sora_happy.png"
-        },
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "Aiko se acerca con un pareo blanco translúcido y mejillas sonrojadas, cargando su caballete portátil.",
-            "en": "Aiko steps onto the sand in a sheer white wrap with flushed cheeks, carrying her portable field easel."
-          },
-          "sprite": "img/aiko_smile.png"
-        },
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "Yumi se quita tímidamente la blusa bajo la sombrilla, revelando un traje de baño oscuro. Sus cicatrices quedan al descubierto bajo la luz dorada del sol.",
-            "en": "Yumi shyly removes her cover-up beneath the parasol, revealing a sleek dark swimsuit. Her scars lie bare under the golden sunlight."
-          },
-          "sprite": "img/yumi_blush.png"
-        },
-        {
-          "speaker": "Yumi",
-          "text": {
-            "es": "¿De verdad... no les parece horrible verme así?",
-            "en": "Do I really... not look awful to you like this?"
-          },
-          "sprite": "img/yumi_bashful.png"
-        },
-        {
-          "speaker": "Sora",
-          "text": {
-            "es": "¡Estás hermosísima, Yumi! ¡Ahora al agua todas!",
-            "en": "You look gorgeous, Yumi! Now into the water, everyone!"
-          },
-          "sprite": "img/sora_grin.png"
-        }
-      ],
-      "choices": [
-        {
-          "text": {
-            "es": "Nadar y salpicar agua junto a Sora y Yumi",
-            "en": "Swim and splash in the surf with Sora and Yumi"
-          },
-          "next": "scene_25_beach_romance_sunset",
-          "set": {
-            "sora_affection": 2,
-            "yumi_trust": 2
-          }
-        },
-        {
-          "text": {
-            "es": "Sentarte con Aiko a contemplar el mar mientras ella pinta",
-            "en": "Sit with Aiko to watch the tide while she paints"
-          },
-          "next": "scene_25_beach_romance_sunset",
-          "set": {
-            "aiko_affection": 3
-          }
-        }
-      ]
-    },
-    "scene_25_beach_romance_sunset": {
-      "chapter": {
-        "es": "Acto III: Ocaso Sobre las Olas",
-        "en": "Act III: Sunset Over the Waves"
-      },
-      "bg": "img/bg_beach_sunset.jpg",
-      "bgm": "audio/ks_romance.ogg",
-      "mood": "romance",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "Las horas vuelan. El cielo se incendia en capas de púrpura, escarlata y naranja bruñido. Las olas rompen en espuma dorada.",
-            "en": "The hours fly by like gulls. The sky ignites in tiers of purple, scarlet, and burnished amber. The waves break in golden foam."
-          }
-        },
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "Las chicas descansan con toallas sobre los hombros, contemplando en silencio cómo el disco solar se sumerge en el horizonte marino.",
-            "en": "The girls rest with towels draped over their shoulders, gazing in silent awe as the sun dips into the vast ocean horizon."
-          }
-        },
-        {
-          "speaker": "Aiko",
-          "text": {
-            "es": "Si la vida fuera un cuadro, me gustaría que este atardecer fuera la última pincelada que viera antes de cerrar los ojos.",
-            "en": "If life were a canvas, I'd want this sunset to be the very last brushstroke I see before closing my eyes forever."
-          },
-          "sprite": "img/aiko_smile.png"
-        },
-        {
-          "speaker": "Sora",
-          "text": {
-            "es": "No digas tonterías tristes, Aiko. Mañana el sol saldrá otra vez, y volveremos a correr.",
-            "en": "Don't speak such gloomy nonsense, Aiko. Tomorrow the sun will rise again, and we'll run all over again."
-          },
-          "sprite": "img/sora_smile.png"
-        },
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "Un pinchazo en tu pecho te hace contener la respiración. 'Lub-dub... duuub...'. Tu arritmia te recuerda su presencia constante.",
-            "en": "A sudden twinge in your chest steals your breath. 'Lub-dub... duuub...'. Your arrhythmia reminds you of its relentless presence."
-          }
-        }
-      ],
-      "choices": [
-        {
-          "text": {
-            "es": "Disimular el dolor y sonreír para no arruinar el momento",
-            "en": "Conceal the pain and smile so as not to spoil the magic"
-          },
-          "next": "scene_33_festival_eve"
-        }
-      ]
-    },
-    "scene_33_festival_eve": {
-      "chapter": {
-        "es": "Acto IV: Farolillos en la Penumbra",
-        "en": "Act IV: Lanterns in the Dusk"
-      },
-      "bg": "img/ks_festival_stalls.jpg",
-      "bgm": "audio/ks_everyday.ogg",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "Es la noche del Festival de Verano de Yamaku. Cientos de farolillos de papel rojo iluminan el patio entre puestos de takoyaki y juegos de puntería.",
-            "en": "It is the night of Yamaku's Summer Festival. Hundreds of crimson paper lanterns illuminate the courtyard amid takoyaki stalls and carnival games."
-          }
-        },
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "Sora y Yumi visten yukatas tradicionales de verano. Sus risas llenan el aire mientras la multitud disfruta de la velada.",
-            "en": "Sora and Yumi wear traditional summer yukatas. Their laughter rings out as the crowd revels in the festive evening."
-          }
-        }
-      ],
-      "choices": [
-        {
-          "text": {
-            "es": "Disfrutar de los juegos del festival con ellas",
-            "en": "Enjoy the festival games alongside them"
-          },
-          "next": "scene_35_sudden_silence"
-        }
-      ]
-    },
-    "scene_35_sudden_silence": {
-      "chapter": {
-        "es": "Acto IV: El Silencio Súbito",
-        "en": "Act IV: The Sudden Silence"
-      },
-      "bg": "img/ks_courtyard_night.jpg",
-      "sfx": "audio/ks_flash.ogg",
-      "fx": "glitch",
-      "mood": "tension",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "De repente... el bullicio se apaga. El canto ensordecedor de las cigarras se detiene en seco, como si una cuchilla invisible hubiera cortado el tiempo.",
-            "en": "Suddenly... the lively clamor dies down. The deafening hum of cicadas cuts out completely, as if an invisible blade severed time itself."
-          }
-        },
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "El viento se torna helado. Las llamas de los farolillos parpadean con violencia.",
-            "en": "The breeze turns razor-sharp and cold. The lantern flames flicker violently in the dark."
-          }
-        },
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "Una sensación asfixiante de que algo siniestro está a punto de ocurrir se clava en tu nuca.",
-            "en": "A suffocating chill that something sinister is about to happen digs claws into the back of your neck."
-          }
-        }
-      ],
-      "choices": [
-        {
-          "text": {
-            "es": "Caminar hacia el archivo de la biblioteca buscando respuestas",
-            "en": "Walk toward the library archives searching for answers"
-          },
-          "next": "scene_36_archive_paranoia"
-        }
-      ]
-    },
-    "scene_36_archive_paranoia": {
-      "chapter": {
-        "es": "Acto IV: El Expediente del Ciclo",
-        "en": "Act IV: The File of the Cycle"
-      },
-      "bg": "img/ks_library.jpg",
-      "bgm": "audio/ks_shadow_truth.ogg",
-      "sfx": "audio/sfx_memory_fragment.wav",
-      "fx": "glitch",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "Bajo una bombilla parpadeante en el archivo subterráneo, abres una caja de registros confidenciales.",
-            "en": "Beneath a flickering bulb in the basement archive, you open a crate of confidential records."
-          }
-        },
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "Tus dedos tropiezan con un expediente desgastado: tu nombre completo, tu fecha de nacimiento y tu diagnóstico exacto.",
-            "en": "Your fingers stumble upon a worn dossier: your exact full name, birth date, and clinical diagnosis."
-          }
-        },
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "Pero la fecha de defunción dice: '28 de Agosto de 1983 — Paro cardíaco en el acantilado'. Y abajo otra: '28 de Agosto de 2004 — Paro cardíaco'.",
-            "en": "Yet the death date reads: 'August 28, 1983 — Cardiac arrest on coastal cliff'. And below it: 'August 28, 2004 — Cardiac arrest'."
-          }
-        },
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "¡Hoy es 28 de agosto! ¡Has muerto aquí una y otra vez en un ciclo eterno!",
-            "en": "Today is August 28th! You have died here again and again in an inescapable time loop!"
-          }
-        }
-      ],
-      "choices": [
-        {
-          "text": {
-            "es": "Guardar el expediente en tu bolsillo [Fragmento de Memoria +1]",
-            "en": "Stash the file into your coat [Memory Fragment +1]"
-          },
-          "next": "scene_38_roof_warning",
-          "set": {
-            "memory_fragments": 1,
-            "paranoia": 2
-          }
-        }
-      ]
-    },
-    "scene_38_roof_warning": {
-      "chapter": {
-        "es": "Acto IV: Nubes de Plomo",
-        "en": "Act IV: Clouds of Lead"
+        "es": "Acto 1: La Encrucijada de los Caminos",
+        "en": "Act 1: Crossroads of Destiny"
       },
       "bg": "img/ks_roof_night.jpg",
-      "bgm": "audio/ks_caged_heart.ogg",
-      "sfx": "audio/ks_thunder.ogg",
-      "mood": "horror",
+      "bgm": "audio/ks_moment_of_decision.ogg",
+      "mood": "calm",
+      "bgEffect": "",
       "lines": [
         {
           "speaker": "narrator",
           "text": {
-            "es": "Subes al tejado buscando aire. El cielo se ha vuelto negro como la pez. Relámpagos lívidos desgarran el horizonte marino.",
-            "en": "You stagger to the roof gasping for air. The sky has turned pitch-black. Ghostly lightning rips through the sea horizon."
-          }
+            "es": "Subí a la azotea del edificio de dormitorios antes de acostarme.",
+            "en": "I climbed up to the dormitory rooftop before heading to bed."
+          },
+          "expr": "neutral"
         },
         {
           "speaker": "narrator",
           "text": {
-            "es": "Una silueta empapada te aguarda junto a la barandilla de protección. Es Yumi.",
-            "en": "A soaked silhouette waits by the security rail. It's Yumi."
+            "es": "Las luces de la ciudad brillaban a lo lejos en el valle, como un tapiz de luciérnagas distantes. La brisa nocturna agitaba mi cabello.",
+            "en": "The city lights twinkled far below in the valley like a distant tapestry of fireflies. The nocturnal breeze stirred my hair."
           },
-          "sprite": "img/yumi_worry.png"
+          "expr": "neutral"
         },
         {
-          "speaker": "Yumi",
+          "speaker": "narrator",
           "text": {
-            "es": "¡Te dije que no investigaras! ¡Cada vez que descubres los expedientes, el tifón desata la histeria colectiva!",
-            "en": "I told you not to dig! Every time you find those files, the typhoon triggers a collective breakdown!"
+            "es": "Toqué mi pecho. Los latidos eran constantes, pero frágiles. Sabía que mi tiempo aquí definiría el resto de mi vida.",
+            "en": "I touched my chest. The beats were steady, yet fragile. I knew that my time here would define the rest of my life."
           },
-          "sprite": "img/yumi_cover_worry.png"
+          "expr": "neutral",
+          "sfx": "audio/ks_heart_slow.ogg"
         },
         {
-          "speaker": "Yumi",
+          "speaker": "narrator",
           "text": {
-            "es": "Aiko ha desaparecido. Fue hacia el viejo faro... ¡cree que si se arroja al mar, la tormenta perdonará nuestras vidas!",
-            "en": "Aiko has vanished. She fled toward the old lighthouse... she believes if she sacrifices herself, the storm will spare our lives!"
+            "es": "Había conocido seis almas diferentes hoy. Cada una lidiando con sus propias fracturas, cada una invitándome a compartir su mundo.",
+            "en": "I had met six different souls today. Each grappling with their own fractures, each inviting me to share their world."
           },
-          "sprite": "img/yumi_sad.png"
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "¿Hacia dónde orientaré mis pasos a partir de mañana?",
+            "en": "Where will I direct my footsteps starting tomorrow?"
+          },
+          "expr": "neutral",
+          "style": "thought"
         }
       ],
       "choices": [
         {
           "text": {
-            "es": "Gritar que irás a rescatar a Aiko de inmediato",
-            "en": "Shout that you will rescue Aiko right this second"
+            "es": "Ir a la pista de atletismo al amanecer con Sora",
+            "en": "Head to the track at dawn with Sora"
           },
-          "next": "scene_47_storm_strike",
+          "next": "sora_route_1",
+          "hint": {
+            "es": "Ruta Sora: Superación y velocidad",
+            "en": "Sora Route: Overcoming and speed"
+          },
           "set": {
-            "yumi_trust": 3
-          }
-        }
-      ]
-    },
-    "scene_47_storm_strike": {
-      "chapter": {
-        "es": "Acto V: La Furia del Tifón",
-        "en": "Act V: The Typhoon's Wrath"
-      },
-      "bg": "img/ks_courtyard_night.jpg",
-      "bgm": "audio/ks_moment_decision.ogg",
-      "sfx": "audio/ks_rain.ogg",
-      "fx": "rain",
-      "mood": "horror",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "El supertifón número 14 golpea la costa con vientos huracanados de más de 160 km/h.",
-            "en": "Super Typhoon No. 14 smashes into the coastline with gale-force winds exceeding 160 km/h."
+            "sora_points": 2
           }
         },
         {
-          "speaker": "narrator",
           "text": {
-            "es": "Los cerezos centenarios crujen y se doblan. Los cristales del sanatorio vibran como si fueran a reventar.",
-            "en": "Ancient cherry trees groan and buckle. The sanatorium's windowpanes vibrate as if about to shatter."
-          }
-        }
-      ],
-      "choices": [
-        {
-          "text": {
-            "es": "Correr al interior del edificio a buscar linternas",
-            "en": "Sprint inside the building to grab flashlights"
+            "es": "Regresar al silencio protector de la biblioteca con Yumi",
+            "en": "Return to the protective silence of the library with Yumi"
           },
-          "next": "scene_48_blackout_hall"
-        }
-      ]
-    },
-    "scene_48_blackout_hall": {
-      "chapter": {
-        "es": "Acto V: Oscuridad y Espanto",
-        "en": "Act V: Darkness and Dread"
-      },
-      "bg": "img/ks_hallway.jpg",
-      "sfx": "audio/sfx_glass_shatter.wav",
-      "fx": "blackout",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "¡CHAS! Las líneas eléctricas estallan en chispas azules. Todo el complejo queda sumido en tinieblas impenetrables.",
-            "en": "SNAP! Power lines blow out in a cascade of blue sparks. The entire complex plunges into impenetrable darkness."
-          }
-        },
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "En medio del aullido del vendaval, un alarido desgarrador retumba desde el segundo piso.",
-            "en": "Amid the howl of the storm, a bloodcurdling scream echoes from the second floor."
-          }
-        },
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "¡Es la voz de Sora!",
-            "en": "It's Sora's voice!"
-          }
-        }
-      ],
-      "choices": [
-        {
-          "text": {
-            "es": "Subir las escaleras a oscuras a toda prisa",
-            "en": "Charge up the pitch-black staircase at full speed"
+          "next": "yumi_route_1",
+          "hint": {
+            "es": "Ruta Yumi: Cicatrices y complicidad",
+            "en": "Yumi Route: Scars and shared souls"
           },
-          "next": "scene_52_sora_rescue",
           "set": {
-            "heart_pulse": -20
-          }
-        }
-      ]
-    },
-    "scene_52_sora_rescue": {
-      "chapter": {
-        "es": "Acto V: Desamparo en el Umbral",
-        "en": "Act V: Helpless on the Threshold"
-      },
-      "bg": "img/ks_hallway.jpg",
-      "sprite": "img/sora_shock.png",
-      "sfx": "audio/ks_thunder.ogg",
-      "fx": "lightning",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "Un relámpago ilumina el pasillo. Sora está tendida en el suelo entre vigas caídas, sin una de sus prótesis.",
-            "en": "A flash of lightning illuminates the hall. Sora lies on the floor among fallen debris, missing one of her running blades."
+            "yumi_points": 2
           }
         },
         {
-          "speaker": "Sora",
           "text": {
-            "es": "¡Mi prótesis se trabó en la barandilla cuando tembló el techo! ¡No puedo ponerme de pie!",
-            "en": "My blade got caught in the banister when the ceiling shook! I can't stand up!"
+            "es": "Subir al taller de arte a descifrar las nubes con Aiko",
+            "en": "Climb to the art studio to decipher clouds with Aiko"
           },
-          "sprite": "img/sora_shock.png"
-        },
-        {
-          "speaker": "Sora",
-          "text": {
-            "es": "¡Déjame aquí y ve por Aiko! ¡El acantilado del faro está cediendo por el barro!",
-            "en": "Leave me here and go after Aiko! The lighthouse bluff is collapsing into mud!"
+          "next": "aiko_route_1",
+          "hint": {
+            "es": "Ruta Aiko: Filosofía y vacío",
+            "en": "Aiko Route: Philosophy and the void"
           },
-          "sprite": "img/sora_sad.png"
-        }
-      ],
-      "choices": [
-        {
-          "text": {
-            "es": "Cargar a Sora en tu espalda y no abandonar a nadie",
-            "en": "Hoist Sora onto your back and refuse to leave anyone behind"
-          },
-          "next": "scene_53_cardiac_spike",
           "set": {
-            "sora_affection": 5,
-            "heart_pulse": -30
+            "aiko_points": 2
           }
         },
         {
           "text": {
-            "es": "Liberar su prótesis con una palanca de hierro y correr juntos",
-            "en": "Pry her blade loose with an iron rod so you can run together"
+            "es": "Aceptar la invitación a la hora del té con Elena",
+            "en": "Accept the invitation to tea time with Elena"
           },
-          "next": "scene_53_cardiac_spike",
+          "next": "elena_route_1",
+          "hint": {
+            "es": "Ruta Elena: Elegancia y lejanía",
+            "en": "Elena Route: Elegance and distance"
+          },
           "set": {
-            "sora_affection": 3
-          }
-        }
-      ]
-    },
-    "scene_53_cardiac_spike": {
-      "chapter": {
-        "es": "Acto V: La Arritmia Mortal",
-        "en": "Act V: The Fatal Arrhythmia"
-      },
-      "bg": "img/ks_hallway.jpg",
-      "sfx": "audio/ks_heart_fast.ogg",
-      "fx": "tremor",
-      "mood": "horror",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "¡UN PUÑETAZO DE FUEGO TE REVIENTA EL PECHO! Caes de rodillas sobre la madera astillada.",
-            "en": "A BLOW OF RAW FIRE SLAMS INTO YOUR CHEST! You collapse to your knees onto splintered wood."
+            "elena_points": 2
           }
         },
         {
-          "speaker": "narrator",
           "text": {
-            "es": "Tu monitor cardíaco interno se desboca: 180... 190 pulsaciones desordenadas. Tu visión se tiñe de túnel oscuro.",
-            "en": "Your internal cardiac tempo races out of control: 180... 190 erratic flutterings. Tunnel vision closes in like night."
+            "es": "Quedarse en la sala del consejo con Rei y Shiina",
+            "en": "Stay in the council room with Rei and Shiina"
           },
-          "fx": "flash-red"
-        },
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "En tu mano tienes dos cosas: el frasco de pastillas y el expediente del ciclo.",
-            "en": "In your trembling palm you clutch two items: the pill bottle and the cycle records."
-          }
-        }
-      ],
-      "choices": [
-        {
-          "text": {
-            "es": "Tragar dos pastillas para forzar a tu corazón a seguir latiendo",
-            "en": "Swallow two pills to force your heart to keep pumping"
+          "next": "rei_route_1",
+          "hint": {
+            "es": "Ruta Consejo: Lenguaje y orgullo",
+            "en": "Council Route: Language and pride"
           },
-          "next": "scene_55_cliff_ascent",
           "set": {
-            "heart_pulse": 40
+            "rei_points": 2
           }
         },
         {
           "text": {
-            "es": "Resistir por puro amor y lealtad hacia tus compañeras",
-            "en": "Endure by sheer love and loyalty to your companions"
+            "es": "Quedarse en el dormitorio a vigilar la conspiración con Kenji",
+            "en": "Stay in the dorms to monitor the conspiracy with Kenji"
           },
-          "next": "scene_55_cliff_ascent",
+          "next": "kenji_route_1",
+          "hint": {
+            "es": "Ruta Secreta: Paranoia cómica",
+            "en": "Secret Route: Comic paranoia"
+          },
           "set": {
-            "heart_pulse": -10,
-            "memory_fragments": 1
-          }
-        }
-      ]
-    },
-    "scene_55_cliff_ascent": {
-      "chapter": {
-        "es": "Acto V: El Camino de Sangre y Lluvia",
-        "en": "Act V: The Path of Blood and Rain"
-      },
-      "bg": "img/bg_lighthouse_storm.jpg",
-      "bgm": "audio/ks_moment_decision.ogg",
-      "sfx": "audio/ks_rain.ogg",
-      "fx": "rain",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "Bajo el diluvio bíblico del tifón, asciendes la colina rocosa. El barro te llega hasta los tobillos.",
-            "en": "Under the biblical deluge of the typhoon, you haul yourself up the rocky bluff. Mud reaches your ankles."
-          }
-        },
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "Frente a ti, recortada contra las nubes eléctricas, la torre del viejo faro parece el último bastión de la cordura humana.",
-            "en": "Before you, silhouetted against electric tempest clouds, the old lighthouse tower stands like the last bastion of human sanity."
+            "kenji_points": 2
           }
         }
       ],
-      "choices": [
-        {
-          "text": {
-            "es": "Entrar al faro y subir a la cima",
-            "en": "Enter the lighthouse and climb to the top"
-          },
-          "next": "scene_61_lighthouse_top"
-        }
-      ]
+      "next": null
     },
-    "scene_61_lighthouse_top": {
+    "sora_route_1": {
       "chapter": {
-        "es": "Acto VI: En el Borde del Abismo",
-        "en": "Act VI: At the Edge of the Abyss"
+        "es": "Ruta Sora: La Niebla Matutina",
+        "en": "Sora Route: Morning Mist"
       },
-      "bg": "img/bg_lighthouse_storm.jpg",
-      "sprite": "img/aiko_crying.png",
-      "bgm": "audio/ks_moment_decision.ogg",
-      "sfx": "audio/ks_thunder.ogg",
-      "fx": "lightning",
-      "mood": "horror",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "Llegas jadeando al balcón circular de la linterna. Aiko está de pie sobre la barandilla de hierro oxidada.",
-            "en": "Gasping for air, you stumble onto the lantern's circular balcony. Aiko stands atop the rusted iron rail."
-          }
-        },
-        {
-          "speaker": "Aiko",
-          "text": {
-            "es": "¡No te acerques! ¡El mar exige un tributo para calmarse! ¡Siempre he sido un estorbo para todos!",
-            "en": "Don't come any closer! The sea demands a tribute to subside! I've always been a burden to everyone!"
-          }
-        },
-        {
-          "speaker": "Aiko",
-          "text": {
-            "es": "Mis pulmones no respiran... mis brazos no abrazan... ¡Si desaparezco, el ciclo por fin se romperá!",
-            "en": "My lungs can barely breathe... my arms can never embrace... If I vanish, the loop will finally shatter!"
-          }
-        }
-      ],
-      "choices": [
-        {
-          "text": {
-            "es": "Gritarle que su vida es tu única razón para seguir luchando",
-            "en": "Shout that her life is your only reason to keep fighting"
-          },
-          "next": "scene_64_unburdening",
-          "set": {
-            "aiko_affection": 5
-          }
-        },
-        {
-          "text": {
-            "es": "Llamar a Sora y Yumi para formar una cadena humana",
-            "en": "Call upon Sora and Yumi to forge a human chain"
-          },
-          "next": "scene_65_rescue_chain",
-          "set": {
-            "yumi_trust": 3,
-            "sora_affection": 3
-          }
-        }
-      ]
-    },
-    "scene_64_unburdening": {
-      "chapter": {
-        "es": "Acto VI: El Abrazo en la Tormenta",
-        "en": "Act VI: The Embrace in the Tempest"
-      },
-      "bg": "img/bg_lighthouse_storm.jpg",
-      "sprite": "img/aiko_crying.png",
-      "bgm": "audio/ks_romance.ogg",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "'¡Aiko! ¡Mírame a los ojos! Mi corazón está fallando en este instante, pero no me importa morir aquí si es para salvarte'.",
-            "en": "'Aiko! Look me in the eyes! My heart is giving out this second, but I don't care if I die here as long as I save you!'"
-          }
-        },
-        {
-          "speaker": "Aiko",
-          "text": {
-            "es": "¿D-darías... tu último latido por mí?",
-            "en": "W-Would you... give your very last heartbeat for me?"
-          },
-          "sprite": "img/aiko_blush.png"
-        },
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "Un sollozo desgarrador brota de su pecho. Su cuerpo se vence hacia adelante, buscando tu calor.",
-            "en": "A heartbreaking sob erupts from her chest. Her trembling body leans forward, desperate for your warmth."
-          }
-        }
-      ],
-      "choices": [
-        {
-          "text": {
-            "es": "Abalanzarte y atraparla entre tus brazos",
-            "en": "Lunge forward and catch her tight in your arms"
-          },
-          "next": "scene_66_all_safe"
-        }
-      ]
-    },
-    "scene_65_rescue_chain": {
-      "chapter": {
-        "es": "Acto VI: Manos Que Jamás Sueltan",
-        "en": "Act VI: Hands That Never Let Go"
-      },
-      "bg": "img/bg_lighthouse_storm.jpg",
-      "sprite": "img/sora_gym_sweat.png",
-      "bgm": "audio/ks_moment_decision.ogg",
-      "lines": [
-        {
-          "speaker": "Sora",
-          "text": {
-            "es": "¡NO TE ATREVAS A SALTAR, AIKO!",
-            "en": "DON'T YOU DARE JUMP, AIKO!"
-          }
-        },
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "¡Sora y Yumi irrumpen en el balcón! Sora se lanza al suelo sujetando los tobillos de Aiko con una fuerza titánica.",
-            "en": "Sora and Yumi burst onto the rainswept deck! Sora dives to the grating, locking onto Aiko's ankles with titanic grip."
-          }
-        },
-        {
-          "speaker": "Yumi",
-          "text": {
-            "es": "¡Haleeen! ¡Juntos podemos contra el destino!",
-            "en": "Puuuull! Together we can defy destiny itself!"
-          },
-          "sprite": "img/yumi_worry.png"
-        }
-      ],
-      "choices": [
-        {
-          "text": {
-            "es": "Tirar con toda tu alma para poner a Aiko a salvo en el suelo",
-            "en": "Pull with all your soul to drag Aiko to safety on the deck"
-          },
-          "next": "scene_66_all_safe"
-        }
-      ]
-    },
-    "scene_66_all_safe": {
-      "chapter": {
-        "es": "Acto VI: El Suelo Firme",
-        "en": "Act VI: The Solid Ground"
-      },
-      "bg": "img/bg_lighthouse_storm.jpg",
-      "bgm": "audio/ks_painful_history.ogg",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "Los cuatro caen sobre las planchas de hierro del faro. Empapados, heridos, jadeantes, pero juntos y vivos.",
-            "en": "All four collapse onto the lighthouse's iron plates. Drenched, bruised, gasping, yet together and alive."
-          }
-        },
-        {
-          "speaker": "Aiko",
-          "text": {
-            "es": "Perdónenme... creí que estaba sola en esta pesadilla...",
-            "en": "Forgive me... I thought I was all alone in this nightmare..."
-          },
-          "sprite": "img/aiko_crying.png"
-        },
-        {
-          "speaker": "Sora",
-          "text": {
-            "es": "¡Nunca estuviste sola, tonta! ¡Somos una familia!",
-            "en": "You were never alone, silly! We're a family!"
-          },
-          "sprite": "img/sora_happy.png"
-        },
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "De repente, un frío polar se apodera de tu pecho. El último latido resuena en tu cabeza con la fuerza de un cañonazo.",
-            "en": "Suddenly, a freezing numbness seizes your chest. Your final heartbeat reverberates in your skull like a cannon blast."
-          }
-        }
-      ],
-      "choices": [
-        {
-          "text": {
-            "es": "Cerrar los ojos mientras el monitor cerebral se apaga",
-            "en": "Close your eyes as your brain monitor flatlines"
-          },
-          "next": "scene_67_flatline"
-        }
-      ]
-    },
-    "scene_67_flatline": {
-      "chapter": {
-        "es": "Acto VI: La Línea Recta",
-        "en": "Act VI: The Flatline"
-      },
-      "bg": "img/bg_lighthouse_storm.jpg",
-      "sfx": "audio/ks_heart_stop.ogg",
-      "fx": "blackout",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "'Biiiiiiiiiiip...'",
-            "en": "'BEEEEEEEEEEEP...'"
-          }
-        },
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "El silencio absoluto te engulle. Tu cuerpo colapsa en la inconsciencia.",
-            "en": "Absolute silence swallows you whole. Your body collapses into black unconsciousness."
-          }
-        }
-      ],
-      "choices": [
-        {
-          "text": {
-            "es": "Despertar en la encrucijada de tu destino",
-            "en": "Awaken at the crossroads of your destiny"
-          },
-          "next": "scene_68_destiny_branch"
-        }
-      ]
-    },
-    "scene_68_destiny_branch": {
-      "chapter": {
-        "es": "Acto VII: La Encrucijada de Almas",
-        "en": "Act VII: Crossroads of Souls"
-      },
-      "bg": "img/bg_beach_sunset.jpg",
-      "bgm": "audio/ks_romance.ogg",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "En el limbo crepuscular entre la vida y la muerte, los ecos de todas tus decisiones se reúnen.",
-            "en": "In the twilight limbo between life and death, the echoes of every choice you made gather together."
-          }
-        },
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "¿Qué verdad guió tus pasos a través de las sombras de Yamaku?",
-            "en": "Which truth guided your steps through the shadows of Yamaku?"
-          }
-        }
-      ],
-      "choices": [
-        {
-          "text": {
-            "es": "El terror y la paranoia te consumieron (Final 1)",
-            "en": "Terror and paranoia consumed you (Ending 1)"
-          },
-          "next": "ending_paranoia",
-          "if": "paranoia >= 4"
-        },
-        {
-          "text": {
-            "es": "La resignación al ciclo eterno sin memoria (Final 2)",
-            "en": "Resignation to the endless memory loop (Ending 2)"
-          },
-          "next": "ending_loop",
-          "if": "memory_fragments < 2"
-        },
-        {
-          "text": {
-            "es": "El amor devoto por el arte y el alma de Aiko (Final 3)",
-            "en": "Devoted love for Aiko's art and soul (Ending 3)"
-          },
-          "next": "ending_aiko",
-          "if": "aiko_affection >= 5"
-        },
-        {
-          "text": {
-            "es": "La promesa de correr hacia el futuro con Sora (Final 4)",
-            "en": "The vow to run toward tomorrow with Sora (Ending 4)"
-          },
-          "next": "ending_sora",
-          "if": "sora_affection >= 5"
-        },
-        {
-          "text": {
-            "es": "El milagro verdadero de la empatía y la vida (Final 5)",
-            "en": "The true miracle of empathy and life (Ending 5)"
-          },
-          "next": "scene_75_true_miracle"
-        }
-      ]
-    },
-    "scene_75_true_miracle": {
-      "chapter": {
-        "es": "Acto VII: El Despertar del Milagro",
-        "en": "Act VII: Awakening of the Miracle"
-      },
-      "bg": "img/ks_nurse_office.jpg",
-      "bgm": "audio/ks_comfort.ogg",
-      "sfx": "audio/ks_heart_slow.ogg",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "Un suave pitido rítmico te despierta. Tus párpados se abren con pesadez.",
-            "en": "A gentle, rhythmic beep awakens you. Your eyelids flutter open heavily."
-          }
-        },
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "La luz dorada de la mañana inunda la enfermería. El monitor cardíaco marca 72 pulsaciones por minuto, sereno y constante.",
-            "en": "Morning sunlight floods the infirmary. The cardiac monitor reads 72 bpm, serene and steady."
-          }
-        },
-        {
-          "speaker": "narrator",
-          "text": {
-            "es": "Junto a tu cama, Aiko, Sora y Yumi duermen agotadas, tomadas de tus manos.",
-            "en": "Beside your bed, Aiko, Sora, and Yumi sleep peacefully, holding your hands tightly."
-          }
-        }
-      ],
-      "choices": [
-        {
-          "text": {
-            "es": "Apretar suavemente sus manos con gratitud infinita",
-            "en": "Gently squeeze their hands with boundless gratitude"
-          },
-          "next": "scene_76_beach_epilogue"
-        }
-      ]
-    },
-    "scene_76_beach_epilogue": {
-      "chapter": {
-        "es": "Acto VII: La Mañana del Mañana",
-        "en": "Act VII: The Morning of Tomorrow"
-      },
-      "bg": "img/bg_beach_sunny.jpg",
+      "bg": "img/ks_track_day.jpg",
       "bgm": "audio/ks_daylight.ogg",
-      "sfx": "audio/amb_ocean_waves.wav",
+      "mood": "calm",
+      "bgEffect": "",
       "lines": [
         {
           "speaker": "narrator",
           "text": {
-            "es": "El tifón ha desaparecido como una mala pesadilla. La costa brilla con un azul tan puro que corta el aliento.",
-            "en": "The typhoon has vanished like an old bad dream. The coast shines with a blue so pure it steals your breath."
-          }
+            "es": "El rocío de las seis de la mañana cubría la hierba del campo deportivo con un manto plateado.",
+            "en": "The six o'clock dew carpeted the athletic field's turf in a silvery mantle."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Llegué a la pista con ropa deportiva ligera y las zapatillas ajustadas. El aire frío me quemaba levemente la garganta al inhalar.",
+            "en": "I arrived at the track in light sportswear with running shoes laced snug. The cold air stung my throat gently with every breath."
+          },
+          "expr": "neutral"
         },
         {
           "speaker": "Sora",
           "text": {
-            "es": "¡Miren! ¡El doctor me dejó correr descalza por la arena!",
-            "en": "Look! The doctor gave me permission to run barefoot on the sand!"
+            "es": "¡Vaya, vaya! ¡Miren quién decidió madrugar! Creí que te ibas a quedar pegado a las sábanas, chico de ciudad.",
+            "en": "Well, well! Look who decided to wake up with the birds! I thought you'd stay glued to your blankets, city boy."
           },
-          "sprite": "img/sora_gym_happy.png"
+          "sprite": "img/sora_gym_happy.png",
+          "expr": "happy"
         },
         {
-          "speaker": "Aiko",
+          "speaker": "Hisao",
           "text": {
-            "es": "El cuadro ya no es sobre la muerte... es sobre nosotros cuatro riendo frente al mar.",
-            "en": "The painting isn't about dying anymore... it's about the four of us laughing before the sea."
+            "es": "Prometí que vendría. Aunque el enfermero me advirtió que no debo sobrepasar las 120 pulsaciones por minuto.",
+            "en": "I promised I'd come. Though the nurse warned me not to exceed 120 beats per minute."
           },
-          "sprite": "img/aiko_smile.png"
+          "expr": "neutral"
         },
         {
-          "speaker": "Yumi",
+          "speaker": "Sora",
           "text": {
-            "es": "Por primera vez en diez años... no tengo miedo del mañana.",
-            "en": "For the first time in ten years... I'm not afraid of tomorrow."
+            "es": "No te preocupes. Haremos un trote suave de calentamiento. Solo dos vueltas a ritmo de tortuga para abrir los pulmones.",
+            "en": "Don't fret. We'll do a gentle warm-up jog. Just two turtle-paced laps to open up the lungs."
           },
-          "sprite": "img/yumi_smile.png"
+          "sprite": "img/sora_smile.png",
+          "expr": "smile"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Comenzamos a trotar lado a lado. El rítmico 'clac, clac' de sus prótesis sobre el tartán marcaba un compás hipnótico.",
+            "en": "We began jogging side by side. The rhythmic 'clack, clack' of her blades on the tartan set a hypnotic cadence."
+          },
+          "expr": "neutral",
+          "sfx": "audio/ks_emijogging.ogg"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "A pesar de no tener pantorrillas ni tobillos, la soltura de sus movimientos era pura poesía biomecánica.",
+            "en": "Despite lacking calves and ankles, the fluidity of her strides was pure biomechanical poetry."
+          },
+          "expr": "neutral",
+          "style": "thought"
+        },
+        {
+          "speaker": "Sora",
+          "text": {
+            "es": "Correr no se trata de tener piernas, Hisao. Se trata de negarse a ser prisionero del suelo.",
+            "en": "Running isn't about having legs, Hisao. It's about refusing to be a prisoner of the ground."
+          },
+          "sprite": "img/sora_grin.png",
+          "expr": "grin"
         }
       ],
-      "choices": [
-        {
-          "text": {
-            "es": "Abrazarlas y celebrar que están vivos juntos",
-            "en": "Embrace them and celebrate being alive together"
-          },
-          "next": "scene_77_sakura_rain"
-        }
-      ]
+      "choices": [],
+      "next": "sora_route_2"
     },
-    "scene_77_sakura_rain": {
+    "sora_route_2": {
       "chapter": {
-        "es": "Acto VII: Cuando los Cerezos Florecen",
-        "en": "Act VII: When the Cherries Bloom"
+        "es": "Ruta Sora: El Límite del Pecho",
+        "en": "Sora Route: Limit of the Chest"
       },
-      "bg": "img/ks_courtyard.jpg",
-      "bgm": "audio/ks_wiosna.ogg",
+      "bg": "img/ks_track_running.jpg",
+      "bgm": "audio/ks_stride.ogg",
+      "mood": "tension",
+      "bgEffect": "",
       "lines": [
         {
           "speaker": "narrator",
           "text": {
-            "es": "Una ráfaga de viento cálido sacude los cerezos de la colina. Millones de pétalos rosados descienden sobre la escuela y el mar como una lluvia celestial.",
-            "en": "A warm gust of wind shakes the hilltop cherries. Millions of pink petals drift down over the school and sea like a celestial shower."
-          }
+            "es": "A la mitad de la segunda vuelta, Sora aumentó gradualmente el ritmo. Su cabello castaño ondeaba al viento con fiereza.",
+            "en": "Halfway through the second lap, Sora picked up the pace. Her chestnut hair whipped fiercely in the wind."
+          },
+          "expr": "neutral"
         },
         {
           "speaker": "narrator",
           "text": {
-            "es": "Pones tu mano sobre tu pecho. Tu corazón late firme, tranquilo, lleno de amor y propósito.",
-            "en": "You place your hand over your chest. Your heart beats firm, peaceful, filled with love and purpose."
-          }
+            "es": "Intenté mantener la distancia, pero un pinchazo caliente me taladró el costado izquierdo.",
+            "en": "I tried to keep pace, but a hot pang drilled into my left ribcage."
+          },
+          "expr": "neutral",
+          "sfx": "audio/ks_heart_fast.ogg",
+          "fx": "tremor"
+        },
+        {
+          "speaker": "Hisao",
+          "text": {
+            "es": "Ugh... maldición...",
+            "en": "Ugh... damn it..."
+          },
+          "expr": "neutral"
         },
         {
           "speaker": "narrator",
           "text": {
-            "es": "Las cicatrices y las enfermedades siguen ahí, pero ya no son una condena: son las medallas que demuestran que lucharon y vencieron juntos.",
-            "en": "The scars and infirmities remain, but they are no longer a curse: they are the badges proving you fought and overcame together."
-          }
+            "es": "Me detuve apoyando las manos en las rodillas, jadeando con dificultad mientras el corazón martilleaba desbocado.",
+            "en": "I stopped, bracing hands upon knees, gasping raggedly as my heart hammered out of control."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Sora",
+          "text": {
+            "es": "¡Hisao! ¡Oye! ¿Estás bien?",
+            "en": "Hisao! Hey! Are you okay?"
+          },
+          "sprite": "img/sora_shock.png",
+          "expr": "shock",
+          "sfx": "audio/ks_running.ogg"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Llegó frenando en seco a mi lado, sujetándome por los hombros con una fuerza sorprendente.",
+            "en": "She skidded to a halt beside me, gripping my shoulders with surprising strength."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Sora",
+          "text": {
+            "es": "¡Respira despacio! Inhala por la nariz... exhala por la boca... mírame a los ojos.",
+            "en": "Breathe slow! Inhale through your nose... exhale through your mouth... look into my eyes."
+          },
+          "sprite": "img/sora_gym_sweat.png",
+          "expr": "worried"
+        },
+        {
+          "speaker": "Hisao",
+          "text": {
+            "es": "Tengo... las pastillas... en el bolsillo del pantalón...",
+            "en": "I have... the pills... in my pocket..."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Sora sacó el frasco de emergencia con dedos rápidos, me dio una pastilla sublingual y esperó en silencio hasta que mi respiración volvió a ser uniforme.",
+            "en": "Sora swiftly fished out the emergency bottle, slipped a sublingual tablet under my tongue, and waited in silence until my breathing evened out."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Sora",
+          "text": {
+            "es": "Idiota... me diste un susto de muerte. Si te mueres en mi pista, nunca me lo perdonaría.",
+            "en": "You idiot... you scared me half to death. If you dropped dead on my track, I'd never forgive myself."
+          },
+          "sprite": "img/sora_pout.png",
+          "expr": "pout"
+        },
+        {
+          "speaker": "Hisao",
+          "text": {
+            "es": "Perdón... solo quería demostrar que no soy una carga.",
+            "en": "Sorry... I just wanted to prove I'm not dead weight."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Sora",
+          "text": {
+            "es": "Nadie aquí tiene que demostrar nada. Estamos aquí porque ya nos rompimos antes. Ahora solo estamos aprendiendo a reconstruirnos.",
+            "en": "Nobody here has to prove anything. We're here because we already broke once. Now we're just learning how to rebuild."
+          },
+          "sprite": "img/sora_sad.png",
+          "expr": "sad"
         }
       ],
-      "choices": [
+      "choices": [],
+      "next": "sora_route_3"
+    },
+    "sora_route_3": {
+      "chapter": {
+        "es": "Ruta Sora: La Confesión bajo la Lluvia",
+        "en": "Sora Route: Confession in the Rain"
+      },
+      "bg": "img/ks_school_hilltop_summer.jpg",
+      "bgm": "audio/ks_raindrops.ogg",
+      "mood": "calm",
+      "bgEffect": "rain",
+      "lines": [
         {
+          "speaker": "narrator",
           "text": {
-            "es": "Ver Desenlace del Final Verdadero",
-            "en": "View True Miracle Ending"
+            "es": "Las semanas pasaron y nuestros entrenamientos se convirtieron en el ancla de mis días.",
+            "en": "Weeks drifted past and our morning sessions became the steady anchor of my days."
           },
-          "next": "ending_true_miracle"
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Una tarde de sábado, subimos hasta la colina solitaria que corona el bosque detrás de Yamaku.",
+            "en": "One Saturday afternoon, we climbed to the solitary grassy knoll overlooking the woods behind Yamaku."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El cielo se cubrió de nubes grises y una llovizna fresca comenzó a caer sobre nosotros.",
+            "en": "The sky gathered gray clouds and a cool drizzle began to mist over us."
+          },
+          "expr": "neutral",
+          "sfx": "audio/ks_rain.ogg"
+        },
+        {
+          "speaker": "Sora",
+          "text": {
+            "es": "¿Sabes cómo perdí mis piernas, Hisao?",
+            "en": "Do you know how I lost my legs, Hisao?"
+          },
+          "sprite": "img/sora_sad.png",
+          "expr": "distant"
+        },
+        {
+          "speaker": "Hisao",
+          "text": {
+            "es": "Solo si quieres contármelo.",
+            "en": "Only if you want to tell me."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Sora",
+          "text": {
+            "es": "Fue un camión... una noche de lluvia como esta. Mi padre conducía. Él... él no sobrevivió.",
+            "en": "It was a truck... on a rainy night just like this. My dad was driving. He... he didn't make it."
+          },
+          "expr": "neutral",
+          "sfx": "audio/ks_thunder.ogg"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Una lágrima solitaria se mezcló con las gotas de lluvia que resbalaban por su mejilla.",
+            "en": "A lone tear merged with the raindrops trailing down her cheek."
+          },
+          "expr": "neutral",
+          "style": "thought"
+        },
+        {
+          "speaker": "Sora",
+          "text": {
+            "es": "Cuando desperté en el hospital sin piernas y sin padre, sentí que la vida se había detenido para siempre. Por eso corro tanto. Corro para que la tristeza no me alcance.",
+            "en": "When I woke in hospital with no legs and no dad, I felt life had ground to a halt forever. That's why I run so hard. I run so grief can never catch me."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Hisao",
+          "text": {
+            "es": "Sora... ya no tienes que huir sola. Puedes correr a mi lado. Y si te cansas, nos detendremos juntos.",
+            "en": "Sora... you don't have to outrun it alone anymore. You can run beside me. And if you tire, we'll rest together."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Sora se volvió hacia mí con los ojos muy abiertos. Luego, con una sonrisa trémula, se arrojó a mis brazos bajo la lluvia de la colina.",
+            "en": "Sora turned toward me wide-eyed. Then, with a trembling smile, threw her arms around me beneath the hilltop rain."
+          },
+          "sprite": "img/sora_smile.png",
+          "expr": "tears"
         }
-      ]
+      ],
+      "choices": [],
+      "next": "ending_sora_true"
     },
-    "ending_paranoia": {
+    "yumi_route_1": {
+      "chapter": {
+        "es": "Ruta Yumi: El Ajedrez del Silencio",
+        "en": "Yumi Route: Chess of Silence"
+      },
+      "bg": "img/ks_library.jpg",
+      "bgm": "audio/ks_afternoon.ogg",
+      "mood": "calm",
+      "bgEffect": "",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Durante dos semanas consecutivas, me senté en la misma mesa de la biblioteca frente a Yumi.",
+            "en": "For two solid weeks, I took the very same library desk opposite Yumi."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Al principio, apenas intercambiábamos miradas furtivas. Pero hoy, traje conmigo un pequeño tablero de ajedrez de madera.",
+            "en": "At first, we barely traded furtive glances. But today, I brought along a small wooden chessboard."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Hisao",
+          "text": {
+            "es": "¿Te gustaría jugar una partida? Sin reloj, sin prisas. Solo para pasar la tarde.",
+            "en": "Would you care for a game? No clock, no rush. Just to pass the afternoon."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Yumi",
+          "text": {
+            "es": "...¿Yo...? Pero... no soy muy buena...",
+            "en": "...Me...? But... I'm not very good..."
+          },
+          "sprite": "img/yumi_worry.png",
+          "expr": "worry"
+        },
+        {
+          "speaker": "Hisao",
+          "text": {
+            "es": "Yo tampoco. Así que estamos a mano.",
+            "en": "Neither am I. So we're even."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Con dedos temblorosos pero certeros, Yumi movió su peón de rey a E4.",
+            "en": "With trembling yet decisive fingers, Yumi advanced her king's pawn to E4."
+          },
+          "expr": "neutral",
+          "sfx": "audio/ks_paper.ogg"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "La partida duró más de una hora. En ese silencio cómplice, las palabras sobraban: cada jugada revelaba su mente analítica, tímida para atacar pero inquebrantable para defenderse.",
+            "en": "The match spanned over an hour. In that shared hush, words were unneeded: each move revealed her analytical mind, shy to strike yet unbreakable in defense."
+          },
+          "expr": "neutral",
+          "style": "thought"
+        },
+        {
+          "speaker": "Yumi",
+          "text": {
+            "es": "Jaque... mate...",
+            "en": "Check... mate..."
+          },
+          "sprite": "img/yumi_smile.png",
+          "expr": "shy_smile"
+        },
+        {
+          "speaker": "Hisao",
+          "text": {
+            "es": "Vaya... me destruiste por completo. Eres increíble, Yumi.",
+            "en": "Wow... you wiped the board with me. You're incredible, Yumi."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Por primera vez, vi un rubor genuino y cálido teñir sus mejillas, sin que intentara cubrirse el rostro con el flequillo.",
+            "en": "For the very first time, I saw a genuine, warm flush tinge her cheeks, without her attempting to veil her face behind her bangs."
+          },
+          "expr": "neutral"
+        }
+      ],
+      "choices": [],
+      "next": "yumi_route_2"
+    },
+    "yumi_route_2": {
+      "chapter": {
+        "es": "Ruta Yumi: La Tempestad y el Fuego",
+        "en": "Yumi Route: Tempest and Fire"
+      },
+      "bg": "img/ks_dorm_room.jpg",
+      "bgm": "audio/ks_caged_heart.ogg",
+      "mood": "horror",
+      "bgEffect": "",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Una noche de tormenta de verano azotó la colina de Yamaku. Los truenos sacudían los cristales con furia primordial.",
+            "en": "A summer monsoon battered the Yamaku hill. Thunderclaps rattled window glass with primal ferocity."
+          },
+          "expr": "neutral",
+          "sfx": "audio/ks_thunder.ogg",
+          "fx": "lightning"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Unos golpes desesperados y débiles sonaron en la puerta de mi habitación.",
+            "en": "Desperate, feeble taps scraped at my dorm room door."
+          },
+          "expr": "neutral",
+          "sfx": "audio/ks_doorknock.ogg"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Al abrir, encontré a Yumi empapada, temblando incontrolablemente, acurrucada contra el marco.",
+            "en": "Opening it, I found Yumi drenched, shaking uncontrollably, curled against the doorframe."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Yumi",
+          "text": {
+            "es": "¡H-Hisao...! Los relámpagos... la luz... huelen a humo... huelen a quemado...",
+            "en": "H-Hisao...! The lightning... the flash... it smells like smoke... it smells like burning..."
+          },
+          "sprite": "img/yumi_sad.png",
+          "expr": "panic",
+          "fx": "tremor"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "La tomé de las manos y la envolví con una manta seca. Sus manos estaban heladas como mármol.",
+            "en": "I grasped her hands and bundled her in a dry wool blanket. Her fingers felt cold as carved marble."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Hisao",
+          "text": {
+            "es": "Estás a salvo, Yumi. Aquí no hay fuego. Es solo lluvia sobre el tejado. Escucha mi respiración.",
+            "en": "You are safe, Yumi. There is no fire here. It's only rain drumming the roof. Listen to my breathing."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Puso su mano sobre mi pecho. Sintió los latidos de mi corazón enfermo, constantes y firmes en medio del caos.",
+            "en": "She placed her trembling palm over my chest. She felt the beat of my wounded heart, steady and grounded amidst the chaos."
+          },
+          "expr": "neutral",
+          "sfx": "audio/ks_heart_slow.ogg"
+        },
+        {
+          "speaker": "Yumi",
+          "text": {
+            "es": "Tu corazón... late por los dos ahora...",
+            "en": "Your heart... it beats for the two of us now..."
+          },
+          "sprite": "img/yumi_blush.png",
+          "expr": "soft"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Esa noche comprendí que dos almas heridas no necesitan perfección para sanar; solo necesitan la certeza de que ninguna soltará la mano de la otra en la oscuridad.",
+            "en": "That night I understood that two broken souls do not require perfection to heal; they only need the certainty that neither will let go of the other's hand in the dark."
+          },
+          "expr": "neutral",
+          "style": "thought"
+        }
+      ],
+      "choices": [],
+      "next": "ending_yumi_true"
+    },
+    "aiko_route_1": {
+      "chapter": {
+        "es": "Ruta Aiko: Filosofía sobre la Hierba",
+        "en": "Aiko Route: Philosophy upon the Grass"
+      },
+      "bg": "img/ks_hilltop.jpg",
+      "bgm": "audio/ks_innocence.ogg",
+      "mood": "calm",
+      "bgEffect": "",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Aiko me pidió que la acompañara a la colina tras el estudio de arte.",
+            "en": "Aiko asked me to accompany her to the crest behind the art studio."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Se tumbó boca arriba sobre la hierba alta, mirando el cielo azul con los ojos entornados.",
+            "en": "She lay on her back among the tall grass, gazing up into the azure sky with narrowed eyes."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Aiko",
+          "text": {
+            "es": "Oye, Hisao. Si el mundo fuera transparente, ¿la gente seguiría chocando entre sí?",
+            "en": "Hey, Hisao. If the world were made of glass, would people still crash into one another?"
+          },
+          "sprite": "img/aiko_absent.png",
+          "expr": "absent"
+        },
+        {
+          "speaker": "Hisao",
+          "text": {
+            "es": "Supongo que chocarían aún más, porque no verían los obstáculos.",
+            "en": "I suppose they'd crash even more, because they wouldn't see the obstacles."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Aiko",
+          "text": {
+            "es": "Exacto. Eso es lo que me pasa a mí. Siento que todos los demás tienen una especie de manual de instrucciones para ser humanos, y a mí se les olvidó darme la primera página.",
+            "en": "Exactly. That's what happens to me. I feel everyone else got an instruction manual on how to be human, and they forgot to give me the first page."
+          },
+          "sprite": "img/aiko_deadpan.png",
+          "expr": "deadpan"
+        },
+        {
+          "speaker": "Hisao",
+          "text": {
+            "es": "Nadie tiene ese manual, Aiko. Todos estamos improvisando sobre la marcha.",
+            "en": "Nobody has that manual, Aiko. We're all just improvising as we go."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Aiko",
+          "text": {
+            "es": "¿Tú también? Creí que los chicos con corazones enfermos sabían exactamente cuánto tiempo les quedaba para dejar de fingir.",
+            "en": "You too? I thought boys with broken hearts knew exactly how much time they had left to stop pretending."
+          },
+          "sprite": "img/aiko_amused.png",
+          "expr": "amused"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Me miró de lado con esa sonrisa enigmática que desafiaba cualquier categorización lógica.",
+            "en": "She glanced sideways at me with that enigmatic smile that defied all logical taxonomy."
+          },
+          "expr": "neutral",
+          "style": "thought"
+        },
+        {
+          "speaker": "Aiko",
+          "text": {
+            "es": "Píntame, Hisao. No en un lienzo. Píntame en tu cabeza para que cuando me vuelva invisible, alguien recuerde de qué color eran mis pensamientos.",
+            "en": "Paint me, Hisao. Not on canvas. Paint me in your mind so that when I turn invisible, someone remembers what color my thoughts were."
+          },
+          "sprite": "img/aiko_smile.png",
+          "expr": "smile"
+        }
+      ],
+      "choices": [],
+      "next": "ending_aiko_true"
+    },
+    "elena_route_1": {
+      "chapter": {
+        "es": "Ruta Elena: El Sonido de la Distancia",
+        "en": "Elena Route: Sound of Distance"
+      },
+      "bg": "img/ks_suburb_shanghaiint.jpg",
+      "bgm": "audio/ks_romance.ogg",
+      "mood": "calm",
+      "bgEffect": "",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Durante las vacaciones de medio término, acompañé a Elena a la ciudad en tren.",
+            "en": "During midterm recess, I accompanied Elena into the city by train."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Caminamos del brazo por las calles empedradas hasta un pintoresco salón de té tradicional llamado Shanghai.",
+            "en": "We walked arm-in-arm down cobblestone streets toward a quaint traditional tea lounge called Shanghai."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Su porte era tan sereno y regio que nadie al pasar advertía que sus ojos no veían nada de lo que la rodeaba.",
+            "en": "Her poise was so serene and regal that no passerby would ever guess her eyes perceived none of the surroundings."
+          },
+          "expr": "neutral",
+          "style": "thought"
+        },
+        {
+          "speaker": "Elena",
+          "text": {
+            "es": "Hisao... hay algo que debo confiarte. Mis padres han solicitado mi traslado definitivo a Escocia al finalizar este curso.",
+            "en": "Hisao... there is something I must confide in you. My parents have formally requested my permanent relocation to Scotland at the end of this semester."
+          },
+          "sprite": "img/elena_basic_ara_cas_close.png",
+          "expr": "sorrow"
+        },
+        {
+          "speaker": "Hisao",
+          "text": {
+            "es": "¿A Escocia...? Pero... ¿y Yamaku? ¿Y tus amigos? ¿Y yo?",
+            "en": "To Scotland...? But... what about Yamaku? Your friends? What about me?"
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Elena",
+          "text": {
+            "es": "Es el deber familiar. Durante años he vivido aceptando la soledad como una vieja conocida. Pero desde que tomaste mi brazo en aquel patio...",
+            "en": "It is family duty. For years I lived accepting solitude like an old acquaintance. But ever since you took my arm in that courtyard..."
+          },
+          "sprite": "img/elena_cane_sleepy_cas.png",
+          "expr": "pensive"
+        },
+        {
+          "speaker": "Elena",
+          "text": {
+            "es": "...la oscuridad ya no se siente vacía. Se siente dolorosamente tibia cuando estás a mi lado.",
+            "en": "...darkness no longer feels hollow. It feels achingly warm whenever you are near."
+          },
+          "sprite": "img/elena_basic_weaksmile_cas.png",
+          "expr": "tender"
+        },
+        {
+          "speaker": "Hisao",
+          "text": {
+            "es": "No te dejaré marchar sin luchar, Elena. Cruzaré el océano si hace falta.",
+            "en": "I won't let you slip away without fighting for you, Elena. I'd cross oceans if needed."
+          },
+          "expr": "neutral"
+        }
+      ],
+      "choices": [],
+      "next": "ending_elena_true"
+    },
+    "rei_route_1": {
+      "chapter": {
+        "es": "Ruta Consejo: Voces sin Sonido",
+        "en": "Council Route: Voices without Sound"
+      },
+      "bg": "img/ks_school_council_ss.jpg",
+      "bgm": "audio/ks_the_student_council.ogg",
+      "mood": "calm",
+      "bgEffect": "",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Pasamos noches enteras organizando el presupuesto del festival escolar en la sala del consejo.",
+            "en": "We spent consecutive late nights organizing the school festival budget in the council chambers."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Con paciencia y dedicación, aprendí los fundamentos del lenguaje de señas para comunicarme directamente con Rei.",
+            "en": "With patience and diligence, I learned the foundations of sign language to speak directly with Rei."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Una noche, mientras Shiina dormitaba sobre un montón de cartulinas de colores, Rei y yo nos quedamos a solas ante el tablero de ajedrez.",
+            "en": "One evening, while Shiina dozed softly over a mound of colorful posterboards, Rei and I were left alone before the chessboard."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Rei movió sus manos con una lentitud inusual, desprovista de su habitual agresividad competitiva.",
+            "en": "Rei's hands moved with unusual slowness, stripped of their customary competitive sharpness."
+          },
+          "sprite": "img/rei_adjust_smug_cas_close.png",
+          "expr": "soft"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "'Gracias por escuchar mis manos, Hisao', decían sus gestos. 'Toda mi vida la gente solo ha visto a la chica sorda que manda. Tú viste a Rei'.",
+            "en": "'Thank you for listening to my hands, Hisao,' her gestures conveyed. 'All my life people only saw the deaf bossy girl. You saw Rei.'"
+          },
+          "expr": "neutral",
+          "style": "thought"
+        },
+        {
+          "speaker": "Hisao",
+          "text": {
+            "es": "Respondí con mis propias manos, torpes pero sinceras: 'Tu voz es la más clara que he escuchado en toda mi vida'.",
+            "en": "I responded with my own hands, clumsy yet earnest: 'Your voice is the clearest I have heard in my entire life.'"
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Una sonrisa radiante iluminó el rostro de Rei, cerrando el abismo del silencio entre nuestros dos mundos.",
+            "en": "A radiant smile lit up Rei's face, bridging the chasm of silence between our two worlds."
+          },
+          "sprite": "img/rei_basic_happy_close.png",
+          "expr": "happy"
+        }
+      ],
+      "choices": [],
+      "next": "ending_rei_true"
+    },
+    "kenji_route_1": {
+      "chapter": {
+        "es": "Ruta Kenji: La Resistencia del Tejado",
+        "en": "Kenji Route: Rooftop Resistance"
+      },
+      "bg": "img/ks_roof_night.jpg",
+      "bgm": "audio/ks_air_guitar.ogg",
+      "mood": "calm",
+      "bgEffect": "",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Kenji me arrastró a la azotea a las tres de la madrugada con unos prismáticos rotos y una botella sospechosa.",
+            "en": "Kenji dragged me to the roof at three in the morning armed with broken binoculars and a suspicious flask."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Kenji",
+          "text": {
+            "es": "¡La fase tres ha comenzado, Nakai! ¡Han cortado el suministro de fideos instantáneos en la máquina expendedora!",
+            "en": "Phase three has begun, Nakai! They severed the instant ramen supply line in the third-floor vending machine!"
+          },
+          "sprite": "img/kenji_rage.png",
+          "expr": "rage"
+        },
+        {
+          "speaker": "Hisao",
+          "text": {
+            "es": "Kenji... la máquina solo se quedó sin cambio.",
+            "en": "Kenji... the machine just ran out of coins."
+          },
+          "expr": "neutral"
+        },
+        {
+          "speaker": "Kenji",
+          "text": {
+            "es": "¡Ingenuo! ¡Es una guerra de desgaste psicológico! Toma un trago de esto. Es zumo de ciruela fermentado en mi armario. ¡Aumenta la resistencia contra las ondas cerebrales!",
+            "en": "Naive fool! It's a war of psychological attrition! Take a swig of this. Plum juice fermented in my locker. Boosts resistance to telepathic waves!"
+          },
+          "sprite": "img/kenji_happy_close.png",
+          "expr": "happy"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Terminamos cantando canciones desafinadas bajo las estrellas hasta que el guardia del campus nos persiguió por tres pisos.",
+            "en": "We ended up belting out off-key anthems beneath the stars until the campus security guard chased us down three flights of stairs."
+          },
+          "expr": "neutral"
+        }
+      ],
+      "choices": [],
+      "next": "ending_kenji"
+    },
+    "ending_sora_true": {
       "ending": {
-        "id": "ending_paranoia",
+        "id": "ending_sora_true",
         "title": {
-          "es": "Final Trágico 1: Ecos en el Fondo del Mar",
-          "en": "Tragic Ending 1: Echoes at the Sea Floor"
+          "es": "Final Verdadero de Sora: El Viento en la Colina",
+          "en": "Sora True Ending: Wind on the Hilltop"
         },
         "desc": {
-          "es": "La paranoia y la sospecha consumieron tu juicio. Huiste solo hacia los acantilados bajo el tifón y tu corazón no resistió el terror. Tu historia termina en el silencio de las olas.",
-          "en": "Paranoia and suspicion consumed your mind. You fled alone toward the storm-swept cliffs and your heart gave out from terror. Your tale ends in the silence of the tide."
-        },
-        "type": "bad"
-      }
-    },
-    "ending_loop": {
-      "ending": {
-        "id": "ending_loop",
-        "title": {
-          "es": "Final de Bucle 2: El Despertar del Ciclo",
-          "en": "Loop Ending 2: Reawakening of the Cycle"
-        },
-        "desc": {
-          "es": "Tu cuerpo colapsó antes de resolver los misterios de Yamaku. Abres los ojos de nuevo a bordo del tren de verano sin recuerdos. El ciclo eterno comienza otra vez.",
-          "en": "Your body collapsed before unraveling Yamaku's mysteries. You open your eyes once more aboard the summer train with amnesia. The endless cycle begins anew."
-        },
-        "type": "bad"
-      }
-    },
-    "ending_aiko": {
-      "ending": {
-        "id": "ending_aiko",
-        "title": {
-          "es": "Final de Aiko 3: El Lienzo Inmortal",
-          "en": "Aiko Ending 3: The Immortal Canvas"
-        },
-        "desc": {
-          "es": "Aiko y tú aprendieron que la fragilidad física no impide amar con devoción absoluta. Cada lienzo que ella pinta inmortaliza el latido eterno de su amor bajo los cerezos de Yamaku.",
-          "en": "Aiko and you learned physical fragility cannot dim boundless love. Every canvas she paints immortalizes the eternal beat of your devotion beneath Yamaku's cherries."
-        },
-        "type": "good"
-      }
-    },
-    "ending_sora": {
-      "ending": {
-        "id": "ending_sora",
-        "title": {
-          "es": "Final de Sora 4: Caminar Juntos al Amanecer",
-          "en": "Sora Ending 4: Walking Together at Dawn"
-        },
-        "desc": {
-          "es": "Sora te enseñó que correr es más que mover las piernas: es negarse a agachar la cabeza ante la tragedia. De la mano en la pista florida, sonríen juntos hacia un porvenir radiante.",
-          "en": "Sora taught you that running is more than limbs: it's refusing to bow to tragedy. Hand-in-hand on the blooming track, you smile together toward a brilliant tomorrow."
-        },
-        "type": "good"
-      }
-    },
-    "ending_true_miracle": {
-      "ending": {
-        "id": "ending_true_miracle",
-        "title": {
-          "es": "Final Verdadero 5: Cuando los Cerezos Florecen",
-          "en": "True Ending 5: When the Cherries Bloom"
-        },
-        "desc": {
-          "es": "Superaron el dolor, el trauma y el miedo al destino. Bajo una lluvia milagrosa de pétalos sobre las aguas turquesas de la costa, la vida comienza de verdad para los cuatro.",
-          "en": "You conquered pain, trauma, and the fear of fate. Under a miraculous rain of blossoms over the turquoise waters of the coast, true life begins for all four of you."
+          "es": "Corriste a su lado hasta que el dolor se transformó en fuerza. Sora aprendió a no temer al apego, y tú encontraste en su velocidad el motivo perfecto para que tu corazón siga latiendo cada día.",
+          "en": "You ran beside her until pain forged into enduring strength. Sora learned not to fear vulnerability, and you found in her velocity the perfect reason for your heart to keep beating every sunrise."
         },
         "type": "true"
+      }
+    },
+    "ending_yumi_true": {
+      "ending": {
+        "id": "ending_yumi_true",
+        "title": {
+          "es": "Final Verdadero de Yumi: La Sonrisa sin Cicatrices",
+          "en": "Yumi True Ending: The Scarless Smile"
+        },
+        "desc": {
+          "es": "El refugio de la biblioteca se convirtió en un puente hacia el mundo. Yumi ya no oculta su rostro tras el cabello; camina a la luz del sol tomada de tu mano, sabiendo que el verdadero amor no juzga lo que el fuego tocó.",
+          "en": "The library sanctuary turned into a bridge to the outside world. Yumi no longer hides her face; she walks in bright sunlight holding your hand, knowing true love never judges what the flames once touched."
+        },
+        "type": "true"
+      }
+    },
+    "ending_aiko_true": {
+      "ending": {
+        "id": "ending_aiko_true",
+        "title": {
+          "es": "Final Verdadero de Aiko: El Color que no Existe",
+          "en": "Aiko True Ending: The Color That Does Not Exist"
+        },
+        "desc": {
+          "es": "El mural gigante en la pared de Yamaku quedó terminado con una mezcla de azul cielo y luz dorada. Aiko encontró en tu mirada el ancla para no disolverse en el vacío de sus pensamientos.",
+          "en": "The monumental mural on Yamaku's wall stood complete in sky-blue and radiant gold. Aiko found in your gaze the solid anchor never to dissolve into the void of her thoughts."
+        },
+        "type": "true"
+      }
+    },
+    "ending_elena_true": {
+      "ending": {
+        "id": "ending_elena_true",
+        "title": {
+          "es": "Final Verdadero de Elena: La Melodía sin Fronteras",
+          "en": "Elena True Ending: Melody across Borders"
+        },
+        "desc": {
+          "es": "Tu carrera desesperada hacia el andén del tren rindió sus frutos. Elena eligió quedarse en Japón a tu lado, prometiendo que ninguna distancia apagaría la melodía que construyeron juntos.",
+          "en": "Your desperate sprint to the railway platform paid off. Elena chose to remain in Japan by your side, vowing that no ocean would ever silence the melody you built together."
+        },
+        "type": "true"
+      }
+    },
+    "ending_rei_true": {
+      "ending": {
+        "id": "ending_rei_true",
+        "title": {
+          "es": "Final Verdadero de Rei: Voces en el Silencio",
+          "en": "Rei True Ending: Voices in the Silence"
+        },
+        "desc": {
+          "es": "Aprendiste a escuchar con los ojos y hablar con las manos. El festival fue un éxito rotundo, y la presidenta más orgullosa de Yamaku encontró en ti a su igual eterno.",
+          "en": "You learned to listen with eyes and speak with hands. The festival was an undisputed triumph, and Yamaku's proudest president found in you her lifelong equal."
+        },
+        "type": "true"
+      }
+    },
+    "ending_kenji": {
+      "ending": {
+        "id": "ending_kenji",
+        "title": {
+          "es": "Final Secreto de Kenji: La Resistencia Global",
+          "en": "Kenji Secret Ending: The Global Resistance"
+        },
+        "desc": {
+          "es": "Te uniste oficialmente a la división de operaciones nocturnas de Kenji. Jamás te acercaste a una chica de nuevo, pero sobreviviste a cuatro apagones mundiales imaginarios.",
+          "en": "You officially enlisted in Kenji's nocturnal recon division. You never approached a girl again, but you survived four imaginary global blackouts unscathed."
+        },
+        "type": "good"
       }
     }
   }
