@@ -1,0 +1,20 @@
+[
+  {
+    "id": "nanda_noc_nic",
+    "nombre": "Asistente PAE NANDA Enfermería",
+    "categoria": "Medicina",
+    "descripcion": "Proceso (PAE) Enfermeria Buscador Diagnósticos NANDA NOC NIC Estudiantes CIE-10",
+    "icono_url": "https://play-lh.googleusercontent.com/n9fcPUmWA-KvUW4H8x6F_3ViFpkR9q0GstAccP07-9KBUShvW9f2ah-O4B9P2zU0Uw1MaGZZp_l1640RMVmI_w",
+    "paquete": "com.nursingpro.enfermeria.nandanocnic",
+    "texto_accion": "Obtener en Google Play"
+  },
+  {
+    "id": "rooms_99",
+    "nombre": "99 Rooms: Scary Horror Escape",
+    "categoria": "Aventura / Terror",
+    "descripcion": "Explora 99 habitaciones misteriosas, resuelve acertijos y escapa del terror. Experiencia inmersiva y terrorífica.",
+    "icono_url": "https://play-lh.googleusercontent.com/TMtPPyYaH1C9O9-fVLWhFcQXnvONe9q_3LHzqqrLTm6oSZry0BxbvJ-VBRKeduKASlRQfBHyDZ-Y3RYw5RIIe_8=s0-br30",
+    "paquete": "com.rostlaub.rooms99",
+    "texto_accion": "Obtener en Google Play"
+  }
+]
