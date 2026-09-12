@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Caminos del Corazón: Las Sombras de Yamaku</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Pantalla de Portada Promocional (Title Screen) -->
+<div id="title-screen" class="hidden">
+  <div id="title-bg-layer">
+    <img id="title-bg-img" src="img/promo_cover.jpg" alt="Portada Promocional">
+    <div id="title-bg-overlay"></div>
+  </div>
+
+  <div id="title-top-hud">
+    <button id="btn-title-exit" class="title-hud-btn" title="Volver al menú">◀ Salir</button>
+    <div style="display: flex; gap: 8px; align-items: center;">
+      <button id="btn-title-lang" class="title-hud-btn" title="Cambiar Idioma">🌐 Idioma</button>
+      <div id="title-coins-pill">
+        <span class="coin-icon">🪙</span>
+        <span id="title-coins-num">300</span>
+        <button id="btn-title-add-coins" class="coin-add-btn" title="Conseguir monedas">+</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="title-content-box">
+    <div id="title-novel-badge" class="novel-badge">NOVELA VISUAL MONUMENTAL</div>
+    <h1 id="title-main-text" class="title-main-text">Caminos del Corazón</h1>
+    <h2 id="title-sub-text" class="title-sub-text">Las Sombras de Yamaku</h2>
+    <p id="title-desc" class="title-desc">Romance, misterio y terror psicológico en la colina de Yamaku</p>
+
+    <div class="title-actions">
+      <button id="btn-start-adventure" class="btn-adventure pulse-slow">
+        <span class="btn-adv-icon">✨</span>
+        <span id="btn-adv-label" class="btn-adv-label">Comenzar Aventura (Desbloquear Lectura)</span>
+        <span id="btn-adv-badge" class="btn-adv-badge">100 🪙</span>
+      </button>
+      <button id="btn-continue-adventure" class="btn-secondary-adventure hidden">
+        <span id="btn-cont-label">📂 Continuar partida</span>
+      </button>
+      <button id="btn-title-chapters" class="btn-secondary-adventure btn-title-locked">
+        <span id="btn-title-chapters-label">🔒 Archivo de Capítulos</span>
+      </button>
+      <button id="btn-title-gallery" class="btn-secondary-adventure btn-sexy-gradient btn-title-locked">
+        <span id="btn-title-gallery-label">🔒 Archivos y Secretos VIP (20 🪙)</span>
+      </button>
+      <button id="btn-title-prologue" class="btn-secondary-adventure btn-title-locked">
+        <span id="btn-title-prologue-label">🔒 Ver Prólogo: El Incidente en la Nieve</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Pantalla de Juego Principal -->
+<div id="game" class="hidden">
+  <!-- Capa de fondo de escena -->
+  <div id="bg-layer">
+    <img id="bg-img" src="" alt="">
+    <div id="bg-overlay"></div>
+  </div>
+
+  <!-- Capa de personaje/sprite -->
+  <div id="char-layer">
+    <img id="char-img" src="" alt="">
+  </div>
+
+  <!-- Capa de efectos (partículas canvas, temblor, glitch, etc.) -->
+  <canvas id="fx-canvas"></canvas>
+
+  <!-- Capa de sangre (efecto de terror) -->
+  <div id="blood-layer"></div>
+
+  <!-- Nombre del hablante -->
+  <div id="speaker-box" class="hidden"></div>
+
+  <!-- Caja de diálogo -->
+  <div id="dialog-box">
+    <div id="dialog-text"></div>
+    <div id="continue-indicator">▼</div>
+  </div>
+
+  <!-- Contenedor de opciones -->
+  <div id="choices-box" class="hidden"></div>
+
+  <!-- HUD superior: capítulo, progreso, botón menú, auto, log, cgs -->
+  <div id="hud-top">
+    <button id="btn-menu" class="hud-btn" title="Menú">☰</button>
+    <div id="chapter-label"></div>
+    <div class="hud-coins-mini">🪙 <span id="hud-coins-val">300</span></div>
+    <button id="btn-auto" class="hud-btn" title="Modo Auto">▶</button>
+    <button id="btn-log" class="hud-btn" title="Historial">📜</button>
+    <button id="btn-chapters-hud" class="hud-btn" title="Capítulos & Rutas">📂</button>
+    <button id="btn-cgs-hud" class="hud-btn btn-sexy-pulse" title="Archivos y Secretos VIP">🔞</button>
+    <button id="btn-skip" class="hud-btn" title="Salto Rápido">⏭</button>
+  </div>
+
+  <!-- Menú de pausa -->
+  <div id="pause-menu" class="overlay hidden">
+    <div class="overlay-card">
+      <h2 id="pause-title">Pausa</h2>
+      <button id="btn-pause-resume" class="menu-btn" data-action="resume">▶ Continuar</button>
+      <button id="btn-pause-cgs" class="menu-btn btn-sexy-border" data-action="gallery">🔞 Archivos y Secretos VIP (20 🪙)</button>
+      <button id="btn-pause-chapters" class="menu-btn" data-action="chapters">📂 Archivo de Capítulos</button>
+      <button id="btn-pause-log" class="menu-btn" data-action="log">📜 Historial de Diálogos</button>
+      <button id="btn-pause-save" class="menu-btn" data-action="save">💾 Guardar partida</button>
+      <button id="btn-pause-load" class="menu-btn" data-action="load">📂 Cargar partida</button>
+      <button id="btn-pause-lang" class="menu-btn" data-action="language">🌐 Idioma / Language</button>
+      <button id="btn-pause-title" class="menu-btn" data-action="title">🏠 Pantalla de título</button>
+      <button id="btn-pause-exit" class="menu-btn" data-action="exit">✖ Salir al menú</button>
+    </div>
+  </div>
+
+  <!-- Efecto de pantalla rota (inmersivo) -->
+  <div id="screen-crack"></div>
+</div>
+
+<!-- Pantalla de Créditos y Epílogo Cinematográfico (Endings) -->
+<div id="credits-screen" class="hidden">
+  <div id="credits-bg-layer">
+    <div id="credits-bg-overlay"></div>
+  </div>
+
+  <button id="btn-skip-credits" class="skip-credits-btn">Saltar créditos ⏩</button>
+
+  <div id="credits-scroll-container">
+    <div id="credits-content">
+      <div id="credits-header-badge" class="credits-header-badge">DESENLACE ALCANZADO</div>
+      <h1 id="credits-title" class="credits-main-title"></h1>
+      <div id="credits-cg-container" style="max-width: 92%; margin: 16px auto; border-radius: 14px; overflow: hidden; border: 2px solid rgba(255,215,0,0.5); box-shadow: 0 8px 32px rgba(0,0,0,0.8);">
+        <img id="credits-cg-banner" src="" alt="Ending CG" style="width: 100%; max-height: 380px; object-fit: cover; display: block;" />
+      </div>
+      <div class="credits-divider">✦ ✦ ✦</div>
+      
+      <div id="credits-epilogue-text" class="credits-narrative-block"></div>
+      
+      <div class="credits-divider">✦ ✦ ✦</div>
+      
+      <div id="credits-unresolved-block" class="credits-mystery-block"></div>
+      
+      <div class="credits-divider">✦ ✦ ✦</div>
+      
+      <div class="credits-staff-block">
+        <div id="staff-role-story" class="staff-role">HISTORIA & ADAPTACIÓN</div>
+        <div class="staff-name">Proyecto Caminos del Corazón</div>
+        <div id="staff-role-insp" class="staff-role">INSPIRACIÓN NARRATIVA</div>
+        <div class="staff-name">Katawa Shoujo • Higurashi no Naku Koro ni • Doki Doki Literature Club</div>
+        <div id="staff-role-music" class="staff-role">MÚSICA & AMBIENTACIÓN</div>
+        <div class="staff-name">Yamaku Acoustic & Soundscape Archives</div>
+        <div id="staff-role-cast" class="staff-role">PROTAGONISTAS</div>
+        <div class="staff-name">Sora • Yumi • Elena • Aiko • Shizune • Shiina • Kenji • Hisao</div>
+        <div id="staff-quote-text" class="staff-quote">"Gracias por haber escuchado los latidos de Yamaku."</div>
+      </div>
+
+      <div class="credits-continue-wrap" style="margin: 40px auto 20px auto; text-align: center;">
+        <button id="btn-show-ending-card" class="btn-adventure pulse-slow" style="display: inline-flex; width: auto; padding: 14px 28px; font-size: 14px; letter-spacing: 0.5px;">
+          🏆 Ver Resumen del Desenlace & Opciones
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal final al terminar los créditos -->
+  <div id="ending-card-panel" class="hidden">
+    <div class="overlay-card ending-modal-card">
+      <div class="ending-seal">🏆</div>
+      <h2 id="ending-card-title">Final Desbloqueado</h2>
+      <p id="ending-card-summary"></p>
+      
+      <div id="ending-card-cg-container" style="max-width: 95%; margin: 12px auto; border-radius: 10px; overflow: hidden; border: 1.5px solid rgba(255,215,0,0.4); box-shadow: 0 4px 16px rgba(0,0,0,0.6);">
+        <img id="ending-card-cg" src="" alt="Ending CG" style="width: 100%; max-height: 220px; object-fit: cover; display: block;" />
+      </div>
+
+      <div class="ending-actions">
+        <button id="btn-read-again" class="btn-adventure pulse-slow">
+          <span class="btn-adv-icon">🔁</span>
+          <span id="btn-read-again-label" class="btn-adv-label">Volver a leer</span>
+          <span class="btn-adv-badge">10 🪙</span>
+        </button>
+        <button id="btn-ending-exit" class="menu-btn">✖ Menú principal</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Archivo de Capítulos & Selector de Escenas -->
+<div id="chapters-modal" class="overlay hidden">
+  <div class="chapters-card">
+    <div class="chapters-header">
+      <div class="chapters-header-title">
+        <span class="chapters-header-icon">📂</span>
+        <h3 id="chapters-title-text">Archivo de Capítulos & Rutas</h3>
+      </div>
+      <button id="btn-close-chapters" class="chapters-close-btn" title="Cerrar">✕</button>
+    </div>
+    
+    <div class="chapters-filter-bar">
+      <button class="filter-tab active" data-filter="all">Todos</button>
+      <button class="filter-tab btn-sexy-tab" data-filter="beach">👙 Especiales VIP & Bikini (14)</button>
+      <button class="filter-tab" data-filter="choices">🔀 Decisiones (16)</button>
+      <button class="filter-tab" data-filter="chars">👥 Personajes (12)</button>
+      <button class="filter-tab" data-filter="prologue">Prólogo & Acto I</button>
+      <button class="filter-tab" data-filter="routes">Rutas Heroínas</button>
+      <button class="filter-tab" data-filter="mystery">Misterio & Bucle</button>
+      <button class="filter-tab" data-filter="endings">Desenlaces</button>
+    </div>
+
+    <div id="chapters-grid" class="chapters-grid">
+      <!-- Generado dinámicamente por engine.js -->
+    </div>
+  </div>
+</div>
+
+<!-- Modal de Alerta de Monedas Insuficientes -->
+<div id="coins-alert-modal" class="overlay hidden">
+  <div class="overlay-card">
+    <div style="font-size: 38px; margin-bottom: 8px;">🪙</div>
+    <h2 id="coins-alert-title" style="color: #ffd700;">Monedas Insuficientes</h2>
+    <p id="coins-alert-desc">Necesitas al menos <strong>100 monedas</strong> para desbloquear la lectura completa o el capítulo especial.</p>
+    <button id="btn-get-more-coins" class="btn-adventure" style="margin-bottom: 12px;">
+      <span id="btn-get-more-coins-label">🛒 Conseguir Monedas</span>
+    </button>
+    <button id="btn-close-coins-alert" class="menu-btn">Cerrar</button>
+  </div>
+</div>
+
+<!-- Modal de Historial de Diálogos (Backlog) -->
+<div id="backlog-modal" class="overlay hidden">
+  <div class="backlog-card">
+    <div class="backlog-header">
+      <div class="backlog-header-title">
+        <span class="backlog-header-icon">📜</span>
+        <h3>Historial de Diálogos</h3>
+      </div>
+      <button id="btn-close-backlog" class="chapters-close-btn" title="Cerrar">✕</button>
+    </div>
+    <div id="backlog-content" class="backlog-content">
+      <!-- Diálogos inyectados dinámicamente -->
+    </div>
+  </div>
+</div>
+
+<!-- Modal Álbum Secreto / Galería Ecchi VIP -->
+<div id="cgs-gallery-modal" class="overlay hidden">
+  <div class="cgs-gallery-card">
+    <div class="cgs-gallery-header">
+      <div class="cgs-gallery-header-title">
+        <span class="cgs-gallery-header-icon">🔞</span>
+        <h3>Archivos y Secretos VIP (20 🪙)</h3>
+      </div>
+      <button id="btn-close-cgs-gallery" class="chapters-close-btn" title="Cerrar">✕</button>
+    </div>
+    <p class="cgs-gallery-subtitle">Colección VIP de ilustraciones exclusivas, cinemáticas anime y videos de eventos de Yamaku.</p>
+    <div class="cgs-filter-bar">
+      <button class="cg-filter-tab active" data-cg-filter="all">Todos</button>
+      <button class="cg-filter-tab" data-cg-filter="videos">🎬 Videos & Cinemáticas</button>
+      <button class="cg-filter-tab" data-cg-filter="beach">👙 Playa & Bikini</button>
+      <button class="cg-filter-tab" data-cg-filter="romance">💖 Romance & Citas</button>
+      <button class="cg-filter-tab" data-cg-filter="intimate">🔞 Íntimos VIP</button>
+    </div>
+    <div id="cgs-grid" class="cgs-grid">
+      <!-- Generado dinámicamente -->
+    </div>
+  </div>
+</div>
+
+<!-- Visor Fullscreen para CGs Desbloqueados -->
+<div id="cgs-fullscreen-viewer" class="overlay hidden">
+  <button id="btn-close-cg-viewer" class="cg-viewer-close" title="Cerrar">✕</button>
+  <div class="cg-viewer-container">
+    <img id="cg-viewer-img" src="" alt="Ilustración VIP">
+    <div class="cg-viewer-bottom-bar">
+      <div id="cg-viewer-title" class="cg-viewer-title"></div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <button id="btn-cg-play-video" class="cg-save-btn hidden" style="background: linear-gradient(135deg, #FF2A85, #7928CA);">▶ Reproducir Video Cinemático</button>
+        <button id="btn-cg-save-gallery" class="cg-save-btn">Guardar en Galería 📸💾</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Selección de Idioma -->
+<div id="language-modal" class="overlay hidden">
+  <div class="chapters-card" style="max-width: 440px; max-height: 85vh; display: flex; flex-direction: column;">
+    <div class="chapters-header">
+      <div class="chapters-header-title">
+        <span class="chapters-header-icon">🌐</span>
+        <h3 id="language-modal-title">Seleccionar Idioma / Select Language</h3>
+      </div>
+      <button id="btn-close-language" class="chapters-close-btn" title="Cerrar">✕</button>
+    </div>
+    <p style="font-size: 11.5px; color: #cfc5d8; margin: 4px 16px 10px 16px; text-align: center;">
+      Elige tu idioma preferido. Los textos y diálogos se traducirán al instante.
+    </p>
+    <div id="language-grid" class="language-grid">
+      <!-- Generado dinámicamente -->
+    </div>
+  </div>
+</div>
+
+<!-- Pantalla de carga -->
+<div id="loading-screen">
+  <div class="loader-circle"></div>
+  <div id="loading-text">Cargando historia…</div>
+</div>
+
+<script src="engine.js"></script>
+</body>
+</html>
