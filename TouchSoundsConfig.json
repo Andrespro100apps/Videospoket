@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "base_url": "https://raw.githubusercontent.com/Andrespro100apps/Videospoket/main/touch_sounds/",
+  "default_sounds": [
+    "tocar1.mp3",
+    "tocar2.mp3",
+    "tocar3.mp3",
+    "tocar4.mp3",
+    "tocar5.mp3",
+    "tocar6.mp3",
+    "tocar7.mp3",
+    "tocar8.mp3"
+  ],
+  "girls": {
+    "sora": [
+      "tocar1.mp3",
+      "tocar2.mp3",
+      "tocar3.mp3",
+      "tocar4.mp3"
+    ],
+    "yumi": [
+      "tocar5.mp3",
+      "tocar6.mp3",
+      "tocar7.mp3",
+      "tocar8.mp3"
+    ],
+    "elena": [
+      "tocar1.mp3",
+      "tocar3.mp3",
+      "tocar5.mp3",
+      "tocar7.mp3"
+    ],
+    "aiko": [
+      "tocar2.mp3",
+      "tocar4.mp3",
+      "tocar6.mp3",
+      "tocar8.mp3"
+    ],
+    "shizune": [
+      "tocar1.mp3",
+      "tocar4.mp3",
+      "tocar5.mp3",
+      "tocar8.mp3"
+    ],
+    "shiina": [
+      "tocar2.mp3",
+      "tocar3.mp3",
+      "tocar6.mp3",
+      "tocar7.mp3"
+    ],
+    "rei": [
+      "tocar1.mp3",
+      "tocar2.mp3",
+      "tocar7.mp3",
+      "tocar8.mp3"
+    ],
+    "yuuko": [
+      "tocar3.mp3",
+      "tocar4.mp3",
+      "tocar5.mp3",
+      "tocar6.mp3"
+    ],
+    "akira": [
+      "tocar1.mp3",
+      "tocar5.mp3",
+      "tocar6.mp3",
+      "tocar7.mp3"
+    ],
+    "hideaki": [
+      "tocar2.mp3",
+      "tocar4.mp3",
+      "tocar7.mp3",
+      "tocar8.mp3"
+    ]
+  }
+}
