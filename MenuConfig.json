@@ -1,0 +1,21 @@
+{
+  "menu_buttons": {
+    "visual_novel": false,
+    "dating_sim": false,
+    "full_web": true,
+    "rock_paper_scissors": true,
+    "tic_tac_toe": true,
+    "checkers": true,
+    "chess": true,
+    "reversi": true,
+    "memory_game": true
+  },
+  "active_actress_ids": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26",
+  "activeActressIds": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26",
+  "ads": {
+    "interstitial_enabled": true,
+    "banner_enabled": true,
+    "rewarded_enabled": true
+  },
+  "updated_at": "2026-09-26"
+}
