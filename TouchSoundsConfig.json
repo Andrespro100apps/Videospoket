@@ -1,7 +1,8 @@
 {
-  "version": 1,
+  "version": 2,
   "base_url": "https://raw.githubusercontent.com/Andrespro100apps/Videospoket/main/touch_sounds/",
   "default_sounds": [
+    "voice_anime_baka.mp3",
     "tocar1.mp3",
     "tocar2.mp3",
     "tocar3.mp3",
@@ -13,62 +14,112 @@
   ],
   "girls": {
     "sora": [
+      "voice_anime_baka.mp3",
       "tocar1.mp3",
       "tocar2.mp3",
       "tocar3.mp3",
-      "tocar4.mp3"
+      "tocar4.mp3",
+      "tocar5.mp3",
+      "tocar6.mp3",
+      "tocar7.mp3",
+      "tocar8.mp3"
     ],
     "yumi": [
+      "voice_anime_baka.mp3",
+      "tocar1.mp3",
+      "tocar2.mp3",
+      "tocar3.mp3",
+      "tocar4.mp3",
       "tocar5.mp3",
       "tocar6.mp3",
       "tocar7.mp3",
       "tocar8.mp3"
     ],
     "elena": [
+      "voice_anime_baka.mp3",
       "tocar1.mp3",
+      "tocar2.mp3",
       "tocar3.mp3",
+      "tocar4.mp3",
       "tocar5.mp3",
-      "tocar7.mp3"
+      "tocar6.mp3",
+      "tocar7.mp3",
+      "tocar8.mp3"
     ],
     "aiko": [
+      "voice_anime_baka.mp3",
+      "tocar1.mp3",
       "tocar2.mp3",
+      "tocar3.mp3",
       "tocar4.mp3",
+      "tocar5.mp3",
       "tocar6.mp3",
+      "tocar7.mp3",
       "tocar8.mp3"
     ],
     "shizune": [
+      "voice_anime_baka.mp3",
       "tocar1.mp3",
+      "tocar2.mp3",
+      "tocar3.mp3",
       "tocar4.mp3",
       "tocar5.mp3",
+      "tocar6.mp3",
+      "tocar7.mp3",
       "tocar8.mp3"
     ],
     "shiina": [
-      "tocar2.mp3",
-      "tocar3.mp3",
-      "tocar6.mp3",
-      "tocar7.mp3"
-    ],
-    "rei": [
+      "voice_anime_baka.mp3",
       "tocar1.mp3",
       "tocar2.mp3",
+      "tocar3.mp3",
+      "tocar4.mp3",
+      "tocar5.mp3",
+      "tocar6.mp3",
+      "tocar7.mp3",
+      "tocar8.mp3"
+    ],
+    "rei": [
+      "voice_anime_baka.mp3",
+      "tocar1.mp3",
+      "tocar2.mp3",
+      "tocar3.mp3",
+      "tocar4.mp3",
+      "tocar5.mp3",
+      "tocar6.mp3",
       "tocar7.mp3",
       "tocar8.mp3"
     ],
     "yuuko": [
+      "voice_anime_baka.mp3",
+      "tocar1.mp3",
+      "tocar2.mp3",
       "tocar3.mp3",
       "tocar4.mp3",
       "tocar5.mp3",
-      "tocar6.mp3"
+      "tocar6.mp3",
+      "tocar7.mp3",
+      "tocar8.mp3"
     ],
     "akira": [
+      "voice_anime_baka.mp3",
       "tocar1.mp3",
+      "tocar2.mp3",
+      "tocar3.mp3",
+      "tocar4.mp3",
       "tocar5.mp3",
       "tocar6.mp3",
-      "tocar7.mp3"
+      "tocar7.mp3",
+      "tocar8.mp3"
     ],
     "hideaki": [
+      "voice_anime_baka.mp3",
+      "tocar1.mp3",
       "tocar2.mp3",
+      "tocar3.mp3",
       "tocar4.mp3",
+      "tocar5.mp3",
+      "tocar6.mp3",
       "tocar7.mp3",
       "tocar8.mp3"
     ]
