@@ -54,7 +54,7 @@
   "menu_buttons": {
     "visual_novel": false,
     "dating_sim": false,
-    "full_web": true,
+    "full_web": false,
     "rock_paper_scissors": true,
     "tic_tac_toe": true,
     "checkers": true,
@@ -64,6 +64,9 @@
     "is_novel_enabled": false,
     "novel_enabled": false,
     "dating": false,
-    "dating_enabled": false
-  }
+    "dating_enabled": false,
+    "is_full_web_enabled": false,
+    "full_web_enabled": false
+  },
+  "enlaseweb": 1
 }
