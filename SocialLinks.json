@@ -53,13 +53,17 @@
   "full_web_url": "https://sites.google.com/view/politica-privacidad-pocketgirl/p%C3%A1gina-principal",
   "menu_buttons": {
     "visual_novel": false,
-    "dating_sim": true,
+    "dating_sim": false,
     "full_web": true,
     "rock_paper_scissors": true,
     "tic_tac_toe": true,
     "checkers": true,
     "chess": true,
     "reversi": true,
-    "memory_game": true
+    "memory_game": true,
+    "is_novel_enabled": false,
+    "novel_enabled": false,
+    "dating": false,
+    "dating_enabled": false
   }
 }
