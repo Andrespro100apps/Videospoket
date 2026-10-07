@@ -1,7 +1,7 @@
 {
   "menu_buttons": {
     "visual_novel": false,
-    "dating_sim": false,
+    "dating_sim": true,
     "full_web": false,
     "car_sort": false,
     "mega_arcade": false,
