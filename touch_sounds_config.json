@@ -136,5 +136,6 @@
   },
   "sounds": [
     "tocar9.mp3"
-  ]
+  ],
+  "_instrucciones": "GUÍA PARA AGREGAR MÁS SONIDOS TÁCTILES A CADA CHICA INDIVIDUALMENTE SIN ACTUALIZAR EL APK:\n1. Cada chica (sora, yumi, elena, aiko, shizune, shiina, rei, yuuko, akira, hideaki) tiene su propia lista independiente.\n2. Puedes agregar 10, 15, 20 o más archivos mp3 a cualquier chica en su arreglo correspondiente.\n3. Los archivos de audio mp3 deben colocarse en la carpeta touch_sounds/ de este repositorio.\n4. La app Pocket Girl Classic descargará automáticamente los nuevos audios en segundo plano y los reproducirá al tocarla."
 }
