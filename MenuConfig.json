@@ -1,6 +1,6 @@
 {
   "menu_buttons": {
-    "visual_novel": false,
+    "visual_novel": true,
     "dating_sim": true,
     "full_web": false,
     "car_sort": false,
@@ -26,7 +26,9 @@
     "water_sort": true,
     "color_hoop_sort": true,
     "tetris": true,
-    "two_or_more": true
+    "two_or_more": true,
+    "is_novel_enabled": true,
+    "novel_enabled": true
   },
   "ads": {
     "interstitial_enabled": true,
