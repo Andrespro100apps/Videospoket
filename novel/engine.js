@@ -3044,6 +3044,20 @@
   // ============================================================
   var CHAPTERS_CATALOGUE = [
   {
+    "id": "vertigo_phase_1",
+    "cat": "thriller",
+    "cost": 0,
+    "badge": "👁️ Terror Psicológico (50 Fases)",
+    "badgeClass": "thriller",
+    "title": "El Vértigo de las Sombras de Yamaku (50 Fases)",
+    "desc": "Ruptura de la 4ª pared, sonidos viscerales de pánico, sprites de terror y 5 finales alternativos.",
+    "fullSummary": "A las 03:33 AM, el tiempo se fractura en Yamaku. Las heroínas descubren que están atrapadas dentro de tu dispositivo móvil y te suplican no cerrar la app mientras el bucle temporal amenaza con borrar sus recuerdos.",
+    "location": "Yamaku & Dimensión Meta",
+    "charsPreview": "🏃 Sora, 📖 Yumi, ☕ Elena, 🎨 Aiko, 👓 Kenji",
+    "characters": [{"name": "Sora", "icon": "🏃"}, {"name": "Yumi", "icon": "📖"}, {"name": "Elena", "icon": "☕"}, {"name": "Aiko", "icon": "🎨"}, {"name": "Kenji", "icon": "👓"}],
+    "bg": "img/venue_bedroom_sora.jpg"
+  },
+  {
     "id": "arc_hakamada_1",
     "cat": "mystery",
     "cost": 0,

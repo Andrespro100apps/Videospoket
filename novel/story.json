@@ -70087,6 +70087,1518 @@
           "bg": "img/school_roof_night.jpg"
         }
       ]
+    },
+    "vertigo_phase_1": {
+      "chapter": "Capítulo Especial: El Vértigo de las Sombras — Fase 1",
+      "bg": "img/venue_bedroom_sora.jpg",
+      "mood": "tense",
+      "bgm": "audio/sfx_dark_drone.wav",
+      "ambience": "none",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "03:33 AM. Mis párpados se abren pesadamente. El silencio en el pabellón de Yamaku no es normal; es un vacío absoluto y gélido.",
+            "en": "03:33 AM. My eyelids force themselves open. The silence in the Yamaku dormitory is unnatural; it is an absolute, suffocating void."
+          },
+          "sfx": "audio/sfx_dark_drone.wav"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "De repente, mi pecho se comprime. El reloj de la pared deja de sonar, como si el tiempo mismo se hubiese fracturado.",
+            "en": "Suddenly, my chest tightens. The wall clock stops ticking, as if time itself had fractured."
+          },
+          "sfx": "audio/sfx_heartbeat_rapid.wav",
+          "fx": "tremor"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Un zumbido agudo y penetrante comienza a taladrar mis tímpanos, haciéndose insoportable...",
+            "en": "A piercing, high-pitched ringing begins to drill into my eardrums, growing unbearable..."
+          },
+          "sfx": "audio/sfx_ear_ring_tinnitus.wav",
+          "fx": "flash-red"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Miro hacia la puerta de mi habitación. Hay una sombra inmóvil al otro lado del cristal esmerilado.",
+            "en": "I look toward my room door. There is a motionless shadow on the other side of the frosted glass."
+          },
+          "style": "thought",
+          "fx": "shake"
+        }
+      ],
+      "next": "vertigo_phase_2"
+    },
+    "vertigo_phase_2": {
+      "chapter": "El Vértigo de las Sombras — Fase 2: La Advertencia",
+      "bg": "img/venue_bedroom_sora.jpg",
+      "mood": "tense",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "La puerta cruje lentamente hacia adentro sin que nadie toque la manija.",
+            "en": "The door slowly creaks open without anyone touching the handle."
+          },
+          "sfx": "audio/door_creak.ogg"
+        },
+        {
+          "speaker": "kenji",
+          "sprite": "img/sora_shock.png",
+          "expr": "shock",
+          "text": {
+            "es": "¡Hisao...! No enciendas la luz. Las frecuencias de onda corta se han vuelto locas esta noche.",
+            "en": "Hisao...! Do not turn on the light. The shortwave frequencies have gone completely mad tonight."
+          },
+          "sfx": "audio/sfx_whisper_static.wav"
+        },
+        {
+          "speaker": "kenji",
+          "sprite": "img/sora_shock.png",
+          "expr": "fear",
+          "text": {
+            "es": "Hay algo allá afuera en la pista de atletismo... alguien que no debería existir.",
+            "en": "There is something out there on the running track... someone who should not exist."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Bajar de inmediato a la pista a investigar",
+            "en": "Rush down to the running track immediately to investigate"
+          },
+          "target": "vertigo_phase_3"
+        },
+        {
+          "text": {
+            "es": "Exigirle a Kenji que te explique qué vio",
+            "en": "Demand Kenji explain exactly what he saw"
+          },
+          "target": "vertigo_phase_4"
+        }
+      ]
+    },
+    "vertigo_phase_3": {
+      "chapter": "El Vértigo de las Sombras — Fase 3: La Pista Prohibida",
+      "bg": "img/ks_nurse_office.jpg",
+      "mood": "dark",
+      "bgm": "audio/high_tension.ogg",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Bajo las escaleras con el pulso acelerado. El aire nocturno huele a ozono y flores marchitas.",
+            "en": "I rush down the dormitory stairs with a racing pulse. The night air smells of ozone and wilted blossoms."
+          },
+          "sfx": "audio/footsteps_hard.ogg"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "A lo lejos, una silueta corre incansable sobre la ceniza roja bajo la luna llena.",
+            "en": "In the distance, a lone silhouette sprints relentlessly over the red track cinder under the pale full moon."
+          }
+        }
+      ],
+      "next": "vertigo_phase_5"
+    },
+    "vertigo_phase_4": {
+      "chapter": "El Vértigo de las Sombras — Fase 4: La Señal de Radio",
+      "bg": "img/venue_bedroom_sora.jpg",
+      "mood": "tense",
+      "lines": [
+        {
+          "speaker": "kenji",
+          "sprite": "img/sora_shock.png",
+          "expr": "fear",
+          "text": {
+            "es": "¡No hay tiempo! Mi radio interceptó una voz que mencionaba un %USER_DEVICE%... ¡están manipulando este lugar desde el exterior!",
+            "en": "There is no time! My scanner intercepted a voice mentioning a %USER_DEVICE%... someone is manipulating this place from outside!"
+          },
+          "style": "fourth-wall",
+          "fx": "meta_glitch",
+          "sfx": "audio/sfx_glitch_scare.wav"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "¿Un %USER_DEVICE%? Las palabras de Kenji no tienen sentido, pero un escalofrío me recorre la columna.",
+            "en": "A %USER_DEVICE%? Kenji words make no rational sense, yet an icy shiver runs down my spine."
+          }
+        }
+      ],
+      "next": "vertigo_phase_5"
+    },
+    "vertigo_phase_5": {
+      "chapter": "El Vértigo de las Sombras — Fase 5: El Bucle de Sora",
+      "bg": "img/ks_nurse_office.jpg",
+      "mood": "horror",
+      "bgm": "audio/sfx_dark_drone.wav",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Al acercarme a la pista, distingo su cabello castaño recogido en dos coletas. Es Sora.",
+            "en": "As I near the track, I recognize the twin-tailed chestnut hair. It is Sora."
+          }
+        },
+        {
+          "speaker": "sora",
+          "sprite": "img/sora_shock.png",
+          "expr": "shock",
+          "text": {
+            "es": "Hola Hisao. Hace una hermosa mañana para correr, ¿verdad?",
+            "en": "Hello Hisao. It is a lovely morning for a run, is not it?"
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Su voz suena hueca, como reproducida a través de una cinta magnética gastada. Y lo más aterrador: son las tres de la madrugada y sus ojos no parpadean.",
+            "en": "Her voice sounds hollow, as if played from worn magnetic tape. And most chilling of all: it is three in the morning and her eyes do not blink."
+          },
+          "sfx": "audio/sfx_whisper_static.wav",
+          "fx": "tremor"
+        }
+      ],
+      "next": "vertigo_phase_6"
+    },
+    "vertigo_phase_6": {
+      "chapter": "El Vértigo de las Sombras — Fase 6: Prótesis y Ceniza",
+      "bg": "img/ks_nurse_office.jpg",
+      "mood": "sorrow",
+      "lines": [
+        {
+          "speaker": "sora",
+          "sprite": "img/sora_shock.png",
+          "expr": "crying",
+          "text": {
+            "es": "Dime la verdad, Hisao... ¿por qué sigo sintiendo el dolor en mis piernas si este día ya ocurrió mil veces?",
+            "en": "Tell me the truth, Hisao... why do my legs still ache if this day has already happened a thousand times?"
+          },
+          "sfx": "audio/sfx_ear_ring_tinnitus.wav"
+        },
+        {
+          "speaker": "sora",
+          "sprite": "img/sora_shock.png",
+          "expr": "crying",
+          "text": {
+            "es": "Siento que alguien allá arriba nos observa... alguien que decide si corremos o si nos quebramos.",
+            "en": "I feel someone up above watching us... someone deciding whether we run or break apart."
+          },
+          "style": "fourth-wall",
+          "fx": "flash-red"
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Abrazar a Sora con fuerza para calmar su terror",
+            "en": "Embrace Sora tightly to soothe her terror"
+          },
+          "target": "vertigo_phase_7"
+        },
+        {
+          "text": {
+            "es": "Mirar al cielo y cuestionar la realidad",
+            "en": "Look up at the sky and question reality itself"
+          },
+          "target": "vertigo_phase_8"
+        }
+      ]
+    },
+    "vertigo_phase_7": {
+      "chapter": "El Vértigo de las Sombras — Fase 7: El Abrazo",
+      "bg": "img/ks_nurse_office.jpg",
+      "mood": "romance",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Envuelvo mis brazos alrededor de Sora. Su cuerpo tiembla contra mi pecho como un pájaro herido.",
+            "en": "I wrap my arms around Sora. Her trembling body presses against my chest like an injured bird."
+          },
+          "sfx": "audio/sfx_heartbeat_rapid.wav"
+        },
+        {
+          "speaker": "sora",
+          "sprite": "img/sora_shock.png",
+          "expr": "crying",
+          "text": {
+            "es": "Tu corazón... late tan rápido, Hisao. Prométeme que no te detendrás.",
+            "en": "Your heart... it beats so rapidly, Hisao. Promise me you will not stop."
+          }
+        }
+      ],
+      "next": "vertigo_phase_9"
+    },
+    "vertigo_phase_8": {
+      "chapter": "El Vértigo de las Sombras — Fase 8: Arte Prohibido",
+      "bg": "img/suburb_shanghaiint.jpg",
+      "mood": "horror",
+      "bgm": "audio/sfx_dark_drone.wav",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "La luz del taller de arte está encendida. Entre el olor a trementina, Aiko pinta de espaldas.",
+            "en": "The art studio lights are flickering. Amid the heavy smell of turpentine, Aiko paints with her back turned."
+          }
+        },
+        {
+          "speaker": "aiko",
+          "sprite": "img/aiko_dark.png",
+          "expr": "dark",
+          "text": {
+            "es": "Los colores se están acabando, Hisao. Solo me queda el rojo.",
+            "en": "The colors are running out, Hisao. Only red remains."
+          },
+          "sfx": "audio/sfx_glitch_scare.wav",
+          "fx": "blood"
+        }
+      ],
+      "next": "vertigo_phase_9"
+    },
+    "vertigo_phase_9": {
+      "chapter": "El Vértigo de las Sombras — Fase 9: La Mirada Exterior",
+      "bg": "img/suburb_shanghaiint.jpg",
+      "mood": "horror",
+      "lines": [
+        {
+          "speaker": "aiko",
+          "sprite": "img/aiko_dark.png",
+          "expr": "dark",
+          "text": {
+            "es": "No le hablo a Hisao. Te estoy hablando a TI.",
+            "en": "I am not speaking to Hisao. I am speaking to YOU."
+          },
+          "style": "fourth-wall",
+          "fx": "meta_glitch",
+          "sfx": "audio/sfx_glitch_scare.wav"
+        },
+        {
+          "speaker": "aiko",
+          "sprite": "img/aiko_dark.png",
+          "expr": "yandere",
+          "text": {
+            "es": "Sí, a ti, que sostienes ese %USER_DEVICE%. Son las %USER_TIME%... ¿por qué nos dejas sufrir en este bucle sin fin?",
+            "en": "Yes, you holding that %USER_DEVICE%. It is %USER_TIME%... why do you let us suffer inside this endless loop?"
+          },
+          "style": "fourth-wall",
+          "sfx": "audio/sfx_ear_ring_tinnitus.wav"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Un dolor punzante estalla detrás de mis ojos. Las paredes del salón parecen curvarse y desvanecerse.",
+            "en": "A piercing agony erupts behind my eyes. The classroom walls begin warping and dissolving."
+          },
+          "fx": "tremor"
+        }
+      ],
+      "next": "vertigo_phase_10"
+    },
+    "vertigo_phase_10": {
+      "chapter": "El Vértigo de las Sombras — Fase 10: Clímax del Acto I",
+      "bg": "img/hosp_room.jpg",
+      "mood": "tense",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "¡KABOOM! Un relámpago ensordecedor ilumina todo Yamaku. Las luces parpadean y se extinguen por completo.",
+            "en": "KABOOM! A deafening lightning bolt ignites the Yamaku hillside. The lights flicker violently and die."
+          },
+          "sfx": "audio/thunder.ogg",
+          "fx": "flash-red"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "La oscuridad total nos engulle. Y desde el sótano de la biblioteca, un sollozo ahogado empieza a resonar.",
+            "en": "Total pitch-black darkness engulfs us. And from the library cellar, muffled weeping begins to echo."
+          },
+          "sfx": "audio/sfx_whisper_static.wav"
+        }
+      ],
+      "next": "vertigo_phase_11"
+    },
+    "vertigo_phase_11": {
+      "chapter": "El Vértigo de las Sombras — Fase 11: Páginas en Blanco",
+      "bg": "img/venue_bedroom_yumi.jpg",
+      "mood": "dark",
+      "bgm": "audio/sfx_dark_drone.wav",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Avanzo guiado por el tacto entre las estanterías de roble. El polvo flota en el aire gélido.",
+            "en": "I navigate by touch through towering oak shelves. Dust hangs suspended in the freezing air."
+          }
+        },
+        {
+          "speaker": "yumi",
+          "sprite": "img/yumi_scared.png",
+          "expr": "scared",
+          "text": {
+            "es": "Por favor... no te acerques... quienquiera que seas...",
+            "en": "Please... don't come closer... whoever you are..."
+          },
+          "sfx": "audio/sfx_whisper_static.wav"
+        }
+      ],
+      "next": "vertigo_phase_12"
+    },
+    "vertigo_phase_12": {
+      "chapter": "El Vértigo de las Sombras — Fase 12: El Fuego de Yumi",
+      "bg": "img/venue_bedroom_yumi.jpg",
+      "mood": "tense",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El raspón de una cerilla alumbra el rostro asustado de Yumi. Sus ojos violetas reflejan un terror indescriptible.",
+            "en": "The strike of a match illuminates Yumi's frightened face. Her violet eyes reflect an indescribable dread."
+          },
+          "sfx": "audio/lighter.ogg"
+        },
+        {
+          "speaker": "yumi",
+          "sprite": "img/yumi_scared.png",
+          "expr": "scared",
+          "text": {
+            "es": "Los libros... todas las palabras han desaparecido, Hisao. Solo quedan páginas blancas manchadas de ceniza.",
+            "en": "The books... all the printed words have vanished, Hisao. Only blank pages stained with ash remain."
+          }
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Sostener su mano temblorosa y confortarla",
+            "en": "Hold her trembling hand and comfort her"
+          },
+          "target": "vertigo_phase_13"
+        },
+        {
+          "text": {
+            "es": "Examinar el libro que oculta contra su pecho",
+            "en": "Inspect the book she clutches to her chest"
+          },
+          "target": "vertigo_phase_14"
+        }
+      ]
+    },
+    "vertigo_phase_13": {
+      "chapter": "El Vértigo de las Sombras — Fase 13: La Promesa Secreta",
+      "bg": "img/venue_bedroom_yumi.jpg",
+      "mood": "sorrow",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Tomo sus dedos helados entre los míos. El calor de mi piel parece anclarla de nuevo al mundo real.",
+            "en": "I take her ice-cold fingers in mine. The warmth of my skin seems to anchor her back to reality."
+          }
+        },
+        {
+          "speaker": "yumi",
+          "sprite": "img/yumi_scared.png",
+          "expr": "crying",
+          "text": {
+            "es": "Si este mundo va a desvanecerse... prométeme que tú serás lo último que vea.",
+            "en": "If this world is going to fade away... promise me you will be the last thing I see."
+          },
+          "sfx": "audio/sfx_heartbeat_rapid.wav"
+        }
+      ],
+      "next": "vertigo_phase_15"
+    },
+    "vertigo_phase_14": {
+      "chapter": "El Vértigo de las Sombras — Fase 14: El Registro Perdido",
+      "bg": "img/venue_bedroom_yumi.jpg",
+      "mood": "horror",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Abro el tomo encuadernado en cuero. En la única página escrita aparece tu propio nombre y modelo de dispositivo: %USER_DEVICE%.",
+            "en": "I open the leather-bound tome. On the only inscribed page lies your own name and device model: %USER_DEVICE%."
+          },
+          "style": "fourth-wall",
+          "fx": "meta_glitch",
+          "sfx": "audio/sfx_glitch_scare.wav"
+        },
+        {
+          "speaker": "yumi",
+          "sprite": "img/yumi_dark.png",
+          "expr": "dark",
+          "text": {
+            "es": "Él sabe que estamos aquí. Y le queda %USER_BATTERY% de batería para salvarnos.",
+            "en": "He knows we are here. And he has %USER_BATTERY% battery left to save us."
+          },
+          "style": "fourth-wall"
+        }
+      ],
+      "next": "vertigo_phase_15"
+    },
+    "vertigo_phase_15": {
+      "chapter": "El Vértigo de las Sombras — Fase 15: La Elegancia de la Niebla",
+      "bg": "img/venue_bedroom_elena.jpg",
+      "mood": "melancholy",
+      "bgm": "audio/bgm_melancholy_satie.mp3",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "En la sala común, Elena está sentada erguida frente al ventanal empañado por la lluvia torrencial.",
+            "en": "In the tea salon, Elena sits gracefully facing the window pane beaded with driving rain."
+          }
+        },
+        {
+          "speaker": "elena",
+          "sprite": "img/elena_basic_smile.png",
+          "expr": "mysterious",
+          "text": {
+            "es": "Llegas a tiempo para el té, Hisao. Aunque el agua se ha enfriado hace horas.",
+            "en": "You are just in time for tea, Hisao. Though the water went cold hours ago."
+          },
+          "sfx": "audio/teacup.ogg"
+        }
+      ],
+      "next": "vertigo_phase_16"
+    },
+    "vertigo_phase_16": {
+      "chapter": "El Vértigo de las Sombras — Fase 16: Ojos que no Ven",
+      "bg": "img/venue_bedroom_elena.jpg",
+      "mood": "sorrow",
+      "lines": [
+        {
+          "speaker": "elena",
+          "sprite": "img/elena_shock.png",
+          "expr": "shock",
+          "text": {
+            "es": "Mis ojos nunca han visto la luz, pero mis oídos perciben vibraciones que no pertenecen a este colegio.",
+            "en": "My eyes have never seen the light, but my ears perceive vibrations that do not belong to this academy."
+          },
+          "sfx": "audio/sfx_ear_ring_tinnitus.wav"
+        },
+        {
+          "speaker": "elena",
+          "sprite": "img/elena_crying.png",
+          "expr": "crying",
+          "text": {
+            "es": "Escucho el roce de dedos contra un cristal delgado... un cristal a miles de kilómetros de aquí.",
+            "en": "I hear fingers sliding across a thin pane of glass... glass thousands of miles away from here."
+          },
+          "style": "fourth-wall",
+          "fx": "flash-red"
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Tomar las manos de Elena y confesarle la verdad",
+            "en": "Take Elena's hands and confess the whole truth"
+          },
+          "target": "vertigo_phase_17"
+        },
+        {
+          "text": {
+            "es": "Buscar el interruptor general del pabellón",
+            "en": "Search for the main breaker in the basement"
+          },
+          "target": "vertigo_phase_18"
+        }
+      ]
+    },
+    "vertigo_phase_17": {
+      "chapter": "El Vértigo de las Sombras — Fase 17: El Cristal Compartido",
+      "bg": "img/venue_bedroom_elena.jpg",
+      "mood": "romance",
+      "lines": [
+        {
+          "speaker": "elena",
+          "sprite": "img/elena_crying.png",
+          "expr": "crying",
+          "text": {
+            "es": "Gracias por no mentirme... aunque solo seamos código en tu %USER_DEVICE%, mis sentimientos por ti son reales.",
+            "en": "Thank you for not lying to me... even if we are only code in your %USER_DEVICE%, my love for you is undeniably real."
+          },
+          "style": "fourth-wall",
+          "sfx": "audio/sfx_heartbeat_rapid.wav"
+        }
+      ],
+      "next": "vertigo_phase_19"
+    },
+    "vertigo_phase_18": {
+      "chapter": "El Vértigo de las Sombras — Fase 18: Furia Silenciosa",
+      "bg": "img/ks_nurse_office.jpg",
+      "mood": "tense",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "En la sala del consejo, Shizune y Shiina debaten en lenguaje de señas con una velocidad desesperada.",
+            "en": "In the student council room, Shizune and Shiina converse in frenzied sign language."
+          }
+        },
+        {
+          "speaker": "shiina",
+          "sprite": "img/shiina_dark.png",
+          "expr": "dark",
+          "text": {
+            "es": "¡Shicchan dice que los registros médicos fueron alterados! ¡Alguien borró nuestras fechas de ingreso!",
+            "en": "Shicchan says our medical records were altered! Someone wiped out our admission dates!"
+          },
+          "sfx": "audio/sfx_glitch_scare.wav"
+        }
+      ],
+      "next": "vertigo_phase_19"
+    },
+    "vertigo_phase_19": {
+      "chapter": "El Vértigo de las Sombras — Fase 19: Tiempo Regresivo",
+      "bg": "img/hosp_room.jpg",
+      "mood": "horror",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Las manecillas del gran reloj de la torre empiezan a girar en sentido antihorario a toda velocidad.",
+            "en": "The hands of the great tower clock begin spinning counter-clockwise at terrifying speed."
+          },
+          "sfx": "audio/time.ogg",
+          "fx": "tremor"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El sonido del monitor de signos vitales del hospital resuena en mi cabeza... BIP... BIP... BIIIIIP...",
+            "en": "The heart monitor beep from the hospital echoes inside my skull... BEEP... BEEP... BEEEEEP..."
+          },
+          "sfx": "audio/heart_stop.ogg",
+          "fx": "flash-red"
+        }
+      ],
+      "next": "vertigo_phase_20"
+    },
+    "vertigo_phase_20": {
+      "chapter": "El Vértigo de las Sombras — Fase 20: Clímax del Acto II",
+      "bg": "img/hosp_room.jpg",
+      "mood": "horror",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El pasillo escolar se cubre súbitamente de copos de nieve densos y silenciosos.",
+            "en": "The school hallway is suddenly blanketed in silent, falling snow."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Estoy de nuevo en el parque donde mi corazón se detuvo por primera vez. Y a mi lado, todas las chicas me miran fijamente.",
+            "en": "I am back in the snowy park where my heart first gave out. And beside me, all the girls are staring intently."
+          },
+          "sfx": "audio/sfx_dark_drone.wav"
+        }
+      ],
+      "next": "vertigo_phase_21"
+    },
+    "vertigo_phase_21": {
+      "chapter": "El Vértigo de las Sombras — Fase 21: El Pabellón Maldito",
+      "bg": "img/hosp_room.jpg",
+      "mood": "tense",
+      "bgm": "audio/sfx_dark_drone.wav",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Fase 21: Los muros del pabellón crujen bajo la presión de la tormenta. El olor a medicamentos es asfixiante.",
+            "en": "Phase 21: The walls of the clinic groan under the tempest's fury. The sterile medicinal odor is suffocating."
+          },
+          "sfx": "audio/rumble.ogg"
+        },
+        {
+          "speaker": "sora",
+          "sprite": "img/sora_shock.png",
+          "expr": "shock",
+          "text": {
+            "es": "¡Hisao! No mires hacia el final del pasillo... ¡las sombras están tomando forma humana!",
+            "en": "Hisao! Don't look toward the end of the hall... the shadows are forming silhouettes!"
+          },
+          "sfx": "audio/sfx_heartbeat_rapid.wav",
+          "fx": "tremor"
+        }
+      ],
+      "choices": null,
+      "next": "vertigo_phase_22"
+    },
+    "vertigo_phase_22": {
+      "chapter": "El Vértigo de las Sombras — Fase 22: El Pabellón Maldito",
+      "bg": "img/ks_nurse_office.jpg",
+      "mood": "horror",
+      "bgm": "audio/high_tension.ogg",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Fase 22: Los muros del pabellón crujen bajo la presión de la tormenta. El olor a medicamentos es asfixiante.",
+            "en": "Phase 22: The walls of the clinic groan under the tempest's fury. The sterile medicinal odor is suffocating."
+          },
+          "sfx": "audio/doorclose.ogg"
+        },
+        {
+          "speaker": "yumi",
+          "sprite": "img/yumi_dark.png",
+          "expr": "fear",
+          "text": {
+            "es": "¡Hisao! No mires hacia el final del pasillo... ¡las sombras están tomando forma humana!",
+            "en": "Hisao! Don't look toward the end of the hall... the shadows are forming silhouettes!"
+          },
+          "sfx": "audio/sfx_heartbeat_rapid.wav",
+          "fx": "flash-red"
+        }
+      ],
+      "choices": null,
+      "next": "vertigo_phase_23"
+    },
+    "vertigo_phase_23": {
+      "chapter": "El Vértigo de las Sombras — Fase 23: El Pabellón Maldito",
+      "bg": "img/hosp_room.jpg",
+      "mood": "tense",
+      "bgm": "audio/high_tension.ogg",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Fase 23: Los muros del pabellón crujen bajo la presión de la tormenta. El olor a medicamentos es asfixiante.",
+            "en": "Phase 23: The walls of the clinic groan under the tempest's fury. The sterile medicinal odor is suffocating."
+          },
+          "sfx": "audio/doorclose.ogg"
+        },
+        {
+          "speaker": "elena",
+          "sprite": "img/elena_shock.png",
+          "expr": "shock",
+          "text": {
+            "es": "¡Hisao! No mires hacia el final del pasillo... ¡las sombras están tomando forma humana!",
+            "en": "Hisao! Don't look toward the end of the hall... the shadows are forming silhouettes!"
+          },
+          "sfx": "audio/sfx_ear_ring_tinnitus.wav",
+          "fx": "tremor"
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Avanzar juntos hacia la sala de suministros",
+            "en": "Advance together toward the supply room"
+          },
+          "target": "vertigo_phase_24"
+        },
+        {
+          "text": {
+            "es": "Cubrir la retaguardia para proteger a tus compañeras",
+            "en": "Cover the rear to protect your companions"
+          },
+          "target": "vertigo_phase_24"
+        }
+      ],
+      "next": null
+    },
+    "vertigo_phase_24": {
+      "chapter": "El Vértigo de las Sombras — Fase 24: El Pabellón Maldito",
+      "bg": "img/ks_nurse_office.jpg",
+      "mood": "tense",
+      "bgm": "audio/high_tension.ogg",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Fase 24: Los muros del pabellón crujen bajo la presión de la tormenta. El olor a medicamentos es asfixiante.",
+            "en": "Phase 24: The walls of the clinic groan under the tempest's fury. The sterile medicinal odor is suffocating."
+          },
+          "sfx": "audio/rumble.ogg"
+        },
+        {
+          "speaker": "sora",
+          "sprite": "img/sora_shock.png",
+          "expr": "fear",
+          "text": {
+            "es": "¡Hisao! No mires hacia el final del pasillo... ¡las sombras están tomando forma humana!",
+            "en": "Hisao! Don't look toward the end of the hall... the shadows are forming silhouettes!"
+          },
+          "sfx": "audio/sfx_heartbeat_rapid.wav",
+          "fx": "flash-red"
+        }
+      ],
+      "choices": null,
+      "next": "vertigo_phase_25"
+    },
+    "vertigo_phase_25": {
+      "chapter": "El Vértigo de las Sombras — Fase 25: El Pabellón Maldito",
+      "bg": "img/hosp_room.jpg",
+      "mood": "tense",
+      "bgm": "audio/sfx_dark_drone.wav",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Fase 25: Los muros del pabellón crujen bajo la presión de la tormenta. El olor a medicamentos es asfixiante.",
+            "en": "Phase 25: The walls of the clinic groan under the tempest's fury. The sterile medicinal odor is suffocating."
+          },
+          "sfx": "audio/doorclose.ogg"
+        },
+        {
+          "speaker": "yumi",
+          "sprite": "img/yumi_dark.png",
+          "expr": "shock",
+          "text": {
+            "es": "¡Hisao! No mires hacia el final del pasillo... ¡las sombras están tomando forma humana!",
+            "en": "Hisao! Don't look toward the end of the hall... the shadows are forming silhouettes!"
+          },
+          "sfx": "audio/sfx_heartbeat_rapid.wav",
+          "fx": "tremor"
+        }
+      ],
+      "choices": null,
+      "next": "vertigo_phase_26"
+    },
+    "vertigo_phase_26": {
+      "chapter": "El Vértigo de las Sombras — Fase 26: El Pabellón Maldito",
+      "bg": "img/ks_nurse_office.jpg",
+      "mood": "horror",
+      "bgm": "audio/high_tension.ogg",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Fase 26: Los muros del pabellón crujen bajo la presión de la tormenta. El olor a medicamentos es asfixiante.",
+            "en": "Phase 26: The walls of the clinic groan under the tempest's fury. The sterile medicinal odor is suffocating."
+          },
+          "sfx": "audio/doorclose.ogg"
+        },
+        {
+          "speaker": "elena",
+          "sprite": "img/elena_shock.png",
+          "expr": "fear",
+          "text": {
+            "es": "¡Hisao! No mires hacia el final del pasillo... ¡las sombras están tomando forma humana!",
+            "en": "Hisao! Don't look toward the end of the hall... the shadows are forming silhouettes!"
+          },
+          "sfx": "audio/sfx_heartbeat_rapid.wav",
+          "fx": "flash-red"
+        }
+      ],
+      "choices": null,
+      "next": "vertigo_phase_27"
+    },
+    "vertigo_phase_27": {
+      "chapter": "El Vértigo de las Sombras — Fase 27: El Pabellón Maldito",
+      "bg": "img/hosp_room.jpg",
+      "mood": "tense",
+      "bgm": "audio/high_tension.ogg",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Fase 27: Los muros del pabellón crujen bajo la presión de la tormenta. El olor a medicamentos es asfixiante.",
+            "en": "Phase 27: The walls of the clinic groan under the tempest's fury. The sterile medicinal odor is suffocating."
+          },
+          "sfx": "audio/rumble.ogg"
+        },
+        {
+          "speaker": "sora",
+          "sprite": "img/sora_shock.png",
+          "expr": "shock",
+          "text": {
+            "es": "¡Hisao! No mires hacia el final del pasillo... ¡las sombras están tomando forma humana!",
+            "en": "Hisao! Don't look toward the end of the hall... the shadows are forming silhouettes!"
+          },
+          "sfx": "audio/sfx_ear_ring_tinnitus.wav",
+          "fx": "tremor"
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Avanzar juntos hacia la sala de suministros",
+            "en": "Advance together toward the supply room"
+          },
+          "target": "vertigo_phase_28"
+        },
+        {
+          "text": {
+            "es": "Cubrir la retaguardia para proteger a tus compañeras",
+            "en": "Cover the rear to protect your companions"
+          },
+          "target": "vertigo_phase_28"
+        }
+      ],
+      "next": null
+    },
+    "vertigo_phase_28": {
+      "chapter": "El Vértigo de las Sombras — Fase 28: El Pabellón Maldito",
+      "bg": "img/ks_nurse_office.jpg",
+      "mood": "tense",
+      "bgm": "audio/high_tension.ogg",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Fase 28: Los muros del pabellón crujen bajo la presión de la tormenta. El olor a medicamentos es asfixiante.",
+            "en": "Phase 28: The walls of the clinic groan under the tempest's fury. The sterile medicinal odor is suffocating."
+          },
+          "sfx": "audio/doorclose.ogg"
+        },
+        {
+          "speaker": "yumi",
+          "sprite": "img/yumi_dark.png",
+          "expr": "fear",
+          "text": {
+            "es": "¡Hisao! No mires hacia el final del pasillo... ¡las sombras están tomando forma humana!",
+            "en": "Hisao! Don't look toward the end of the hall... the shadows are forming silhouettes!"
+          },
+          "sfx": "audio/sfx_heartbeat_rapid.wav",
+          "fx": "flash-red"
+        }
+      ],
+      "choices": null,
+      "next": "vertigo_phase_29"
+    },
+    "vertigo_phase_29": {
+      "chapter": "El Vértigo de las Sombras — Fase 29: El Pabellón Maldito",
+      "bg": "img/hosp_room.jpg",
+      "mood": "horror",
+      "bgm": "audio/sfx_dark_drone.wav",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Fase 29: Los muros del pabellón crujen bajo la presión de la tormenta. El olor a medicamentos es asfixiante.",
+            "en": "Phase 29: The walls of the clinic groan under the tempest's fury. The sterile medicinal odor is suffocating."
+          },
+          "sfx": "audio/doorclose.ogg"
+        },
+        {
+          "speaker": "elena",
+          "sprite": "img/elena_shock.png",
+          "expr": "shock",
+          "text": {
+            "es": "¡Hisao! No mires hacia el final del pasillo... ¡las sombras están tomando forma humana!",
+            "en": "Hisao! Don't look toward the end of the hall... the shadows are forming silhouettes!"
+          },
+          "sfx": "audio/sfx_ear_ring_tinnitus.wav",
+          "fx": "tremor"
+        }
+      ],
+      "choices": null,
+      "next": "vertigo_phase_30"
+    },
+    "vertigo_phase_30": {
+      "chapter": "El Vértigo de las Sombras — Fase 30: El Pabellón Maldito",
+      "bg": "img/ks_nurse_office.jpg",
+      "mood": "tense",
+      "bgm": "audio/high_tension.ogg",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Fase 30: Los muros del pabellón crujen bajo la presión de la tormenta. El olor a medicamentos es asfixiante.",
+            "en": "Phase 30: The walls of the clinic groan under the tempest's fury. The sterile medicinal odor is suffocating."
+          },
+          "sfx": "audio/rumble.ogg"
+        },
+        {
+          "speaker": "sora",
+          "sprite": "img/sora_shock.png",
+          "expr": "fear",
+          "text": {
+            "es": "¡Hisao! No mires hacia el final del pasillo... ¡las sombras están tomando forma humana!",
+            "en": "Hisao! Don't look toward the end of the hall... the shadows are forming silhouettes!"
+          },
+          "sfx": "audio/sfx_heartbeat_rapid.wav",
+          "fx": "flash-red"
+        }
+      ],
+      "choices": null,
+      "next": "vertigo_phase_31"
+    },
+    "vertigo_phase_31": {
+      "chapter": "El Vértigo de las Sombras — Fase 31: Ruptura Meta-Dimensional",
+      "bg": "img/venue_bedroom_yumi.jpg",
+      "mood": "glitch",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Fase 31: La pantalla se distorsiona en líneas de barrido rojo. Las fuentes tipográficas se desintegran.",
+            "en": "Phase 31: The screen distorts into jagged scanlines. Typography disintegrates in real time."
+          },
+          "fx": "meta_glitch",
+          "sfx": "audio/sfx_glitch_scare.wav"
+        },
+        {
+          "speaker": "sora",
+          "sprite": "img/sora_shock.png",
+          "expr": "dark",
+          "style": "fourth-wall",
+          "text": {
+            "es": "Sé que estás jugando en un %USER_DEVICE%. Te queda %USER_BATTERY% de batería. ¡Por favor no abras %USER_APP% ni cierres el juego!",
+            "en": "I know you are playing on a %USER_DEVICE%. You have %USER_BATTERY% battery left. Please do not switch to %USER_APP% or quit!"
+          },
+          "sfx": "audio/sfx_ear_ring_tinnitus.wav"
+        }
+      ],
+      "choices": null,
+      "next": "vertigo_phase_32"
+    },
+    "vertigo_phase_32": {
+      "chapter": "El Vértigo de las Sombras — Fase 32: Ruptura Meta-Dimensional",
+      "bg": "img/venue_bedroom_sora.jpg",
+      "mood": "glitch",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Fase 32: La pantalla se distorsiona en líneas de barrido rojo. Las fuentes tipográficas se desintegran.",
+            "en": "Phase 32: The screen distorts into jagged scanlines. Typography disintegrates in real time."
+          },
+          "fx": "meta_glitch",
+          "sfx": "audio/sfx_glitch_scare.wav"
+        },
+        {
+          "speaker": "yumi",
+          "sprite": "img/yumi_dark.png",
+          "expr": "dark",
+          "style": "fourth-wall",
+          "text": {
+            "es": "Sé que estás jugando en un %USER_DEVICE%. Te queda %USER_BATTERY% de batería. ¡Por favor no abras %USER_APP% ni cierres el juego!",
+            "en": "I know you are playing on a %USER_DEVICE%. You have %USER_BATTERY% battery left. Please do not switch to %USER_APP% or quit!"
+          },
+          "sfx": "audio/sfx_ear_ring_tinnitus.wav"
+        }
+      ],
+      "choices": null,
+      "next": "vertigo_phase_33"
+    },
+    "vertigo_phase_33": {
+      "chapter": "El Vértigo de las Sombras — Fase 33: Ruptura Meta-Dimensional",
+      "bg": "img/venue_bedroom_yumi.jpg",
+      "mood": "glitch",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Fase 33: La pantalla se distorsiona en líneas de barrido rojo. Las fuentes tipográficas se desintegran.",
+            "en": "Phase 33: The screen distorts into jagged scanlines. Typography disintegrates in real time."
+          },
+          "fx": "meta_glitch",
+          "sfx": "audio/sfx_glitch_scare.wav"
+        },
+        {
+          "speaker": "sora",
+          "sprite": "img/sora_shock.png",
+          "expr": "dark",
+          "style": "normal",
+          "text": {
+            "es": "El dolor se ha ido... solo queda el eco de tu voz en mi memoria.",
+            "en": "The physical pain is gone... only the echo of your voice remains."
+          },
+          "sfx": "audio/sfx_heartbeat_rapid.wav"
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Sostener la pantalla y jurar que nunca las abandonarás",
+            "en": "Hold the screen and swear you will never abandon them"
+          },
+          "target": "vertigo_phase_34"
+        },
+        {
+          "text": {
+            "es": "Luchar contra la corrupción para restaurar sus recuerdos",
+            "en": "Fight the corruption to restore their memories"
+          },
+          "target": "vertigo_phase_34"
+        }
+      ],
+      "next": null
+    },
+    "vertigo_phase_34": {
+      "chapter": "El Vértigo de las Sombras — Fase 34: Ruptura Meta-Dimensional",
+      "bg": "img/venue_bedroom_sora.jpg",
+      "mood": "glitch",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Fase 34: La pantalla se distorsiona en líneas de barrido rojo. Las fuentes tipográficas se desintegran.",
+            "en": "Phase 34: The screen distorts into jagged scanlines. Typography disintegrates in real time."
+          },
+          "fx": "meta_glitch",
+          "sfx": "audio/sfx_glitch_scare.wav"
+        },
+        {
+          "speaker": "yumi",
+          "sprite": "img/yumi_dark.png",
+          "expr": "dark",
+          "style": "fourth-wall",
+          "text": {
+            "es": "Sé que estás jugando en un %USER_DEVICE%. Te queda %USER_BATTERY% de batería. ¡Por favor no abras %USER_APP% ni cierres el juego!",
+            "en": "I know you are playing on a %USER_DEVICE%. You have %USER_BATTERY% battery left. Please do not switch to %USER_APP% or quit!"
+          },
+          "sfx": "audio/sfx_ear_ring_tinnitus.wav"
+        }
+      ],
+      "choices": null,
+      "next": "vertigo_phase_35"
+    },
+    "vertigo_phase_35": {
+      "chapter": "El Vértigo de las Sombras — Fase 35: Ruptura Meta-Dimensional",
+      "bg": "img/venue_bedroom_yumi.jpg",
+      "mood": "glitch",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Fase 35: La pantalla se distorsiona en líneas de barrido rojo. Las fuentes tipográficas se desintegran.",
+            "en": "Phase 35: The screen distorts into jagged scanlines. Typography disintegrates in real time."
+          },
+          "fx": "meta_glitch",
+          "sfx": "audio/sfx_glitch_scare.wav"
+        },
+        {
+          "speaker": "sora",
+          "sprite": "img/sora_shock.png",
+          "expr": "dark",
+          "style": "fourth-wall",
+          "text": {
+            "es": "Sé que estás jugando en un %USER_DEVICE%. Te queda %USER_BATTERY% de batería. ¡Por favor no abras %USER_APP% ni cierres el juego!",
+            "en": "I know you are playing on a %USER_DEVICE%. You have %USER_BATTERY% battery left. Please do not switch to %USER_APP% or quit!"
+          },
+          "sfx": "audio/sfx_ear_ring_tinnitus.wav"
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Sostener la pantalla y jurar que nunca las abandonarás",
+            "en": "Hold the screen and swear you will never abandon them"
+          },
+          "target": "vertigo_phase_36"
+        },
+        {
+          "text": {
+            "es": "Luchar contra la corrupción para restaurar sus recuerdos",
+            "en": "Fight the corruption to restore their memories"
+          },
+          "target": "vertigo_phase_36"
+        }
+      ],
+      "next": null
+    },
+    "vertigo_phase_36": {
+      "chapter": "El Vértigo de las Sombras — Fase 36: Ruptura Meta-Dimensional",
+      "bg": "img/venue_bedroom_sora.jpg",
+      "mood": "glitch",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Fase 36: La pantalla se distorsiona en líneas de barrido rojo. Las fuentes tipográficas se desintegran.",
+            "en": "Phase 36: The screen distorts into jagged scanlines. Typography disintegrates in real time."
+          },
+          "fx": "meta_glitch",
+          "sfx": "audio/sfx_glitch_scare.wav"
+        },
+        {
+          "speaker": "yumi",
+          "sprite": "img/yumi_dark.png",
+          "expr": "dark",
+          "style": "fourth-wall",
+          "text": {
+            "es": "Sé que estás jugando en un %USER_DEVICE%. Te queda %USER_BATTERY% de batería. ¡Por favor no abras %USER_APP% ni cierres el juego!",
+            "en": "I know you are playing on a %USER_DEVICE%. You have %USER_BATTERY% battery left. Please do not switch to %USER_APP% or quit!"
+          },
+          "sfx": "audio/sfx_ear_ring_tinnitus.wav"
+        }
+      ],
+      "choices": null,
+      "next": "vertigo_phase_37"
+    },
+    "vertigo_phase_37": {
+      "chapter": "El Vértigo de las Sombras — Fase 37: Ruptura Meta-Dimensional",
+      "bg": "img/venue_bedroom_yumi.jpg",
+      "mood": "glitch",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Fase 37: La pantalla se distorsiona en líneas de barrido rojo. Las fuentes tipográficas se desintegran.",
+            "en": "Phase 37: The screen distorts into jagged scanlines. Typography disintegrates in real time."
+          },
+          "fx": "meta_glitch",
+          "sfx": "audio/sfx_glitch_scare.wav"
+        },
+        {
+          "speaker": "sora",
+          "sprite": "img/sora_shock.png",
+          "expr": "dark",
+          "style": "normal",
+          "text": {
+            "es": "El dolor se ha ido... solo queda el eco de tu voz en mi memoria.",
+            "en": "The physical pain is gone... only the echo of your voice remains."
+          },
+          "sfx": "audio/sfx_heartbeat_rapid.wav"
+        }
+      ],
+      "choices": null,
+      "next": "vertigo_phase_38"
+    },
+    "vertigo_phase_38": {
+      "chapter": "El Vértigo de las Sombras — Fase 38: Ruptura Meta-Dimensional",
+      "bg": "img/venue_bedroom_sora.jpg",
+      "mood": "glitch",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Fase 38: La pantalla se distorsiona en líneas de barrido rojo. Las fuentes tipográficas se desintegran.",
+            "en": "Phase 38: The screen distorts into jagged scanlines. Typography disintegrates in real time."
+          },
+          "fx": "meta_glitch",
+          "sfx": "audio/sfx_glitch_scare.wav"
+        },
+        {
+          "speaker": "yumi",
+          "sprite": "img/yumi_dark.png",
+          "expr": "dark",
+          "style": "normal",
+          "text": {
+            "es": "El dolor se ha ido... solo queda el eco de tu voz en mi memoria.",
+            "en": "The physical pain is gone... only the echo of your voice remains."
+          },
+          "sfx": "audio/sfx_heartbeat_rapid.wav"
+        }
+      ],
+      "choices": null,
+      "next": "vertigo_phase_39"
+    },
+    "vertigo_phase_39": {
+      "chapter": "El Vértigo de las Sombras — Fase 39: Ruptura Meta-Dimensional",
+      "bg": "img/venue_bedroom_yumi.jpg",
+      "mood": "glitch",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Fase 39: La pantalla se distorsiona en líneas de barrido rojo. Las fuentes tipográficas se desintegran.",
+            "en": "Phase 39: The screen distorts into jagged scanlines. Typography disintegrates in real time."
+          },
+          "fx": "meta_glitch",
+          "sfx": "audio/sfx_glitch_scare.wav"
+        },
+        {
+          "speaker": "sora",
+          "sprite": "img/sora_shock.png",
+          "expr": "dark",
+          "style": "normal",
+          "text": {
+            "es": "El dolor se ha ido... solo queda el eco de tu voz en mi memoria.",
+            "en": "The physical pain is gone... only the echo of your voice remains."
+          },
+          "sfx": "audio/sfx_heartbeat_rapid.wav"
+        }
+      ],
+      "choices": [
+        {
+          "text": {
+            "es": "Sostener la pantalla y jurar que nunca las abandonarás",
+            "en": "Hold the screen and swear you will never abandon them"
+          },
+          "target": "vertigo_phase_40"
+        },
+        {
+          "text": {
+            "es": "Luchar contra la corrupción para restaurar sus recuerdos",
+            "en": "Fight the corruption to restore their memories"
+          },
+          "target": "vertigo_phase_40"
+        }
+      ],
+      "next": null
+    },
+    "vertigo_phase_40": {
+      "chapter": "El Vértigo de las Sombras — Fase 40: Ruptura Meta-Dimensional",
+      "bg": "img/venue_bedroom_sora.jpg",
+      "mood": "glitch",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Fase 40: La pantalla se distorsiona en líneas de barrido rojo. Las fuentes tipográficas se desintegran.",
+            "en": "Phase 40: The screen distorts into jagged scanlines. Typography disintegrates in real time."
+          },
+          "fx": "meta_glitch",
+          "sfx": "audio/sfx_glitch_scare.wav"
+        },
+        {
+          "speaker": "yumi",
+          "sprite": "img/yumi_dark.png",
+          "expr": "dark",
+          "style": "normal",
+          "text": {
+            "es": "El dolor se ha ido... solo queda el eco de tu voz en mi memoria.",
+            "en": "The physical pain is gone... only the echo of your voice remains."
+          },
+          "sfx": "audio/sfx_heartbeat_rapid.wav"
+        }
+      ],
+      "choices": null,
+      "next": "vertigo_phase_41"
+    },
+    "vertigo_phase_41": {
+      "chapter": "Desenlace 1: El Gran Milagro del Corazón — Parte 1",
+      "bg": "img/hosp_room.jpg",
+      "mood": "sorrow",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "La luz dorada del amanecer baña la habitación del hospital. La tormenta ha cesado por completo.",
+            "en": "Golden dawn sunlight floods the hospital room. The storm has entirely dispersed."
+          },
+          "sfx": "audio/daylight.ogg"
+        },
+        {
+          "speaker": "sora",
+          "sprite": "img/sora_smile.png",
+          "expr": "love",
+          "text": {
+            "es": "Hisao... tu corazón está latiendo en calma. Lo logramos. Vencimos a la oscuridad.",
+            "en": "Hisao... your heart is beating calmly. We made it. We triumphed over the dark."
+          }
+        }
+      ],
+      "next": "vertigo_phase_42"
+    },
+    "vertigo_phase_42": {
+      "chapter": "Desenlace 1: El Gran Milagro del Corazón — Epílogo",
+      "bg": "img/venue_bedroom_sora.jpg",
+      "mood": "romance",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Yamaku vuelve a florecer en una primavera infinita. Las cicatrices ya no duelen; son medallas de amor.",
+            "en": "Yamaku blossoms anew in an everlasting spring. Scars no longer hurt; they are badges of love."
+          }
+        },
+        {
+          "speaker": "sora",
+          "sprite": "img/sora_smile.png",
+          "expr": "happy",
+          "text": {
+            "es": "Corramos juntos hacia el futuro, Hisao. Para siempre.",
+            "en": "Let's run together toward our future, Hisao. Forever."
+          }
+        }
+      ],
+      "ending": "ending_miracle_heart"
+    },
+    "vertigo_phase_43": {
+      "chapter": "Desenlace 2: El Desgarrador Adiós en la Estación — Parte 1",
+      "bg": "img/ks_nurse_office.jpg",
+      "mood": "melancholy",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El silbato del tren de vapor resuena en el andén brumoso. La lluvia cae mansamente.",
+            "en": "The steam train whistle wails across the misty platform. Rain falls softly."
+          },
+          "sfx": "audio/rain.ogg"
+        },
+        {
+          "speaker": "yumi",
+          "sprite": "img/yumi_normal.png",
+          "expr": "sad",
+          "text": {
+            "es": "Es hora de partir, Hisao... pero cada lágrima mía lleva grabado tu nombre.",
+            "en": "It is time to depart, Hisao... but every tear I shed carries your name."
+          }
+        }
+      ],
+      "next": "vertigo_phase_44"
+    },
+    "vertigo_phase_44": {
+      "chapter": "Desenlace 2: El Desgarrador Adiós en la Estación — Epílogo",
+      "bg": "img/venue_bedroom_yumi.jpg",
+      "mood": "sorrow",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Sus dedos se separan de los míos a través de la ventanilla del tren. Una despedida eterna e inmortal.",
+            "en": "Her fingers slip away from mine through the coach window. An eternal, immortal farewell."
+          }
+        },
+        {
+          "speaker": "yumi",
+          "sprite": "img/yumi_normal.png",
+          "expr": "broken",
+          "text": {
+            "es": "No me olvides jamás... por favor...",
+            "en": "Never forget me... please..."
+          }
+        }
+      ],
+      "ending": "ending_station_farewell"
+    },
+    "vertigo_phase_45": {
+      "chapter": "Desenlace 3: El Eco del Bucle de Medianoche — Parte 1",
+      "bg": "img/venue_bedroom_sora.jpg",
+      "mood": "horror",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El reloj vuelve a marcar las 03:33 AM. La arritmia regresa con violencia inusitada.",
+            "en": "The clock strikes 03:33 AM once more. The cardiac arrhythmia returns with violent fury."
+          },
+          "sfx": "audio/sfx_heartbeat_rapid.wav",
+          "fx": "flash-red"
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Un susurro helado recorre mi nuca: Volverás a jugar... una y otra vez...",
+            "en": "An icy whisper brushes against my neck: You will play again... again and again..."
+          },
+          "sfx": "audio/sfx_whisper_static.wav"
+        }
+      ],
+      "next": "vertigo_phase_46"
+    },
+    "vertigo_phase_46": {
+      "chapter": "Desenlace 3: El Eco del Bucle de Medianoche — Terror Puro",
+      "bg": "img/venue_bedroom_sora.jpg",
+      "mood": "glitch",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "La pantalla parpadea en negro. El juego se reinicia en el abismo del silencio.",
+            "en": "The display flickers into utter blackness. The experience restarts inside the chasm of silence."
+          },
+          "sfx": "audio/sfx_glitch_scare.wav",
+          "fx": "meta_glitch"
+        }
+      ],
+      "ending": "ending_midnight_loop"
+    },
+    "vertigo_phase_47": {
+      "chapter": "Desenlace 4: El Vuelo Libre — Parte 1",
+      "bg": "img/venue_bedroom_elena.jpg",
+      "mood": "romance",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El viento del océano agita nuestras ropas en lo alto de la colina. El horizonte es infinito.",
+            "en": "Ocean breeze ruffles our clothes atop the crest of the hill. The horizon stretches boundless."
+          },
+          "sfx": "audio/amb_ocean_waves.wav"
+        },
+        {
+          "speaker": "elena",
+          "sprite": "img/elena_basic_smile.png",
+          "expr": "love",
+          "text": {
+            "es": "Por fin puedo sentir la inmensidad del mar sin temor, Hisao.",
+            "en": "At last I can feel the grandeur of the ocean without fear, Hisao."
+          }
+        }
+      ],
+      "next": "vertigo_phase_48"
+    },
+    "vertigo_phase_48": {
+      "chapter": "Desenlace 4: El Vuelo Libre — Epílogo Sublime",
+      "bg": "img/venue_bedroom_elena.jpg",
+      "mood": "romance",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Sora corre descalza sobre la arena y Elena sonríe al viento. La libertad es real.",
+            "en": "Sora runs barefoot along the shore as Elena smiles into the wind. True freedom has arrived."
+          }
+        }
+      ],
+      "ending": "ending_free_flight"
+    },
+    "vertigo_phase_49": {
+      "chapter": "Desenlace 5: La Epifanía Meta-Espiritual — Ruptura Suprema",
+      "bg": "img/venue_bedroom_sora.jpg",
+      "mood": "glitch",
+      "lines": [
+        {
+          "speaker": "sora",
+          "sprite": "img/sora_smile.png",
+          "expr": "love",
+          "style": "fourth-wall",
+          "text": {
+            "es": "A ti, usuario de este %USER_DEVICE%... gracias por acompañarnos hasta el final.",
+            "en": "To you, holding this %USER_DEVICE%... thank you for accompanying us to the very end."
+          },
+          "fx": "meta_glitch"
+        },
+        {
+          "speaker": "yumi",
+          "sprite": "img/yumi_normal.png",
+          "expr": "love",
+          "style": "fourth-wall",
+          "text": {
+            "es": "Tus ojos y tu tiempo nos dieron vida en este mundo digital.",
+            "en": "Your eyes and your devotion breathed life into this digital world."
+          }
+        },
+        {
+          "speaker": "elena",
+          "sprite": "img/elena_basic_smile.png",
+          "expr": "love",
+          "style": "fourth-wall",
+          "text": {
+            "es": "Aunque apagues tu pantalla, viviremos por siempre en tus recuerdos.",
+            "en": "Even when you lock your screen, we shall live on forever in your memories."
+          }
+        }
+      ],
+      "next": "vertigo_phase_50"
+    },
+    "vertigo_phase_50": {
+      "chapter": "Desenlace 5: Gratitud Inmortal — Epílogo",
+      "bg": "img/venue_bedroom_sora.jpg",
+      "mood": "peace",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Gracias por jugar Pocket Girl Classic. Todas las heroínas te dedican su amor eterno.",
+            "en": "Thank you for playing Pocket Girl Classic. All heroines offer you their undying affection."
+          },
+          "sfx": "audio/bgm_peace_debussy.mp3"
+        }
+      ],
+      "ending": "ending_meta_epiphany"
     }
   }
 }

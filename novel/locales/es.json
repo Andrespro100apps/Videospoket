@@ -4,7 +4,8 @@
     "title": "Caminos del Corazón",
     "subtitle": "Las Sombras de Yamaku",
     "desc": "Una experiencia inmersiva profunda donde el romance, los misterios del pasado y el peso del tiempo se entrelazan. Tus decisiones forjarán el destino de los corazones rotos de la academia.",
-    "start_btn": "Comenzar Aventura",
+    "start_btn": "Comenzar Aventura (Llegada a Yamaku)",
+    "prologue_btn": "❄ Ver Prólogo: El Incidente en la Nieve",
     "continue_btn": "Continuar Aventura",
     "coins_insufficient_title": "Monedas Insuficientes",
     "coins_insufficient_desc": "Necesitas al menos <strong>10 monedas</strong> para comenzar o reiniciar esta aventura.",
@@ -12,6 +13,8 @@
     "close_btn": "Cerrar",
     "pause_title": "Pausa",
     "pause_resume": "Continuar",
+    "pause_chapters": "Archivo de Capítulos",
+    "chapters_title": "Archivo de Capítulos & Rutas",
     "pause_save": "Guardar partida",
     "pause_load": "Cargar partida",
     "pause_title_screen": "Pantalla de título",
@@ -57,13 +60,71 @@
     "Prof. Mutou": "Prof. Mutou",
     "mu": "Prof. Mutou",
     "Akira": "Akira",
-    "mk": "Miki",
+    "mk": "Rei (Miki)",
+    "Rei": "Rei",
+    "rei": "Rei",
+    "rei_": "Rei",
+    "Miki": "Rei (Miki)",
     "sa": "Sra. Satou",
     "Monika": "Monika",
     "mystery": "Voz Desconocida",
-    "narrator": ""
+    "narrator": "",
+    "Jigoro": "Jigoro Hakamada",
+    "Hideaki": "Hideaki Hakamada",
+    "Enfermera": "Jefa de Enfermería",
+    "Sae": "Sae (Curadora)",
+    "Meiko": "Meiko",
+    "Tendero": "Tendero de Yamaku"
   },
   "chapters": {
+    "special_rei_track": {
+      "es": "Fuego en la Pista: El Viento de Rei",
+      "en": "Fire on the Track: Rei's Wind"
+    },
+    "special_yuuko_library": {
+      "es": "El Refugio de los Libros: La Dulce Yuuko",
+      "en": "The Sanctuary of Books: Sweet Yuuko"
+    },
+    "special_akira_city": {
+      "es": "Distinción y Copas de Ciudad: Akira",
+      "en": "Distinction & City Lights: Akira"
+    },
+    "rei_route_1": {
+      "es": "Ruta Especial: Fuego en la Pista (Rei)",
+      "en": "Special Route: Fire on the Track (Rei)"
+    },
+    "rei_route_2": {
+      "es": "Ruta Especial: El Dolor Fantasma (Rei)",
+      "en": "Special Route: Phantom Pain (Rei)"
+    },
+    "ending_rei_wind": {
+      "es": "Desenlace Rei: El Viento en Nuestras Manos",
+      "en": "Rei Ending: The Wind in Our Hands"
+    },
+    "yuuko_route_1": {
+      "es": "Ruta Especial: El Refugio de los Libros (Yuuko)",
+      "en": "Special Route: Sanctuary of Books (Yuuko)"
+    },
+    "yuuko_route_2": {
+      "es": "Ruta Especial: El Ataque de Ansiedad (Yuuko)",
+      "en": "Special Route: Panic & Solace (Yuuko)"
+    },
+    "ending_yuuko_rain": {
+      "es": "Desenlace Yuuko: Palabras Bajo la Lluvia",
+      "en": "Yuuko Ending: Words Under the Rain"
+    },
+    "akira_route_1": {
+      "es": "Ruta Especial: Distinción en la Ciudad (Akira)",
+      "en": "Special Route: City Elegance (Akira)"
+    },
+    "akira_route_2": {
+      "es": "Ruta Especial: La Máscara de Éxito (Akira)",
+      "en": "Special Route: The Mask of Success (Akira)"
+    },
+    "ending_akira_tokyo": {
+      "es": "Desenlace Akira: Cruce de Destinos en Tokio",
+      "en": "Akira Ending: Destinies Crossing in Tokyo"
+    },
     "start": {
       "es": "Prólogo: El Invierno del Silencio",
       "en": "Prólogo: El Invierno del Silencio"
@@ -807,7 +868,88 @@
     "ending_true_miracle": {
       "es": "Gran Final: El Amanecer Dorado de Yamaku",
       "en": "Gran Final: El Amanecer Dorado de Yamaku"
-    }
+    },
+    "special_pool_sora": "Noche Prohibida en la Piscina: A Solas con Sora",
+    "special_summer_aiko": "Lluvia de Verano & La Cabaña Privada: Aiko",
+    "special_onsen_elena": "Niebla Íntima en las Aguas Termales: Elena",
+    "special_pool_shizune": "El Cenador Privado de la Piscina: Shizune",
+    "special_cove_yumi": "La Cala Secreta al Atardecer: Yumi en Bikini",
+    "special_pier_shiina": "Fuegos Artificiales en el Muelle Secreto: Shiina & Celina",
+    "beach_vacation_intro": "La Escapada a la Costa Dorada",
+    "beach_sora_event": "Sora: Bikini Deportivo & Carrera en la Marea",
+    "beach_elena_event": "Elena: Brisa Marina & Toalla",
+    "beach_yumi_event": "Yumi: Secreto en la Cala",
+    "beach_aiko_event": "Aiko: Olas & Lienzo Marino",
+    "beach_shizune_event": "Shizune: Seducción en la Arena",
+    "beach_shiina_event": "Shiina: Travesura Bajo el Sol",
+    "beach_models_event": "Sesión Fotográfica en la Playa (Todas las Heroínas)",
+    "sora_intimate_climax": "Noche de Pasión con Sora: Hacia el Final",
+    "elena_intimate_climax": "Entre Sábanas & Luces de Té con Elena: Hacia el Final",
+    "yumi_intimate_climax": "Entrega Sincera y Sin Miedos con Yumi: Hacia el Final",
+    "aiko_intimate_climax": "Lienzo de Cuerpos al Atardecer con Aiko: Hacia el Final",
+    "shizu_intimate_climax": "Rendición de la Presidenta Shizune: Hacia el Final",
+    "arc_hakamada_1": {
+      "es": "Saga Hakamada: El Juicio del Patriarca & El Juramento de Sangre",
+      "en": "Hakamada Saga: Patriarch's Trial & Blood Oath"
+    },
+    "arc_paranoia_1": {
+      "es": "Saga Paranoia: La Noche de las Sombras & El Pabellón Clínico",
+      "en": "Paranoia Saga: Night of Shadows & The Secret Ward"
+    },
+    "arc_nomiya_1": {
+      "es": "Saga Galería Maldita: El Lienzo del Olvido & La Máscara de Sae",
+      "en": "Cursed Gallery Saga: Canvas of Oblivion & Sae's Mask"
+    },
+    "vertigo_phase_1": "El Vértigo de las Sombras — Fase 1",
+    "vertigo_phase_2": "El Vértigo de las Sombras — Fase 2",
+    "vertigo_phase_3": "El Vértigo de las Sombras — Fase 3",
+    "vertigo_phase_4": "El Vértigo de las Sombras — Fase 4",
+    "vertigo_phase_5": "El Vértigo de las Sombras — Fase 5",
+    "vertigo_phase_6": "El Vértigo de las Sombras — Fase 6",
+    "vertigo_phase_7": "El Vértigo de las Sombras — Fase 7",
+    "vertigo_phase_8": "El Vértigo de las Sombras — Fase 8",
+    "vertigo_phase_9": "El Vértigo de las Sombras — Fase 9",
+    "vertigo_phase_10": "El Vértigo de las Sombras — Fase 10",
+    "vertigo_phase_11": "El Vértigo de las Sombras — Fase 11",
+    "vertigo_phase_12": "El Vértigo de las Sombras — Fase 12",
+    "vertigo_phase_13": "El Vértigo de las Sombras — Fase 13",
+    "vertigo_phase_14": "El Vértigo de las Sombras — Fase 14",
+    "vertigo_phase_15": "El Vértigo de las Sombras — Fase 15",
+    "vertigo_phase_16": "El Vértigo de las Sombras — Fase 16",
+    "vertigo_phase_17": "El Vértigo de las Sombras — Fase 17",
+    "vertigo_phase_18": "El Vértigo de las Sombras — Fase 18",
+    "vertigo_phase_19": "El Vértigo de las Sombras — Fase 19",
+    "vertigo_phase_20": "El Vértigo de las Sombras — Fase 20",
+    "vertigo_phase_21": "El Vértigo de las Sombras — Fase 21",
+    "vertigo_phase_22": "El Vértigo de las Sombras — Fase 22",
+    "vertigo_phase_23": "El Vértigo de las Sombras — Fase 23",
+    "vertigo_phase_24": "El Vértigo de las Sombras — Fase 24",
+    "vertigo_phase_25": "El Vértigo de las Sombras — Fase 25",
+    "vertigo_phase_26": "El Vértigo de las Sombras — Fase 26",
+    "vertigo_phase_27": "El Vértigo de las Sombras — Fase 27",
+    "vertigo_phase_28": "El Vértigo de las Sombras — Fase 28",
+    "vertigo_phase_29": "El Vértigo de las Sombras — Fase 29",
+    "vertigo_phase_30": "El Vértigo de las Sombras — Fase 30",
+    "vertigo_phase_31": "El Vértigo de las Sombras — Fase 31",
+    "vertigo_phase_32": "El Vértigo de las Sombras — Fase 32",
+    "vertigo_phase_33": "El Vértigo de las Sombras — Fase 33",
+    "vertigo_phase_34": "El Vértigo de las Sombras — Fase 34",
+    "vertigo_phase_35": "El Vértigo de las Sombras — Fase 35",
+    "vertigo_phase_36": "El Vértigo de las Sombras — Fase 36",
+    "vertigo_phase_37": "El Vértigo de las Sombras — Fase 37",
+    "vertigo_phase_38": "El Vértigo de las Sombras — Fase 38",
+    "vertigo_phase_39": "El Vértigo de las Sombras — Fase 39",
+    "vertigo_phase_40": "El Vértigo de las Sombras — Fase 40",
+    "vertigo_phase_41": "El Vértigo de las Sombras — Fase 41",
+    "vertigo_phase_42": "El Vértigo de las Sombras — Fase 42",
+    "vertigo_phase_43": "El Vértigo de las Sombras — Fase 43",
+    "vertigo_phase_44": "El Vértigo de las Sombras — Fase 44",
+    "vertigo_phase_45": "El Vértigo de las Sombras — Fase 45",
+    "vertigo_phase_46": "El Vértigo de las Sombras — Fase 46",
+    "vertigo_phase_47": "El Vértigo de las Sombras — Fase 47",
+    "vertigo_phase_48": "El Vértigo de las Sombras — Fase 48",
+    "vertigo_phase_49": "El Vértigo de las Sombras — Fase 49",
+    "vertigo_phase_50": "El Vértigo de las Sombras — Fase 50"
   },
   "choices": {
     "Buscar a Sora en la pista de atletismo para advertirle del peligro": "Buscar a Sora en la pista de atletismo para advertirle del peligro",
@@ -8640,6 +8782,11 @@
         "✦ ¿Cuál es el origen de la antigua leyenda que los ancianos del pueblo relatan sobre el viejo santuario en la colina de Yamaku, según la cual un corazón que se entrega sin reservas a sanar a los demás es bendecido con una vida renovada?",
         "✦ Entre los archivos históricos de Yamaku se halló una fotografía de hace ochenta años donde figuran siete estudiantes idénticos a los actuales, sonriendo bajo el mismo cerezo centenario. ¿Se ha repetido este milagro a través de las generaciones?"
       ]
-    }
+    },
+    "ending_miracle_heart": "Final 1: El Gran Milagro del Corazón (Primavera y Vida)",
+    "ending_station_farewell": "Final 2: El Desgarrador Adiós en la Estación (Lágrimas en la Lluvia)",
+    "ending_midnight_loop": "Final 3: El Eco del Bucle de Medianoche (Terror Psicológico)",
+    "ending_free_flight": "Final 4: El Vuelo Libre (Océano y Libertad)",
+    "ending_meta_epiphany": "Final 5: La Epifanía Meta-Espiritual (Gratitud Eterna)"
   }
 }
