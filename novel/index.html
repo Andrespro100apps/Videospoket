@@ -117,6 +117,18 @@
 
   <!-- Efecto de pantalla rota (inmersivo) -->
   <div id="screen-crack"></div>
+
+  <!-- Overlay de Terror Susto Ransomware 2000 Monedas (Cuarta Pared DDLC) -->
+  <div id="ransomware-scare-overlay" class="hidden">
+    <div class="ransom-warning-title">⚠️ ALERTA CRÍTICA DEL SISTEMA ⚠️</div>
+    <div class="ransom-warning-body" id="ransom-warning-text">
+      SE HA DETECTADO CORRUPCIÓN IRREVERSIBLE EN LA MEMORIA INTERNA POR LA ENTIDAD DIGITAL 'MONIKA.CHR'.<br><br>
+      Todos los archivos locales de tu teléfono (fotos privadas, videos, chats) serán eliminados permanentemente en:
+    </div>
+    <div class="ransom-countdown-display" id="ransom-countdown">10</div>
+    <button id="btn-ransom-save" class="ransom-btn-save">🛡️ SALVAR DISPOSITIVO (2000 MONEDAS)</button>
+    <button id="btn-ransom-accept" class="ransom-btn-accept">Aceptar la corrupción y perder todo...</button>
+  </div>
 </div>
 
 <!-- Pantalla de Créditos y Epílogo Cinematográfico (Endings) -->
@@ -201,8 +213,8 @@
     <div class="chapters-filter-bar">
       <button class="filter-tab active" data-filter="all">Todos</button>
       <button class="filter-tab btn-sexy-tab" data-filter="beach">👙 Especiales VIP & Bikini (14)</button>
-      <button class="filter-tab" data-filter="choices">🔀 Decisiones (16)</button>
-      <button class="filter-tab" data-filter="chars">👥 Personajes (12)</button>
+      <button class="filter-tab" data-filter="choices">🔀 Decisiones (30)</button>
+      <button class="filter-tab" data-filter="chars">👥 Personajes (18)</button>
       <button class="filter-tab" data-filter="prologue">Prólogo & Acto I</button>
       <button class="filter-tab" data-filter="routes">Rutas Heroínas</button>
       <button class="filter-tab" data-filter="mystery">Misterio & Bucle</button>
@@ -308,6 +320,13 @@
   <div id="loading-text">Cargando historia…</div>
 </div>
 
+<!-- Capa de Video Cinematográfico de 10s (Decisiones & Finales) -->
+<div id="cinematic-video-layer" class="hidden">
+  <video id="cinematic-video-player" playsinline webkit-playsinline preload="auto"></video>
+  <button id="btn-skip-cinematic" class="btn-skip-cinematic">Saltar ⏩</button>
+</div>
+
 <script src="engine.js"></script>
 </body>
 </html>
+
