@@ -16,20 +16,27 @@
   var REMOTE_BASE = "https://raw.githubusercontent.com/Andrespro100apps/Videospoket/main/novel/";
   var LOCAL_BASE = "file:///android_asset/web/novel/";
 
-  // ---- i18n: idioma activo y lista de 21 idiomas oficiales ----
+  // ---- i18n: idioma activo y lista de los 58 idiomas oficiales de Google Play ----
   var SUPPORTED_LANGS = [
-    "es", "en", "fr", "pt", "it", "de", "ru", "ar", "hi", "bn",
-    "ur", "zh", "ja", "ko", "nl", "sv", "tr", "in", "ms", "jw", "su"
+    "es", "en", "pt", "fr", "de", "it", "ru", "ja", "ko", "zh", "zh-rTW",
+    "ar", "hi", "in", "ms", "jw", "su", "tr", "vi", "th", "nl", "pl",
+    "uk", "cs", "sv", "da", "fi", "no", "el", "iw", "hu", "ro", "bg",
+    "hr", "sk", "sl", "ca", "gl", "eu", "bn", "ur", "mr", "ta", "te",
+    "ml", "kn", "gu", "pa", "af", "sq", "hy", "az", "be", "my", "ka",
+    "kk", "ky", "mn", "fa"
   ];
   var activeLang = "es";
 
   function normalizeLangCode(raw) {
     if (!raw) return "es";
-    var l = String(raw).toLowerCase().trim();
+    var l = String(raw).trim();
+    if (l === "zh-rTW" || l === "zh-TW" || l === "zh-Hant") return "zh-rTW";
     if (l.indexOf("zh") === 0) return "zh";
+    l = l.toLowerCase();
     if (l === "id" || l === "in") return "in";
     if (l === "ms") return "ms";
     if (l === "jv" || l === "jw") return "jw";
+    if (l === "he" || l === "iw") return "iw";
     if (l.indexOf("pt") === 0) return "pt";
     var prefix = l.substring(0, 2);
     if (SUPPORTED_LANGS.indexOf(prefix) >= 0) return prefix;
@@ -55,30 +62,68 @@
   }
 
   // ============================================================
-  //  SELECTOR DE IDIOMAS (20 IDIOMAS)
+  //  SELECTOR DE IDIOMAS (58 IDIOMAS OFICIALES DE GOOGLE PLAY)
   // ============================================================
   var LANGUAGES_LIST = [
     { code: "es", name: "Español", flag: "🇪🇸" },
     { code: "en", name: "English", flag: "🇺🇸" },
+    { code: "pt", name: "Português", flag: "🇵🇹" },
     { code: "fr", name: "Français", flag: "🇫🇷" },
     { code: "de", name: "Deutsch", flag: "🇩🇪" },
     { code: "it", name: "Italiano", flag: "🇮🇹" },
-    { code: "pt", name: "Português", flag: "🇵🇹" },
     { code: "ru", name: "Русский", flag: "🇷🇺" },
     { code: "ja", name: "日本語", flag: "🇯🇵" },
-    { code: "zh", name: "简体中文", flag: "🇨🇳" },
     { code: "ko", name: "한국어", flag: "🇰🇷" },
+    { code: "zh", name: "简体中文", flag: "🇨🇳" },
+    { code: "zh-rTW", name: "繁體中文", flag: "🇹🇼" },
+    { code: "ar", name: "العربية", flag: "🇸🇦" },
+    { code: "hi", name: "हिन्दी", flag: "🇮🇳" },
     { code: "in", name: "Bahasa Indonesia", flag: "🇮🇩" },
     { code: "ms", name: "Bahasa Melayu", flag: "🇲🇾" },
     { code: "jw", name: "Basa Jawa", flag: "🇮🇩" },
     { code: "su", name: "Basa Sunda", flag: "🇮🇩" },
-    { code: "ar", name: "العربية", flag: "🇸🇦" },
-    { code: "hi", name: "हिन्दी", flag: "🇮🇳" },
+    { code: "tr", name: "Türkçe", flag: "🇹🇷" },
+    { code: "vi", name: "Tiếng Việt", flag: "🇻🇳" },
+    { code: "th", name: "ไทย", flag: "🇹🇭" },
+    { code: "nl", name: "Nederlands", flag: "🇳🇱" },
+    { code: "pl", name: "Polski", flag: "🇵🇱" },
+    { code: "uk", name: "Українська", flag: "🇺🇦" },
+    { code: "cs", name: "Čeština", flag: "🇨🇿" },
+    { code: "sv", name: "Svenska", flag: "🇸🇪" },
+    { code: "da", name: "Dansk", flag: "🇩🇰" },
+    { code: "fi", name: "Suomi", flag: "🇫🇮" },
+    { code: "no", name: "Norsk", flag: "🇳🇴" },
+    { code: "el", name: "Ελληνικά", flag: "🇬🇷" },
+    { code: "iw", name: "עברית", flag: "🇮🇱" },
+    { code: "hu", name: "Magyar", flag: "🇭🇺" },
+    { code: "ro", name: "Română", flag: "🇷🇴" },
+    { code: "bg", name: "Български", flag: "🇧🇬" },
+    { code: "hr", name: "Hrvatski", flag: "🇭🇷" },
+    { code: "sk", name: "Slovenčina", flag: "🇸🇰" },
+    { code: "sl", name: "Slovenščina", flag: "🇸🇮" },
+    { code: "ca", name: "Català", flag: "🇪🇸" },
+    { code: "gl", name: "Galego", flag: "🇪🇸" },
+    { code: "eu", name: "Euskara", flag: "🇪🇸" },
     { code: "bn", name: "বাংলা", flag: "🇧🇩" },
     { code: "ur", name: "اردو", flag: "🇵🇰" },
-    { code: "nl", name: "Nederlands", flag: "🇳🇱" },
-    { code: "sv", name: "Svenska", flag: "🇸🇪" },
-    { code: "tr", name: "Türkçe", flag: "🇹🇷" }
+    { code: "mr", name: "मराठी", flag: "🇮🇳" },
+    { code: "ta", name: "தமிழ்", flag: "🇮🇳" },
+    { code: "te", name: "తెలుగు", flag: "🇮🇳" },
+    { code: "ml", name: "മലയാളം", flag: "🇮🇳" },
+    { code: "kn", name: "ಕನ್ನಡ", flag: "🇮🇳" },
+    { code: "gu", name: "ગુજરાતી", flag: "🇮🇳" },
+    { code: "pa", name: "ਪੰਜਾਬੀ", flag: "🇮🇳" },
+    { code: "af", name: "Afrikaans", flag: "🇿🇦" },
+    { code: "sq", name: "Shqip", flag: "🇦🇱" },
+    { code: "hy", name: "Հայերեն", flag: "🇦🇲" },
+    { code: "az", name: "Azərbaycanca", flag: "🇦🇿" },
+    { code: "be", name: "Беларуская", flag: "🇧🇾" },
+    { code: "my", name: "မြန်မာ", flag: "🇲🇲" },
+    { code: "ka", name: "ქართული", flag: "🇬🇪" },
+    { code: "kk", name: "Қазақ", flag: "🇰🇿" },
+    { code: "ky", name: "Кыргызча", flag: "🇰🇬" },
+    { code: "mn", name: "Монгол", flag: "🇲🇳" },
+    { code: "fa", name: "فارسی", flag: "🇮🇷" }
   ];
 
   function openLanguageModal() {
@@ -1932,16 +1977,32 @@
 
   function resolveFallbackSprite(path) {
     var raw = (path || "").toLowerCase();
-    if (raw.indexOf("sora") >= 0 || raw.indexOf("emi") >= 0) return "img/sora_annoyed.png";
-    if (raw.indexOf("aiko") >= 0 || raw.indexOf("rin") >= 0) return "img/aiko_normal.png";
-    if (raw.indexOf("yumi") >= 0 || raw.indexOf("hanako") >= 0) return "img/yumi_bashful.png";
-    if (raw.indexOf("elena") >= 0 || raw.indexOf("lilly") >= 0) return "img/elena_basic_smile.png";
-    if (raw.indexOf("shizu") >= 0) return "img/shizu_basic_normal.png";
-    if (raw.indexOf("misha") >= 0 || raw.indexOf("shiina") >= 0) return "img/shiina_perky_smile.png";
-    if (raw.indexOf("kenji") >= 0) return "img/kenji_neutral.png";
+    if (raw.indexOf("sora") >= 0 || raw.indexOf("emi") >= 0) {
+      if (raw.indexOf("shock") >= 0) return "img/sora_shock.png";
+      return "img/sora_smile.png";
+    }
+    if (raw.indexOf("aiko") >= 0 || raw.indexOf("rin") >= 0) {
+      if (raw.indexOf("dark") >= 0) return "img/aiko_dark.png";
+      return "img/aiko_normal.png";
+    }
+    if (raw.indexOf("yumi") >= 0 || raw.indexOf("hanako") >= 0) {
+      if (raw.indexOf("dark") >= 0) return "img/yumi_dark.png";
+      if (raw.indexOf("scared") >= 0) return "img/yumi_scared.png";
+      return "img/yumi_normal.png";
+    }
+    if (raw.indexOf("elena") >= 0 || raw.indexOf("lilly") >= 0) {
+      if (raw.indexOf("crying") >= 0 || raw.indexOf("cry") >= 0) return "img/elena_crying.png";
+      if (raw.indexOf("shock") >= 0) return "img/elena_shock.png";
+      return "img/elena_basic_smile.png";
+    }
+    if (raw.indexOf("misha") >= 0 || raw.indexOf("shiina") >= 0) {
+      if (raw.indexOf("dark") >= 0) return "img/shiina_dark.png";
+      return "img/shiina_perky_smile.png";
+    }
+    if (raw.indexOf("shizu") >= 0) return "img/elena_basic_smile.png";
+    if (raw.indexOf("kenji") >= 0) return "img/sora_smile.png";
     if (raw.indexOf("yuuko") >= 0) return "img/yuuko_neutral_down.png";
-    if (raw.indexOf("nurse") >= 0) return "img/nurse_concern.png";
-    return "";
+    return "img/sora_smile.png";
   }
 
   function setSprite(path, expr) {
@@ -2261,10 +2322,99 @@
     }
   }
 
+  var audioCtx = null;
+  function getAudioContext() {
+    try {
+      if (!audioCtx) {
+        var AudioContextClass = window.AudioContext || window.webkitAudioContext;
+        if (AudioContextClass) audioCtx = new AudioContextClass();
+      }
+      if (audioCtx && audioCtx.state === "suspended") {
+        audioCtx.resume().catch(function () {});
+      }
+    } catch (e) {}
+    return audioCtx;
+  }
+
+  function playProceduralHorror(type) {
+    var ctx = getAudioContext();
+    if (!ctx) return;
+    try {
+      var now = ctx.currentTime;
+      if (type === "tinnitus") {
+        var osc = ctx.createOscillator();
+        var gain = ctx.createGain();
+        osc.type = "sine";
+        osc.frequency.setValueAtTime(3920, now);
+        osc.frequency.linearRampToValueAtTime(3950, now + 2);
+        osc.frequency.linearRampToValueAtTime(3900, now + 4);
+        gain.gain.setValueAtTime(0.001, now);
+        gain.gain.exponentialRampToValueAtTime(0.25, now + 0.1);
+        gain.gain.exponentialRampToValueAtTime(0.22, now + 3.0);
+        gain.gain.exponentialRampToValueAtTime(0.0001, now + 4.5);
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start(now);
+        osc.stop(now + 4.5);
+      } else if (type === "heartbeat") {
+        var bpm = 75;
+        var t = now;
+        for (var i = 0; i < 7; i++) {
+          playHeartPulse(ctx, t, 1.0);
+          playHeartPulse(ctx, t + 0.12, 0.65);
+          t += (60 / bpm);
+          bpm += 12;
+        }
+      } else if (type === "glitch") {
+        var osc = ctx.createOscillator();
+        var gain = ctx.createGain();
+        osc.type = "sawtooth";
+        osc.frequency.setValueAtTime(2600, now);
+        osc.frequency.exponentialRampToValueAtTime(80, now + 0.45);
+        gain.gain.setValueAtTime(0.35, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.55);
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start(now);
+        osc.stop(now + 0.55);
+      }
+    } catch (e) {
+      console.warn("Horror sound synthesis fallback:", e);
+    }
+  }
+
+  function playHeartPulse(ctx, startTime, volMult) {
+    try {
+      var v = (volMult || 1.0) * 0.45;
+      var osc = ctx.createOscillator();
+      var gain = ctx.createGain();
+      osc.type = "sine";
+      osc.frequency.setValueAtTime(60, startTime);
+      osc.frequency.exponentialRampToValueAtTime(30, startTime + 0.15);
+      gain.gain.setValueAtTime(0.001, startTime);
+      gain.gain.linearRampToValueAtTime(v, startTime + 0.02);
+      gain.gain.exponentialRampToValueAtTime(0.001, startTime + 0.15);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start(startTime);
+      osc.stop(startTime + 0.16);
+    } catch (e) {}
+  }
+
   function playSfx(path) {
     if (!path) return;
     var p = cleanPath(path);
     bridge("playSfx", p);
+
+    // Procedural synthesis fallback para efectos psicológicos inmersivos
+    if (p.indexOf("tinnitus") >= 0 || p.indexOf("ear_ring") >= 0) {
+      playProceduralHorror("tinnitus");
+    } else if (p.indexOf("heartbeat_rapid") >= 0) {
+      playProceduralHorror("heartbeat");
+    } else if (p.indexOf("glitch_scare") >= 0) {
+      playProceduralHorror("glitch");
+    }
+
     if (!window.AndroidBridge) {
       try {
         var a = new Audio(p);
