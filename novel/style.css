@@ -427,15 +427,91 @@ body.static-noise::before {
 
 /* Texto rojo "corrupto" para diálogos de cuarta pared */
 #dialog-text.fourth-wall {
-  color: #c0392b !important;
-  font-family: monospace;
-  letter-spacing: 1px;
-  animation: textGlitch 2s steps(8) infinite;
+  color: #ff1744 !important;
+  font-family: "Courier New", Courier, monospace !important;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-shadow: 2px 0 #ff0055, -2px 0 #00e5ff, 0 0 10px rgba(255, 23, 68, 0.8) !important;
+  animation: textGlitch 1.2s steps(8) infinite;
+}
+#dialog-box.fourth-wall-box {
+  border: 2.5px solid #ff1744 !important;
+  box-shadow: 0 0 30px rgba(255, 23, 68, 0.85), inset 0 0 20px rgba(255, 23, 68, 0.45) !important;
+  background: rgba(8, 2, 4, 0.95) !important;
 }
 @keyframes textGlitch {
-  0%, 90%, 100% { text-shadow: none; }
-  92% { text-shadow: 2px 0 #0ff, -2px 0 #f0f; }
-  95% { text-shadow: -1px 0 #0ff, 1px 0 #f0f; }
+  0%, 88%, 100% { text-shadow: 0 0 8px rgba(255, 23, 68, 0.7); }
+  90% { text-shadow: 3px 0 #ff0055, -3px 0 #00ffff; transform: skewX(-4deg); }
+  93% { text-shadow: -2px 0 #ff0055, 2px 0 #00ffff; transform: skewX(3deg); }
+  96% { text-shadow: 2px 0 #ff1744, -2px 0 #76ff03; transform: translate(1px, -1px); }
+}
+
+/* Pantalla apagada temporal con parpadeo */
+body.blackout-flicker #game { opacity: 0; }
+body.blackout-flicker::after {
+  content: "";
+  position: fixed; inset: 0;
+  background: #000000;
+  z-index: 1000;
+  animation: tvTurnOff 2.5s steps(1) forwards;
+}
+@keyframes tvTurnOff {
+  0% { opacity: 1; filter: contrast(200%); }
+  40% { opacity: 1; }
+  45% { opacity: 0.1; }
+  50% { opacity: 1; }
+  85% { opacity: 1; }
+  90% { opacity: 0.3; }
+  100% { opacity: 0; pointer-events: none; }
+}
+
+/* Overlay de Susto Ransomware 2000 Monedas */
+#ransomware-scare-overlay {
+  position: fixed; inset: 0;
+  background: radial-gradient(circle, #2a0004 0%, #080002 90%);
+  z-index: 9999;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  padding: 24px; text-align: center;
+  border: 4px solid #ff1744;
+  box-shadow: inset 0 0 50px rgba(255, 23, 68, 0.9);
+  animation: ransomwareFlicker 0.2s infinite alternate;
+}
+#ransomware-scare-overlay.hidden { display: none !important; }
+@keyframes ransomwareFlicker {
+  0% { border-color: #ff1744; }
+  100% { border-color: #990000; }
+}
+.ransom-warning-title {
+  color: #ff1744; font-family: monospace; font-size: 24px; font-weight: bold;
+  letter-spacing: 2px; margin-bottom: 12px;
+  text-shadow: 0 0 15px #ff1744;
+}
+.ransom-warning-body {
+  color: #ffffff; font-family: monospace; font-size: 15px; line-height: 1.5;
+  max-width: 480px; margin-bottom: 20px;
+  background: rgba(0, 0, 0, 0.7); padding: 16px; border-radius: 8px;
+  border: 1px solid rgba(255, 23, 68, 0.4);
+}
+.ransom-countdown-display {
+  color: #ffff00; font-family: monospace; font-size: 32px; font-weight: bold;
+  margin-bottom: 24px; text-shadow: 0 0 20px #ff0000;
+}
+.ransom-btn-save {
+  background: linear-gradient(135deg, #d50000, #ff1744);
+  color: #ffffff; font-family: monospace; font-size: 16px; font-weight: bold;
+  padding: 14px 28px; border: 2px solid #ffffff; border-radius: 30px;
+  cursor: pointer; box-shadow: 0 0 25px rgba(255, 23, 68, 0.9);
+  animation: pulseButton 1s infinite alternate;
+}
+.ransom-btn-accept {
+  margin-top: 14px; background: transparent; color: #888888;
+  font-family: monospace; font-size: 13px; border: none; text-decoration: underline;
+  cursor: pointer; padding: 8px;
+}
+@keyframes pulseButton {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.06); }
 }
 
 /* Sangre goteando desde arriba */
@@ -2259,5 +2335,52 @@ body.jumpscare::after {
   text-overflow: ellipsis;
 }
 
+/* ============================================================
+   CAPA DE VIDEO CINEMATOGRÁFICO DE 10s (DECISIONES & FINALES)
+   ============================================================ */
+#cinematic-video-layer {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #000000;
+  z-index: 999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
 
+#cinematic-video-layer.hidden {
+  display: none !important;
+}
 
+#cinematic-video-player {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn-skip-cinematic {
+  position: absolute;
+  top: 24px;
+  right: 20px;
+  z-index: 1000000;
+  background: rgba(15, 12, 25, 0.75);
+  border: 1.5px solid rgba(255, 215, 0, 0.6);
+  color: #ffd700;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.7);
+  transition: transform 0.2s, background 0.2s;
+}
+
+.btn-skip-cinematic:active {
+  transform: scale(0.95);
+  background: rgba(232, 93, 142, 0.85);
+  color: #ffffff;
+}
