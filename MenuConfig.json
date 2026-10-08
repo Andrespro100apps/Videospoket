@@ -1,7 +1,7 @@
 {
   "menu_buttons": {
-    "visual_novel": true,
-    "dating_sim": true,
+    "visual_novel": false,
+    "dating_sim": false,
     "full_web": false,
     "car_sort": false,
     "mega_arcade": false,
@@ -27,8 +27,10 @@
     "color_hoop_sort": true,
     "tetris": true,
     "two_or_more": true,
-    "is_novel_enabled": true,
-    "novel_enabled": true
+    "is_novel_enabled": false,
+    "novel_enabled": false,
+    "dating": false,
+    "dating_enabled": false
   },
   "ads": {
     "interstitial_enabled": true,
