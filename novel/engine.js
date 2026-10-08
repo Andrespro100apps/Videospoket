@@ -4762,6 +4762,32 @@
     }
     window.setLanguage = setLanguage;
 
+    function openVoicesCatalog() {
+      try {
+        if (window.AndroidBridge && typeof window.AndroidBridge.openVoicesCatalog === "function") {
+          window.AndroidBridge.openVoicesCatalog();
+          return;
+        }
+        bridge("openVoicesCatalog");
+      } catch (e) {
+        flashToast("🎙️ Catálogo de 161 Voces");
+      }
+    }
+    window.openVoicesCatalog = openVoicesCatalog;
+
+    var btnTitleVoices = $("btn-title-voices");
+    if (btnTitleVoices) {
+      btnTitleVoices.addEventListener("click", openVoicesCatalog);
+    }
+    var btnTitleVoicesCatalog = $("btn-title-voices-catalog");
+    if (btnTitleVoicesCatalog) {
+      btnTitleVoicesCatalog.addEventListener("click", openVoicesCatalog);
+    }
+    var btnVoicesHud = $("btn-voices-hud");
+    if (btnVoicesHud) {
+      btnVoicesHud.addEventListener("click", openVoicesCatalog);
+    }
+
     var btnTitleLang = $("btn-title-lang");
     if (btnTitleLang) {
       btnTitleLang.addEventListener("click", openLanguageModal);
@@ -10079,6 +10105,9 @@
     toggleOverlay("pause-menu", false);
     switch (action) {
       case "resume": break;
+      case "voices":
+        openVoicesCatalog();
+        break;
       case "language":
         openLanguageModal();
         break;
