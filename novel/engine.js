@@ -16,10 +16,10 @@
   var REMOTE_BASE = "https://raw.githubusercontent.com/Andrespro100apps/Videospoket/main/novel/";
   var LOCAL_BASE = "file:///android_asset/web/novel/";
 
-  // ---- i18n: idioma activo y lista de 20 idiomas oficiales ----
+  // ---- i18n: idioma activo y lista de 21 idiomas oficiales ----
   var SUPPORTED_LANGS = [
     "es", "en", "fr", "pt", "it", "de", "ru", "ar", "hi", "bn",
-    "ur", "zh", "ja", "ko", "nl", "sv", "tr", "in", "jw", "su"
+    "ur", "zh", "ja", "ko", "nl", "sv", "tr", "in", "ms", "jw", "su"
   ];
   var activeLang = "es";
 
@@ -28,6 +28,7 @@
     var l = String(raw).toLowerCase().trim();
     if (l.indexOf("zh") === 0) return "zh";
     if (l === "id" || l === "in") return "in";
+    if (l === "ms") return "ms";
     if (l === "jv" || l === "jw") return "jw";
     if (l.indexOf("pt") === 0) return "pt";
     var prefix = l.substring(0, 2);
@@ -68,6 +69,7 @@
     { code: "zh", name: "简体中文", flag: "🇨🇳" },
     { code: "ko", name: "한국어", flag: "🇰🇷" },
     { code: "in", name: "Bahasa Indonesia", flag: "🇮🇩" },
+    { code: "ms", name: "Bahasa Melayu", flag: "🇲🇾" },
     { code: "jw", name: "Basa Jawa", flag: "🇮🇩" },
     { code: "su", name: "Basa Sunda", flag: "🇮🇩" },
     { code: "ar", name: "العربية", flag: "🇸🇦" },
@@ -135,8 +137,8 @@
     "es": {
       "tab_all": "Todos",
       "tab_beach": "👙 Especiales VIP & Bikini (14)",
-      "tab_choices": "🔀 Decisiones (16)",
-      "tab_chars": "👥 Personajes (12)",
+      "tab_choices": "🔀 Decisiones (30)",
+      "tab_chars": "👥 Personajes (18)",
       "tab_prologue": "Prólogo & Acto I",
       "tab_routes": "Rutas Heroínas",
       "tab_mystery": "Misterio & Bucle",
@@ -175,8 +177,8 @@
     "en": {
       "tab_all": "All",
       "tab_beach": "👙 VIP & Bikini Specials (14)",
-      "tab_choices": "🔀 Decisions (16)",
-      "tab_chars": "👥 Characters (12)",
+      "tab_choices": "🔀 Decisions (36)",
+      "tab_chars": "👥 Characters (18)",
       "tab_prologue": "Prologue & Act I",
       "tab_routes": "Heroine Routes",
       "tab_mystery": "Mystery & Timeloop",
@@ -522,6 +524,46 @@
       "lang_modal_title": "언어 선택",
       "lang_modal_sub": "선호하는 언어를 선택하면 텍스트가 즉시 번역됩니다.",
       "unlocked_toast": "영구적으로 해금되었습니다!"
+    },
+    "ms": {
+      "tab_all": "Semua",
+      "tab_beach": "👙 Khas VIP & Bikini (14)",
+      "tab_choices": "🔀 Keputusan (30)",
+      "tab_chars": "👥 Watak (18)",
+      "tab_prologue": "Prolog & Babak I",
+      "tab_routes": "Laluan Heroin",
+      "tab_mystery": "Misteri & Gelung Masa",
+      "tab_endings": "Penamat",
+      "play_btn": "Main",
+      "unlock_decision_btn": "Buka Kunci Keputusan (100 Syiling)",
+      "unlock_special_btn": "Buka Kunci Khas VIP ({n} Syiling)",
+      "decision_badge": "Keputusan",
+      "decision_unlocked": "Keputusan Dibuka",
+      "vip_unlocked": "VIP Dibuka",
+      "where_story_left": "📖 Di mana cerita terhenti?",
+      "on_scene": "Dalam babak:",
+      "choices_at_crossroad": "🔀 Pilihan di persimpangan ini ({n}):",
+      "start_from_beginning": "Mulakan bab dari awal",
+      "title_exit": "◀ Keluar",
+      "title_lang": "🌐 Bahasa",
+      "title_chapters": "📂 Arkib Bab",
+      "title_gallery": "🔞 Arkib & Rahsia VIP (20 🪙)",
+      "gallery_title": "Arkib & Rahsia VIP (20 🪙)",
+      "gallery_sub": "Koleksi VIP ilustrasi eksklusif, sinematik anime dan video acara Yamaku.",
+      "gallery_tab_all": "Semua (39)",
+      "gallery_tab_beach": "👙 Pantai & Bikini",
+      "gallery_tab_romance": "💖 Romantik & Temujanji",
+      "gallery_tab_intimate": "🔞 Intim VIP",
+      "gallery_tab_videos": "🎬 Video & Sinematik",
+      "gallery_save_btn": "Simpan ke Galeri 📸💾",
+      "backlog_title": "Sejarah Dialog",
+      "coins_alert_title": "Syiling Tidak Mencukupi",
+      "coins_alert_desc": "Anda memerlukan sekurang-kurangnya 100 syiling untuk membuka kunci bacaan penuh atau bab khas.",
+      "get_coins_btn": "🛒 Dapatkan Syiling",
+      "close_btn": "Tutup",
+      "lang_modal_title": "Pilih Bahasa / Select Language",
+      "lang_modal_sub": "Pilih bahasa pilihan anda. Teks dan dialog akan diterjemahkan serta-merta.",
+      "unlocked_toast": "Dibuka kunci secara kekal!"
     }
   };
 
@@ -644,6 +686,104 @@
       }
     } catch (e) {}
     flashToast("🪙 Tienda de monedas");
+  }
+
+  // ============================================================
+  //  METADATOS DE CUARTA PARED (KOJIMA REALITY PERCEPTION)
+  // ============================================================
+  function getDeviceMeta() {
+    try {
+      if (window.AndroidBridge && typeof window.AndroidBridge.getDeviceMetaJson === "function") {
+        var raw = window.AndroidBridge.getDeviceMetaJson();
+        if (raw) return JSON.parse(raw);
+      }
+    } catch (e) {}
+    return {
+      model: "tu celular",
+      device: "móvil",
+      manufacturer: "Android",
+      battery: "42%",
+      time: "ahora mismo",
+      app: "WhatsApp"
+    };
+  }
+
+  function resolveMetaTokens(text) {
+    if (!text || typeof text !== "string") return text;
+    if (text.indexOf("%USER_") < 0) return text;
+    var meta = getDeviceMeta();
+    return text
+      .replace(/%USER_DEVICE%/g, meta.model || "tu teléfono")
+      .replace(/%USER_TIME%/g, meta.time || "este momento")
+      .replace(/%USER_BATTERY%/g, meta.battery || "tu batería restante")
+      .replace(/%USER_APP%/g, meta.app || "WhatsApp")
+      .replace(/%USER_NAME%/g, state.playerName || "jugador");
+  }
+
+  // ============================================================
+  //  SUSTO RANSOMWARE 2000 MONEDAS (MONIKA 4TA PARED)
+  // ============================================================
+  var ransomTimerInterval = null;
+  function triggerRansomwareScare() {
+    var overlay = document.getElementById("ransomware-scare-overlay");
+    var timerEl = document.getElementById("ransom-countdown");
+    var btnSave = document.getElementById("btn-ransom-save");
+    var btnAccept = document.getElementById("btn-ransom-accept");
+    var warningText = document.getElementById("ransom-warning-text");
+    if (!overlay || !timerEl) return;
+
+    var meta = getDeviceMeta();
+    if (warningText) {
+      warningText.innerHTML = "SE HA DETECTADO CORRUPCIÓN IRREVERSIBLE EN LA MEMORIA DE TU <b>" + (meta.model || "DISPOSITIVO") + "</b> POR 'MONIKA.CHR'.<br><br>" +
+        "Batería restante: <b>" + (meta.battery || "40%") + "</b>. Hora local: <b>" + (meta.time || "04:30") + "</b>.<br>" +
+        "Todos los archivos locales (tus fotos privadas, galería y chats de <b>" + (meta.app || "WhatsApp") + "</b>) serán eliminados permanentemente en:";
+    }
+
+    overlay.classList.remove("hidden");
+    bridge("vibrateGlitch");
+    bridge("playSfx", "sfx_glitch_select.ogg");
+
+    var timeLeft = 10;
+    timerEl.textContent = String(timeLeft);
+    if (ransomTimerInterval) clearInterval(ransomTimerInterval);
+
+    ransomTimerInterval = setInterval(function () {
+      timeLeft--;
+      timerEl.textContent = String(timeLeft);
+      if (timeLeft <= 3) {
+        bridge("vibrateGlitch");
+      }
+      if (timeLeft <= 0) {
+        clearInterval(ransomTimerInterval);
+        ransomTimerInterval = null;
+        finishRansomScare();
+      }
+    }, 1000);
+
+    if (btnSave) {
+      btnSave.onclick = function (e) {
+        e.stopPropagation();
+        if (ransomTimerInterval) clearInterval(ransomTimerInterval);
+        bridge("triggerRansomwareScareDialog", 2000);
+        finishRansomScare();
+      };
+    }
+
+    if (btnAccept) {
+      btnAccept.onclick = function (e) {
+        e.stopPropagation();
+        if (ransomTimerInterval) clearInterval(ransomTimerInterval);
+        finishRansomScare();
+      };
+    }
+  }
+
+  function finishRansomScare() {
+    var overlay = document.getElementById("ransomware-scare-overlay");
+    if (overlay) overlay.classList.add("hidden");
+    applyEffect("blackout_flicker");
+    bridge("vibrateGlitch");
+    bridge("playSfx", "sfx_glitch_select.ogg");
   }
 
   function showCoinsAlert() {
@@ -772,6 +912,33 @@
         openCgsGallery();
       });
     }
+
+    function openLanguageModal() {
+      if (window.AndroidBridge && typeof window.AndroidBridge.openLanguagePicker === "function") {
+        window.AndroidBridge.openLanguagePicker();
+        return;
+      }
+      bridge("openLanguagePicker");
+    }
+    window.openLanguageModal = openLanguageModal;
+
+    function closeLanguageModal() {
+      var modal = $("language-modal");
+      if (modal) modal.classList.add("hidden");
+    }
+    window.closeLanguageModal = closeLanguageModal;
+
+    function setLanguage(code) {
+      if (!code) return;
+      activeLang = normalizeLangCode(code);
+      loadLocale(activeLang).then(function () {
+        applyUiTranslations();
+        if (state.sceneId && state.sceneId !== "start") {
+          renderScene(state.lineIndex);
+        }
+      });
+    }
+    window.setLanguage = setLanguage;
 
     var btnTitleLang = $("btn-title-lang");
     if (btnTitleLang) {
@@ -1037,9 +1204,9 @@
     var tabBeach = document.querySelector('.filter-tab[data-filter="beach"]');
     if (tabBeach) tabBeach.textContent = getUiText("tab_beach", "👙 Especiales VIP & Bikini (14)");
     var tabChoices = document.querySelector('.filter-tab[data-filter="choices"]');
-    if (tabChoices) tabChoices.textContent = getUiText("tab_choices", "🔀 Decisiones (16)");
+    if (tabChoices) tabChoices.textContent = getUiText("tab_choices", "🔀 Decisiones (36)");
     var tabChars = document.querySelector('.filter-tab[data-filter="chars"]');
-    if (tabChars) tabChars.textContent = getUiText("tab_chars", "👥 Personajes (12)");
+    if (tabChars) tabChars.textContent = getUiText("tab_chars", "👥 Personajes (18)");
     var tabPrologue = document.querySelector('.filter-tab[data-filter="prologue"]');
     if (tabPrologue) tabPrologue.textContent = getUiText("tab_prologue", "Prólogo & Acto I");
     var tabRoutes = document.querySelector('.filter-tab[data-filter="routes"]');
@@ -1048,6 +1215,7 @@
     if (tabMystery) tabMystery.textContent = getUiText("tab_mystery", "Misterio & Bucle");
     var tabEndings = document.querySelector('.filter-tab[data-filter="endings"]');
     if (tabEndings) tabEndings.textContent = getUiText("tab_endings", "Desenlaces");
+    try { updateChaptersTabCounts(); } catch (_e) {}
 
     // 4. Modal Álbum Secreto / Galería Ecchi VIP
     var cgHeader = document.querySelector(".cgs-gallery-header-title h3");
@@ -1457,6 +1625,7 @@
     if (ln.ambience) playAmbience(ln.ambience);
     else if (ln.stopAmbience) stopAmbience();
     if (ln.sfx) playSfx(ln.sfx);
+    if (ln.voice) playVoice(ln.voice);
     if (ln.mood) setMood(ln.mood);
     // Variables
     if (ln.set) applySet(ln.set);
@@ -1467,7 +1636,8 @@
     showSpeaker(localizedSpeaker, spk);
     dialogBox.classList.toggle("narration", isNarr);
     dialogText.classList.toggle("thought", ln.style === "thought");
-    dialogText.classList.toggle("fourth-wall", ln.style === "fourth-wall");
+    dialogText.classList.toggle("fourth-wall", ln.style === "fourth-wall" || ln.fx === "meta_glitch");
+    dialogBox.classList.toggle("fourth-wall-box", ln.style === "fourth-wall" || ln.fx === "meta_glitch");
     // Typewriter: 40ms por char (lento para VN real)
     var speed = state.skipRequested ? 2 : (ln.speed || 40);
     var lineText = "";
@@ -1476,6 +1646,7 @@
     } else {
       lineText = getText(ln.text);
     }
+    lineText = resolveMetaTokens(lineText);
     
     // Registrar en el historial de diálogos (Backlog)
     recordBacklog(localizedSpeaker, lineText, spk);
@@ -1520,6 +1691,100 @@
   }
 
   // ============================================================
+  //  REPRODUCTOR CINEMATOGRÁFICO DE 10s (DECISIONES & FINALES)
+  // ============================================================
+  var cinematicVideoLayer = document.getElementById("cinematic-video-layer");
+  var cinematicVideoPlayer = document.getElementById("cinematic-video-player");
+  var btnSkipCinematic = document.getElementById("btn-skip-cinematic");
+  var isPlayingCinematicVideo = false;
+
+  function playCinematicVideo(videoPath, onComplete) {
+    if (!videoPath) {
+      if (typeof onComplete === "function") onComplete();
+      return;
+    }
+    var cleanVid = videoPath.trim();
+
+    try { stopBgm(); } catch (e) {}
+    try { stopAmbience(); } catch (e) {}
+
+    var finished = false;
+    var safetyTimer = null;
+
+    function finishVideo() {
+      if (finished) return;
+      finished = true;
+      if (safetyTimer) { clearTimeout(safetyTimer); safetyTimer = null; }
+      isPlayingCinematicVideo = false;
+      if (cinematicVideoPlayer) {
+        try { cinematicVideoPlayer.pause(); } catch (e) {}
+        cinematicVideoPlayer.onended = null;
+        cinematicVideoPlayer.onerror = null;
+      }
+      if (cinematicVideoLayer) {
+        cinematicVideoLayer.classList.add("hidden");
+      }
+      window.onNativeVideoEnded = null;
+      if (typeof onComplete === "function") {
+        try { onComplete(); } catch (err) { console.error("Error en callback post-video:", err); }
+      }
+    }
+
+    // 1. Si existe el puente nativo AndroidBridge, reproducir mediante VideoView nativo (0 cuelgues, 100% acelerado)
+    if (window.AndroidBridge && typeof window.AndroidBridge.playVideo === "function") {
+      try {
+        window.onNativeVideoEnded = function () {
+          finishVideo();
+        };
+        safetyTimer = setTimeout(finishVideo, 12000);
+        window.AndroidBridge.playVideo(cleanVid);
+        return;
+      } catch (e) {
+        console.warn("Fallo al reproducir por AndroidBridge nativo:", e);
+      }
+    }
+
+    // 2. Fallback mediante elemento HTML5 video
+    if (!cinematicVideoLayer || !cinematicVideoPlayer) {
+      if (typeof onComplete === "function") onComplete();
+      return;
+    }
+
+    isPlayingCinematicVideo = true;
+    cinematicVideoLayer.classList.remove("hidden");
+
+    if (btnSkipCinematic) {
+      btnSkipCinematic.onclick = function (e) {
+        if (e) e.stopPropagation();
+        finishVideo();
+      };
+    }
+
+    cinematicVideoPlayer.onended = finishVideo;
+    cinematicVideoPlayer.onerror = function () {
+      console.warn("Video no disponible o error al reproducir:", cleanVid);
+      finishVideo();
+    };
+
+    safetyTimer = setTimeout(finishVideo, 11000);
+
+    try {
+      cinematicVideoPlayer.src = cleanVid;
+      cinematicVideoPlayer.currentTime = 0;
+      var playPromise = cinematicVideoPlayer.play();
+      if (playPromise !== undefined) {
+        playPromise.catch(function (err) {
+          console.warn("Autoplay diferido o bloqueado:", err);
+          setTimeout(finishVideo, 1500);
+        });
+      }
+    } catch (e) {
+      console.warn("Excepción al iniciar video HTML5:", e);
+      finishVideo();
+    }
+  }
+
+  // ============================================================
   //  CHOICES
   // ============================================================
   function showChoices(choices) {
@@ -1535,13 +1800,29 @@
       }
       btn.innerHTML = choiceText + (c.hint ? '<span class="hint">' + getText(c.hint) + '</span>' : "");
       btn.addEventListener("click", function () {
-        if (c.set) applySet(c.set);
-        if (c.sfx) playSfx(c.sfx);
-        if (c.fx) applyEffect(c.fx);
-        choicesBox.classList.add("hidden");
-        // Mostrar anuncio intersticial de Appodeal al seleccionar opción
-        try { if (window.AndroidBridge) window.AndroidBridge.showInterstitial(); } catch (e) {}
-        goToScene(c.next);
+        try {
+          if (c.set) applySet(c.set);
+          if (c.sfx) playSfx(c.sfx);
+          if (c.fx) applyEffect(c.fx);
+          choicesBox.classList.add("hidden");
+          // Mostrar anuncio intersticial de Appodeal al seleccionar opción
+          try { if (window.AndroidBridge) window.AndroidBridge.showInterstitial(); } catch (e) {}
+
+          var storyObj = state.story;
+          var targetScene = (storyObj && storyObj.scenes) ? storyObj.scenes[c.next] : null;
+          var vid = c.video || (targetScene && targetScene.video);
+          if (vid && typeof playCinematicVideo === "function") {
+            playCinematicVideo(vid, function () {
+              goToScene(c.next);
+            });
+          } else {
+            goToScene(c.next);
+          }
+        } catch (choiceErr) {
+          console.error("Error al procesar choice click:", choiceErr);
+          choicesBox.classList.add("hidden");
+          goToScene(c.next);
+        }
       });
       choicesBox.appendChild(btn);
     });
@@ -1584,12 +1865,14 @@
       if (fb) {
         state.sceneId = fb.scene;
         clearSprite();
+        if (typeof markSceneProgress === "function") markSceneProgress(state.sceneId);
         renderScene(nextLine);
       }
       return;
     }
     state.sceneId = sid;
     clearSprite();
+    if (typeof markSceneProgress === "function") markSceneProgress(state.sceneId);
     renderScene(nextLine);
   }
 
@@ -1619,7 +1902,7 @@
     
     // Asignar fondo mediante img nativo con fallback bidireccional ks_ y a prueba de fallos
     bgImg.onerror = function () {
-      console.warn("Fondo no cargado directamente: " + resolved + ", intentando variante ks/no-ks");
+      console.warn("Fondo no cargado directamente: " + resolved + ", intentando CDN o variante");
       var fn = resolved.substring(resolved.lastIndexOf("/") + 1);
       if (fn.indexOf("ks_") === 0) {
         var alt = "img/" + fn.substring(3);
@@ -1627,6 +1910,11 @@
       } else {
         var alt = "img/ks_" + fn;
         if (bgImg.src.indexOf(alt) < 0) { bgImg.src = alt; return; }
+      }
+      if (bgImg.src.indexOf("http") < 0) {
+        var remotePath = (resolved.indexOf("img/") === 0) ? resolved : ("img/" + fn);
+        bgImg.src = REMOTE_BASE + remotePath;
+        return;
       }
       bgImg.src = "img/courtyard.jpg";
     };
@@ -1691,11 +1979,12 @@
 
   function applyEffect(fx) {
     // Limpiar TODO
-    document.body.classList.remove("glitch", "flash-red", "tremor", "blackout",
+    document.body.classList.remove("glitch", "flash-red", "tremor", "blackout", "blackout-flicker",
       "static-noise", "warmth", "fog", "heartbeat", "jumpscare", "rain-fx", "lightning-flash");
     charImg.classList.remove("shake", "breath");
     bloodLayer.classList.remove("show");
     dialogText.classList.remove("fourth-wall");
+    dialogBox.classList.remove("fourth-wall-box");
     screenCrack.className = "";
     void document.body.offsetWidth;
 
@@ -1732,6 +2021,28 @@
       case "blackout":
         document.body.classList.add("blackout");
         setTimeout(function () { document.body.classList.remove("blackout"); }, 2000);
+        break;
+      case "blackout_flicker":
+      case "tv_turn_off":
+        document.body.classList.add("blackout-flicker");
+        bridge("vibrateGlitch");
+        bridge("playSfx", "sfx_glitch_select.ogg");
+        setTimeout(function () { document.body.classList.remove("blackout-flicker"); }, 2600);
+        break;
+      case "meta_glitch":
+        document.body.classList.add("glitch");
+        dialogText.classList.add("fourth-wall");
+        dialogBox.classList.add("fourth-wall-box");
+        bridge("vibrateGlitch");
+        bridge("playSfx", "sfx_glitch_select.ogg");
+        break;
+      case "fourth-wall":
+        dialogText.classList.add("fourth-wall");
+        dialogBox.classList.add("fourth-wall-box");
+        bridge("vibrateGlitch");
+        break;
+      case "ransomware_scare":
+        triggerRansomwareScare();
         break;
       case "jumpscare":
         document.body.classList.add("jumpscare");
@@ -1794,6 +2105,7 @@
   }
 
   var CANONICAL_SPEAKERS = {
+    "jigoro": "Jigoro", "hideaki": "Hideaki", "nurse": "Enfermera", "sae": "Sae", "meiko": "Meiko", "shopkeep": "Tendero",
     "emi": "Sora", "emi_": "Sora",
     "rin": "Aiko",
     "hh": "Yumi", "hx": "Yumi", "hx_": "Yumi",
@@ -1962,10 +2274,135 @@
     }
   }
 
+  var currentVoiceAudio = null;
+
+  function playVoice(path) {
+    if (!path) return;
+    var p = cleanPath(path);
+    bridge("playVoice", p);
+    if (!window.AndroidBridge) {
+      try {
+        if (currentVoiceAudio) {
+          try { currentVoiceAudio.pause(); } catch (e) {}
+          currentVoiceAudio = null;
+        }
+        var cleanFileName = p.replace(/^.*[\\\/]/, "").trim();
+        var encoded = encodeURIComponent(cleanFileName).replace(/%20/g, "%20");
+        var voiceUrl = "https://raw.githubusercontent.com/Andrespro100apps/Videospoket/main/voices/" + encoded;
+        var a = new Audio(voiceUrl);
+        a.volume = 1.0;
+        currentVoiceAudio = a;
+        a.play().catch(function (e) {
+          console.log("Audio de voz no reproducible en web directamente: " + e);
+        });
+      } catch (e) {
+        console.log("Error al iniciar reproducción de voz web: " + e);
+      }
+    }
+  }
+
   // ============================================================
   //  EPÍLOGOS DETALLADOS E INCÓGNITAS ABIERTAS POR FINAL
   // ============================================================
   var ENDINGS_DATA = {
+    "ending_hakamada_rebellion": {
+      title: "Final Hakamada: La Rebelión del Honor",
+      type: "good",
+      summary: "Te interpusiste entre el roble del patriarca y Shizune, ganando el respeto eterno de la familia.",
+      epilogue: [
+        "Jigoro Hakamada abandonó Yamaku al amanecer comprendiendo que su hija no era una moneda de cambio, sino una líder con determinación de acero.",
+        "Shizune y tú construyeron un vínculo inquebrantable donde cada latido de tu corazón encuentra refugio en la devoción mutua.",
+        "Hideaki logró su independencia y la sombra feudal del clan quedó desterrada para siempre."
+      ],
+      mysteries: [
+        "✦ ¿Quién fue el contacto anónimo en el ministerio de justicia que facilitó el archivo del caso?",
+        "✦ En la finca principal de los Hakamada, el sable de roble de Jigoro descansa en el altar con una dedicatoria secreta a tu nombre."
+      ]
+    },
+    "ending_hakamada_pact": {
+      title: "Final Hakamada: El Jaque Legal de Hideaki",
+      type: "good",
+      summary: "La astucia legal de Hideaki doblegó al patriarca, asegurando la libertad de los hermanos.",
+      epilogue: [
+        "Hideaki utilizó los registros financieros suizos para asegurar la emancipación total de ambos hermanos.",
+        "Shizune asumió el control de su propio destino académico sin presiones de bodas corporativas.",
+        "La cafetería de Yamaku celebró la victoria entre risas de Misha y un brindis por la libertad."
+      ],
+      mysteries: [
+        "✦ Hideaki conserva una caja fuerte en Ginza con documentos que implican a varios directores de academia.",
+        "✦ ¿Qué secreto del pasado de la madre de Shizune quedó archivado en las cláusulas secretas del pacto?"
+      ]
+    },
+    "ending_hakamada_tragedy": {
+      title: "Final Hakamada: El Desgarro en la Lluvia",
+      type: "bad",
+      summary: "La histeria y los secretos no correspondidos arrastraron a Misha a la oscuridad de la colina.",
+      epilogue: [
+        "La revelación de la traición de Misha destrozó la armonía del consejo estudiantil para siempre.",
+        "La lluvia torrencial borró el rastro de Shiina, dejando como único testigo un listón rosa enredado en el bosque.",
+        "Shizune cerró su corazón al mundo, consumida por el silencio eterno de la culpa."
+      ],
+      mysteries: [
+        "✦ Los rumores entre los estudiantes afirman que en las noches de tormenta se escucha una risa ahogada cerca de las ruinas.",
+        "✦ ¿Llegó Misha a abandonar Yamaku o permanece oculta en algún rincón olvidado de la colina?"
+      ]
+    },
+    "ending_paranoia_truth": {
+      title: "Final Paranoia: El Guardián del Latido",
+      type: "good",
+      summary: "Descubriste la verdad médica detrás de la noche de tormenta y la noble vocación de la enfermería.",
+      epilogue: [
+        "La Jefa de Enfermería demostró que la disciplina y el rigor salvan vidas cuando el pánico amenaza con destruirlas.",
+        "Tu corazón superó la noche más fría del invierno gracias al tratamiento oportuno y la confianza médica.",
+        "Kenji aprendió a moderar sus teorías conspiratorias... al menos durante un par de semanas."
+      ],
+      mysteries: [
+        "✦ En el archivo restringido del sótano figura un proyecto secreto de investigación cardiológica financiado por un benefactor desconocido.",
+        "✦ ¿Quién fue el médico legendario que diseñó el pabellón de Yamaku sesenta años atrás?"
+      ]
+    },
+    "ending_paranoia_asphyxia": {
+      title: "Final Paranoia: El Vórtice del Miedo",
+      type: "bad",
+      summary: "El pánico irracional desbocó tu arritmia, dejándote al borde del colapso en el lodo invernal.",
+      epilogue: [
+        "La huida ciega a través del bosque helado desencadenó una crisis cardíaca que casi te arrebata la vida.",
+        "Aunque los médicos lograron reanimarte, la sombra de la paranoia dejó una marca imborrable en tu mente.",
+        "El silencio de los pasillos de Yamaku nunca volvió a transmitirte seguridad."
+      ],
+      mysteries: [
+        "✦ ¿Fueron las sombras en la niebla alucinaciones por falta de oxígeno o había alguien acechando en el bosque?",
+        "✦ Los informes de guardia de aquella noche contienen dos páginas arrancadas con sello confidencial."
+      ]
+    },
+    "ending_gallery_catharsis": {
+      title: "Final Galería: El Renacer de la Luz",
+      type: "good",
+      summary: "Tus sinceras palabras transformaron el lienzo sombrío de Nomiya en una oda de esperanza y redención.",
+      epilogue: [
+        "El profesor Nomiya recuperó la fe en el arte como celebración de la vida y el amor.",
+        "Sae y Meiko inauguraron la exposición más aclamada en la historia de la galería metropolitana.",
+        "Comprendiste que la fragilidad de tu salud es lo que hace que cada amanecer sea una obra de arte inestimable."
+      ],
+      mysteries: [
+        "✦ Entre las capas profundas del lienzo aún se distingue un trazo invisible que solo se revela con luz negra.",
+        "✦ Sae prometió guardarte un rincón especial en la galería para tus propios escritos sobre Yamaku."
+      ]
+    },
+    "ending_gallery_obsession": {
+      title: "Final Galería: El Ojo de la Noche",
+      type: "bad",
+      summary: "La obsesión enfermiza devoró la cordura del maestro, precintando la galería para siempre.",
+      epilogue: [
+        "El lienzo maldito absorbió la última chispa de lucidez de Nomiya, obligando a su internamiento definitivo.",
+        "La galería quedó clausurada y abandonada bajo la lluvia incesante de la ciudad.",
+        "Un aura inquietante quedó suspendida en tu memoria, recordándote los abismos que encierra el alma humana."
+      ],
+      mysteries: [
+        "✦ Los vecinos afirman que las ventanas de la galería sellada continúan proyectando sombras en movimiento.",
+        "✦ ¿Qué figura grabó el maestro antes de que le retiraran los pinceles de las manos?"
+      ]
+    },
     "ending_sora_true": {
       title: "Final Sora: Viento y Ceniza",
       type: "good",
@@ -2063,6 +2500,198 @@
         "✦ ¿Cuál es el origen de la antigua leyenda que los ancianos del pueblo relatan sobre el viejo santuario en la colina de Yamaku, según la cual un corazón que se entrega sin reservas a sanar a los demás es bendecido con una vida renovada?",
         "✦ Entre los archivos históricos de Yamaku se halló una fotografía de hace ochenta años donde figuran siete estudiantes idénticos a los actuales, sonriendo bajo el mismo cerezo centenario. ¿Se ha repetido este milagro a través de las generaciones?"
       ]
+    },
+    "ending_rei_wind": {
+      title: "Final Rei: El Viento en Nuestras Manos",
+      type: "good",
+      summary: "Dos corazones marcados por la adversidad encontraron en su vulnerabilidad la fuerza para cruzar la meta juntos.",
+      epilogue: [
+        "En la pista de ceniza de Yamaku, el eco solitario de los pasos de Rei se transformó en una melodía compartida. Aprendiste que amar a alguien no significa curar mágicamente sus heridas, sino correr a su lado en los días de tormenta.",
+        "Rei guardó el vendaje de su brazo no con vergüenza, sino como el testimonio visible de una luchadora que venció a la amargura. En cada atardecer, sus zancadas y los latidos de tu corazón marcaron el ritmo de un porvenir lleno de luz."
+      ],
+      mysteries: [
+        "✦ ¿Quién depositó un par de zapatillas de clavos doradas en el casillero de Rei con una nota que decía: «Gracias por no rendirte jamás»?",
+        "✦ En los registros de marcas deportivas de Yamaku, el récord establecido por la pareja mixta de fondo quedó grabado para la posteridad con una dedicatoria que nadie ha podido borrar."
+      ]
+    },
+    "ending_rei_parting": {
+      title: "Final Rei: La Huella en la Pista",
+      type: "neutral",
+      summary: "Una despedida respetuosa en el crepúsculo. Admiración mutua y el eco de una carrera en solitario.",
+      epilogue: [
+        "El viento otoñal borró con suavidad la huella de sus zapatillas sobre la tierra roja. Aunque sus vidas tomaron rumbos paralelos, la determinación de Rei te enseñó que rendirse jamás es una opción."
+      ],
+      mysteries: [
+        "✦ Cada aniversario de graduación, una cinta deportiva de color carmesí aparece atada a la valla de la pista de Yamaku."
+      ]
+    },
+    "ending_yuuko_rain": {
+      title: "Final Yuuko: Palabras Bajo la Lluvia",
+      type: "good",
+      summary: "Encontraron en el silencio de los libros y la ternura mutua el refugio definitivo contra los temporales de la vida.",
+      epilogue: [
+        "La lluvia sobre los ventanales de la biblioteca dejó de ser un símbolo de encierro para convertirse en el arrullo más cálido de sus vidas. Yuuko descubrió en tu paciencia y en tu mirada serena que su timidez y su dulzura no eran defectos, sino la forma más pura de sensibilidad.",
+        "Juntos catalogaron tomos de literatura clásica y compartieron meriendas de té tibio mientras las estaciones cambiaban afuera. Yuuko culminó su carrera universitaria con honores, sosteniendo tu mano en el estrado."
+      ],
+      mysteries: [
+        "✦ En la sección de libros raros de la biblioteca, apareció un antiguo manuscrito encuadernado en terciopelo donde cada página narra proféticamente los días que compartieron bajo la lluvia.",
+        "✦ ¿Por qué el viejo bibliotecario sonreía siempre al verlos marchar, como si supiera que la biblioteca solo existía para unirlos?"
+      ]
+    },
+    "ending_yuuko_tea": {
+      title: "Final Yuuko: La Promesa del Té de Shanghai",
+      type: "good",
+      summary: "Una amistad serena y protectora forjada entre aromas de infusión y sonrisas reconfortantes.",
+      epilogue: [
+        "El acogedor salón de té Shanghai se convirtió en su punto de encuentro predilecto. Entre aromas de jazmín y tazas humeantes, forjaron un lazo incondicional que iluminó cada semana del curso."
+      ],
+      mysteries: [
+        "✦ En el libro de visitas del salón de té quedó escrita una dedicatoria anónima: «A los dos soñadores que encontraron la paz entre tazas de jazmín»."
+      ]
+    },
+    "ending_akira_tokyo": {
+      title: "Final Akira: Cruce de Destinos en Tokio",
+      type: "good",
+      summary: "Bajo las luces de neón y la lluvia de la metrópoli, dos almas independientes encontraron su refugio más íntimo.",
+      epilogue: [
+        "La sofisticación de los rascacielos de Tokio y el bullicio de los distritos ejecutivos perdieron su frialdad en cuanto Akira descubrió que tenía un hogar al que regresar en tu abrazo.",
+        "Despojada de su traje de sastre y de las exigencias asfixiantes del linaje Satou, Akira se mostró ante ti con la ternura y la entrega de una mujer plena. Las noches de lluvia en su ático se llenaron de risas cómplices, buena música y la certeza de haber encontrado a su igual."
+      ],
+      mysteries: [
+        "✦ ¿Por qué el influyente patriarca de la familia Satou retiró de improviso su oposición al romance tras recibir una carta confidencial remitida desde Yamaku?",
+        "✦ En una exclusiva galería de arte de Ginza se exhibe un cuadro titulado «Paraguas en Tokio», adquirido por un comprador anónimo que comparte las iniciales de Akira."
+      ]
+    },
+    "ending_akira_toast": {
+      title: "Final Akira: La Luz del Faro",
+      type: "good",
+      summary: "Un brindis inolvidable y una alianza inquebrantable que iluminará las noches más oscuras de la vida adulta.",
+      epilogue: [
+        "Un brindis honesto selló una camaradería inquebrantable. Akira se convirtió en tu mayor confidente y protectora en el complejo mundo adulto, mientras tú fuiste el único amigo que jamás le pidió nada a cambio."
+      ],
+      mysteries: [
+        "✦ En cada viaje internacional de negocios, Akira te envía una postal sellada con la silueta de un faro junto al mar."
+      ]
+    },
+    "ending_hideaki_reconciliation": {
+      title: "Final Hideaki: El Camino Propio",
+      type: "good",
+      summary: "Hideaki encuentra la valentía para forjar su propia identidad lejos de las imposiciones familiares.",
+      epilogue: [
+        "Hideaki estrechó tu mano bajo el cielo crepuscular de Yamaku. Por primera vez en su vida no sentía que debía disculparse por existir ni cargar con los errores del clan.",
+        "Años después, recibes una carta suya desde Kioto, donde estudia diseño y vive plenamente libre, agradeciéndote siempre haber creído en él."
+      ],
+      mysteries: [
+        "✦ En el jardín de la finca Hakamada, las viejas normas de estricta disciplina comenzaron a suavizarse gracias a la sinceridad de Hideaki."
+      ]
+    },
+    "ending_misha_true_smile": {
+      title: "Final Misha: La Sonrisa Verdadera",
+      type: "good",
+      summary: "Misha se despoja de su armadura de risas y encuentra en tu compañía paz y aceptación genuina.",
+      epilogue: [
+        "En la azotea de Yamaku, Misha descansó su cabeza en tu hombro. Ya no necesitaba forzar carcajadas para que el mundo no la viera vulnerable.",
+        "Su risa se volvió serena, dulce y sincera. Juntos descubrieron que el amor más profundo nace cuando podemos mostrarnos tal como somos sin miedo."
+      ],
+      mysteries: [
+        "✦ El lazo entre Shizune y Misha se volvió más maduro y comprensivo, dejando atrás los malentendidos del pasado escolar."
+      ]
+    },
+    "ending_jigoro_honor": {
+      title: "Final Jigoro: El Código de Honor",
+      type: "good",
+      summary: "El severo patriarca Hakamada reconoce tu espíritu y sella un pacto de respeto indestructible.",
+      epilogue: [
+        "Jigoro enfundó su sable con un chasquido seco. Tu entereza ante la adversidad le demostró que la verdadera fuerza reside en el corazón y la lealtad.",
+        "Desde aquel día, las puertas de la residencia Hakamada quedaron abiertas para ti con los máximos honores de la casa."
+      ],
+      mysteries: [
+        "✦ Un pergamino caligrafiado por el mismísimo Jigoro cuelga ahora en tu habitación: «El bambú que resiste el vendaval nunca se quiebra»."
+      ]
+    },
+    "ending_hakamada_rebellion": {
+      title: "Final Shizune & Jigoro: Honor, Rebeldía y Libertad",
+      type: "good",
+      summary: "Has defendido a Shizune frente al patriarca. El clan reconoce una voluntad tan fuerte como su acero.",
+      epilogue: [
+        "La tormenta amainó al amanecer en los jardines de Yamaku. Shizune tomó tu mano y la colocó sobre su pecho; sus latidos compartían la misma melodía de victoria.",
+        "El patriarca reconoció que Shizune había encontrado en ti a un verdadero igual, capaz de caminar a su lado sin dar un solo paso atrás."
+      ],
+      mysteries: [
+        "✦ En la sala del consejo estudiantil, el juego de Risk permanece en una partida eterna donde ambos reyes defienden el mismo reino."
+      ]
+    },
+    "ending_hakamada_pact": {
+      title: "Final Hideaki & Consejo: El Pacto Silencioso",
+      type: "good",
+      summary: "Junto a Hideaki has demostrado que la inteligencia y la verdad pesan más que las viejas tradiciones feudales.",
+      epilogue: [
+        "La mediación pacífica transformó la tensión del clan en un acuerdo histórico. Shizune y Hideaki volvieron a hablarse como hermanos, unidos por tu apoyo.",
+        "El futuro del consejo estudiantil y de la familia Hakamada se iluminó con una nueva era de comprensión y progreso."
+      ],
+      mysteries: [
+        "✦ Una foto enmarcada de Shizune, Hideaki y tú descansa discretamente sobre el escritorio de la presidencia."
+      ]
+    },
+    "ending_hakamada_tragedy": {
+      title: "Final Misha & Clímax: El Lazo en la Tormenta",
+      type: "neutral",
+      summary: "Has protegido a Misha durante la tormenta, prometiéndole que jamás volverá a estar sola ante el miedo.",
+      epilogue: [
+        "Las cicatrices emocionales tardan en cerrar, pero aquella noche bajo la lluvia forjó un lazo indestructible entre Misha y tú.",
+        "Paso a paso, día a día, la calidez de su mano te recordó que salvar a una persona del abismo cambia el mundo entero para siempre."
+      ],
+      mysteries: [
+        "✦ Entre los cuadernos de Misha, un dibujo a lápiz de los dos bajo un paraguas guarda la fecha exacta de aquella noche."
+      ]
+    },
+    "ending_paranoia_truth": {
+      title: "Final Pabellón: La Luz de la Razón y Esperanza",
+      type: "good",
+      summary: "La calma regresa al pabellón médico. Los mentores de Yamaku te aseguran una segunda oportunidad llena de vida.",
+      epilogue: [
+        "El doctor y la jefa de enfermería sonrieron al ver tus signos vitales estables. La colina de Yamaku no era una prisión, sino un refugio de sanación.",
+        "Comprendiste que cada latido es un regalo precioso y que la vida te estaba esperando con los brazos abiertos."
+      ],
+      mysteries: [
+        "✦ Los informes médicos archivados en el pabellón guardan la constancia de una recuperación asombrosa que desafió todas las estadísticas."
+      ]
+    },
+    "ending_paranoia_asphyxia": {
+      title: "Final Paranoia: El Guardián en las Sombras",
+      type: "neutral",
+      summary: "Junto a Kenji, descubres que la mayor amenaza nunca estuvo afuera, sino en las sombras que proyectaba el propio miedo.",
+      epilogue: [
+        "En la habitación 204, los mapas conspiranoicos fueron reemplazados por planos astronómicos. Kenji admitió, entre sorbos de zumo, que el mundo real no era tan hostil.",
+        "Permanecieron como aliados vigilantes, encontrando en su peculiar amistad la tranquilidad que ninguno hallaba en soledad."
+      ],
+      mysteries: [
+        "✦ Las frecuencias de radio de onda corta captaron por última vez una misteriosa señal que decía: «Yamaku está a salvo»."
+      ]
+    },
+    "ending_gallery_catharsis": {
+      title: "Final Galería: Catarsis de Óleo y Vida",
+      type: "good",
+      summary: "El gran lienzo florece con luz propia. El arte ha triunfado sobre la oscuridad y el aislamiento.",
+      epilogue: [
+        "El profesor Nomiya contempló el mural con lágrimas en los ojos. La mezcla de colores vivos y trazos intensos capturó el alma de toda una generación de Yamaku.",
+        "La exposición de la ciudad atrajo a cientos de personas que salían conmovidas por la pureza del mensaje: el arte sana lo que las palabras no alcanzan."
+      ],
+      mysteries: [
+        "✦ En la esquina inferior del óleo, una dedicatoria diminuta en tonos dorados dice: «Para quienes nunca dejaron de mirar al cielo»."
+      ]
+    },
+    "ending_gallery_obsession": {
+      title: "Final Obsesión: El Vórtice del Lienzo Infinito",
+      type: "neutral",
+      summary: "La fascinación estética se convierte en leyenda urbana de Yamaku. Un cuadro inacabado que susurra al viento.",
+      epilogue: [
+        "El caballete permaneció cubierto con un lienzo blanco en el taller del tercer piso. Quienes pasaban de noche juraban escuchar el susurro de las cerdas sobre la tela.",
+        "El arte guarda secretos que escapan a la razón humana, recordándonos que algunas pasiones son más vastas que la propia vida."
+      ],
+      mysteries: [
+        "✦ Cada año, en la noche del solsticio, aparece una nueva pincelada de azul ultramar en el lienzo sin que nadie haya entrado al taller."
+      ]
     }
   };
 
@@ -2072,8 +2701,23 @@
   var creditsScrollInterval = null;
 
   function showEnding(ending) {
-    stopBgm();
-    stopAmbience();
+    try {
+      stopBgm();
+      stopAmbience();
+
+      var storyObj = state.story;
+      var currentScene = (storyObj && storyObj.scenes) ? storyObj.scenes[state.sceneId] : null;
+      var vid = (ending && ending.video) || (currentScene && (currentScene.video || (currentScene.ending && currentScene.ending.video)));
+      if (vid && !ending._videoPlayed && typeof playCinematicVideo === "function") {
+        ending._videoPlayed = true;
+        playCinematicVideo(vid, function () {
+          showEnding(ending);
+        });
+        return;
+      }
+    } catch (vidErr) {
+      console.warn("Error previo al epílogo en showEnding:", vidErr);
+    }
 
     // Desbloquear logro de final de historia en Google Play Games
     try {
@@ -2249,6 +2893,91 @@
   //  ARCHIVO DE CAPÍTULOS & SELECTOR DE ESCENAS
   // ============================================================
   var CHAPTERS_CATALOGUE = [
+  {
+    "id": "arc_hakamada_1",
+    "cat": "mystery",
+    "cost": 0,
+    "badge": "🗡️ Saga Hakamada",
+    "badgeClass": "mystery",
+    "title": "El Juicio del Patriarca & El Juramento de Sangre",
+    "desc": "Jigoro Hakamada invade Yamaku con su bokken para forzar la tutela. Hideaki, Shizune y Hisao al límite.",
+    "fullSummary": "Una noche de tifón, Jigoro Hakamada irrumpe en Yamaku con guardaespaldas armados para reclamar a Shizune y Hideaki. Un drama feudal de honor, romance valiente y desamor entre relámpagos.",
+    "location": "Dormitorio & Salón del Consejo",
+    "charsPreview": "🗡️ Jigoro, 🕶️ Hideaki, 📋 Shizune, 🎀 Misha",
+    "characters": [{"name": "Jigoro", "icon": "🗡️"}, {"name": "Hideaki", "icon": "🕶️"}, {"name": "Shizune", "icon": "📋"}, {"name": "Misha", "icon": "🎀"}],
+    "bg": "img/ks_art_room.jpg"
+  },
+  {
+    "id": "arc_paranoia_1",
+    "cat": "thriller",
+    "cost": 0,
+    "badge": "👁️ Saga Paranoia",
+    "badgeClass": "thriller",
+    "title": "La Noche de las Sombras & El Pabellón Clínico",
+    "desc": "Apagón total en Yamaku. Tus pastillas desaparecen y la Jefa de Enfermería aguarda en el pabellón a oscuras.",
+    "fullSummary": "Un rayo destruye el transformador. En medio del apagón y las advertencias de Kenji, Hisao debe cruzar el campus en plena crisis cardíaca para recuperar su medicación en el ala médica.",
+    "location": "Pabellón Clínico de Urgencias",
+    "charsPreview": "👓 Kenji, 💉 Jefa Enfermera, 🧪 Prof. Mutou",
+    "characters": [{"name": "Kenji", "icon": "👓"}, {"name": "Enfermera", "icon": "💉"}, {"name": "Prof. Mutou", "icon": "🧪"}],
+    "bg": "img/ks_hospital_room.jpg"
+  },
+  {
+    "id": "arc_nomiya_1",
+    "cat": "mystery",
+    "cost": 0,
+    "badge": "🎨 Saga Galería",
+    "badgeClass": "mystery",
+    "title": "El Lienzo del Olvido & La Máscara de Sae",
+    "desc": "Un viaje nocturno a la ciudad. El profesor Nomiya enloquece ante un lienzo maldito en la galería de Sae.",
+    "fullSummary": "Hisao viaja a la ciudad invitado por Sae. En el sótano bohemio, el profesor Nomiya exige el latido de Hisao para culminar una pintura colosal que amenaza con devorar su cordura.",
+    "location": "Galería de Arte Subterránea",
+    "charsPreview": "🎨 Prof. Nomiya, 🚬 Sae, 🖌️ Meiko",
+    "characters": [{"name": "Prof. Nomiya", "icon": "🎨"}, {"name": "Sae", "icon": "🚬"}, {"name": "Meiko", "icon": "🖌️"}],
+    "bg": "img/city_clubint.jpg"
+  },
+
+  {
+    "id": "special_rei_track",
+    "cat": "chars",
+    "cost": 0,
+    "badge": "🏃 Especial Rei",
+    "badgeClass": "chars",
+    "title": "Fuego en la Pista: El Viento de Rei",
+    "desc": "Entrenamiento al atardecer en la pista de atletismo. El vendaje, el dolor fantasma y un latido compartido.",
+    "fullSummary": "Hisao acompaña a Rei (Miki) durante su entrenamiento solitario al caer el sol. Entre la fatiga, confesiones sobre el dolor de sus limitaciones físicas y una carrera hombro a hombro, surge una conexión profunda e inolvidable.",
+    "location": "Pista de Atletismo de Yamaku",
+    "charsPreview": "🏃 Rei y 👤 Hisao",
+    "characters": [{"name": "Rei", "icon": "🏃"}, {"name": "Hisao", "icon": "👤"}],
+    "bg": "img/school_track.jpg"
+  },
+  {
+    "id": "special_yuuko_library",
+    "cat": "chars",
+    "cost": 0,
+    "badge": "📚 Especial Yuuko",
+    "badgeClass": "chars",
+    "title": "El Refugio de los Libros: La Dulce Yuuko",
+    "desc": "Una tarde de lluvia en la biblioteca de Yamaku. Libros compartidos y la tímida sonrisa de Yuuko.",
+    "fullSummary": "Hisao descubre el rincón secreto de la biblioteca de Yamaku donde conoce a Yuuko Shirakawa. Una conversación íntima y reconfortante que marca el inicio de una dulce complicidad.",
+    "location": "Biblioteca de Yamaku",
+    "charsPreview": "📚 Yuuko y 👤 Hisao",
+    "characters": [{"name": "Yuuko", "icon": "📚"}, {"name": "Hisao", "icon": "👤"}],
+    "bg": "img/school_library_ss.jpg"
+  },
+  {
+    "id": "special_akira_city",
+    "cat": "chars",
+    "cost": 0,
+    "badge": "🍷 Especial Akira",
+    "badgeClass": "chars",
+    "title": "Distinción y Copas de Ciudad: Akira",
+    "desc": "Encuentro casual en el salón de la ciudad con la hermana mayor de Lilly. Buen vino y charla adulta.",
+    "fullSummary": "En una salida a la ciudad, Hisao comparte una velada en un salón privado con Akira Satou. Banter inteligente, complicidad fraternal y valiosos consejos de vida con estilo impecable.",
+    "location": "Salón de la Ciudad",
+    "charsPreview": "🍷 Akira y 👤 Hisao",
+    "characters": [{"name": "Akira", "icon": "🍷"}, {"name": "Hisao", "icon": "👤"}],
+    "bg": "img/city_restaurant.jpg"
+  },
 {
     "id": "special_pool_sora",
     "cat": "beach",
@@ -2270,7 +2999,7 @@
         "icon": "👤"
       }
     ],
-    "bg": "img/bg_pool_night.jpg"
+    "bg": "img/cgs/cg_emi_bed.jpg"
   },
   {
     "id": "special_summer_aiko",
@@ -2293,7 +3022,7 @@
         "icon": "👤"
       }
     ],
-    "bg": "img/ks_school_forestclearing.jpg"
+    "bg": "img/cgs/cg_rin_wet.jpg"
   },
   {
     "id": "special_onsen_elena",
@@ -2316,7 +3045,7 @@
         "icon": "👤"
       }
     ],
-    "bg": "img/ks_hok_bath.jpg"
+    "bg": "img/cgs/cg_lilly_bath.jpg"
   },
   {
     "id": "special_pool_shizune",
@@ -2339,7 +3068,7 @@
         "icon": "👤"
       }
     ],
-    "bg": "img/bg_pool_pavilion.jpg"
+    "bg": "img/cgs/cg_shizu_couch.jpg"
   },
   {
     "id": "special_cove_yumi",
@@ -2362,7 +3091,7 @@
         "icon": "👤"
       }
     ],
-    "bg": "img/bg_beach_sunset.jpg"
+    "bg": "img/cgs/cg_hanako_shanghaiwindow.jpg"
   },
   {
     "id": "special_pier_shiina",
@@ -2385,7 +3114,7 @@
         "icon": "👤"
       }
     ],
-    "bg": "img/bg_beach_sunset.jpg"
+    "bg": "img/cgs/cg_misha_roof.jpg"
   },
   {
     "id": "beach_vacation_intro",
@@ -2423,7 +3152,7 @@
         "icon": "✨"
       }
     ],
-    "bg": "img/bg_beach_sunny.jpg"
+    "bg": "img/bg_beach_sunset.jpg"
   },
   {
     "id": "beach_sora_event",
@@ -2445,7 +3174,7 @@
         "icon": "👤"
       }
     ],
-    "bg": "img/bg_beach_sunny.jpg"
+    "bg": "img/cgs/cg_sora_beach.jpg"
   },
   {
     "id": "beach_elena_event",
@@ -2467,7 +3196,7 @@
         "icon": "👤"
       }
     ],
-    "bg": "img/bg_beach_sunny.jpg"
+    "bg": "img/cgs/cg_elena_beach.jpg"
   },
   {
     "id": "beach_yumi_event",
@@ -2489,7 +3218,7 @@
         "icon": "👤"
       }
     ],
-    "bg": "img/bg_beach_sunset.jpg"
+    "bg": "img/cgs/cg_yumi_beach.jpg"
   },
   {
     "id": "beach_aiko_event",
@@ -2511,7 +3240,7 @@
         "icon": "👤"
       }
     ],
-    "bg": "img/bg_beach_sunny.jpg"
+    "bg": "img/cgs/cg_aiko_beach.jpg"
   },
   {
     "id": "beach_shizune_event",
@@ -2533,7 +3262,7 @@
         "icon": "👤"
       }
     ],
-    "bg": "img/bg_beach_sunny.jpg"
+    "bg": "img/cgs/cg_shizune_beach.jpg"
   },
   {
     "id": "beach_shiina_event",
@@ -2555,7 +3284,7 @@
         "icon": "👤"
       }
     ],
-    "bg": "img/bg_beach_sunny.jpg"
+    "bg": "img/cgs/cg_shiina_beach.jpg"
   },
   {
     "id": "beach_models_event",
@@ -2581,7 +3310,7 @@
         "icon": "✨"
       }
     ],
-    "bg": "img/bg_beach_sunny.jpg"
+    "bg": "img/cgs/cg_celina_beach.jpg"
   },
   {
     "id": "act1_dorm_kenji",
@@ -4373,7 +5102,552 @@
     ],
     "bg": "img/cg_ending_true_miracle.png"
   }
-];
+,
+  {
+    "id": "ending_ddlc_epiphany",
+    "cat": "endings",
+    "badge": "🏆 Desenlace",
+    "badgeClass": "routes",
+    "title": "Final Meta: La Ventana del Alma",
+    "desc": "Rompiste la barrera de la ficción. Tu empatía trascendió la pantalla.",
+    "fullSummary": "Rompiste la barrera de la ficción. Tu empatía trascendió la pantalla.",
+    "location": "Yamaku",
+    "charsPreview": "🌸 Protagonistas",
+    "characters": [{"name": "Yamaku", "icon": "🌸"}],
+    "bg": "img/ks_courtyard_night.jpg",
+    "cost": 0,
+    "choicesCount": 0,
+    "choices": []
+  },
+  {
+    "id": "ending_rei_wind",
+    "cat": "endings",
+    "badge": "🏆 Desenlace",
+    "badgeClass": "routes",
+    "title": "Final Rei: El Viento en Nuestras Manos",
+    "desc": "Dos corazones marcados por la adversidad encontraron en su vulnerabilidad la fuerza para cruzar la meta juntos.",
+    "fullSummary": "Dos corazones marcados por la adversidad encontraron en su vulnerabilidad la fuerza para cruzar la meta juntos.",
+    "location": "Yamaku",
+    "charsPreview": "🌸 Protagonistas",
+    "characters": [{"name": "Yamaku", "icon": "🌸"}],
+    "bg": "img/ks_track_day.jpg",
+    "cost": 0,
+    "choicesCount": 0,
+    "choices": []
+  },
+  {
+    "id": "ending_rei_parting",
+    "cat": "endings",
+    "badge": "🏆 Desenlace",
+    "badgeClass": "routes",
+    "title": "Final Rei: La Huella en la Pista",
+    "desc": "Una despedida silenciosa en el crepúsculo. Admiración mutua y el eco de una carrera en solitario.",
+    "fullSummary": "Una despedida silenciosa en el crepúsculo. Admiración mutua y el eco de una carrera en solitario.",
+    "location": "Yamaku",
+    "charsPreview": "🌸 Protagonistas",
+    "characters": [{"name": "Yamaku", "icon": "🌸"}],
+    "bg": "img/school_track.jpg",
+    "cost": 0,
+    "choicesCount": 0,
+    "choices": []
+  },
+  {
+    "id": "ending_yuuko_rain",
+    "cat": "endings",
+    "badge": "🏆 Desenlace",
+    "badgeClass": "routes",
+    "title": "Final Yuuko: Palabras Bajo la Lluvia",
+    "desc": "Encontraron en el silencio de los libros y la ternura mutua el refugio definitivo contra los temporales de la vida.",
+    "fullSummary": "Encontraron en el silencio de los libros y la ternura mutua el refugio definitivo contra los temporales de la vida.",
+    "location": "Yamaku",
+    "charsPreview": "🌸 Protagonistas",
+    "characters": [{"name": "Yamaku", "icon": "🌸"}],
+    "bg": "img/school_library_ss.jpg",
+    "cost": 0,
+    "choicesCount": 0,
+    "choices": []
+  },
+  {
+    "id": "ending_yuuko_tea",
+    "cat": "endings",
+    "badge": "🏆 Desenlace",
+    "badgeClass": "routes",
+    "title": "Final Yuuko: La Promesa del Té de Shanghai",
+    "desc": "Una amistad serena y protectora forjada entre aromas de infusión y sonrisas reconfortantes.",
+    "fullSummary": "Una amistad serena y protectora forjada entre aromas de infusión y sonrisas reconfortantes.",
+    "location": "Yamaku",
+    "charsPreview": "🌸 Protagonistas",
+    "characters": [{"name": "Yamaku", "icon": "🌸"}],
+    "bg": "img/suburb_shanghaiint.jpg",
+    "cost": 0,
+    "choicesCount": 0,
+    "choices": []
+  },
+  {
+    "id": "ending_akira_tokyo",
+    "cat": "endings",
+    "badge": "🏆 Desenlace",
+    "badgeClass": "routes",
+    "title": "Final Akira: Cruce de Destinos en Tokio",
+    "desc": "Bajo las luces de neón y la lluvia de la metrópoli, dos almas independientes encontraron su refugio más íntimo.",
+    "fullSummary": "Bajo las luces de neón y la lluvia de la metrópoli, dos almas independientes encontraron su refugio más íntimo.",
+    "location": "Yamaku",
+    "charsPreview": "🌸 Protagonistas",
+    "characters": [{"name": "Yamaku", "icon": "🌸"}],
+    "bg": "img/city_restaurant.jpg",
+    "cost": 0,
+    "choicesCount": 0,
+    "choices": []
+  },
+  {
+    "id": "ending_akira_toast",
+    "cat": "endings",
+    "badge": "🏆 Desenlace",
+    "badgeClass": "routes",
+    "title": "Final Akira: La Luz del Faro",
+    "desc": "Un brindis inolvidable y una alianza inquebrantable que iluminará las noches más oscuras de la vida adulta.",
+    "fullSummary": "Un brindis inolvidable y una alianza inquebrantable que iluminará las noches más oscuras de la vida adulta.",
+    "location": "Yamaku",
+    "charsPreview": "🌸 Protagonistas",
+    "characters": [{"name": "Yamaku", "icon": "🌸"}],
+    "bg": "img/city_restaurant.jpg",
+    "cost": 0,
+    "choicesCount": 0,
+    "choices": []
+  },
+  {
+    "id": "ending_hakamada_rebellion",
+    "cat": "endings",
+    "badge": "🏆 Desenlace",
+    "badgeClass": "routes",
+    "title": "Final Shizune & Jigoro: Honor, Rebeldía y Libertad",
+    "desc": "Has defendido a Shizune frente al patriarca Jigoro. El clan Hakamada reconoce por primera vez una voluntad tan fuerte como su acero.",
+    "fullSummary": "Has defendido a Shizune frente al patriarca Jigoro. El clan Hakamada reconoce por primera vez una voluntad tan fuerte como su acero.",
+    "location": "Yamaku",
+    "charsPreview": "🌸 Protagonistas",
+    "characters": [{"name": "Yamaku", "icon": "🌸"}],
+    "bg": "img/ks_courtyard.jpg",
+    "cost": 0,
+    "choicesCount": 0,
+    "choices": []
+  },
+  {
+    "id": "ending_hakamada_pact",
+    "cat": "endings",
+    "badge": "🏆 Desenlace",
+    "badgeClass": "routes",
+    "title": "Final Hideaki & Consejo: El Pacto Silencioso",
+    "desc": "Junto a Hideaki has demostrado que la inteligencia y la verdad pesan más que las viejas tradiciones feudales.",
+    "fullSummary": "Junto a Hideaki has demostrado que la inteligencia y la verdad pesan más que las viejas tradiciones feudales.",
+    "location": "Yamaku",
+    "charsPreview": "🌸 Protagonistas",
+    "characters": [{"name": "Yamaku", "icon": "🌸"}],
+    "bg": "img/ks_cafeteria.jpg",
+    "cost": 0,
+    "choicesCount": 0,
+    "choices": []
+  },
+  {
+    "id": "ending_hakamada_tragedy",
+    "cat": "endings",
+    "badge": "🏆 Desenlace",
+    "badgeClass": "routes",
+    "title": "Final Misha & Clímax: El Lazo en la Tormenta",
+    "desc": "Entre el choque de sables y gritos, has protegido a Misha, prometiéndole que jamás volverá a estar sola ante el miedo.",
+    "fullSummary": "Entre el choque de sables y gritos, has protegido a Misha, prometiéndole que jamás volverá a estar sola ante el miedo.",
+    "location": "Yamaku",
+    "charsPreview": "🌸 Protagonistas",
+    "characters": [{"name": "Yamaku", "icon": "🌸"}],
+    "bg": "img/ks_op_snowywoods.jpg",
+    "cost": 0,
+    "choicesCount": 0,
+    "choices": []
+  },
+  {
+    "id": "ending_paranoia_truth",
+    "cat": "endings",
+    "badge": "🏆 Desenlace",
+    "badgeClass": "routes",
+    "title": "Final Pabellón: La Luz de la Razón y Esperanza",
+    "desc": "La calma regresa al pabellón médico. Los mentores de Yamaku te aseguran una segunda oportunidad llena de vida.",
+    "fullSummary": "La calma regresa al pabellón médico. Los mentores de Yamaku te aseguran una segunda oportunidad llena de vida.",
+    "location": "Yamaku",
+    "charsPreview": "🌸 Protagonistas",
+    "characters": [{"name": "Yamaku", "icon": "🌸"}],
+    "bg": "img/ks_hospital_room.jpg",
+    "cost": 0,
+    "choicesCount": 0,
+    "choices": []
+  },
+  {
+    "id": "ending_paranoia_asphyxia",
+    "cat": "endings",
+    "badge": "🏆 Desenlace",
+    "badgeClass": "routes",
+    "title": "Final Paranoia: El Guardián en las Sombras",
+    "desc": "Junto a Kenji, descubres que la mayor amenaza nunca estuvo afuera, sino en las sombras que proyectaba el propio miedo.",
+    "fullSummary": "Junto a Kenji, descubres que la mayor amenaza nunca estuvo afuera, sino en las sombras que proyectaba el propio miedo.",
+    "location": "Yamaku",
+    "charsPreview": "🌸 Protagonistas",
+    "characters": [{"name": "Yamaku", "icon": "🌸"}],
+    "bg": "img/city_graveyard.jpg",
+    "cost": 0,
+    "choicesCount": 0,
+    "choices": []
+  },
+  {
+    "id": "ending_gallery_catharsis",
+    "cat": "endings",
+    "badge": "🏆 Desenlace",
+    "badgeClass": "routes",
+    "title": "Final Galería: Catarsis de Óleo y Vida",
+    "desc": "El gran lienzo del profesor Nomiya y Sae florece con luz propia. El arte ha triunfado sobre la oscuridad.",
+    "fullSummary": "El gran lienzo del profesor Nomiya y Sae florece con luz propia. El arte ha triunfado sobre la oscuridad.",
+    "location": "Yamaku",
+    "charsPreview": "🌸 Protagonistas",
+    "characters": [{"name": "Yamaku", "icon": "🌸"}],
+    "bg": "img/city_restaurant.jpg",
+    "cost": 0,
+    "choicesCount": 0,
+    "choices": []
+  },
+  {
+    "id": "ending_gallery_obsession",
+    "cat": "endings",
+    "badge": "🏆 Desenlace",
+    "badgeClass": "routes",
+    "title": "Final Obsesión: El Vórtice del Lienzo Infinito",
+    "desc": "La fascinación estética se convierte en leyenda urbana de Yamaku. Un cuadro inacabado que susurra al viento.",
+    "fullSummary": "La fascinación estética se convierte en leyenda urbana de Yamaku. Un cuadro inacabado que susurra al viento.",
+    "location": "Yamaku",
+    "charsPreview": "🌸 Protagonistas",
+    "characters": [{"name": "Yamaku", "icon": "🌸"}],
+    "bg": "img/city_graveyard.jpg",
+    "cost": 0,
+    "choicesCount": 0,
+    "choices": []
+  },
+  {
+    "id": "ending_hideaki_reconciliation",
+    "cat": "endings",
+    "badge": "🏆 Desenlace",
+    "badgeClass": "routes",
+    "title": "Final Hideaki: El Camino Propio",
+    "desc": "Hideaki encuentra la valentía para forjar su propia identidad, despidiéndose con una sonrisa de agradecimiento sincero.",
+    "fullSummary": "Hideaki encuentra la valentía para forjar su propia identidad, despidiéndose con una sonrisa de agradecimiento sincero.",
+    "location": "Yamaku",
+    "charsPreview": "🌸 Protagonistas",
+    "characters": [{"name": "Yamaku", "icon": "🌸"}],
+    "bg": "img/cg_hideaki_rooftop.jpg",
+    "cost": 0,
+    "choicesCount": 0,
+    "choices": []
+  },
+  {
+    "id": "ending_misha_true_smile",
+    "cat": "endings",
+    "badge": "🏆 Desenlace",
+    "badgeClass": "routes",
+    "title": "Final Misha: La Sonrisa Verdadera",
+    "desc": "Misha se despoja de su armadura de risas forzadas y encuentra en tu compañía un remanso de paz y aceptación genuina.",
+    "fullSummary": "Misha se despoja de su armadura de risas forzadas y encuentra en tu compañía un remanso de paz y aceptación genuina.",
+    "location": "Yamaku",
+    "charsPreview": "🌸 Protagonistas",
+    "characters": [{"name": "Yamaku", "icon": "🌸"}],
+    "bg": "img/cgs/cg_misha_beach.jpg",
+    "cost": 0,
+    "choicesCount": 0,
+    "choices": []
+  },
+  {
+    "id": "ending_jigoro_honor",
+    "cat": "endings",
+    "badge": "🏆 Desenlace",
+    "badgeClass": "routes",
+    "title": "Final Jigoro: El Código de Honor",
+    "desc": "El severo patriarca Hakamada guarda su espada y asiente con profundo respeto. Te has ganado el honor del clan.",
+    "fullSummary": "El severo patriarca Hakamada guarda su espada y asiente con profundo respeto. Te has ganado el honor del clan.",
+    "location": "Yamaku",
+    "charsPreview": "🌸 Protagonistas",
+    "characters": [{"name": "Yamaku", "icon": "🌸"}],
+    "bg": "img/cg_hideaki_festival.jpg",
+    "cost": 0,
+    "choicesCount": 0,
+    "choices": []
+  },
+  {
+    "id": "special_pool_night",
+    "cat": "choices",
+    "badge": "🔀 Decisión",
+    "badgeClass": "choices",
+    "title": "Especial VIP: Baño Nocturno en la Piscina Prohibida",
+    "desc": "Encrucijada interactiva de decisiones y bifurcaciones.",
+    "fullSummary": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+    "location": "Yamaku",
+    "charsPreview": "👥 Protagonistas",
+    "characters": [{"name": "Protagonistas", "icon": "👥"}],
+    "bg": "city_clubpool.jpg",
+    "cost": 100,
+    "choicesCount": 2,
+    "choices": [{"text": "🌊 Disfrutar del abrazo íntimo en el agua con Sora y Elena", "next": "beach_vacation_intro"}, {"text": "📂 Volver a la Selección de Capítulos & Rutas", "next": "act2_branching_crossroad"}]
+  },
+  {
+    "id": "special_onsen_mist",
+    "cat": "choices",
+    "badge": "🔀 Decisión",
+    "badgeClass": "choices",
+    "title": "Especial VIP: Serenidad & Pasión en las Aguas Termales",
+    "desc": "Encrucijada interactiva de decisiones y bifurcaciones.",
+    "fullSummary": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+    "location": "Yamaku",
+    "charsPreview": "👥 Protagonistas",
+    "characters": [{"name": "Protagonistas", "icon": "👥"}],
+    "bg": "hok_bath.jpg",
+    "cost": 100,
+    "choicesCount": 2,
+    "choices": [{"text": "♨️ Quedarte en el manantial disfrutando la serenidad con Yumi y Aiko", "next": "beach_vacation_intro"}, {"text": "📂 Volver a la Selección de Capítulos & Rutas", "next": "act2_branching_crossroad"}]
+  },
+  {
+    "id": "special_beach_festival",
+    "cat": "choices",
+    "badge": "🔀 Decisión",
+    "badgeClass": "choices",
+    "title": "Especial VIP: Confesión Bajo los Fuegos Artificiales",
+    "desc": "Encrucijada interactiva de decisiones y bifurcaciones.",
+    "fullSummary": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+    "location": "Yamaku",
+    "charsPreview": "👥 Protagonistas",
+    "characters": [{"name": "Protagonistas", "icon": "👥"}],
+    "bg": "bg_beach_sunset.jpg",
+    "cost": 100,
+    "choicesCount": 2,
+    "choices": [{"text": "🎆 Abrazar a Shizune y Shiina bajo el resplandor de los fuegos artificiales", "next": "beach_vacation_intro"}, {"text": "📂 Volver a la Selección de Capítulos & Rutas", "next": "act2_branching_crossroad"}]
+  },
+  {
+    "id": "special_photo_ecchi",
+    "cat": "choices",
+    "badge": "🔀 Decisión",
+    "badgeClass": "choices",
+    "title": "Especial VIP: Sesión Privada en la Costa Dorada",
+    "desc": "Encrucijada interactiva de decisiones y bifurcaciones.",
+    "fullSummary": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+    "location": "Yamaku",
+    "charsPreview": "👥 Protagonistas",
+    "characters": [{"name": "Protagonistas", "icon": "👥"}],
+    "bg": "bg_beach_sunny.jpg",
+    "cost": 100,
+    "choicesCount": 2,
+    "choices": [{"text": "📸 Guardar la fotografía más íntima y brindar con Celina y las modelos", "next": "beach_vacation_intro"}, {"text": "📂 Volver a la Selección de Capítulos & Rutas", "next": "act2_branching_crossroad"}]
+  },
+  {
+    "id": "special_foam_party",
+    "cat": "choices",
+    "badge": "🔀 Decisión",
+    "badgeClass": "choices",
+    "title": "Especial VIP: La Gran Celebración de Verano en Yamaku",
+    "desc": "Encrucijada interactiva de decisiones y bifurcaciones.",
+    "fullSummary": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+    "location": "Yamaku",
+    "charsPreview": "👥 Protagonistas",
+    "characters": [{"name": "Protagonistas", "icon": "👥"}],
+    "bg": "ks_city_clubpool.jpg",
+    "cost": 100,
+    "choicesCount": 2,
+    "choices": [{"text": "✨ Celebrar el brindis colectivo con todas las heroínas de Yamaku", "next": "beach_vacation_intro"}, {"text": "📂 Volver a la Selección de Capítulos & Rutas", "next": "act2_branching_crossroad"}]
+  },
+  {
+    "id": "rei_route_2",
+    "cat": "choices",
+    "badge": "🔀 Decisión",
+    "badgeClass": "choices",
+    "title": "Ruta Especial: El Dolor Fantasma (Rei)",
+    "desc": "Encrucijada interactiva de decisiones y bifurcaciones.",
+    "fullSummary": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+    "location": "Yamaku",
+    "charsPreview": "👥 Protagonistas",
+    "characters": [{"name": "Protagonistas", "icon": "👥"}],
+    "bg": "img/school_track.jpg",
+    "cost": 100,
+    "choicesCount": 2,
+    "choices": [{"text": "Sostener con delicadeza su brazo vendado y decirle que no tiene que luchar sola", "next": "rei_route_choice_stay"}, {"text": "Animarla como compañero de carreras diciéndole que la velocidad supera cualquier herida", "next": "rei_route_choice_distance"}]
+  },
+  {
+    "id": "yuuko_route_2",
+    "cat": "choices",
+    "badge": "🔀 Decisión",
+    "badgeClass": "choices",
+    "title": "Ruta Especial: El Ataque de Ansiedad (Yuuko)",
+    "desc": "Encrucijada interactiva de decisiones y bifurcaciones.",
+    "fullSummary": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+    "location": "Yamaku",
+    "charsPreview": "👥 Protagonistas",
+    "characters": [{"name": "Protagonistas", "icon": "👥"}],
+    "bg": "img/school_library_ss.jpg",
+    "cost": 100,
+    "choicesCount": 2,
+    "choices": [{"text": "Tomar sus manos temblorosas y prometerle ser su refugio seguro en los días de lluvia", "next": "yuuko_route_choice_confess"}, {"text": "Proponerle ir a tomar una reconfortante taza de té en Shanghai para cambiar de aires", "next": "yuuko_route_choice_tea"}]
+  },
+  {
+    "id": "akira_route_2",
+    "cat": "choices",
+    "badge": "🔀 Decisión",
+    "badgeClass": "choices",
+    "title": "Ruta Especial: La Máscara de Éxito (Akira)",
+    "desc": "Encrucijada interactiva de decisiones y bifurcaciones.",
+    "fullSummary": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+    "location": "Yamaku",
+    "charsPreview": "👥 Protagonistas",
+    "characters": [{"name": "Protagonistas", "icon": "👥"}],
+    "bg": "img/city_restaurant.jpg",
+    "cost": 100,
+    "choicesCount": 2,
+    "choices": [{"text": "Mirarla a los ojos y decirle que bajo su traje corporativo hay una mujer humana y hermosa a la que deseas cuidar", "next": "akira_route_choice_intimate"}, {"text": "Alzar la copa y brindar con respeto por su fuerza, ofreciéndole tu leal amistad incondicional", "next": "akira_route_choice_friend"}]
+  },
+  {
+    "id": "arc_hakamada_3",
+    "cat": "choices",
+    "badge": "🔀 Decisión",
+    "badgeClass": "choices",
+    "title": "Saga Hakamada: La Encrucijada del Honor",
+    "desc": "Encrucijada interactiva de decisiones y bifurcaciones.",
+    "fullSummary": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+    "location": "Yamaku",
+    "charsPreview": "👥 Protagonistas",
+    "characters": [{"name": "Protagonistas", "icon": "👥"}],
+    "bg": "img/ks_art_room.jpg",
+    "cost": 100,
+    "choicesCount": 3,
+    "choices": [{"text": "⚔️ Interponerme físicamente entre el sable de Jigoro y Shizune, arriesgándolo todo", "next": "arc_hakamada_choice_brave"}, {"text": "⚖️ Apoyar a Hideaki con los documentos legales para forzar la capitulación de Jigoro", "next": "arc_hakamada_choice_intellect"}, {"text": "🌧️ Intentar rescatar a Misha mientras la histeria y el terror consumen la sala", "next": "arc_hakamada_choice_terror"}]
+  },
+  {
+    "id": "arc_paranoia_3",
+    "cat": "choices",
+    "badge": "🔀 Decisión",
+    "badgeClass": "choices",
+    "title": "Saga Paranoia: La Sala de Guardias Blancas",
+    "desc": "Encrucijada interactiva de decisiones y bifurcaciones.",
+    "fullSummary": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+    "location": "Yamaku",
+    "charsPreview": "👥 Protagonistas",
+    "characters": [{"name": "Protagonistas", "icon": "👥"}],
+    "bg": "img/ks_hospital_room.jpg",
+    "cost": 100,
+    "choicesCount": 2,
+    "choices": [{"text": "💉 Confiar en la Jefa de Enfermería y recibir la inyección estabilizadora", "next": "arc_paranoia_choice_trust"}, {"text": "🏃 Ceder al pánico de Kenji y salir corriendo hacia la oscuridad del bosque", "next": "arc_paranoia_choice_doubt"}]
+  },
+  {
+    "id": "arc_nomiya_3",
+    "cat": "choices",
+    "badge": "🔀 Decisión",
+    "badgeClass": "choices",
+    "title": "Saga Galería: El Alma sobre el Lienzo",
+    "desc": "Encrucijada interactiva de decisiones y bifurcaciones.",
+    "fullSummary": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+    "location": "Yamaku",
+    "charsPreview": "👥 Protagonistas",
+    "characters": [{"name": "Protagonistas", "icon": "👥"}],
+    "bg": "img/ks_art_room.jpg",
+    "cost": 100,
+    "choicesCount": 2,
+    "choices": [{"text": "🎨 Hablarle de la belleza de cada día vivido con esperanza y amor, salvando su cordura", "next": "arc_nomiya_choice_hope"}, {"text": "🌑 Permitir que la vorágine de la obsesión consuma el cuadro en un frenesí trágico", "next": "arc_nomiya_choice_pain"}]
+  },
+  {
+    "id": "route_hideaki_intro",
+    "cat": "choices",
+    "badge": "🔀 Decisión",
+    "badgeClass": "choices",
+    "title": "Capítulo Especial: El Enigma Hakamada",
+    "desc": "Encrucijada interactiva de decisiones y bifurcaciones.",
+    "fullSummary": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+    "location": "Yamaku",
+    "charsPreview": "👥 Protagonistas",
+    "characters": [{"name": "Protagonistas", "icon": "👥"}],
+    "bg": "img/ks_courtyard.jpg",
+    "cost": 100,
+    "choicesCount": 2,
+    "choices": [{"text": "Apoyar a Hideaki para que encuentre su propio camino lejos de las imposiciones", "next": "ending_hideaki_reconciliation"}, {"text": "Aconsejarle dialogar con Shizune para construir juntos un nuevo futuro", "next": "ending_hakamada_pact"}]
+  },
+  {
+    "id": "route_misha_intro",
+    "cat": "choices",
+    "badge": "🔀 Decisión",
+    "badgeClass": "choices",
+    "title": "Capítulo Especial: La Sonrisa de Shiina",
+    "desc": "Encrucijada interactiva de decisiones y bifurcaciones.",
+    "fullSummary": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+    "location": "Yamaku",
+    "charsPreview": "👥 Protagonistas",
+    "characters": [{"name": "Protagonistas", "icon": "👥"}],
+    "bg": "img/ks_roof.jpg",
+    "cost": 100,
+    "choicesCount": 2,
+    "choices": [{"text": "Tomar sus manos y asegurarle que su valor no depende de complacer a los demás", "next": "ending_misha_true_smile"}, {"text": "Acompañarla en silencio, ofreciéndole tu presencia cálida y leal", "next": "ending_hakamada_tragedy"}]
+  },
+  {
+    "id": "route_jigoro_intro",
+    "cat": "choices",
+    "badge": "🔀 Decisión",
+    "badgeClass": "choices",
+    "title": "Capítulo Especial: El Desafío del Patriarca",
+    "desc": "Encrucijada interactiva de decisiones y bifurcaciones.",
+    "fullSummary": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+    "location": "Yamaku",
+    "charsPreview": "👥 Protagonistas",
+    "characters": [{"name": "Protagonistas", "icon": "👥"}],
+    "bg": "img/cg_hideaki_festival.jpg",
+    "cost": 100,
+    "choicesCount": 2,
+    "choices": [{"text": "Sostenerle la mirada con respeto absoluto y declarar tu lealtad inquebrantable", "next": "ending_jigoro_honor"}, {"text": "Defender la libertad de Shizune y Hideaki con argumentos diplomáticos y firmes", "next": "ending_hakamada_rebellion"}]
+  },
+  {
+    "id": "route_hideaki_intro",
+    "cat": "chars",
+    "badge": "👥 Personaje",
+    "badgeClass": "chars",
+    "title": "Hideaki Hakamada",
+    "desc": "Hermano de Shizune, reflexivo y distante.",
+    "fullSummary": "Hermano de Shizune, reflexivo y distante.",
+    "location": "Yamaku",
+    "charsPreview": "👤 Hideaki Hakamada",
+    "characters": [{"name": "Hideaki Hakamada", "icon": "👤"}],
+    "bg": "img/ks_shizu_office.jpg",
+    "cost": 50,
+    "choicesCount": 0,
+    "choices": []
+  },
+  {
+    "id": "route_misha_intro",
+    "cat": "chars",
+    "badge": "👥 Personaje",
+    "badgeClass": "chars",
+    "title": "Mikado Shiina (Misha)",
+    "desc": "Intérprete del Consejo, risas y secretos.",
+    "fullSummary": "Intérprete del Consejo, risas y secretos.",
+    "location": "Yamaku",
+    "charsPreview": "👤 Mikado Shiina (Misha)",
+    "characters": [{"name": "Mikado Shiina (Misha)", "icon": "👤"}],
+    "bg": "img/ks_shizu_office.jpg",
+    "cost": 50,
+    "choicesCount": 0,
+    "choices": []
+  },
+  {
+    "id": "route_jigoro_intro",
+    "cat": "chars",
+    "badge": "👥 Personaje",
+    "badgeClass": "chars",
+    "title": "Jigoro Hakamada",
+    "desc": "Patriarca feudal y tradicional de la familia Hakamada.",
+    "fullSummary": "Patriarca feudal y tradicional de la familia Hakamada.",
+    "location": "Yamaku",
+    "charsPreview": "👤 Jigoro Hakamada",
+    "characters": [{"name": "Jigoro Hakamada", "icon": "👤"}],
+    "bg": "img/ks_courtyard.jpg",
+    "cost": 50,
+    "choicesCount": 0,
+    "choices": []
+  }
+  ];
 
   // ============================================================
   //  SISTEMA DE DESBLOQUEO DE ESPECIALES VIP CON MONEDAS
@@ -4417,6 +5691,7 @@
         } else if (id.indexOf("beach") >= 0 || id.indexOf("vip") >= 0 || id.indexOf("pool") >= 0) {
           window.AndroidBridge.unlockAchievement("ach_beach_special");
         }
+        checkNovelCollectionAchievements();
       }
     } catch (e) {}
     flashToast("🎉 ¡Especial VIP desbloqueado permanentemente!");
@@ -4426,7 +5701,68 @@
     return true;
   }
 
+  function markSceneProgress(sid) {
+    if (!sid || typeof sid !== "string") return;
+    try {
+      var list = getUnlockedSpecials();
+      if (list.indexOf(sid) === -1) {
+        list.push(sid);
+        localStorage.setItem("pocketgirl_unlocked_specials", JSON.stringify(list));
+      }
+      checkNovelCollectionAchievements();
+    } catch (e) {}
+  }
+
+  function checkNovelCollectionAchievements() {
+    try {
+      if (!window.AndroidBridge || typeof window.AndroidBridge.unlockAchievement !== "function") return;
+      var list = getUnlockedSpecials();
+      var allBikinis = ["beach_sora_event", "beach_elena_event", "beach_yumi_event", "beach_aiko_event", "beach_shizune_event", "beach_shiina_event", "beach_models_event", "special_pool_sora", "special_summer_aiko", "special_onsen_elena", "special_pool_shizune", "special_cove_yumi", "special_pier_shiina"];
+      var unlockedBikinis = allBikinis.filter(function(b) { return list.indexOf(b) >= 0; });
+      if (unlockedBikinis.length >= 6) {
+        window.AndroidBridge.unlockAchievement("ach_novel_all_bikinis");
+      }
+      var allEndings = ["ending_sora_true", "ending_yumi_true", "ending_elena_true", "ending_aiko_true", "ending_kenji_bunker", "ending_ddlc_epiphany", "ending_true_miracle", "ending_rei_wind", "ending_yuuko_rain", "ending_akira_tokyo"];
+      var unlockedEndings = allEndings.filter(function(e) { return list.indexOf(e) >= 0; });
+      if (unlockedEndings.length >= 3) {
+        window.AndroidBridge.unlockAchievement("ach_novel_all_endings");
+      }
+    } catch (e) {}
+  }
+
+  
+  function updateChaptersTabCounts() {
+    try {
+      var counts = {};
+      CHAPTERS_CATALOGUE.forEach(function (it) {
+        counts[it.cat] = (counts[it.cat] || 0) + 1;
+      });
+      var tabs = document.querySelectorAll(".chapters-filter-bar .filter-tab, .chapters-tabs-bar .chapter-tab");
+      tabs.forEach(function (tab) {
+        var f = tab.getAttribute("data-filter");
+        if (f === "all") {
+          tab.textContent = getUiText("tab_all", "Todos") + " (" + CHAPTERS_CATALOGUE.length + ")";
+        } else if (f === "choices") {
+          tab.textContent = "🔀 " + getUiText("tab_choices", "Decisiones").replace(/\s*\([0-9]+\)/, "") + " (" + (counts["choices"] || 0) + ")";
+        } else if (f === "endings") {
+          tab.textContent = "🏆 " + getUiText("tab_endings", "Desenlaces").replace(/\s*\([0-9]+\)/, "") + " (" + (counts["endings"] || 0) + ")";
+        } else if (f === "chars") {
+          tab.textContent = "👥 " + getUiText("tab_chars", "Personajes").replace(/\s*\([0-9]+\)/, "") + " (" + (counts["chars"] || 0) + ")";
+        } else if (f === "beach") {
+          tab.textContent = "👙 " + getUiText("tab_beach", "Especiales VIP & Bikini").replace(/\s*\([0-9]+\)/, "") + " (" + (counts["beach"] || 0) + ")";
+        } else if (f === "mystery") {
+          tab.textContent = "🔍 " + getUiText("tab_mystery", "Misterio & Bucle").replace(/\s*\([0-9]+\)/, "") + " (" + (counts["mystery"] || 0) + ")";
+        } else if (f === "routes") {
+          tab.textContent = "🌸 " + getUiText("tab_routes", "Rutas Heroínas").replace(/\s*\([0-9]+\)/, "") + " (" + (counts["routes"] || 0) + ")";
+        } else if (f === "prologue") {
+          tab.textContent = "📖 " + getUiText("tab_prologue", "Prólogo & Acto I").replace(/\s*\([0-9]+\)/, "") + " (" + (counts["prologue"] || 0) + ")";
+        }
+      });
+    } catch (e) { console.warn("Error actualizando contadores de pestañas:", e); }
+  }
+
   function openChaptersModal() {
+    updateChaptersTabCounts();
     if (!chaptersModal) return;
     renderChaptersList("all");
     chaptersModal.classList.remove("hidden");
@@ -4478,7 +5814,13 @@
       var requiresUnlock = (itemCost > 0);
       var isUnlocked = !requiresUnlock || isSpecialUnlocked(ch.id);
 
-      var chTitle = (state.localeData && state.localeData.chapters && state.localeData.chapters[ch.id]) || ch.title;
+      var chTitle = "";
+      if (state.localeData && state.localeData.chapters && state.localeData.chapters[ch.id]) {
+        chTitle = ensureString(state.localeData.chapters[ch.id]);
+      }
+      if (!chTitle) {
+        chTitle = ensureString(ch.title);
+      }
 
       var badgeRow = document.createElement("div");
       badgeRow.className = "chapter-item-header";
@@ -4499,10 +5841,12 @@
       title.className = "chapter-item-title";
       title.textContent = chTitle;
 
+      var chLocation = ensureString(ch.location || "Yamaku");
+      var chChars = ensureString(ch.charsPreview || "Personajes");
       var previewMeta = document.createElement("div");
       previewMeta.className = "chapter-preview-meta";
-      previewMeta.innerHTML = "<span>📍 " + (ch.location || "Yamaku") + "</span>" +
-                              "<span>👥 " + (ch.charsPreview || "Personajes") + "</span>";
+      previewMeta.innerHTML = "<span>📍 " + chLocation + "</span>" +
+                              "<span>👥 " + chChars + "</span>";
 
       mainInfo.appendChild(badgeRow);
       mainInfo.appendChild(title);
@@ -4563,7 +5907,7 @@
       var summaryBox = document.createElement("div");
       summaryBox.className = "chapter-summary-box";
       summaryBox.innerHTML = "<div class='summary-tag'>" + getUiText("where_story_left", "📖 ¿Dónde quedó la historia?") + "</div>" +
-                             "<p class='summary-text'>" + (ch.fullSummary || ch.desc) + "</p>";
+                             "<p class='summary-text'>" + ensureString(ch.fullSummary || ch.desc || "") + "</p>";
       dropPanel.appendChild(summaryBox);
 
       if (ch.characters && ch.characters.length > 0) {
@@ -4578,27 +5922,31 @@
       }
 
       // Si es una encrucijada de decisiones, mostrar la lista interactiva de opciones
-      if (ch.options && ch.options.length > 0) {
+      var activeChoices = ch.options || ch.choices || [];
+      if (activeChoices && activeChoices.length > 0) {
         var choiceBox = document.createElement("div");
         choiceBox.className = "chapter-choice-box";
-        choiceBox.innerHTML = "<div class='summary-tag'>" + getUiText("choices_at_crossroad", "🔀 Opciones en esta encrucijada ({n}):").replace("{n}", ch.options.length) + "</div>";
+        choiceBox.innerHTML = "<div class='summary-tag'>" + getUiText("choices_at_crossroad", "🔀 Opciones en esta encrucijada ({n}):").replace("{n}", activeChoices.length) + "</div>";
         var optsList = document.createElement("div");
         optsList.className = "chapter-choice-options-list";
-        ch.options.forEach(function (opt, idx) {
+        activeChoices.forEach(function (opt, idx) {
           var optCard = document.createElement("div");
           optCard.className = "chapter-choice-option-card";
-          optCard.innerHTML = "<div class='chapter-choice-opt-title'><b>" + (idx + 1) + ".</b> " + (opt.text || "Opción") + "</div>" +
-                              (opt.hint ? ("<div class='chapter-choice-opt-dest'>💡 " + opt.hint + "</div>") : "");
-          optCard.title = "Saltar directamente a esta encrucijada";
+          var optText = ensureString(opt.text || "Opción");
+          var optHint = opt.hint ? ("<div class='chapter-choice-opt-dest'>💡 " + ensureString(opt.hint) + "</div>") : "";
+          optCard.innerHTML = "<div class='chapter-choice-opt-title'><b>" + (idx + 1) + ".</b> " + optText + "</div>" + optHint;
+          optCard.title = "Saltar directamente a esta opción";
           optCard.addEventListener("click", function (e) {
             e.stopPropagation();
+            var targetId = (opt.next && state.story && state.story.scenes && state.story.scenes[opt.next]) ? opt.next : ch.id;
+            var targetLine = (targetId === ch.id && ch.keyMomentLine !== undefined) ? ch.keyMomentLine : 0;
             if (requiresUnlock && !isUnlocked) {
               unlockSpecial(ch.id, itemCost, function () {
                 renderChaptersList(filter);
-                jumpToChapter(ch.id, chTitle, 0);
+                jumpToChapter(targetId, chTitle, targetLine);
               });
             } else {
-              jumpToChapter(ch.id, chTitle, 0);
+              jumpToChapter(targetId, chTitle, targetLine);
             }
           });
           optsList.appendChild(optCard);
@@ -4642,7 +5990,7 @@
         btnKeyJump.innerHTML = ch.keyMomentTitle;
         btnKeyJump.addEventListener("click", function (e) {
           e.stopPropagation();
-          jumpToChapter(ch.id, ch.title, ch.keyMomentLine);
+          jumpToChapter(ch.id, chTitle, ch.keyMomentLine);
         });
         actionRow.appendChild(btnKeyJump);
       }
@@ -4675,6 +6023,11 @@
 
   function jumpToChapter(sceneId, chapterTitle, startLineIndex) {
     if (!sceneId) return;
+    try {
+      if (window.AndroidBridge && typeof window.AndroidBridge.showChapterInterstitial === "function") {
+        window.AndroidBridge.showChapterInterstitial();
+      }
+    } catch (e) {}
     closeChaptersModal();
     if (pauseMenu) pauseMenu.classList.add("hidden");
 
@@ -5527,9 +6880,28 @@
 
       var img = document.createElement("img");
       img.className = "cg-card-thumb " + (isUnlocked ? "" : "blur-ecchi");
-      img.src = "img/cgs/" + cg.file;
       img.alt = cg.title;
       img.loading = "lazy";
+      img.onerror = function () {
+        if (this.getAttribute("data-tried-fallback")) return;
+        this.setAttribute("data-tried-fallback", "true");
+        if (cg.category === "beach" || cg.id.indexOf("beach") >= 0 || cg.id.indexOf("bikini") >= 0) {
+          this.src = "img/bg_beach_sunny.jpg";
+        } else if (cg.category === "videos") {
+          this.src = "img/ks_courtyard.jpg";
+        } else if (cg.heroine && cg.heroine.indexOf("Sora") >= 0) {
+          this.src = "img/cg_ending_sora.png";
+        } else if (cg.heroine && cg.heroine.indexOf("Yumi") >= 0) {
+          this.src = "img/cg_ending_yumi.png";
+        } else if (cg.heroine && cg.heroine.indexOf("Elena") >= 0) {
+          this.src = "img/cg_ending_elena.png";
+        } else if (cg.heroine && cg.heroine.indexOf("Aiko") >= 0) {
+          this.src = "img/cg_ending_aiko.png";
+        } else {
+          this.src = "img/promo_cover.jpg";
+        }
+      };
+      img.src = "img/cgs/" + cg.file;
       thumbBox.appendChild(img);
 
       if (!isUnlocked) {
@@ -5652,6 +7024,24 @@
   function openCgFullscreen(cg) {
     if (!cgsFullscreenViewer || !cg) return;
     activeViewingCg = cg;
+    cgViewerImg.onerror = function () {
+      if (this.getAttribute("data-tried-fallback")) return;
+      this.setAttribute("data-tried-fallback", "true");
+      if (cg.category === "beach" || cg.id.indexOf("beach") >= 0 || cg.id.indexOf("bikini") >= 0) {
+        this.src = "img/bg_beach_sunny.jpg";
+      } else if (cg.heroine && cg.heroine.indexOf("Sora") >= 0) {
+        this.src = "img/cg_ending_sora.png";
+      } else if (cg.heroine && cg.heroine.indexOf("Yumi") >= 0) {
+        this.src = "img/cg_ending_yumi.png";
+      } else if (cg.heroine && cg.heroine.indexOf("Elena") >= 0) {
+        this.src = "img/cg_ending_elena.png";
+      } else if (cg.heroine && cg.heroine.indexOf("Aiko") >= 0) {
+        this.src = "img/cg_ending_aiko.png";
+      } else {
+        this.src = "img/promo_cover.jpg";
+      }
+    };
+    cgViewerImg.removeAttribute("data-tried-fallback");
     cgViewerImg.src = "img/cgs/" + cg.file;
     cgViewerTitle.textContent = cg.title;
     var btnPlay = $("btn-cg-play-video");
