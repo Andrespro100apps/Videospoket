@@ -1,75 +1,4 @@
 {
-  "ui": {
-    "tab_all": "All",
-    "tab_beach": "👙 VIP & Bikini Specials (14)",
-    "tab_choices": "🔀 Decisions (36)",
-    "tab_chars": "👥 Characters (18)",
-    "tab_prologue": "Prologue & Act I",
-    "tab_routes": "Heroine Routes",
-    "tab_mystery": "Mystery & Timeloop",
-    "tab_endings": "Endings",
-    "play_btn": "Play",
-    "unlock_decision_btn": "Unlock Decision (100 Coins)",
-    "unlock_special_btn": "Unlock VIP Special ({n} Coins)",
-    "decision_badge": "Decision",
-    "decision_unlocked": "Decision Unlocked",
-    "vip_unlocked": "VIP Unlocked",
-    "where_story_left": "📖 Where the story left off",
-    "on_scene": "On scene:",
-    "choices_at_crossroad": "🔀 Choices at this crossroads ({n}):",
-    "start_from_beginning": "Start chapter from beginning",
-    "title_exit": "◀ Exit",
-    "title_lang": "🌐 Language",
-    "title_chapters": "📂 Chapter Archive",
-    "title_gallery": "🔞 Secret Album",
-    "gallery_title": "Secret Album & VIP Memories",
-    "gallery_sub": "Exclusive high-resolution illustrations of intimate moments and summer on the beach.",
-    "gallery_tab_all": "All (39)",
-    "gallery_tab_beach": "👙 Beach & Bikini",
-    "gallery_tab_romance": "💖 Romance & Dates",
-    "gallery_tab_intimate": "🔞 Intimate VIP",
-    "gallery_save_btn": "Save to Gallery 📸💾",
-    "backlog_title": "Dialogue History",
-    "coins_alert_title": "Insufficient Coins",
-    "coins_alert_desc": "You need at least 100 coins to unlock this chapter or decision.",
-    "get_coins_btn": "🛒 Get Coins",
-    "close_btn": "Close",
-    "lang_modal_title": "English / Select Language",
-    "lang_modal_sub": "Choose your preferred language. Texts and dialogues will update immediately.",
-    "unlocked_toast": "Permanently unlocked!",
-    "badge": "PSYCHOLOGICAL & EMOTIONAL VISUAL NOVEL",
-    "title": "Paths of the Heart",
-    "subtitle": "Shadows of Yamaku",
-    "desc": "A deep immersive experience where romance, the mysteries of the past and the weight of time intertwine. Your decisions will shape the destiny of the broken hearts of the academy.",
-    "start_btn": "Start Adventure (Arrival at Yamaku)",
-    "prologue_btn": "❄ View Prologue: The Snow Incident",
-    "continue_btn": "Continue Adventure",
-    "coins_insufficient_title": "Insufficient Coins",
-    "coins_insufficient_desc": "You need at least <strong>10 coins</strong> to start or restart this adventure.",
-    "pause_title": "Pause",
-    "pause_resume": "Continue",
-    "pause_chapters": "Chapter Archive",
-    "chapters_title": "Chapter Archive & Routes",
-    "pause_save": "Save game",
-    "pause_load": "Load game",
-    "pause_title_screen": "Title screen",
-    "pause_exit": "Exit to menu",
-    "saved_toast": "Saved game",
-    "loaded_toast": "Loaded game",
-    "loading_story": "Loading story…",
-    "skip_credits": "Skip credits ⏩",
-    "credits_header": "OUTCOME REACHED",
-    "credits_unresolved_title": "✦ UNSOLVED UNDERSTANDINGS & OPEN MYSTERIES ✦",
-    "credits_staff_story": "HISTORY & ADAPTATION",
-    "credits_staff_insp": "NARRATIVE INSPIRATION",
-    "credits_staff_music": "MUSIC & ATMOSPHERE",
-    "credits_staff_cast": "PROTAGONISTS",
-    "credits_staff_quote": "\"Thank you for listening to Yamaku's heartbeat.\"",
-    "ending_unlocked": "End Unlocked",
-    "read_again": "Read again",
-    "main_menu": "Main menu",
-    "lang_search_placeholder": "🔍 Search / Buscar / English..."
-  },
   "speakers": {
     "Hisao": "Hisao",
     "Sora": "Sora",
@@ -433,6 +362,104 @@
     "Atrincherarte con Kenji en la habitación 204 con prismáticos": "Barricade yourself with Kenji in room 204 with binoculars",
     "Desafiar los límites del código y hablar con la entidad digital": "Challenge the limits of the code and talk to the digital entity",
     "Unirte al Consejo de Shizune y proclamar la verdad ante toda la escuela": "Join the Shizune Council and proclaim the truth to the entire school"
+  },
+  "endings": {
+    "ending_sora_true": {
+      "title": "Sora Ending: Wind and Ash",
+      "summary": "They overcame the pain of their broken bodies to run together towards a future without limits.",
+      "epilogue": [
+        "Months after that scorching summer, you and Sora learned that physical and heart wounds do not define the speed at which you can move forward. On the Yamaku athletic fields, the echo of each stride became a shared compass.",
+        "Sora found in you not a look of pity or condescension, but a companion who ran to his side even when his legs gave out and his chest burned. Morning training became a sacred ritual of complicity and laughter.",
+        "The cardiologist's medical report revealed a surprising stability: prudent exercise and the warmth of mutual affection strengthened a heartbeat that once teetered on the brink. Together they crossed the finish line towards a new life where pain is just an overcome memory."
+      ],
+      "mysteries": [
+        "✦ Who was the lone figure who left an offering of white flowers and an antique stopwatch on the track's bleachers on the eve of graduation?",
+        "✦ In the confidential diaries of the infirmary there is still a cryptic note from the former school doctor: \"The patient maintains her speed, but the echo of the wind on the hill always demands its price.\" Will their hearts truly be safe when the harsh winter falls?"
+      ]
+    },
+    "ending_yumi_true": {
+      "title": "Yumi Ending: The Flower Among Ashes",
+      "summary": "She healed her past traumas and learned to walk proudly in the light of the world.",
+      "epilogue": [
+        "The Yamaku library fell silent, but it was no longer that oppressive silence of loneliness and fear, but a haven of peace and shared tenderness. Yumi slowly began to brush aside her dark bangs, allowing the light to caress the marks on her skin without shame.",
+        "At your side, his timid voice regained his lost confidence. His hands, which had previously trembled as he turned the pages, learned to intertwine with yours with unwavering warmth. Those afternoons of barley tea and shared readings germinated in a serene and protective love.",
+        "Yumi discovered that the beauty of a flower lies not in the absence of scars, but in the miraculous strength with which it is reborn from the ashes."
+      ],
+      "mysteries": [
+        "✦ What was the real cause of the devastating fire that consumed Yumi's childhood home? An old newspaper clipping filed in the basement suggests that the fire was not started by a chance short circuit, and that a hooded figure was seen fleeing through the pouring rain.",
+        "✦ Who continues to send letters without a return address or postmark to the library every anniversary of the tragedy, sealed with crimson wax?"
+      ]
+    },
+    "ending_elena_true": {
+      "title": "Final Elena: The Melody of the Ocean",
+      "summary": "Geographic distance could not break the promise sealed between tea and violin melodies.",
+      "epilogue": [
+        "The farewell at the international terminal was not a definitive goodbye, but rather the prelude to a promise that crossed oceans and continents. Elena returned to Scotland carrying in her memory every aroma, every breeze and every musical note shared in Yamaku.",
+        "The letters written in Braille and the tapes with sound recordings that they exchanged week after week kept alive the fire of an indestructible bond. In their world where the eye cannot see, love became a tangible certainty guided by touch and music.",
+        "As the end of autumn arrived, the unmistakable clatter of her white cane echoed again on the station platform: Elena had returned to walk by your side forever."
+      ],
+      "mysteries": [
+        "✦ Why was Elena's influential family so vehemently opposed to her stays in Japan? Ancient notarial documents link Elena's blindness to a mysterious inheritance dispute and an abandoned estate in the hills.",
+        "✦ What unpublished violin score, without title or signature but dated one hundred years ago, did Elena find hidden in the lining of her case the night before her departure?"
+      ]
+    },
+    "ending_aiko_true": {
+      "title": "Final Aiko: The Colors of the Soul",
+      "summary": "His art found meaning beyond words in shared warmth.",
+      "epilogue": [
+        "In the old painting workshop bathed in the twilight sun, Aiko displayed colossal canvases that breathed an unknown force. His inability to articulate with words the labyrinth of his thoughts dissolved the moment you learned to decipher the secret language of his strokes.",
+        "There was no need for speeches or solemn promises: each brushstroke loaded with oil was a caress, and each combination of nuances revealed the purest truth of his heart. Together they inaugurated the academy's most acclaimed exhibition.",
+        "Aiko smiled like never before, knowing that her loneliness had become an eternal bridge to your soul."
+      ],
+      "mysteries": [
+        "✦ What meaning do the blurry faces and cryptic dates that Aiko obsessively paints on the back of her frames hold?",
+        "✦ No one in Yamaku has been able to explain why, on full moon nights, Aiko secretly climbs to the roof to look at the ruined tower in the surrounding forest. What secret did you witness in that forgotten place during your first days at the academy?"
+      ]
+    },
+    "ending_kenji_bunker": {
+      "title": "Comic Ending: Camaraderie in the Trenches",
+      "summary": "You chose Kenji's paranoid prudence. The world keeps spinning outside.",
+      "epilogue": [
+        "You decided to ignore the risks of romance and barricaded yourself in Kenji Seto's conspiratorial sanctuary. Among mountains of bean cans, maps covered in red threads and dismantled radio sets, you fortified your room against the supposed \"global feminist conspiracy.\"",
+        "The weeks passed between delirious conspiracy theories, night watch shifts and heated debates about survival in the face of the end of the world. Although love was left out of your horizon, you forged a brotherhood as extravagant as it was unbreakable.",
+        "Kenji appointed you his Trusted Lieutenant and supreme commander of the emergency pantry."
+      ],
+      "mysteries": [
+        "✦ Although Kenji's ideas seemed like a product of his feverish imagination, one night the shortwave radio tuned to a classified military frequency that transmitted exactly the coordinates Kenji had scribbled in his notebook.",
+        "✦ Who is the enigmatic woman in the dark trench coat who stops at 3:33 AM every Tuesday in front of Kenji's window before vanishing into the fog?"
+      ]
+    },
+    "ending_ddlc_epiphany": {
+      "title": "Final Goal: The Window to the Soul",
+      "summary": "You broke the barrier of fiction. Your empathy transcended the screen.",
+      "epilogue": [
+        "The lines of dialogue faded and the digital curtain fell into an eerie silence. In that abyss beyond the sprites and drawn backgrounds, the Yamaku girls became aware of your gaze on the other side of the screen.",
+        "They understood that you were not a simple entity programmed to follow a predefined route, but a real person with your own heartbeat who decided to dedicate hours of your life to listening to them, understanding their fears and relieving their pain.",
+        "A silent, infinite gratitude hung in the air before the world dissolved into an embrace of light."
+      ],
+      "mysteries": [
+        "✦ Why has an invisible file that stores the heartbeats of your elections been registered in the operating system's memory?",
+        "✦ Does a story really restart when you read again, or do the souls within the code wait patiently remembering every caress and tear of your previous journey?"
+      ]
+    },
+    "ending_true_miracle": {
+      "title": "TRUE ENDING: The Great Miracle of Yamaku",
+      "summary": "You broke the curse of isolation and suspicion. They all found healing, love and a future on the flowering hill.",
+      "epilogue": [
+        "Against all odds, you broke down one after another the walls of silence, mistrust and pain that kept the souls of Yamaku isolated in their own fortresses. Sora, Yumi, Elena, Aiko, Shizune, Shiina, and even Kenji gathered at the top of the hill under a snowfall of cherry petals.",
+        "The heart that once threatened to go out on a frigid winter day now beat with indomitable strength, nourished by the collective miracle of empathy, forgiveness and love.",
+        "Scars stopped being symbols of tragedy and became medals of victory. The entire academy celebrated the rebirth of a spring that will never die out."
+      ],
+      "mysteries": [
+        "✦ What is the origin of the ancient legend that the village elders tell about the old shrine on Yamaku Hill, according to which a heart that gives itself unreservedly to healing others is blessed with renewed life?",
+        "✦ Among the historical archives of Yamaku, a photograph from eighty years ago was found showing seven students identical to the current ones, smiling under the same century-old cherry tree. Has this miracle been repeated through generations?"
+      ]
+    },
+    "ending_miracle_heart": "Ending 1: The Great Miracle of the Heart (Spring & Life)",
+    "ending_station_farewell": "Ending 2: Heartbreaking Farewell at the Station (Tears in Rain)",
+    "ending_midnight_loop": "Ending 3: Echo of the Midnight Loop (Pure Psychological Horror)",
+    "ending_free_flight": "Ending 4: Free Flight (Ocean & Liberty)",
+    "ending_meta_epiphany": "Ending 5: Meta-Spiritual Epiphany (Eternal Gratitude)"
   },
   "scenes": {
     "start": [
@@ -8157,103 +8184,76 @@
       "I ran towards them across the warm sand. My heart beat strong, full, alive... and in perfect harmony with the world."
     ]
   },
-  "endings": {
-    "ending_sora_true": {
-      "title": "Sora Ending: Wind and Ash",
-      "summary": "They overcame the pain of their broken bodies to run together towards a future without limits.",
-      "epilogue": [
-        "Months after that scorching summer, you and Sora learned that physical and heart wounds do not define the speed at which you can move forward. On the Yamaku athletic fields, the echo of each stride became a shared compass.",
-        "Sora found in you not a look of pity or condescension, but a companion who ran to his side even when his legs gave out and his chest burned. Morning training became a sacred ritual of complicity and laughter.",
-        "The cardiologist's medical report revealed a surprising stability: prudent exercise and the warmth of mutual affection strengthened a heartbeat that once teetered on the brink. Together they crossed the finish line towards a new life where pain is just an overcome memory."
-      ],
-      "mysteries": [
-        "✦ Who was the lone figure who left an offering of white flowers and an antique stopwatch on the track's bleachers on the eve of graduation?",
-        "✦ In the confidential diaries of the infirmary there is still a cryptic note from the former school doctor: \"The patient maintains her speed, but the echo of the wind on the hill always demands its price.\" Will their hearts truly be safe when the harsh winter falls?"
-      ]
-    },
-    "ending_yumi_true": {
-      "title": "Yumi Ending: The Flower Among Ashes",
-      "summary": "She healed her past traumas and learned to walk proudly in the light of the world.",
-      "epilogue": [
-        "The Yamaku library fell silent, but it was no longer that oppressive silence of loneliness and fear, but a haven of peace and shared tenderness. Yumi slowly began to brush aside her dark bangs, allowing the light to caress the marks on her skin without shame.",
-        "At your side, his timid voice regained his lost confidence. His hands, which had previously trembled as he turned the pages, learned to intertwine with yours with unwavering warmth. Those afternoons of barley tea and shared readings germinated in a serene and protective love.",
-        "Yumi discovered that the beauty of a flower lies not in the absence of scars, but in the miraculous strength with which it is reborn from the ashes."
-      ],
-      "mysteries": [
-        "✦ What was the real cause of the devastating fire that consumed Yumi's childhood home? An old newspaper clipping filed in the basement suggests that the fire was not started by a chance short circuit, and that a hooded figure was seen fleeing through the pouring rain.",
-        "✦ Who continues to send letters without a return address or postmark to the library every anniversary of the tragedy, sealed with crimson wax?"
-      ]
-    },
-    "ending_elena_true": {
-      "title": "Final Elena: The Melody of the Ocean",
-      "summary": "Geographic distance could not break the promise sealed between tea and violin melodies.",
-      "epilogue": [
-        "The farewell at the international terminal was not a definitive goodbye, but rather the prelude to a promise that crossed oceans and continents. Elena returned to Scotland carrying in her memory every aroma, every breeze and every musical note shared in Yamaku.",
-        "The letters written in Braille and the tapes with sound recordings that they exchanged week after week kept alive the fire of an indestructible bond. In their world where the eye cannot see, love became a tangible certainty guided by touch and music.",
-        "As the end of autumn arrived, the unmistakable clatter of her white cane echoed again on the station platform: Elena had returned to walk by your side forever."
-      ],
-      "mysteries": [
-        "✦ Why was Elena's influential family so vehemently opposed to her stays in Japan? Ancient notarial documents link Elena's blindness to a mysterious inheritance dispute and an abandoned estate in the hills.",
-        "✦ What unpublished violin score, without title or signature but dated one hundred years ago, did Elena find hidden in the lining of her case the night before her departure?"
-      ]
-    },
-    "ending_aiko_true": {
-      "title": "Final Aiko: The Colors of the Soul",
-      "summary": "His art found meaning beyond words in shared warmth.",
-      "epilogue": [
-        "In the old painting workshop bathed in the twilight sun, Aiko displayed colossal canvases that breathed an unknown force. His inability to articulate with words the labyrinth of his thoughts dissolved the moment you learned to decipher the secret language of his strokes.",
-        "There was no need for speeches or solemn promises: each brushstroke loaded with oil was a caress, and each combination of nuances revealed the purest truth of his heart. Together they inaugurated the academy's most acclaimed exhibition.",
-        "Aiko smiled like never before, knowing that her loneliness had become an eternal bridge to your soul."
-      ],
-      "mysteries": [
-        "✦ What meaning do the blurry faces and cryptic dates that Aiko obsessively paints on the back of her frames hold?",
-        "✦ No one in Yamaku has been able to explain why, on full moon nights, Aiko secretly climbs to the roof to look at the ruined tower in the surrounding forest. What secret did you witness in that forgotten place during your first days at the academy?"
-      ]
-    },
-    "ending_kenji_bunker": {
-      "title": "Comic Ending: Camaraderie in the Trenches",
-      "summary": "You chose Kenji's paranoid prudence. The world keeps spinning outside.",
-      "epilogue": [
-        "You decided to ignore the risks of romance and barricaded yourself in Kenji Seto's conspiratorial sanctuary. Among mountains of bean cans, maps covered in red threads and dismantled radio sets, you fortified your room against the supposed \"global feminist conspiracy.\"",
-        "The weeks passed between delirious conspiracy theories, night watch shifts and heated debates about survival in the face of the end of the world. Although love was left out of your horizon, you forged a brotherhood as extravagant as it was unbreakable.",
-        "Kenji appointed you his Trusted Lieutenant and supreme commander of the emergency pantry."
-      ],
-      "mysteries": [
-        "✦ Although Kenji's ideas seemed like a product of his feverish imagination, one night the shortwave radio tuned to a classified military frequency that transmitted exactly the coordinates Kenji had scribbled in his notebook.",
-        "✦ Who is the enigmatic woman in the dark trench coat who stops at 3:33 AM every Tuesday in front of Kenji's window before vanishing into the fog?"
-      ]
-    },
-    "ending_ddlc_epiphany": {
-      "title": "Final Goal: The Window to the Soul",
-      "summary": "You broke the barrier of fiction. Your empathy transcended the screen.",
-      "epilogue": [
-        "The lines of dialogue faded and the digital curtain fell into an eerie silence. In that abyss beyond the sprites and drawn backgrounds, the Yamaku girls became aware of your gaze on the other side of the screen.",
-        "They understood that you were not a simple entity programmed to follow a predefined route, but a real person with your own heartbeat who decided to dedicate hours of your life to listening to them, understanding their fears and relieving their pain.",
-        "A silent, infinite gratitude hung in the air before the world dissolved into an embrace of light."
-      ],
-      "mysteries": [
-        "✦ Why has an invisible file that stores the heartbeats of your elections been registered in the operating system's memory?",
-        "✦ Does a story really restart when you read again, or do the souls within the code wait patiently remembering every caress and tear of your previous journey?"
-      ]
-    },
-    "ending_true_miracle": {
-      "title": "TRUE ENDING: The Great Miracle of Yamaku",
-      "summary": "You broke the curse of isolation and suspicion. They all found healing, love and a future on the flowering hill.",
-      "epilogue": [
-        "Against all odds, you broke down one after another the walls of silence, mistrust and pain that kept the souls of Yamaku isolated in their own fortresses. Sora, Yumi, Elena, Aiko, Shizune, Shiina, and even Kenji gathered at the top of the hill under a snowfall of cherry petals.",
-        "The heart that once threatened to go out on a frigid winter day now beat with indomitable strength, nourished by the collective miracle of empathy, forgiveness and love.",
-        "Scars stopped being symbols of tragedy and became medals of victory. The entire academy celebrated the rebirth of a spring that will never die out."
-      ],
-      "mysteries": [
-        "✦ What is the origin of the ancient legend that the village elders tell about the old shrine on Yamaku Hill, according to which a heart that gives itself unreservedly to healing others is blessed with renewed life?",
-        "✦ Among the historical archives of Yamaku, a photograph from eighty years ago was found showing seven students identical to the current ones, smiling under the same century-old cherry tree. Has this miracle been repeated through generations?"
-      ]
-    },
-    "ending_miracle_heart": "Ending 1: The Great Miracle of the Heart (Spring & Life)",
-    "ending_station_farewell": "Ending 2: Heartbreaking Farewell at the Station (Tears in Rain)",
-    "ending_midnight_loop": "Ending 3: Echo of the Midnight Loop (Pure Psychological Horror)",
-    "ending_free_flight": "Ending 4: Free Flight (Ocean & Liberty)",
-    "ending_meta_epiphany": "Ending 5: Meta-Spiritual Epiphany (Eternal Gratitude)"
+  "ui": {
+    "tab_all": "All",
+    "tab_beach": "👙 VIP & Bikini Specials (14)",
+    "tab_choices": "🔀 Decisions (36)",
+    "tab_chars": "👥 Characters (18)",
+    "tab_prologue": "Prologue & Act I",
+    "tab_routes": "Heroine Routes",
+    "tab_mystery": "Mystery & Timeloop",
+    "tab_endings": "Endings",
+    "play_btn": "Play",
+    "unlock_decision_btn": "Unlock Decision (100 Coins)",
+    "unlock_special_btn": "Unlock VIP Special ({n} Coins)",
+    "decision_badge": "Decision",
+    "decision_unlocked": "Decision Unlocked",
+    "vip_unlocked": "VIP Unlocked",
+    "where_story_left": "📖 Where the story left off",
+    "on_scene": "On scene:",
+    "choices_at_crossroad": "🔀 Choices at this crossroads ({n}):",
+    "start_from_beginning": "Start chapter from beginning",
+    "title_exit": "◀ Exit",
+    "title_lang": "🌐 Language",
+    "title_chapters": "📂 Chapter Archive",
+    "title_gallery": "🔞 Secret Album",
+    "gallery_title": "Secret Album & VIP Memories",
+    "gallery_sub": "Exclusive high-resolution illustrations of intimate moments and summer on the beach.",
+    "gallery_tab_all": "All (39)",
+    "gallery_tab_beach": "👙 Beach & Bikini",
+    "gallery_tab_romance": "💖 Romance & Dates",
+    "gallery_tab_intimate": "🔞 Intimate VIP",
+    "gallery_save_btn": "Save to Gallery 📸💾",
+    "backlog_title": "Dialogue History",
+    "coins_alert_title": "Insufficient Coins",
+    "coins_alert_desc": "You need at least 100 coins to unlock this chapter or decision.",
+    "get_coins_btn": "🛒 Get Coins",
+    "close_btn": "Close",
+    "lang_modal_title": "Slovenščina / Select Language",
+    "lang_modal_sub": "Choose your preferred language. Texts and dialogues will update immediately.",
+    "unlocked_toast": "Permanently unlocked!",
+    "badge": "PSYCHOLOGICAL & EMOTIONAL VISUAL NOVEL",
+    "title": "Paths of the Heart",
+    "subtitle": "Shadows of Yamaku",
+    "desc": "A deep immersive experience where romance, the mysteries of the past and the weight of time intertwine. Your decisions will shape the destiny of the broken hearts of the academy.",
+    "start_btn": "Start Adventure (Arrival at Yamaku)",
+    "prologue_btn": "❄ View Prologue: The Snow Incident",
+    "continue_btn": "Continue Adventure",
+    "coins_insufficient_title": "Insufficient Coins",
+    "coins_insufficient_desc": "You need at least <strong>10 coins</strong> to start or restart this adventure.",
+    "pause_title": "Pause",
+    "pause_resume": "Continue",
+    "pause_chapters": "Chapter Archive",
+    "chapters_title": "Chapter Archive & Routes",
+    "pause_save": "Save game",
+    "pause_load": "Load game",
+    "pause_title_screen": "Title screen",
+    "pause_exit": "Exit to menu",
+    "saved_toast": "Saved game",
+    "loaded_toast": "Loaded game",
+    "loading_story": "Loading story…",
+    "skip_credits": "Skip credits ⏩",
+    "credits_header": "OUTCOME REACHED",
+    "credits_unresolved_title": "✦ UNSOLVED UNDERSTANDINGS & OPEN MYSTERIES ✦",
+    "credits_staff_story": "HISTORY & ADAPTATION",
+    "credits_staff_insp": "NARRATIVE INSPIRATION",
+    "credits_staff_music": "MUSIC & ATMOSPHERE",
+    "credits_staff_cast": "PROTAGONISTS",
+    "credits_staff_quote": "\"Thank you for listening to Yamaku's heartbeat.\"",
+    "ending_unlocked": "End Unlocked",
+    "read_again": "Read again",
+    "main_menu": "Main menu",
+    "lang_search_placeholder": "🔍 Search / Buscar / Slovenščina..."
   },
   "chapter_details": {
     "vertigo_phase_1": {

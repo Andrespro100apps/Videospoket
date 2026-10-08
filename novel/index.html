@@ -297,7 +297,7 @@
 
 <!-- Modal Selección de Idioma -->
 <div id="language-modal" class="overlay hidden">
-  <div class="chapters-card" style="max-width: 440px; max-height: 85vh; display: flex; flex-direction: column;">
+  <div class="chapters-card" style="max-width: 480px; max-height: 88vh; display: flex; flex-direction: column;">
     <div class="chapters-header">
       <div class="chapters-header-title">
         <span class="chapters-header-icon">🌐</span>
@@ -305,10 +305,13 @@
       </div>
       <button id="btn-close-language" class="chapters-close-btn" title="Cerrar">✕</button>
     </div>
-    <p style="font-size: 11.5px; color: #cfc5d8; margin: 4px 16px 10px 16px; text-align: center;">
+    <p id="language-modal-subtitle" style="font-size: 11.5px; color: #cfc5d8; margin: 4px 16px 8px 16px; text-align: center;">
       Elige tu idioma preferido. Los textos y diálogos se traducirán al instante.
     </p>
-    <div id="language-grid" class="language-grid">
+    <div class="language-search-wrap" style="padding: 0 16px 10px 16px;">
+      <input type="text" id="language-search-input" placeholder="🔍 Buscar idioma / Search language..." style="width: 100%; box-sizing: border-box; padding: 10px 14px; border-radius: 12px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.18); color: #fff; font-size: 13px; outline: none;">
+    </div>
+    <div id="language-grid" class="language-grid" style="overflow-y: auto; flex: 1; padding: 0 16px 16px 16px;">
       <!-- Generado dinámicamente -->
     </div>
   </div>

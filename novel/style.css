@@ -2320,13 +2320,18 @@ body.jumpscare::after {
 /* ============================================================
    MODAL DE SELECCIÓN DE IDIOMAS
    ============================================================ */
+.language-search-wrap input:focus {
+  border-color: #ff69b4 !important;
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.4);
+}
+
 .language-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 8px;
   padding: 8px 14px 16px 14px;
   overflow-y: auto;
-  max-height: calc(80vh - 110px);
+  max-height: calc(80vh - 150px);
 }
 
 .lang-card {

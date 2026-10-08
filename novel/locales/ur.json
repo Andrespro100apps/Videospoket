@@ -29,7 +29,46 @@
     "credits_staff_quote": "\"یاماکو کے دل کی دھڑکن سننے کے لیے آپ کا شکریہ۔\"",
     "ending_unlocked": "اینڈ غیر مقفل",
     "read_again": "دوبارہ پڑھیں",
-    "main_menu": "مین مینو"
+    "main_menu": "مین مینو",
+    "tab_all": "All",
+    "tab_beach": "👙 VIP & Bikini Specials (14)",
+    "tab_choices": "🔀 Decisions (36)",
+    "tab_chars": "👥 Characters (18)",
+    "tab_prologue": "Prologue & Act I",
+    "tab_routes": "Heroine Routes",
+    "tab_mystery": "Mystery & Timeloop",
+    "tab_endings": "Endings",
+    "play_btn": "Play",
+    "unlock_decision_btn": "Unlock Decision (100 Coins)",
+    "unlock_special_btn": "Unlock VIP Special ({n} Coins)",
+    "decision_badge": "Decision",
+    "decision_unlocked": "Decision Unlocked",
+    "vip_unlocked": "VIP Unlocked",
+    "where_story_left": "📖 Where the story left off",
+    "on_scene": "On scene:",
+    "choices_at_crossroad": "🔀 Choices at this crossroads ({n}):",
+    "start_from_beginning": "Start chapter from beginning",
+    "title_exit": "◀ Exit",
+    "title_lang": "🌐 Language",
+    "title_chapters": "📂 Chapter Archive",
+    "title_gallery": "🔞 Secret Album",
+    "gallery_title": "Secret Album & VIP Memories",
+    "gallery_sub": "Exclusive high-resolution illustrations of intimate moments and summer on the beach.",
+    "gallery_tab_all": "All (39)",
+    "gallery_tab_beach": "👙 Beach & Bikini",
+    "gallery_tab_romance": "💖 Romance & Dates",
+    "gallery_tab_intimate": "🔞 Intimate VIP",
+    "gallery_save_btn": "Save to Gallery 📸💾",
+    "backlog_title": "Dialogue History",
+    "coins_alert_title": "Insufficient Coins",
+    "coins_alert_desc": "You need at least 100 coins to unlock this chapter or decision.",
+    "lang_modal_title": "اردو / Select Language",
+    "lang_modal_sub": "Choose your preferred language. Texts and dialogues will update immediately.",
+    "unlocked_toast": "Permanently unlocked!",
+    "prologue_btn": "❄ View Prologue: The Snow Incident",
+    "pause_chapters": "Chapter Archive",
+    "chapters_title": "Chapter Archive & Routes",
+    "lang_search_placeholder": "🔍 Search / Buscar / اردو..."
   },
   "speakers": {
     "Hisao": "Hisao",
@@ -249,7 +288,63 @@
     "ending_aiko_true": "مذمت: لافانی کینوس",
     "ending_kenji_bunker": "مذمت: چھت پر بنکر",
     "ending_ddlc_epiphany": "مذمت: ڈیجیٹل ایپی فینی",
-    "ending_true_miracle": "گرینڈ فائنل: یاماکو کا گولڈن ڈان"
+    "ending_true_miracle": "گرینڈ فائنل: یاماکو کا گولڈن ڈان",
+    "special_pool_sora": "Forbidden Night at the Pool: Alone with Sora",
+    "special_summer_aiko": "Summer Rain & The Private Cabin: Aiko",
+    "special_onsen_elena": "Intimate Mist at the Hot Springs: Elena",
+    "special_pool_shizune": "The Private Pool Pavilion: Shizune",
+    "special_cove_yumi": "The Secret Cove at Sunset: Bikini Yumi",
+    "special_pier_shiina": "Fireworks on the Secret Pier: Shiina & Celina",
+    "beach_vacation_intro": "Getaway to the Golden Coast",
+    "beach_sora_event": "Sora: Athletic Bikini & Race in the Tide",
+    "beach_elena_event": "Elena: Sea Breeze & Towel",
+    "beach_yumi_event": "Yumi: Secret in the Cove",
+    "beach_aiko_event": "Aiko: Waves & Marine Canvas",
+    "beach_shizune_event": "Shizune: Seduction in the Sand",
+    "beach_shiina_event": "Shiina: Mischief Under the Sun",
+    "beach_models_event": "Beach Photoshoot (All Heroines)",
+    "sora_intimate_climax": "Night of Passion with Sora: Towards the Ending",
+    "elena_intimate_climax": "Between Sheets & Tea Lights with Elena: Towards the Ending",
+    "yumi_intimate_climax": "Sincere Devotion with Yumi: Towards the Ending",
+    "aiko_intimate_climax": "Canvas of Bodies at Sunset with Aiko: Towards the Ending",
+    "shizu_intimate_climax": "Surrender of President Shizune: Towards the Ending",
+    "vertigo_phase_1": "Vertigo of the Shadows — Phase 1",
+    "arc_hakamada_1": "Hakamada Saga: Patriarch's Trial & Blood Oath",
+    "arc_paranoia_1": "Paranoia Saga: Night of Shadows & The Secret Ward",
+    "arc_nomiya_1": "Cursed Gallery Saga: Canvas of Oblivion & Sae's Mask",
+    "special_rei_track": "Fire on the Track: Rei's Wind",
+    "special_yuuko_library": "The Sanctuary of Books: Sweet Yuuko",
+    "special_akira_city": "Distinction & City Lights: Akira",
+    "ending_rei_wind": "Rei Ending: The Wind in Our Hands",
+    "ending_rei_parting": "Final Rei: La Huella en la Pista",
+    "ending_yuuko_rain": "Yuuko Ending: Words Under the Rain",
+    "ending_yuuko_tea": "Final Yuuko: La Promesa del Té de Shanghai",
+    "ending_akira_tokyo": "Akira Ending: Destinies Crossing in Tokyo",
+    "ending_akira_toast": "Final Akira: La Luz del Faro",
+    "ending_hakamada_rebellion": "Final Shizune & Jigoro: Honor, Rebeldía y Libertad",
+    "ending_hakamada_pact": "Final Hideaki & Consejo: El Pacto Silencioso",
+    "ending_hakamada_tragedy": "Final Misha & Clímax: El Lazo en la Tormenta",
+    "ending_paranoia_truth": "Final Pabellón: La Luz de la Razón y Esperanza",
+    "ending_paranoia_asphyxia": "Final Paranoia: El Guardián en las Sombras",
+    "ending_gallery_catharsis": "Final Galería: Catarsis de Óleo y Vida",
+    "ending_gallery_obsession": "Final Obsesión: El Vórtice del Lienzo Infinito",
+    "ending_hideaki_reconciliation": "Final Hideaki: El Camino Propio",
+    "ending_misha_true_smile": "Final Misha: La Sonrisa Verdadera",
+    "ending_jigoro_honor": "Final Jigoro: El Código de Honor",
+    "special_pool_night": "VIP Special: Night Dip in the Forbidden Pool",
+    "special_onsen_mist": "VIP Special: Serenity & Passion in the Onsen",
+    "special_beach_festival": "VIP Special: Confession Under the Fireworks",
+    "special_photo_ecchi": "VIP Special: Private Sunset Photo Session",
+    "special_foam_party": "VIP Special: The Great Yamaku Summer Celebration",
+    "rei_route_2": "Special Route: Phantom Pain (Rei)",
+    "yuuko_route_2": "Special Route: Panic & Solace (Yuuko)",
+    "akira_route_2": "Special Route: The Mask of Success (Akira)",
+    "arc_hakamada_3": "Hakamada Saga: Crossroads of Honor",
+    "arc_paranoia_3": "Paranoia Saga: Room of White Guards",
+    "arc_nomiya_3": "Gallery Saga: The Soul on Canvas",
+    "route_hideaki_intro": "Special Chapter: The Hakamada Enigma",
+    "route_misha_intro": "Special Chapter: Shiina's Smile",
+    "route_jigoro_intro": "Special Chapter: The Patriarch's Challenge"
   },
   "choices": {
     "Buscar a Sora en la pista de atletismo para advertirle del peligro": "سورا کو رننگ ٹریک پر ڈھونڈیں تاکہ اسے خطرے سے آگاہ کریں۔",
@@ -8082,6 +8177,752 @@
         "✦ گاؤں کے بزرگ یاماکو پہاڑی پر واقع پرانے مزار کے بارے میں بتائے گئے قدیم افسانے کی اصل کیا ہے، جس کے مطابق جو دل دوسروں کو شفا دینے کے لیے اپنے آپ کو بے نیاز کر دیتا ہے اسے نئی زندگی نصیب ہوتی ہے؟",
         "✦ یاماکو کے تاریخی آرکائیوز میں سے، اسّی سال پہلے کی ایک تصویر ملی تھی جس میں سات طلباء موجودہ طلباء سے ملتے جلتے دکھائے گئے تھے، جو اسی صدی پرانے چیری کے درخت کے نیچے مسکرا رہے تھے۔ کیا یہ معجزہ نسل در نسل دہرایا گیا ہے؟"
       ]
+    }
+  },
+  "chapter_details": {
+    "vertigo_phase_1": {
+      "title": "Vertigo of the Shadows — Phase 1",
+      "badge": "👁️ Psychological Horror (50 Phases)",
+      "desc": "A las 03:33 AM, el tiempo se fractura en Yamaku. Las heroínas descubren que están atrapadas dentro de tu dispositivo móvil y te suplican no cerrar la app mientras el bucle temporal amenaza con borrar sus recuerdos.",
+      "fullSummary": "A las 03:33 AM, el tiempo se fractura en Yamaku. Las heroínas descubren que están atrapadas dentro de tu dispositivo móvil y te suplican no cerrar la app mientras el bucle temporal amenaza con borrar sus recuerdos.",
+      "location": "Yamaku & Dimensión Meta",
+      "charsPreview": "🏃 Sora, 📖 Yumi, ☕ Elena, 🎨 Aiko, 👓 Kenji"
+    },
+    "arc_hakamada_1": {
+      "title": "Hakamada Saga: Patriarch's Trial & Blood Oath",
+      "badge": "🗡️ Saga Hakamada",
+      "desc": "Una noche de tifón, Jigoro Hakamada irrumpe en Yamaku con guardaespaldas armados para reclamar a Shizune y Hideaki. Un drama feudal de honor, romance valiente y desamor entre relámpagos.",
+      "fullSummary": "Una noche de tifón, Jigoro Hakamada irrumpe en Yamaku con guardaespaldas armados para reclamar a Shizune y Hideaki. Un drama feudal de honor, romance valiente y desamor entre relámpagos.",
+      "location": "Dormitorio & Salón del Consejo",
+      "charsPreview": "🗡️ Jigoro, 🕶️ Hideaki, 📋 Shizune, 🎀 Misha"
+    },
+    "arc_paranoia_1": {
+      "title": "Paranoia Saga: Night of Shadows & The Secret Ward",
+      "badge": "👁️ Saga Paranoia",
+      "desc": "Un rayo destruye el transformador. En medio del apagón y las advertencias de Kenji, Hisao debe cruzar el campus en plena crisis cardíaca para recuperar su medicación en el ala médica.",
+      "fullSummary": "Un rayo destruye el transformador. En medio del apagón y las advertencias de Kenji, Hisao debe cruzar el campus en plena crisis cardíaca para recuperar su medicación en el ala médica.",
+      "location": "Pabellón Clínico de Urgencias",
+      "charsPreview": "👓 Kenji, 💉 Jefa Enfermera, 🧪 Prof. Mutou"
+    },
+    "arc_nomiya_1": {
+      "title": "Cursed Gallery Saga: Canvas of Oblivion & Sae's Mask",
+      "badge": "🎨 Saga Galería",
+      "desc": "Hisao viaja a la ciudad invitado por Sae. En el sótano bohemio, el profesor Nomiya exige el latido de Hisao para culminar una pintura colosal que amenaza con devorar su cordura.",
+      "fullSummary": "Hisao viaja a la ciudad invitado por Sae. En el sótano bohemio, el profesor Nomiya exige el latido de Hisao para culminar una pintura colosal que amenaza con devorar su cordura.",
+      "location": "Galería de Arte Subterránea",
+      "charsPreview": "🎨 Prof. Nomiya, 🚬 Sae, 🖌️ Meiko"
+    },
+    "special_rei_track": {
+      "title": "Fire on the Track: Rei's Wind",
+      "badge": "🏃 Especial Rei",
+      "desc": "Hisao acompaña a Rei (Miki) durante su entrenamiento solitario al caer el sol. Entre la fatiga, confesiones sobre el dolor de sus limitaciones físicas y una carrera hombro a hombro, surge una conexión profunda e inolvidable.",
+      "fullSummary": "Hisao acompaña a Rei (Miki) durante su entrenamiento solitario al caer el sol. Entre la fatiga, confesiones sobre el dolor de sus limitaciones físicas y una carrera hombro a hombro, surge una conexión profunda e inolvidable.",
+      "location": "Pista de Atletismo de Yamaku",
+      "charsPreview": "🏃 Rei y 👤 Hisao"
+    },
+    "special_yuuko_library": {
+      "title": "The Sanctuary of Books: Sweet Yuuko",
+      "badge": "📚 Especial Yuuko",
+      "desc": "Hisao descubre el rincón secreto de la biblioteca de Yamaku donde conoce a Yuuko Shirakawa. Una conversación íntima y reconfortante que marca el inicio de una dulce complicidad.",
+      "fullSummary": "Hisao descubre el rincón secreto de la biblioteca de Yamaku donde conoce a Yuuko Shirakawa. Una conversación íntima y reconfortante que marca el inicio de una dulce complicidad.",
+      "location": "Biblioteca de Yamaku",
+      "charsPreview": "📚 Yuuko y 👤 Hisao"
+    },
+    "special_akira_city": {
+      "title": "Distinction & City Lights: Akira",
+      "badge": "🍷 Especial Akira",
+      "desc": "En una salida a la ciudad, Hisao comparte una velada en un salón privado con Akira Satou. Banter inteligente, complicidad fraternal y valiosos consejos de vida con estilo impecable.",
+      "fullSummary": "En una salida a la ciudad, Hisao comparte una velada en un salón privado con Akira Satou. Banter inteligente, complicidad fraternal y valiosos consejos de vida con estilo impecable.",
+      "location": "Salón de la Ciudad",
+      "charsPreview": "🍷 Akira y 👤 Hisao"
+    },
+    "special_pool_sora": {
+      "title": "Forbidden Night at the Pool: Alone with Sora",
+      "badge": "🌙 VIP 500 🪙",
+      "desc": "Hisao y Sora se cuelan en la piscina del pabellón tras el toque de queda. Entre risas cómplices, el calor del agua y confesiones a corazón abierto, sellan su amor con un inolvidable beso a solas.",
+      "fullSummary": "Hisao y Sora se cuelan en la piscina del pabellón tras el toque de queda. Entre risas cómplices, el calor del agua y confesiones a corazón abierto, sellan su amor con un inolvidable beso a solas.",
+      "location": "Piscina Olímpica Cubierta",
+      "charsPreview": "🏃 Sora & 👤 Hisao a solas"
+    },
+    "special_summer_aiko": {
+      "title": "Summer Rain & The Private Cabin: Aiko",
+      "badge": "🎨 VIP 350 🪙",
+      "desc": "Un aguacero de verano sorprende a Hisao y Aiko en la costa. Atrapados en una cabaña con el agua goteando por sus cuerpos, Aiko busca descubrir el verdadero color del amor.",
+      "fullSummary": "Un aguacero de verano sorprende a Hisao y Aiko en la costa. Atrapados en una cabaña con el agua goteando por sus cuerpos, Aiko busca descubrir el verdadero color del amor.",
+      "location": "Mirador de los Acantilados",
+      "charsPreview": "🎨 Aiko & 👤 Hisao"
+    },
+    "special_onsen_elena": {
+      "title": "Intimate Mist at the Hot Springs: Elena",
+      "badge": "♨️ VIP 300 🪙",
+      "desc": "Elena disfruta de la calidez de las aguas termales privadas junto a Hisao. Guiando sus manos con infinita ternura, comparten un momento de intimidad pura y un beso apasionado.",
+      "fullSummary": "Elena disfruta de la calidez de las aguas termales privadas junto a Hisao. Guiando sus manos con infinita ternura, comparten un momento de intimidad pura y un beso apasionado.",
+      "location": "Pabellón Termal Tradicional",
+      "charsPreview": "🌸 Elena & 👤 Hisao"
+    },
+    "special_pool_shizune": {
+      "title": "The Private Pool Pavilion: Shizune",
+      "badge": "♟️ VIP 250 🪙",
+      "desc": "Con la complicidad de Shiina dejándolos a solas, Shizune reta a Hisao en la piscina. Al quedar acorralada en el bordillo, su seriedad se desvanece en un tierno beso.",
+      "fullSummary": "Con la complicidad de Shiina dejándolos a solas, Shizune reta a Hisao en la piscina. Al quedar acorralada en el bordillo, su seriedad se desvanece en un tierno beso.",
+      "location": "Club de Natación Privado",
+      "charsPreview": "♟️ Shizune & 👤 Hisao"
+    },
+    "special_cove_yumi": {
+      "title": "The Secret Cove at Sunset: Bikini Yumi",
+      "badge": "🌊 VIP 200 🪙",
+      "desc": "Hisao lleva a Yumi a una cala escondida donde nadie puede verla. Venciendo su timidez con su hermoso bikini lila, Yumi se funde en un abrazo tierno y un beso al atardecer.",
+      "fullSummary": "Hisao lleva a Yumi a una cala escondida donde nadie puede verla. Venciendo su timidez con su hermoso bikini lila, Yumi se funde en un abrazo tierno y un beso al atardecer.",
+      "location": "Cala Oculta de Rocas Blancas",
+      "charsPreview": "📚 Yumi & 👤 Hisao"
+    },
+    "special_pier_shiina": {
+      "title": "Fireworks on the Secret Pier: Shiina & Celina",
+      "badge": "🎆 VIP 400 🪙",
+      "desc": "Lejos del bullicio del festival, Shiina y Hisao contemplan el espectáculo pirotécnico desde el final del muelle. Las risas se convierten en ternura y un beso apasionado bajo los estallidos de luz.",
+      "fullSummary": "Lejos del bullicio del festival, Shiina y Hisao contemplan el espectáculo pirotécnico desde el final del muelle. Las risas se convierten en ternura y un beso apasionado bajo los estallidos de luz.",
+      "location": "Muelle de Madera del Faro",
+      "charsPreview": "✨ Shiina & 👤 Hisao"
+    },
+    "beach_vacation_intro": {
+      "title": "Getaway to the Golden Coast",
+      "badge": "🔀 Decision 4 (8 Rutas Playa)",
+      "desc": "El viaje veraniego a la playa reúne a todas las chicas en traje de baño. Hisao puede elegir pasar el día corriendo con Sora, descansando con Elena, explorando la caleta con Yumi, pintando con Aiko, jugando vóley con Shizune, saltando olas con Shiina o compartiendo cócteles con las modelos invitadas.",
+      "fullSummary": "El viaje veraniego a la playa reúne a todas las chicas en traje de baño. Hisao puede elegir pasar el día corriendo con Sora, descansando con Elena, explorando la caleta con Yumi, pintando con Aiko, jugando vóley con Shizune, saltando olas con Shiina o compartiendo cócteles con las modelos invitadas.",
+      "location": "Costa Dorada (Playa de Verano)",
+      "charsPreview": "🏃 Sora, 🌸 Elena, 📚 Yumi, 🎨 Aiko, ♟️ Shizune, ✨ Shiina, 🌟 Celina"
+    },
+    "beach_sora_event": {
+      "title": "Sora: Athletic Bikini & Race in the Tide",
+      "badge": "🔀 Decision 5 (Sora Playa)",
+      "desc": "Tras nadar y correr en la orilla con su bikini deportivo, Sora le pide a Hisao encontrarse en secreto en la cabaña costera al anochecer.",
+      "fullSummary": "Tras nadar y correr en la orilla con su bikini deportivo, Sora le pide a Hisao encontrarse en secreto en la cabaña costera al anochecer.",
+      "location": "Orilla de la Costa Dorada",
+      "charsPreview": "🏃 Sora, 👤 Hisao"
+    },
+    "beach_elena_event": {
+      "title": "Elena: Sea Breeze & Towel",
+      "badge": "🔀 Decision 6 (Elena Playa)",
+      "desc": "Abrigada en su toalla bajo la brisa marina, Elena confiesa que su corazón late con una intensidad desconocida y le pide a Hisao acompañarla a su habitación privada.",
+      "fullSummary": "Abrigada en su toalla bajo la brisa marina, Elena confiesa que su corazón late con una intensidad desconocida y le pide a Hisao acompañarla a su habitación privada.",
+      "location": "Pérgola de madera junto al mar",
+      "charsPreview": "🌸 Elena, 👤 Hisao"
+    },
+    "beach_yumi_event": {
+      "title": "Yumi: Secret in the Cove",
+      "badge": "🔀 Decision 7 (Yumi Playa)",
+      "desc": "En una caleta apartada de miradas extrañas, Yumi muestra sus cicatrices sin miedo por primera vez y le pide a Hisao pasar la noche juntos en la villa.",
+      "fullSummary": "En una caleta apartada de miradas extrañas, Yumi muestra sus cicatrices sin miedo por primera vez y le pide a Hisao pasar la noche juntos en la villa.",
+      "location": "Cala secreta entre las rocas marinas",
+      "charsPreview": "📚 Yumi, 👤 Hisao"
+    },
+    "beach_aiko_event": {
+      "title": "Aiko: Waves & Marine Canvas",
+      "badge": "🔀 Decision 8 (Aiko Playa)",
+      "desc": "Contemplando el romper de las olas, Aiko le propone a Hisao subir al taller de arte de la villa costera para pintar juntos algo que jamás se borre.",
+      "fullSummary": "Contemplando el romper de las olas, Aiko le propone a Hisao subir al taller de arte de la villa costera para pintar juntos algo que jamás se borre.",
+      "location": "Acantilado y taller de la villa",
+      "charsPreview": "🎨 Aiko, 👤 Hisao"
+    },
+    "beach_shizune_event": {
+      "title": "Shizune: Seduction in the Sand",
+      "badge": "🔀 Decision 9 (Shizune Playa)",
+      "desc": "Tras un reñido partido de vóley en la arena, Shizune le deja claro a Hisao por señas que esta noche en su habitación privada no aceptará ningún empate.",
+      "fullSummary": "Tras un reñido partido de vóley en la arena, Shizune le deja claro a Hisao por señas que esta noche en su habitación privada no aceptará ningún empate.",
+      "location": "Pista de arena de vóley playa",
+      "charsPreview": "♟️ Shizune, 👤 Hisao"
+    },
+    "beach_shiina_event": {
+      "title": "Shiina: Mischief Under the Sun",
+      "badge": "🔀 Decision 10 (Shiina Playa)",
+      "desc": "Shiina llena la tarde de carcajadas y acrobacias en el agua. Tras un beso juguetón en la mejilla, Hisao decide si volver a la terraza o pasear por la playa crepuscular.",
+      "fullSummary": "Shiina llena la tarde de carcajadas y acrobacias en el agua. Tras un beso juguetón en la mejilla, Hisao decide si volver a la terraza o pasear por la playa crepuscular.",
+      "location": "Muelle de madera de la Costa Dorada",
+      "charsPreview": "✨ Shiina, 👤 Hisao"
+    },
+    "beach_models_event": {
+      "title": "Beach Photoshoot (All Heroines)",
+      "badge": "🔀 Decision 11 (Modelos Invitadas)",
+      "desc": "Las modelos de revista Celina, Tessa y Zoe comparten cócteles tropicales con Hisao al atardecer, invitándolo a regresar a cenar o continuar la aventura.",
+      "fullSummary": "Las modelos de revista Celina, Tessa y Zoe comparten cócteles tropicales con Hisao al atardecer, invitándolo a regresar a cenar o continuar la aventura.",
+      "location": "Terraza del Lounge Marino",
+      "charsPreview": "🌟 Celina, 👙 Tessa, 🌺 Zoe, 👤 Hisao"
+    },
+    "act1_dorm_kenji": {
+      "title": "Act I: The Bunker Neighbor",
+      "badge": "👓 1ª APARICIÓN",
+      "desc": "Al instalarse en su habitación de la residencia masculina, Hisao conoce a su estrafalario vecino de gafas gruesas: Kenji Setou. Kenji le habla de sus teorías de conspiración, vigilancia con prismáticos y provisiones enlatadas.",
+      "fullSummary": "Al instalarse en su habitación de la residencia masculina, Hisao conoce a su estrafalario vecino de gafas gruesas: Kenji Setou. Kenji le habla de sus teorías de conspiración, vigilancia con prismáticos y provisiones enlatadas.",
+      "location": "Dormitorios masculinos (Hab. 203 y 204)",
+      "charsPreview": "👓 Kenji (1ª Vez - El chico de lentes), 👤 Hisao"
+    },
+    "start": {
+      "title": "Prologue: The Winter of Silence",
+      "badge": "❄️ Prologue 1",
+      "desc": "Bajo los cerezos cubiertos de nieve invernal, Hisao camina junto a Iwanako con una carta doblada con esmero. De pronto, un dolor asfixiante perfora su pecho y su corazón tropieza, cayendo sobre la nieve blanca.",
+      "fullSummary": "Bajo los cerezos cubiertos de nieve invernal, Hisao camina junto a Iwanako con una carta doblada con esmero. De pronto, un dolor asfixiante perfora su pecho y su corazón tropieza, cayendo sobre la nieve blanca.",
+      "location": "Parque nevado de la ciudad",
+      "charsPreview": "👤 Hisao (1ª Vez), 💌 Iwanako"
+    },
+    "act1_hallway_meeting": {
+      "title": "Act I: The Crash in the Hallway",
+      "badge": "⭐ 1ª APARICIÓN",
+      "desc": "Buscando la sala de profesores, Hisao colisiona fuertemente en el corredor con Sora (chica atlética con prótesis para correr). Aparecen de inmediato Shiina y la estricta presidenta Shizune en lenguaje de señas.",
+      "fullSummary": "Buscando la sala de profesores, Hisao colisiona fuertemente en el corredor con Sora (chica atlética con prótesis para correr). Aparecen de inmediato Shiina y la estricta presidenta Shizune en lenguaje de señas.",
+      "location": "Pasillo del 2º piso de Yamaku",
+      "charsPreview": "🏃 Sora (1ª Vez), ♟️ Shizune (1ª Vez), ✨ Shiina (1ª Vez)"
+    },
+    "tues_seq_10": {
+      "title": "Tuesday in Yamaku (Part 10)",
+      "badge": "📚 1ª APARICIÓN",
+      "desc": "Hisao busca refugio en la enorme biblioteca de Yamaku. Entre pasillos en penumbra divisa a Yumi, una chica solitaria con cicatrices que lee absorta, y saluda a la nerviosa asistente Yuuko.",
+      "fullSummary": "Hisao busca refugio en la enorme biblioteca de Yamaku. Entre pasillos en penumbra divisa a Yumi, una chica solitaria con cicatrices que lee absorta, y saluda a la nerviosa asistente Yuuko.",
+      "location": "Biblioteca central de Yamaku",
+      "charsPreview": "📚 Yumi (1ª Vez), 📖 Yuuko (1ª Vez), 👤 Hisao"
+    },
+    "tues_seq_7": {
+      "title": "Tuesday in Yamaku (Part 7)",
+      "badge": "🌸 1ª APARICIÓN",
+      "desc": "Hisao descubre un salón privado impregnado de aroma a flores y bergamota. Allí conoce a Elena, una alumna invidente de modales aristocráticos que le brinda una cálida bienvenida y una taza de té.",
+      "fullSummary": "Hisao descubre un salón privado impregnado de aroma a flores y bergamota. Allí conoce a Elena, una alumna invidente de modales aristocráticos que le brinda una cálida bienvenida y una taza de té.",
+      "location": "Salón de Té privado",
+      "charsPreview": "🌸 Elena (1ª Vez - Chica elegante), 👤 Hisao"
+    },
+    "thur_seq_1": {
+      "title": "Thursday on the Hill (Part 1)",
+      "badge": "🎨 1ª APARICIÓN",
+      "desc": "Con la luz dorada entrando por los ventanales del taller, Hisao contempla a Aiko pintando sin brazos con una destreza cautivadora, mientras el profesor Nomiya elogia su pasión pictórica.",
+      "fullSummary": "Con la luz dorada entrando por los ventanales del taller, Hisao contempla a Aiko pintando sin brazos con una destreza cautivadora, mientras el profesor Nomiya elogia su pasión pictórica.",
+      "location": "Taller de Arte de Yamaku",
+      "charsPreview": "🎨 Aiko (1ª Vez), 👨‍🎨 Prof. Nomiya, 👤 Hisao"
+    },
+    "tues_seq_8": {
+      "title": "Tuesday in Yamaku (Part 8)",
+      "badge": "👨‍🏫 1ª APARICIÓN",
+      "desc": "Rodeado de probetas y pizarras con ecuaciones químicas, el profesor Mutou orienta a Hisao sobre su incorporación y las precauciones médicas que debe mantener.",
+      "fullSummary": "Rodeado de probetas y pizarras con ecuaciones químicas, el profesor Mutou orienta a Hisao sobre su incorporación y las precauciones médicas que debe mantener.",
+      "location": "Laboratorio de Ciencias",
+      "charsPreview": "👨‍🏫 Prof. Mutou (1ª Vez), 👤 Hisao"
+    },
+    "fri_seq_3": {
+      "title": "Friday: Festival Eve (Part 3)",
+      "badge": "🩺 Viernes Salud",
+      "desc": "Hisao acude a su chequeo regular en la enfermería. El enfermero de Yamaku, con tono amigable y directo, le recuerda cuidar de sí mismo y disfrutar su juventud sin temerle a cada latido.",
+      "fullSummary": "Hisao acude a su chequeo regular en la enfermería. El enfermero de Yamaku, con tono amigable y directo, le recuerda cuidar de sí mismo y disfrutar su juventud sin temerle a cada latido.",
+      "location": "Enfermería de Yamaku",
+      "charsPreview": "🩺 El Enfermero (1ª Vez), 👤 Hisao"
+    },
+    "ddlc_reality_crack": {
+      "title": "Act IV: The Crack of the Code",
+      "badge": "⚠️ Glitch DDLC",
+      "desc": "Las paredes de Yamaku parpadean como datos corruptos. Un glitch sonoro recorre los altavoces y una silueta espectral rompe la cuarta pared, cuestionando la naturaleza de la realidad y tus decisiones.",
+      "fullSummary": "Las paredes de Yamaku parpadean como datos corruptos. Un glitch sonoro recorre los altavoces y una silueta espectral rompe la cuarta pared, cuestionando la naturaleza de la realidad y tus decisiones.",
+      "location": "Espacio Liminal Distorsionado",
+      "charsPreview": "Entidad Digital Misteriosa, Hisao"
+    },
+    "act2_branching_crossroad": {
+      "title": "Act II: The Crossroads of Shadows",
+      "badge": "🔀 Acto II - Decision",
+      "desc": "El menú principal de ramificación del juego: elige libremente seguir la ruta de Sora en la pista, Yumi en la biblioteca, Elena en el salón de té, Aiko en el taller, Shizune en el consejo, Kenji en su búnker o viajar a la Playa.",
+      "fullSummary": "El menú principal de ramificación del juego: elige libremente seguir la ruta de Sora en la pista, Yumi en la biblioteca, Elena en el salón de té, Aiko en el taller, Shizune en el consejo, Kenji en su búnker o viajar a la Playa.",
+      "location": "Patio Central de Yamaku",
+      "charsPreview": "6 Rutas de Heroína + Búnker + Playa"
+    },
+    "sora_paranoia_confrontation": {
+      "title": "Act II: The Poison of Doubt",
+      "badge": "🔀 Decision 2 (Confianza)",
+      "desc": "Sora se preocupa por el estado físico de Hisao y le ofrece beber té. Los pensamientos paranoicos inducidos por los informes clasificados siembran la duda. ¿Confías o la rechazas bruscamente?",
+      "fullSummary": "Sora se preocupa por el estado físico de Hisao y le ofrece beber té. Los pensamientos paranoicos inducidos por los informes clasificados siembran la duda. ¿Confías o la rechazas bruscamente?",
+      "location": "Dormitorio de Yamaku",
+      "charsPreview": "🏃 Sora, 👤 Hisao"
+    },
+    "timeloop_knowledge_choices": {
+      "title": "Act V: The Choice of Corrected Fate",
+      "badge": "⏳ Acto V - Clímax",
+      "desc": "Hisao regresa a las puertas de Yamaku con la experiencia acumulada de todas sus vidas pasadas. Desde esta pantalla final puede elegir salvar a Sora, Yumi, Elena, Aiko, atrincherarse con Kenji o quebrar el código.",
+      "fullSummary": "Hisao regresa a las puertas de Yamaku con la experiencia acumulada de todas sus vidas pasadas. Desde esta pantalla final puede elegir salvar a Sora, Yumi, Elena, Aiko, atrincherarse con Kenji o quebrar el código.",
+      "location": "Entrada principal de Yamaku",
+      "charsPreview": "Todas las sendas de redención"
+    },
+    "sora_intimate_climax": {
+      "title": "Night of Passion with Sora: Towards the Ending",
+      "badge": "🔀 Decision 12 (Clímax Sora)",
+      "desc": "Tras sellar su promesa de amor con cada latido del corazón, Hisao elige avanzar directamente hacia el Gran Final Verdadero de Sora o guardar la partida.",
+      "fullSummary": "Tras sellar su promesa de amor con cada latido del corazón, Hisao elige avanzar directamente hacia el Gran Final Verdadero de Sora o guardar la partida.",
+      "location": "Habitación privada en la villa",
+      "charsPreview": "🏃 Sora, 👤 Hisao"
+    },
+    "elena_intimate_climax": {
+      "title": "Between Sheets & Tea Lights with Elena: Towards the Ending",
+      "badge": "🔀 Decision 13 (Clímax Elena)",
+      "desc": "A la luz tenue de las velas aromáticas y las sábanas de lino, Hisao y Elena sellan su futuro juntos hacia su Gran Final Verdadero.",
+      "fullSummary": "A la luz tenue de las velas aromáticas y las sábanas de lino, Hisao y Elena sellan su futuro juntos hacia su Gran Final Verdadero.",
+      "location": "Dormitorio de Elena",
+      "charsPreview": "🌸 Elena, 👤 Hisao"
+    },
+    "yumi_intimate_climax": {
+      "title": "Sincere Devotion with Yumi: Towards the Ending",
+      "badge": "🔀 Decision 14 (Clímax Yumi)",
+      "desc": "En la calidez de la noche, Yumi derriba toda inseguridad y declara su amor infinito, abriendo la puerta hacia su Gran Final Verdadero.",
+      "fullSummary": "En la calidez de la noche, Yumi derriba toda inseguridad y declara su amor infinito, abriendo la puerta hacia su Gran Final Verdadero.",
+      "location": "Habitación acogedora de Yumi",
+      "charsPreview": "📚 Yumi, 👤 Hisao"
+    },
+    "aiko_intimate_climax": {
+      "title": "Canvas of Bodies at Sunset with Aiko: Towards the Ending",
+      "badge": "🔀 Decision 15 (Clímax Aiko)",
+      "desc": "En el taller de pintura bañado por la luz dorada, Aiko e Hisao crean su mayor obra de amor, avanzando hacia el Gran Final Verdadero de Aiko.",
+      "fullSummary": "En el taller de pintura bañado por la luz dorada, Aiko e Hisao crean su mayor obra de amor, avanzando hacia el Gran Final Verdadero de Aiko.",
+      "location": "Taller de pintura de Yamaku",
+      "charsPreview": "🎨 Aiko, 👤 Hisao"
+    },
+    "shizu_intimate_climax": {
+      "title": "Surrender of President Shizune: Towards the Ending",
+      "badge": "🔀 Decision 16 (Clímax Shizune)",
+      "desc": "En la intimidad del consejo estudiantil, la implacable líder de Yamaku revela su amor incondicional, abriendo paso al Gran Final Verdadero.",
+      "fullSummary": "En la intimidad del consejo estudiantil, la implacable líder de Yamaku revela su amor incondicional, abriendo paso al Gran Final Verdadero.",
+      "location": "Despacho del Consejo Estudiantil",
+      "charsPreview": "♟️ Shizune, 👤 Hisao"
+    },
+    "prologue_hospital": {
+      "title": "Prologue: The White Room",
+      "badge": "🏥 Prologue 2",
+      "desc": "Hisao despierta con el pitido monótono del monitor cardíaco. Los médicos le diagnostican arritmia severa. Tras meses de soledad viendo cambiar las estaciones a través del cristal, el doctor le entrega el folleto de Yamaku.",
+      "fullSummary": "Hisao despierta con el pitido monótono del monitor cardíaco. Los médicos le diagnostican arritmia severa. Tras meses de soledad viendo cambiar las estaciones a través del cristal, el doctor le entrega el folleto de Yamaku.",
+      "location": "Hospital Central (Habitación 302)",
+      "charsPreview": "👤 Hisao, 🩺 Doctor Jefe"
+    },
+    "act1_yamaku_gate": {
+      "title": "Act I: The Gates of Yamaku",
+      "badge": "🏫 Acto I - Cap. 1",
+      "desc": "Hisao asciende la empinada cuesta con sus maletas hasta las imponentes puertas de hierro de Yamaku. Una mezcla de ansiedad, curiosidad e incertidumbre da inicio a su nueva vida.",
+      "fullSummary": "Hisao asciende la empinada cuesta con sus maletas hasta las imponentes puertas de hierro de Yamaku. Una mezcla de ansiedad, curiosidad e incertidumbre da inicio a su nueva vida.",
+      "location": "Puerta principal de Yamaku",
+      "charsPreview": "👤 Hisao"
+    },
+    "tues_seq_1": {
+      "title": "Tuesday in Yamaku (Part 1)",
+      "badge": "📅 Martes - Cap. 4",
+      "desc": "En plena clase, Shiina y Shizune debaten con entusiasmo sobre qué comida vender en el festival escolar, hasta que el severo profesor carraspea golpeando fuertemente su alargado puntero de madera.",
+      "fullSummary": "En plena clase, Shiina y Shizune debaten con entusiasmo sobre qué comida vender en el festival escolar, hasta que el severo profesor carraspea golpeando fuertemente su alargado puntero de madera.",
+      "location": "Aula 3-3 de Yamaku",
+      "charsPreview": "✨ Shiina, ♟️ Shizune, 👨‍🏫 Maestro, 👤 Hisao"
+    },
+    "wed_seq_1": {
+      "title": "Rainy Wednesday (Part 1)",
+      "badge": "♟️ Miércoles",
+      "desc": "Shizune despliega planos y tablas horarias con disciplina férrea, exigiendo máxima puntualidad mientras Shiina traduce alegremente cada uno de sus gestos.",
+      "fullSummary": "Shizune despliega planos y tablas horarias con disciplina férrea, exigiendo máxima puntualidad mientras Shiina traduce alegremente cada uno de sus gestos.",
+      "location": "Sala del Consejo Estudiantil",
+      "charsPreview": "♟️ Shizune, ✨ Shiina, 👤 Hisao"
+    },
+    "wed_seq_4": {
+      "title": "Rainy Wednesday (Part 4)",
+      "badge": "🏃 Miércoles Pista",
+      "desc": "En la pista de atletismo, Sora corre con ligereza sobre sus prótesis elásticas. Invita a Hisao a acompañarla y le demuestra que los límites físicos no frenan los sueños.",
+      "fullSummary": "En la pista de atletismo, Sora corre con ligereza sobre sus prótesis elásticas. Invita a Hisao a acompañarla y le demuestra que los límites físicos no frenan los sueños.",
+      "location": "Pista deportiva de Yamaku",
+      "charsPreview": "🏃 Sora, 👤 Hisao"
+    },
+    "sat_seq_1": {
+      "title": "Saturday: The Festival Begins (Part 1)",
+      "badge": "🎪 Sábado Festival",
+      "desc": "Yamaku abre sus puertas a toda la ciudad. Entre risas, aromas a dulces y música alegre, Hisao recorre los puestos junto a las chicas en una tarde mágica que quedará grabada en su corazón.",
+      "fullSummary": "Yamaku abre sus puertas a toda la ciudad. Entre risas, aromas a dulces y música alegre, Hisao recorre los puestos junto a las chicas en una tarde mágica que quedará grabada en su corazón.",
+      "location": "Patio y Pasillos del Festival",
+      "charsPreview": "Todas las heroínas de Yamaku"
+    },
+    "sun_seq_10": {
+      "title": "Sunday: The Rumor of Shadows (Part 10)",
+      "badge": "🌙 Domingo Clímax",
+      "desc": "Las luces del festival se extinguieron y los pasillos quedaron en penumbra. Bajo las estrellas, Hisao comprende que el tiempo de observar ha terminado: debe elegir a quién entregará su corazón.",
+      "fullSummary": "Las luces del festival se extinguieron y los pasillos quedaron en penumbra. Bajo las estrellas, Hisao comprende que el tiempo de observar ha terminado: debe elegir a quién entregará su corazón.",
+      "location": "Jardín nocturno de Yamaku",
+      "charsPreview": "👤 Hisao"
+    },
+    "sora_seq_1": {
+      "title": "Sora Route: Wind and Track (Part 1)",
+      "badge": "🏃 Ruta Sora I",
+      "desc": "Hisao madruga para entrenar junto a Sora. Entre la neblina matutina y el sonido rítmico de sus pasos, Sora le confiesa sus miedos a quedarse atrás y la alegría que siente cuando corren juntos.",
+      "fullSummary": "Hisao madruga para entrenar junto a Sora. Entre la neblina matutina y el sonido rítmico de sus pasos, Sora le confiesa sus miedos a quedarse atrás y la alegría que siente cuando corren juntos.",
+      "location": "Pista deportiva de Yamaku",
+      "charsPreview": "🏃 Sora, 👤 Hisao"
+    },
+    "sora_seq_10": {
+      "title": "Sora Route: Wind and Track (Part 10)",
+      "badge": "🏃 Ruta Sora II",
+      "desc": "Tras vencer dudas e inseguridades, Sora corre con todas sus fuerzas sabiendo que Hisao la espera en la meta. Un abrazo lleno de emoción sella su amor verdadero.",
+      "fullSummary": "Tras vencer dudas e inseguridades, Sora corre con todas sus fuerzas sabiendo que Hisao la espera en la meta. Un abrazo lleno de emoción sella su amor verdadero.",
+      "location": "Meta de la Pista de Atletismo",
+      "charsPreview": "🏃 Sora, 👤 Hisao"
+    },
+    "yumi_seq_1": {
+      "title": "Yumi Route: Into the Dark (Part 1)",
+      "badge": "📚 Ruta Yumi I",
+      "desc": "Hisao logra que Yumi baje las defensas que ocultan sus quemaduras. Juntos comparten un libro de poesía y deciden dar un paseo por la cafetería de la ciudad.",
+      "fullSummary": "Hisao logra que Yumi baje las defensas que ocultan sus quemaduras. Juntos comparten un libro de poesía y deciden dar un paseo por la cafetería de la ciudad.",
+      "location": "Biblioteca & Cafetería Shanghái",
+      "charsPreview": "📚 Yumi, 👤 Hisao"
+    },
+    "yumi_seq_10": {
+      "title": "Yumi Route: In the Dark (Part 10)",
+      "badge": "📚 Ruta Yumi II",
+      "desc": "En la intimidad de un rincón seguro, Hisao toma suavemente la mano de Yumi y le demuestra que su belleza interior y exterior van mucho más allá de cualquier marca del pasado.",
+      "fullSummary": "En la intimidad de un rincón seguro, Hisao toma suavemente la mano de Yumi y le demuestra que su belleza interior y exterior van mucho más allá de cualquier marca del pasado.",
+      "location": "Jardín privado de Yamaku",
+      "charsPreview": "📚 Yumi, 👤 Hisao"
+    },
+    "elena_seq_1": {
+      "title": "Elena Route: The Sound of the Wind (Part 1)",
+      "badge": "🌸 Ruta Elena I",
+      "desc": "Elena deleita a Hisao con anécdotas de su infancia en Escocia mientras la música suave inunda el salón. Hisao descubre la tremenda fuerza interior que oculta tras su serenidad.",
+      "fullSummary": "Elena deleita a Hisao con anécdotas de su infancia en Escocia mientras la música suave inunda el salón. Hisao descubre la tremenda fuerza interior que oculta tras su serenidad.",
+      "location": "Salón de Té privado de Elena",
+      "charsPreview": "🌸 Elena, 👤 Hisao"
+    },
+    "elena_seq_10": {
+      "title": "Elena Route: The Sound of the Wind (Part 10)",
+      "badge": "🌸 Ruta Elena II",
+      "desc": "A pesar de la inminente partida hacia el extranjero, Elena y Hisao reafirman que la distancia física jamás romperá el vínculo indestructible que han forjado.",
+      "fullSummary": "A pesar de la inminente partida hacia el extranjero, Elena y Hisao reafirman que la distancia física jamás romperá el vínculo indestructible que han forjado.",
+      "location": "Mirador de Yamaku al atardecer",
+      "charsPreview": "🌸 Elena, 👤 Hisao"
+    },
+    "aiko_seq_1": {
+      "title": "Aiko Route: The Invisible Canvas (Part 1)",
+      "badge": "🎨 Ruta Aiko I",
+      "desc": "Aiko le pide a Hisao que sea su asistente y modelo de inspiración. Entre manchas de pintura y reflexiones poéticas, ambos conectan de una manera única y conmovedora.",
+      "fullSummary": "Aiko le pide a Hisao que sea su asistente y modelo de inspiración. Entre manchas de pintura y reflexiones poéticas, ambos conectan de una manera única y conmovedora.",
+      "location": "Taller de Pintura de Yamaku",
+      "charsPreview": "🎨 Aiko, 👤 Hisao"
+    },
+    "aiko_seq_10": {
+      "title": "Aiko Route: The Invisible Canvas (Part 10)",
+      "badge": "🎨 Ruta Aiko II",
+      "desc": "Bajo la luz del atardecer costero, Aiko completa su obra maestra dedicada a Hisao: un cuadro que refleja el latido de dos almas que se entienden sin necesidad de palabras.",
+      "fullSummary": "Bajo la luz del atardecer costero, Aiko completa su obra maestra dedicada a Hisao: un cuadro que refleja el latido de dos almas que se entienden sin necesidad de palabras.",
+      "location": "Faro de la Costa",
+      "charsPreview": "🎨 Aiko, 👤 Hisao"
+    },
+    "shizu_seq_1": {
+      "title": "Shizune Route: Battle of Wills (Part 1)",
+      "badge": "♟️ Ruta Shizune I",
+      "desc": "Shizune desafía a Hisao en una serie de duelos tácticos. A través del juego y la complicidad de Shiina, Hisao descubre el peso de la responsabilidad que la presidenta carga sobre sus hombros.",
+      "fullSummary": "Shizune desafía a Hisao en una serie de duelos tácticos. A través del juego y la complicidad de Shiina, Hisao descubre el peso de la responsabilidad que la presidenta carga sobre sus hombros.",
+      "location": "Despacho del Consejo Estudiantil",
+      "charsPreview": "♟️ Shizune, ✨ Shiina, 👤 Hisao"
+    },
+    "shizu_seq_10": {
+      "title": "Shizune Route: Battle of Wills (Part 10)",
+      "badge": "♟️ Ruta Shizune II",
+      "desc": "Shizune baja la guardia por primera vez en su vida. En un emotivo gesto sincero, le agradece a Hisao por haber creído en ella y sellan un pacto de respeto y amor mutuo.",
+      "fullSummary": "Shizune baja la guardia por primera vez en su vida. En un emotivo gesto sincero, le agradece a Hisao por haber creído en ella y sellan un pacto de respeto y amor mutuo.",
+      "location": "Terraza de Yamaku bajo las estrellas",
+      "charsPreview": "♟️ Shizune, 👤 Hisao"
+    },
+    "ending_kenji_bunker": {
+      "title": "Denouement: The Bunker on the Roof",
+      "badge": "👓 Búnker de Kenji",
+      "desc": "Hisao decide ignorar todo y encerrarse con Kenji en su búnker de la habitación 204. Con mapas repletos de chinchetas y cajas de raciones de emergencia, Kenji celebra haber rescatado a su colega del supuesto peligro exterior.",
+      "fullSummary": "Hisao decide ignorar todo y encerrarse con Kenji en su búnker de la habitación 204. Con mapas repletos de chinchetas y cajas de raciones de emergencia, Kenji celebra haber rescatado a su colega del supuesto peligro exterior.",
+      "location": "Habitación 204 (El Búnker Secreto de Kenji)",
+      "charsPreview": "👓 Kenji Setou (El chico de lentes), 👤 Hisao"
+    },
+    "timeloop_train_awakening": {
+      "title": "Act V: The Wagon of Eternal Return",
+      "badge": "🌀 Bucle Temporal",
+      "desc": "El traqueteo hipnótico de las vías despierta a Hisao en un vagón solitario. Los reflejos en el cristal le revelan que ha vivido todo esto antes y que el destino le concede una oportunidad de corregirlo.",
+      "fullSummary": "El traqueteo hipnótico de las vías despierta a Hisao en un vagón solitario. Los reflejos en el cristal le revelan que ha vivido todo esto antes y que el destino le concede una oportunidad de corregirlo.",
+      "location": "Vagón del Ferrocarril al Atardecer",
+      "charsPreview": "👤 Hisao en solitario"
+    },
+    "ending_sora_true": {
+      "title": "Outcome: Wind and Ash",
+      "badge": "🏆 Final Sora",
+      "desc": "Sora y Hisao se toman de las manos en la pista de atletismo. El futuro se abre ante ellos como una carrera llena de luz y esperanza compartida.",
+      "fullSummary": "Sora y Hisao se toman de las manos en la pista de atletismo. El futuro se abre ante ellos como una carrera llena de luz y esperanza compartida.",
+      "location": "Yamaku Athletics Stadium",
+      "charsPreview": "🏃 Sora & Hisao"
+    },
+    "ending_yumi_true": {
+      "title": "Denouement: Rise from the Ashes",
+      "badge": "🏆 Final Yumi",
+      "desc": "En el jardín de cerezos, Yumi sonríe con confianza absoluta mientras el viento cálido acaricia su rostro, encontrando la paz y el amor que siempre mereció.",
+      "fullSummary": "En el jardín de cerezos, Yumi sonríe con confianza absoluta mientras el viento cálido acaricia su rostro, encontrando la paz y el amor que siempre mereció.",
+      "location": "Jardines de Yamaku",
+      "charsPreview": "📚 Yumi & Hisao"
+    },
+    "ending_elena_true": {
+      "title": "Denouement: The Bells of Scotland",
+      "badge": "🏆 Final Elena",
+      "desc": "Las campanas resuenan en la distancia. Elena sostiene el brazo de Hisao mientras contemplan juntos el horizonte de su nueva vida en común.",
+      "fullSummary": "Las campanas resuenan en la distancia. Elena sostiene el brazo de Hisao mientras contemplan juntos el horizonte de su nueva vida en común.",
+      "location": "Mirador de Escocia",
+      "charsPreview": "🌸 Elena & Hisao"
+    },
+    "ending_aiko_true": {
+      "title": "Denouement: The Immortal Canvas",
+      "badge": "🏆 Final Aiko",
+      "desc": "El sol naciente tiñe el océano de tonos violetas y dorados. Aiko y Hisao contemplan el lienzo terminado, encontrando en su abrazo el verdadero sentido de la existencia.",
+      "fullSummary": "El sol naciente tiñe el océano de tonos violetas y dorados. Aiko y Hisao contemplan el lienzo terminado, encontrando en su abrazo el verdadero sentido de la existencia.",
+      "location": "Faro Costero al Amanecer",
+      "charsPreview": "🎨 Aiko & Hisao"
+    },
+    "ending_true_miracle": {
+      "title": "Grand Finale: Yamaku's Golden Dawn",
+      "badge": "⭐ True Ending",
+      "desc": "Unidos junto al Consejo Estudiantil, Hisao y las chicas transforman para siempre el destino de Yamaku en una celebración inolvidable de vida, coraje y gratitud.",
+      "fullSummary": "Unidos junto al Consejo Estudiantil, Hisao y las chicas transforman para siempre el destino de Yamaku en una celebración inolvidable de vida, coraje y gratitud.",
+      "location": "Auditorio Principal de Yamaku",
+      "charsPreview": "Todas las heroínas de Yamaku"
+    },
+    "ending_ddlc_epiphany": {
+      "title": "Denouement: The Digital Epiphany",
+      "badge": "🏆 Ending",
+      "desc": "Rompiste la barrera de la ficción. Tu empatía trascendió la pantalla.",
+      "fullSummary": "Rompiste la barrera de la ficción. Tu empatía trascendió la pantalla.",
+      "location": "Yamaku",
+      "charsPreview": "🌸 Protagonistas"
+    },
+    "ending_rei_wind": {
+      "title": "Rei Ending: The Wind in Our Hands",
+      "badge": "🏆 Ending",
+      "desc": "Dos corazones marcados por la adversidad encontraron en su vulnerabilidad la fuerza para cruzar la meta juntos.",
+      "fullSummary": "Dos corazones marcados por la adversidad encontraron en su vulnerabilidad la fuerza para cruzar la meta juntos.",
+      "location": "Yamaku",
+      "charsPreview": "🌸 Protagonistas"
+    },
+    "ending_rei_parting": {
+      "title": "Final Rei: La Huella en la Pista",
+      "badge": "🏆 Ending",
+      "desc": "Una despedida silenciosa en el crepúsculo. Admiración mutua y el eco de una carrera en solitario.",
+      "fullSummary": "Una despedida silenciosa en el crepúsculo. Admiración mutua y el eco de una carrera en solitario.",
+      "location": "Yamaku",
+      "charsPreview": "🌸 Protagonistas"
+    },
+    "ending_yuuko_rain": {
+      "title": "Yuuko Ending: Words Under the Rain",
+      "badge": "🏆 Ending",
+      "desc": "Encontraron en el silencio de los libros y la ternura mutua el refugio definitivo contra los temporales de la vida.",
+      "fullSummary": "Encontraron en el silencio de los libros y la ternura mutua el refugio definitivo contra los temporales de la vida.",
+      "location": "Yamaku",
+      "charsPreview": "🌸 Protagonistas"
+    },
+    "ending_yuuko_tea": {
+      "title": "Final Yuuko: La Promesa del Té de Shanghai",
+      "badge": "🏆 Ending",
+      "desc": "Una amistad serena y protectora forjada entre aromas de infusión y sonrisas reconfortantes.",
+      "fullSummary": "Una amistad serena y protectora forjada entre aromas de infusión y sonrisas reconfortantes.",
+      "location": "Yamaku",
+      "charsPreview": "🌸 Protagonistas"
+    },
+    "ending_akira_tokyo": {
+      "title": "Akira Ending: Destinies Crossing in Tokyo",
+      "badge": "🏆 Ending",
+      "desc": "Bajo las luces de neón y la lluvia de la metrópoli, dos almas independientes encontraron su refugio más íntimo.",
+      "fullSummary": "Bajo las luces de neón y la lluvia de la metrópoli, dos almas independientes encontraron su refugio más íntimo.",
+      "location": "Yamaku",
+      "charsPreview": "🌸 Protagonistas"
+    },
+    "ending_akira_toast": {
+      "title": "Final Akira: La Luz del Faro",
+      "badge": "🏆 Ending",
+      "desc": "Un brindis inolvidable y una alianza inquebrantable que iluminará las noches más oscuras de la vida adulta.",
+      "fullSummary": "Un brindis inolvidable y una alianza inquebrantable que iluminará las noches más oscuras de la vida adulta.",
+      "location": "Yamaku",
+      "charsPreview": "🌸 Protagonistas"
+    },
+    "ending_hakamada_rebellion": {
+      "title": "Final Shizune & Jigoro: Honor, Rebeldía y Libertad",
+      "badge": "🏆 Ending",
+      "desc": "Has defendido a Shizune frente al patriarca Jigoro. El clan Hakamada reconoce por primera vez una voluntad tan fuerte como su acero.",
+      "fullSummary": "Has defendido a Shizune frente al patriarca Jigoro. El clan Hakamada reconoce por primera vez una voluntad tan fuerte como su acero.",
+      "location": "Yamaku",
+      "charsPreview": "🌸 Protagonistas"
+    },
+    "ending_hakamada_pact": {
+      "title": "Final Hideaki & Consejo: El Pacto Silencioso",
+      "badge": "🏆 Ending",
+      "desc": "Junto a Hideaki has demostrado que la inteligencia y la verdad pesan más que las viejas tradiciones feudales.",
+      "fullSummary": "Junto a Hideaki has demostrado que la inteligencia y la verdad pesan más que las viejas tradiciones feudales.",
+      "location": "Yamaku",
+      "charsPreview": "🌸 Protagonistas"
+    },
+    "ending_hakamada_tragedy": {
+      "title": "Final Misha & Clímax: El Lazo en la Tormenta",
+      "badge": "🏆 Ending",
+      "desc": "Entre el choque de sables y gritos, has protegido a Misha, prometiéndole que jamás volverá a estar sola ante el miedo.",
+      "fullSummary": "Entre el choque de sables y gritos, has protegido a Misha, prometiéndole que jamás volverá a estar sola ante el miedo.",
+      "location": "Yamaku",
+      "charsPreview": "🌸 Protagonistas"
+    },
+    "ending_paranoia_truth": {
+      "title": "Final Pabellón: La Luz de la Razón y Esperanza",
+      "badge": "🏆 Ending",
+      "desc": "La calma regresa al pabellón médico. Los mentores de Yamaku te aseguran una segunda oportunidad llena de vida.",
+      "fullSummary": "La calma regresa al pabellón médico. Los mentores de Yamaku te aseguran una segunda oportunidad llena de vida.",
+      "location": "Yamaku",
+      "charsPreview": "🌸 Protagonistas"
+    },
+    "ending_paranoia_asphyxia": {
+      "title": "Final Paranoia: El Guardián en las Sombras",
+      "badge": "🏆 Ending",
+      "desc": "Junto a Kenji, descubres que la mayor amenaza nunca estuvo afuera, sino en las sombras que proyectaba el propio miedo.",
+      "fullSummary": "Junto a Kenji, descubres que la mayor amenaza nunca estuvo afuera, sino en las sombras que proyectaba el propio miedo.",
+      "location": "Yamaku",
+      "charsPreview": "🌸 Protagonistas"
+    },
+    "ending_gallery_catharsis": {
+      "title": "Final Galería: Catarsis de Óleo y Vida",
+      "badge": "🏆 Ending",
+      "desc": "El gran lienzo del profesor Nomiya y Sae florece con luz propia. El arte ha triunfado sobre la oscuridad.",
+      "fullSummary": "El gran lienzo del profesor Nomiya y Sae florece con luz propia. El arte ha triunfado sobre la oscuridad.",
+      "location": "Yamaku",
+      "charsPreview": "🌸 Protagonistas"
+    },
+    "ending_gallery_obsession": {
+      "title": "Final Obsesión: El Vórtice del Lienzo Infinito",
+      "badge": "🏆 Ending",
+      "desc": "La fascinación estética se convierte en leyenda urbana de Yamaku. Un cuadro inacabado que susurra al viento.",
+      "fullSummary": "La fascinación estética se convierte en leyenda urbana de Yamaku. Un cuadro inacabado que susurra al viento.",
+      "location": "Yamaku",
+      "charsPreview": "🌸 Protagonistas"
+    },
+    "ending_hideaki_reconciliation": {
+      "title": "Final Hideaki: El Camino Propio",
+      "badge": "🏆 Ending",
+      "desc": "Hideaki encuentra la valentía para forjar su propia identidad, despidiéndose con una sonrisa de agradecimiento sincero.",
+      "fullSummary": "Hideaki encuentra la valentía para forjar su propia identidad, despidiéndose con una sonrisa de agradecimiento sincero.",
+      "location": "Yamaku",
+      "charsPreview": "🌸 Protagonistas"
+    },
+    "ending_misha_true_smile": {
+      "title": "Final Misha: La Sonrisa Verdadera",
+      "badge": "🏆 Ending",
+      "desc": "Misha se despoja de su armadura de risas forzadas y encuentra en tu compañía un remanso de paz y aceptación genuina.",
+      "fullSummary": "Misha se despoja de su armadura de risas forzadas y encuentra en tu compañía un remanso de paz y aceptación genuina.",
+      "location": "Yamaku",
+      "charsPreview": "🌸 Protagonistas"
+    },
+    "ending_jigoro_honor": {
+      "title": "Final Jigoro: El Código de Honor",
+      "badge": "🏆 Ending",
+      "desc": "El severo patriarca Hakamada guarda su espada y asiente con profundo respeto. Te has ganado el honor del clan.",
+      "fullSummary": "El severo patriarca Hakamada guarda su espada y asiente con profundo respeto. Te has ganado el honor del clan.",
+      "location": "Yamaku",
+      "charsPreview": "🌸 Protagonistas"
+    },
+    "special_pool_night": {
+      "title": "VIP Special: Night Dip in the Forbidden Pool",
+      "badge": "🔀 Decision",
+      "desc": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+      "fullSummary": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+      "location": "Yamaku",
+      "charsPreview": "👥 Protagonistas"
+    },
+    "special_onsen_mist": {
+      "title": "VIP Special: Serenity & Passion in the Onsen",
+      "badge": "🔀 Decision",
+      "desc": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+      "fullSummary": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+      "location": "Yamaku",
+      "charsPreview": "👥 Protagonistas"
+    },
+    "special_beach_festival": {
+      "title": "VIP Special: Confession Under the Fireworks",
+      "badge": "🔀 Decision",
+      "desc": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+      "fullSummary": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+      "location": "Yamaku",
+      "charsPreview": "👥 Protagonistas"
+    },
+    "special_photo_ecchi": {
+      "title": "VIP Special: Private Sunset Photo Session",
+      "badge": "🔀 Decision",
+      "desc": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+      "fullSummary": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+      "location": "Yamaku",
+      "charsPreview": "👥 Protagonistas"
+    },
+    "special_foam_party": {
+      "title": "VIP Special: The Great Yamaku Summer Celebration",
+      "badge": "🔀 Decision",
+      "desc": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+      "fullSummary": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+      "location": "Yamaku",
+      "charsPreview": "👥 Protagonistas"
+    },
+    "rei_route_2": {
+      "title": "Special Route: Phantom Pain (Rei)",
+      "badge": "🔀 Decision",
+      "desc": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+      "fullSummary": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+      "location": "Yamaku",
+      "charsPreview": "👥 Protagonistas"
+    },
+    "yuuko_route_2": {
+      "title": "Special Route: Panic & Solace (Yuuko)",
+      "badge": "🔀 Decision",
+      "desc": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+      "fullSummary": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+      "location": "Yamaku",
+      "charsPreview": "👥 Protagonistas"
+    },
+    "akira_route_2": {
+      "title": "Special Route: The Mask of Success (Akira)",
+      "badge": "🔀 Decision",
+      "desc": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+      "fullSummary": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+      "location": "Yamaku",
+      "charsPreview": "👥 Protagonistas"
+    },
+    "arc_hakamada_3": {
+      "title": "Hakamada Saga: Crossroads of Honor",
+      "badge": "🔀 Decision",
+      "desc": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+      "fullSummary": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+      "location": "Yamaku",
+      "charsPreview": "👥 Protagonistas"
+    },
+    "arc_paranoia_3": {
+      "title": "Paranoia Saga: Room of White Guards",
+      "badge": "🔀 Decision",
+      "desc": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+      "fullSummary": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+      "location": "Yamaku",
+      "charsPreview": "👥 Protagonistas"
+    },
+    "arc_nomiya_3": {
+      "title": "Gallery Saga: The Soul on Canvas",
+      "badge": "🔀 Decision",
+      "desc": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+      "fullSummary": "Momento crucial donde las decisiones determinan el camino y el destino en Yamaku.",
+      "location": "Yamaku",
+      "charsPreview": "👥 Protagonistas"
+    },
+    "route_hideaki_intro": {
+      "title": "Special Chapter: The Hakamada Enigma",
+      "badge": "👥 Character",
+      "desc": "Hermano de Shizune, reflexivo y distante.",
+      "fullSummary": "Hermano de Shizune, reflexivo y distante.",
+      "location": "Yamaku",
+      "charsPreview": "👤 Hideaki Hakamada"
+    },
+    "route_misha_intro": {
+      "title": "Special Chapter: Shiina's Smile",
+      "badge": "👥 Character",
+      "desc": "Intérprete del Consejo, risas y secretos.",
+      "fullSummary": "Intérprete del Consejo, risas y secretos.",
+      "location": "Yamaku",
+      "charsPreview": "👤 Mikado Shiina (Misha)"
+    },
+    "route_jigoro_intro": {
+      "title": "Special Chapter: The Patriarch's Challenge",
+      "badge": "👥 Character",
+      "desc": "Patriarca feudal y tradicional de la familia Hakamada.",
+      "fullSummary": "Patriarca feudal y tradicional de la familia Hakamada.",
+      "location": "Yamaku",
+      "charsPreview": "👤 Jigoro Hakamada"
     }
   }
 }
