@@ -1,16 +1,16 @@
 {
   "menu_buttons": {
-    "visual_novel": false,
-    "dating_sim": false,
-    "full_web": false,
-    "car_sort": false,
-    "mega_arcade": false,
-    "poki": false,
-    "crazygames": false,
-    "y8": false,
-    "addicting_games": false,
-    "plays_org": false,
-    "gamepix": false,
+    "visual_novel": true,
+    "dating_sim": true,
+    "full_web": true,
+    "car_sort": true,
+    "mega_arcade": true,
+    "poki": true,
+    "crazygames": true,
+    "y8": true,
+    "addicting_games": true,
+    "plays_org": true,
+    "gamepix": true,
     "rock_paper_scissors": true,
     "tic_tac_toe": true,
     "checkers": true,
@@ -27,10 +27,12 @@
     "color_hoop_sort": true,
     "tetris": true,
     "two_or_more": true,
-    "is_novel_enabled": false,
-    "novel_enabled": false,
-    "dating": false,
-    "dating_enabled": false
+    "is_novel_enabled": true,
+    "novel_enabled": true,
+    "dating": true,
+    "dating_enabled": true,
+    "is_full_web_enabled": true,
+    "full_web_enabled": true
   },
   "ads": {
     "interstitial_enabled": true,
@@ -42,5 +44,7 @@
     "room_expiration_hours": 3,
     "finished_room_expiration_minutes": 30
   },
-  "victory_reward_type": "BOTH"
+  "victory_reward_type": "BOTH",
+  "active_actress_ids": "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26",
+  "activeActressIds": "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26"
 }
