@@ -54,7 +54,7 @@
   "menu_buttons": {
     "visual_novel": true,
     "dating_sim": true,
-    "full_web": true,
+    "full_web": false,
     "rock_paper_scissors": true,
     "tic_tac_toe": true,
     "checkers": true,
@@ -65,8 +65,8 @@
     "novel_enabled": true,
     "dating": true,
     "dating_enabled": true,
-    "is_full_web_enabled": true,
-    "full_web_enabled": true,
+    "is_full_web_enabled": false,
+    "full_web_enabled": false,
     "mega_arcade": true,
     "car_sort": true,
     "poki": true,
@@ -75,7 +75,7 @@
     "addicting_games": true,
     "plays_org": true,
     "gamepix": true,
-    "web": true
+    "web": false
   },
   "enlaseweb": 1,
   "active_actress_ids": "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26"
