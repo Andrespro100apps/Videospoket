@@ -364,7 +364,32 @@
     "shizu_chess_match": "Act II: Checkmate to Destiny on the Board",
     "shizu_secret_signs": "Act II: Words Carved in Gestures",
     "shizu_tanabata_wishes": "Act II: The Star Festival of Tanabata",
-    "shizu_garden_pond": "Act II: Sanctuary by the Koi Pond"
+    "shizu_garden_pond": "Act II: Sanctuary by the Koi Pond",
+    "sora_track_nightmare": "Act III: The Dark Night on the Track",
+    "sora_hospital_panic": "Act III: Emergency Ward",
+    "sora_father_ghost_confession": "Act III: Tears in the Storm",
+    "sora_psychological_crossroads": "Act III: Crossroads of Destiny",
+    "sora_storm_embrace": "Act III: The Embrace Defying Death",
+    "yumi_empty_classroom_panic": "Act III: Panic in the Empty Classroom",
+    "yumi_fire_hallucination": "Act III: Shadows of the Inferno",
+    "yumi_rainy_bridge_tears": "Act III: Tears on the Storm Bridge",
+    "yumi_psychological_crossroads": "Act III: Decision of the Wounded Soul",
+    "yumi_scars_redemption": "Act III: The Beauty of the Scars",
+    "elena_lighthouse_storm": "Act III: Tempest at the Lighthouse",
+    "elena_blind_terror": "Act III: Anguish in Total Darkness",
+    "elena_hospital_vigil": "Act III: Vigil Beside the Cold Bed",
+    "elena_psychological_crossroads": "Act III: The Transatlantic Flight Dilemma",
+    "elena_eternal_resonance": "Act III: Eternal Resonance in the Dark",
+    "aiko_art_night_void": "Act III: Void in the Midnight Studio",
+    "aiko_derealization_break": "Act III: The Fracture of Reality",
+    "aiko_rain_confession": "Act III: Weeping Beneath the Freezing Downpour",
+    "aiko_psychological_crossroads": "Act III: The Anchor to Existence",
+    "aiko_colors_reborn": "Act III: Colors of Rebirth",
+    "shizu_midnight_classroom": "Act III: Tension at Council Midnight",
+    "shiina_breakdown_tears": "Act III: Misha's Shattered Mask",
+    "shizu_silent_suffocation": "Act III: Silent Fury and Unheard Tears",
+    "shizu_psychological_crossroads": "Act III: Crossroads of Silence",
+    "shizu_unspoken_bond": "Act III: The Bond Beyond Words"
   },
   "choices": {
     "Buscar a Sora en la pista de atletismo para advertirle del peligro": "Onu tehlikeye karşı uyarmak için Sora'yı koşu parkurunda bul",
@@ -401,7 +426,17 @@
     "♟️ Aceptar el reto de ajedrez de Shizune en el tablero de madera": "♟️ Accept Shizune's chess challenge on the polished wooden board",
     "🤝 Dejar que guíe tus manos para aprender señas íntimas y secretas": "🤝 Let her guide your hands to learn intimate, secret sign language",
     "🎋 Escribir sus deseos en tanzaku bajo las cañas de bambú en Tanabata": "🎋 Write your heartfelt wishes on tanzaku strips under bamboo at Tanabata",
-    "🐟 Escapar hacia el estanque de carpas en el jardín para conversar en paz": "🐟 Slip away to the koi pond in the quiet garden to talk in peace"
+    "🐟 Escapar hacia el estanque de carpas en el jardín para conversar en paz": "🐟 Slip away to the koi pond in the quiet garden to talk in peace",
+    "❤️ Aferrarte a Sora entre lágrimas y jurarle que lucharás por vivir a su lado": "❤️ Cling to Sora through tears and vow you will fight to live by her side",
+    "⚠️ Tragar el pánico y ocultarle el dolor para no hacerla sufrir": "⚠️ Swallow the panic and hide your pain to spare her sorrow",
+    "🔥 Envolver a Yumi en tus brazos bajo la lluvia y besar sus cicatrices": "🔥 Wrap Yumi in your arms beneath the rain and kiss her scars",
+    "📖 Buscar refugio en la biblioteca dejando que el silencio los devore": "📖 Seek shelter in the quiet library letting silence swallow the pain",
+    "💍 Sostener la mano de Elena en la cama del hospital y rogarle que se quede a tu lado": "💍 Clasp Elena's hand in the hospital bed and beg her to stay by your side",
+    "✈️ Aceptar su partida en silencio creyendo que lejos de ti estará a salvo": "✈️ Accept her departure in silence believing she will be safer far away",
+    "🎨 Abrazar a Aiko bajo la lluvia, secar su llanto y anclarla a la realidad con un beso": "🎨 Hold Aiko in the rain, dry her tears, and anchor her soul to reality with a kiss",
+    "🏛️ Observar su llanto en silencio temiendo quebrar aún más su frágil cordura": "🏛️ Watch her weeping in silence fearing to fracture her fragile sanity further",
+    "🤝 Tomar las manos de Shizune y Shiina uniendo sus dedos en una promesa eterna de lealtad": "🤝 Take Shizune and Shiina's hands, intertwining their fingers in a vow of loyalty",
+    "📜 Exigir explicaciones inmediatas dejando que la tormenta emocional explote": "📜 Demand immediate answers letting the emotional tempest erupt"
   },
   "scenes": {
     "start": [
@@ -8216,6 +8251,115 @@
     "shizu_garden_pond": [
       "We slip away from the noisy festival toward the serene koi pond in the back garden. Golden fish trace gentle ripples across the surface.",
       "*(Peaceful signing)* Being council president demands being invincible at all times... but with you I can simply rest and just be me."
+    ],
+    "sora_track_nightmare": [
+      "Night blankets the track in suffocating gloom. The stadium floodlights are dead, and a freezing wind whistles through the vacant bleachers.",
+      "Hey...! Wait! Why are you running so fast in the dark? Stop, your breathing sounds terrible!",
+      "A searing ache, like a white-hot spike, tears through my chest. My knees buckle hard against the wet tartan. My heart flutters violently: thud... thud... a skipped beat, then another... and the world begins spinning into blackness.",
+      "NO! No, no, no! Please, don't close your eyes! LOOK AT ME! Breathe with me, I beg you!"
+    ],
+    "sora_hospital_panic": [
+      "The relentless, electronic beep of the heart monitor slices through the room's silence. Harsh white glare, the smell of sterile antiseptic, and the chill of IV fluids in my veins.",
+      "You were unconscious for three whole hours... I almost lost you. The doctors had to use defibrillation to shock your heart back into rhythm.",
+      "I felt that exact same frozen dread from that afternoon on the highway... when the car flipped and my father never stood up again."
+    ],
+    "sora_father_ghost_confession": [
+      "Sora presses her forehead against the edge of the mattress. Her small shoulders shudder in violent sobs I had never witnessed before.",
+      "I always smile and sprint just to pretend I'm invincible, but I'm terrified. I'm terrified of loving someone fragile and having to bury them too.",
+      "Tell me the truth... Will you keep running by my side even when your heart protests, or is this goodbye?"
+    ],
+    "sora_psychological_crossroads": [
+      "The heart monitor pulses hard in my chest. Sora stares into my eyes through a veil of tears, waiting for the decision that will seal our lives."
+    ],
+    "sora_storm_embrace": [
+      "I pull free from the monitor cables and pull her fiercely into my chest. Her warm tears soak through my hospital gown.",
+      "You idiot...! Your heart is racing at full speed... but it feels so undeniably alive. Promise me you'll never leave me alone.",
+      "Our lips meet in a kiss salted by tears. The storm howls outside, but the terror of dying has been vanquished by the will to live."
+    ],
+    "yumi_empty_classroom_panic": [
+      "Dusk shadows stretch like talons across the empty wooden desks. Suddenly, the corridor fire alarm shrieks in a piercing, deafening wail.",
+      "Aaah...! N-No...! The smoke... it smells like burning timber! The door is locked, I can't breathe!",
+      "Yumi falls to her knees, shielding the scarred side of her face with trembling hands. Her breath comes in shallow, desperate gasps, caught in a brutal panic attack."
+    ],
+    "yumi_fire_hallucination": [
+      "The flames... swallowed my parents right in front of me. I screamed and nobody came. Everything I touch turns to ashes... Why do you stay? Why don't you flee from this monster?",
+      "Her eyes are wide with the terror of memory. Her scars flush deep crimson beneath the flickering lightning lashing against the windows."
+    ],
+    "yumi_rainy_bridge_tears": [
+      "Rain falls in torrents over the river bridge. Freezing water drenches our uniforms as Yumi trembles like a leaf near the railing.",
+      "I'm terrified that one day you'll look at me with the same disgust as everyone else. If you're going to leave me... do it now before my heart shatters beyond repair."
+    ],
+    "yumi_psychological_crossroads": [
+      "Yumi weeps with bowed head, anticipating the cold rejection life has always dealt her. My heart thumps fiercely, urging me to make the decisive choice."
+    ],
+    "yumi_scars_redemption": [
+      "I cradle her face between my hands with infinite gentleness. The rain washes away her tears as I tenderly press my lips to the scars on her right cheek.",
+      "You kissed... my burns? Nobody... has ever touched me without fear. My chest burns, but this time it isn't pain... it's pure warmth.",
+      "Yumi buries her face into my chest, holding me with all her strength. The phantom of the inferno is extinguished forever amid the gentle rain."
+    ],
+    "elena_lighthouse_storm": [
+      "Colossal waves smash violently against the base of the coastal lighthouse. Gushing wind hammers the lantern glass with deafening fury.",
+      "The gale roars so fiercely... It sounds as if the heavens are being torn apart. Please, don't leave my side."
+    ],
+    "elena_blind_terror": [
+      "Lightning illuminates the tower just as a violent spasm rips through my ribcage. Air vanishes from my lungs. I collapse face-down onto the cold stone floor, unable to utter a single word.",
+      "That sound...? Did you fall?! Where are you?! I can't see you...! ANSWER ME! PLEASE, SAY SOMETHING!",
+      "Elena drops to her knees in the gloom. Her blind hands frantically sweep across the icy stones until they brush my limp body. Feeling my erratic pulse, a shriek of pure horror tears from her throat."
+    ],
+    "elena_hospital_vigil": [
+      "I awaken to the murmur of rain against the hospital glass. Elena sits upon a wooden chair beside me, clasping my left hand between hers with trembling strength.",
+      "Your fingers were ice-cold at the lighthouse... I thought you had died in my arms while I was completely helpless. Blindness has never hurt me as terribly as it did last night.",
+      "My family demands I board the flight to Scotland this week. They say a secure future awaits me there... but my soul would remain buried in this room."
+    ],
+    "elena_psychological_crossroads": [
+      "Elena fights back tears with heartbreaking dignity. The plane ticket to Scotland peeks from her handbag upon the nightstand."
+    ],
+    "elena_eternal_resonance": [
+      "I guide her hand directly over my chest. Elena spreads her fingers, feeling every firm, rhythmic beat pulsing beneath my skin.",
+      "I'm not going anywhere. Even if the entire world vanishes into darkness, I will navigate by the rhythm of your heartbeat. I am staying with you.",
+      "Her tears wash my cheeks in an embrace that defies oceans and time. The terror of solitude has vanished completely."
+    ],
+    "aiko_art_night_void": [
+      "It is three in the morning. The art studio is bathed in uncanny shadows. Gigantic canvases depict faceless silhouettes and black spirals that seem to swallow the light.",
+      "Have you ever felt like you don't actually exist? I stare at my feet and the paint on the floor... but my mind feels like it's floating through dead space with zero gravity and no air."
+    ],
+    "aiko_derealization_break": [
+      "Everyone demands paintings from me... they call me a prodigy. But they understand nothing. I'm trapped inside! I have no arms to shatter this invisible wall!",
+      "Aiko falls backward onto a heap of oil-stained rags. Heavy tears roll down her cheeks, mixing with blue pigment along her chin."
+    ],
+    "aiko_rain_confession": [
+      "We step outside beneath the freezing downpour. Aiko shivers uncontrollably, drenched to the bone.",
+      "I'm terrified that one day you'll realize I'm completely empty inside and walk away. Please... tell me that I am a real person."
+    ],
+    "aiko_psychological_crossroads": [
+      "Aiko gazes at me with helpless eyes. Her psychological defenses have utterly crumbled amid the storm."
+    ],
+    "aiko_colors_reborn": [
+      "I wrap my arms tightly around her trembling frame and press my forehead against hers. I feel the warmth of her breath and the quiver of her lips.",
+      "I can feel you... You are warm. The world isn't flat or fake... you are right here with me. Thank you for not letting me fall into the void.",
+      "The night sky glimmers with the first emerging stars. Aiko smiles for the first time with pure serenity. Her soul has found a home."
+    ],
+    "shizu_midnight_classroom": [
+      "Midnight in the student council chambers. Rain lashes furiously against the glass as the air's tension thickens until breathing becomes difficult.",
+      "I can't maintain this facade any longer, Hicchan...! Translating every single word of hers while my own heart is shattering into a thousand pieces!"
+    ],
+    "shiina_breakdown_tears": [
+      "Shiina's perpetual bubbly laughter evaporates completely, replaced by agonizing sobs that shake her entire body.",
+      "Shizune is my entire world... but she will never see me as anything more than her voice. And now you... the two of you... I feel entirely alone!"
+    ],
+    "shizu_silent_suffocation": [
+      "Shizune slams both palms onto the mahogany table, sending paperwork scattering. She cannot hear Shiina's sobs, but the raw despair in her eyes is unmistakable.",
+      "[Her hands sign with furious, aggressive velocity: 'Look into my eyes! Don't you dare hide your grief from me! If you must cry, do it facing me!']",
+      "For the first time, I witness tears of sheer helplessness stream down Shizune's cheeks. The silence that always ruled her life now threatens to swallow her most treasured friendship."
+    ],
+    "shizu_psychological_crossroads": [
+      "Both girls stare at each other through tears in the shadowed room. The fate of the council and their hearts hangs by a fragile thread."
+    ],
+    "shizu_unspoken_bond": [
+      "I step forward, clasping Shizune's right hand and Shiina's left, bringing them together in the center. Their trembling fingers interlock.",
+      "[With her single free hand, Shizune signs slowly into the air: 'You will never be alone, Shiina. And you... thank you for not letting silence destroy us.']",
+      "Hicchan... Shicchan... I love you both so much...",
+      "The three of us embrace tightly in the middle of the room. The wind against the glass gently subsides, leaving a profound peace that no storm can ever break."
     ]
   },
   "endings": {
