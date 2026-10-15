@@ -1,0 +1,41 @@
+{
+  "total_rewards": 7,
+  "description": "Catalogo de fotos y wallpapers desbloqueables al ganar minijuegos. Puedes agregar mas fotos (ej. imagenganadora8.jpg) y aumentar total_rewards sin necesidad de actualizar la aplicacion en Google Play.",
+  "rewards": [
+    {
+      "id": 1,
+      "title": "Victoria Dorada • Chica Clásica 1",
+      "image": "two_or_more_rewards/imagenganadora1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Victoria Radiante • Chica Clásica 2",
+      "image": "two_or_more_rewards/imagenganadora2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Victoria Sublime • Chica Clásica 3",
+      "image": "two_or_more_rewards/imagenganadora3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Victoria Épica • Chica Clásica 4",
+      "image": "two_or_more_rewards/imagenganadora4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Victoria Celestial • Chica Clásica 5",
+      "image": "two_or_more_rewards/imagenganadora5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Victoria Legendaria • Chica Clásica 6",
+      "image": "two_or_more_rewards/imagenganadora6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Victoria Mítica • Chica Clásica 7",
+      "image": "two_or_more_rewards/imagenganadora7.jpg"
+    }
+  ]
+}
