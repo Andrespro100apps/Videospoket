@@ -38,7 +38,8 @@
   "ads": {
     "interstitial_enabled": true,
     "banner_enabled": true,
-    "rewarded_enabled": true
+    "rewarded_enabled": true,
+    "interstitial_interval_minutes": 1
   },
   "multiplayer": {
     "invitation_timeout_minutes": 180,
