@@ -1366,5 +1366,113 @@
     "full": "img/aiko_purple.png",
     "cost": 25,
     "affinityRequired": 10
+  },
+  {
+    "id": "rei_beach_bikini",
+    "girlId": "rei",
+    "girlName": "Rei",
+    "titleEs": "Rei: Pasión Ardiente Bajo el Sol del Verano",
+    "titleEn": "Rei: Fiery Passion Under Summer Sun",
+    "category": "ecchi",
+    "thumb": "img/cgs/cg_rei_beach.jpg",
+    "full": "img/cgs/cg_rei_beach.jpg",
+    "cost": 25,
+    "affinityRequired": 10
+  },
+  {
+    "id": "rei_summer_selfie",
+    "girlId": "rei",
+    "girlName": "Rei",
+    "titleEs": "Rei: Foto Íntima Exclusiva en Bikini 💋",
+    "titleEn": "Rei: Exclusive Bikini Private Photo 💋",
+    "category": "ecchi",
+    "thumb": "img/dating_photos/photo_rei_bikini.jpg",
+    "full": "img/dating_photos/photo_rei_bikini.jpg",
+    "cost": 25,
+    "affinityRequired": 5
+  },
+  {
+    "id": "rei_fiery_spark",
+    "girlId": "rei",
+    "girlName": "Rei",
+    "titleEs": "Rei: Guiño de Amor y Deseo Íntimo 🔥",
+    "titleEn": "Rei: Flirty Wink and Passionate Desire 🔥",
+    "category": "romance",
+    "thumb": "rei_miki_wink.png",
+    "full": "rei_miki_wink.png",
+    "cost": 25,
+    "affinityRequired": 10
+  },
+  {
+    "id": "yuuko_beach_bikini",
+    "girlId": "yuuko",
+    "girlName": "Yuuko",
+    "titleEs": "Yuuko: Dulzura y Timidez Frente al Mar",
+    "titleEn": "Yuuko: Sweet Shyness by the Sea",
+    "category": "ecchi",
+    "thumb": "img/cgs/cg_yuuko_beach.jpg",
+    "full": "img/cgs/cg_yuuko_beach.jpg",
+    "cost": 25,
+    "affinityRequired": 10
+  },
+  {
+    "id": "yuuko_summer_selfie",
+    "girlId": "yuuko",
+    "girlName": "Yuuko",
+    "titleEs": "Yuuko: Confesión en Privado en Traje de Baño 🌸",
+    "titleEn": "Yuuko: Private Confession in Swimsuit 🌸",
+    "category": "ecchi",
+    "thumb": "img/dating_photos/photo_yuuko_bikini.jpg",
+    "full": "img/dating_photos/photo_yuuko_bikini.jpg",
+    "cost": 25,
+    "affinityRequired": 5
+  },
+  {
+    "id": "yuuko_library_secret",
+    "girlId": "yuuko",
+    "girlName": "Yuuko",
+    "titleEs": "Yuuko: Sonrisa Enamorada entre Estantes de Libros",
+    "titleEn": "Yuuko: Loving Smile Between the Bookstacks",
+    "category": "romance",
+    "thumb": "yuuko_happy_up.png",
+    "full": "yuuko_happy_up.png",
+    "cost": 25,
+    "affinityRequired": 10
+  },
+  {
+    "id": "akira_beach_bikini",
+    "girlId": "akira",
+    "girlName": "Akira",
+    "titleEs": "Akira: Distinción y Glamour Junto a las Olas",
+    "titleEn": "Akira: Distinction and Glamour by the Waves",
+    "category": "ecchi",
+    "thumb": "img/cgs/cg_akira_beach.jpg",
+    "full": "img/cgs/cg_akira_beach.jpg",
+    "cost": 25,
+    "affinityRequired": 10
+  },
+  {
+    "id": "akira_summer_selfie",
+    "girlId": "akira",
+    "girlName": "Akira",
+    "titleEs": "Akira: Sesión Exclusiva y Elegancia Rebelde 🍷",
+    "titleEn": "Akira: Exclusive Session and Rebel Elegance 🍷",
+    "category": "ecchi",
+    "thumb": "img/dating_photos/photo_akira_bikini.jpg",
+    "full": "img/dating_photos/photo_akira_bikini.jpg",
+    "cost": 25,
+    "affinityRequired": 5
+  },
+  {
+    "id": "akira_park_stroll",
+    "girlId": "akira",
+    "girlName": "Akira",
+    "titleEs": "Akira: Cita Inolvidable al Atardecer en el Parque",
+    "titleEn": "Akira: Unforgettable Sunset Date at the Park",
+    "category": "romance",
+    "thumb": "dating_cgs/full/cg_akira_park.jpg",
+    "full": "dating_cgs/full/cg_akira_park.jpg",
+    "cost": 25,
+    "affinityRequired": 10
   }
 ]
