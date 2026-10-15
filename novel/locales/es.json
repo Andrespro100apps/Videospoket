@@ -1010,7 +1010,27 @@
     "arc_nomiya_3": "Saga Galería: El Alma sobre el Lienzo",
     "route_hideaki_intro": "Hideaki Hakamada",
     "route_misha_intro": "Mikado Shiina (Misha)",
-    "route_jigoro_intro": "Jigoro Hakamada"
+    "route_jigoro_intro": "Jigoro Hakamada",
+    "sora_gym_sprint": "Acto II: El Latido en la Pista de Tartán",
+    "sora_prosthetic_heart": "Acto II: El Secreto de la Velocidad",
+    "sora_shed_intimacy": "Acto II: Refugio en el Cobertizo",
+    "sora_rain_walk": "Acto II: Gotas de Verano en la Colina",
+    "yumi_library_reading": "Acto II: El Silencio Compartido",
+    "yumi_tea_shanghai": "Acto II: El Aroma del Salón de Té",
+    "yumi_yukata_shrine": "Acto II: La Noche del Festival Junto al Parque",
+    "yumi_festival_stalls": "Acto II: Farolillos y Manzanas de Caramelo",
+    "elena_hill_stroll": "Acto II: La Brisa en el Mirador de la Colina",
+    "elena_piano_melody": "Acto II: Melodía en el Salón Principal",
+    "elena_scotland_letter": "Acto II: La Carta Sellada de Ultramar",
+    "elena_ocean_vow": "Acto II: Promesa Frente a la Marea",
+    "aiko_mural_painting": "Acto II: La Alquimia de los Colores",
+    "aiko_window_silence": "Acto II: Preguntas Bajo el Tragaluz",
+    "aiko_dandelion_freedom": "Acto II: El Prado de los Dientes de León",
+    "aiko_skylight_hug": "Acto II: El Abrazo Bajo la Claraboya",
+    "shizu_chess_match": "Acto II: Jaque al Destino en el Tablero",
+    "shizu_secret_signs": "Acto II: Palabras en la Piel",
+    "shizu_tanabata_wishes": "Acto II: La Noche de Tanabata y las Estrellas",
+    "shizu_garden_pond": "Acto II: El Refugio Junto al Estanque de Carpas"
   },
   "choices": {
     "Buscar a Sora en la pista de atletismo para advertirle del peligro": "Buscar a Sora en la pista de atletismo para advertirle del peligro",
@@ -1027,7 +1047,27 @@
     "Subir al faro con Aiko y pintar juntos el amanecer sobre el mar": "Subir al faro con Aiko y pintar juntos el amanecer sobre el mar",
     "Atrincherarte con Kenji en la habitación 204 con prismáticos": "Atrincherarte con Kenji en la habitación 204 con prismáticos",
     "Desafiar los límites del código y hablar con la entidad digital": "Desafiar los límites del código y hablar con la entidad digital",
-    "Unirte al Consejo de Shizune y proclamar la verdad ante toda la escuela": "Unirte al Consejo de Shizune y proclamar la verdad ante toda la escuela"
+    "Unirte al Consejo de Shizune y proclamar la verdad ante toda la escuela": "Unirte al Consejo de Shizune y proclamar la verdad ante toda la escuela",
+    "🏃 Desafiar a Sora a un sprint de 100m en la pista para sentir su ritmo": "🏃 Desafiar a Sora a un sprint de 100m en la pista para sentir su ritmo",
+    "❤️ Sentarse en la hierba y preguntarle sobre sus prótesis y su amor por correr": "❤️ Sentarse en la hierba y preguntarle sobre sus prótesis y su amor por correr",
+    "🌧️ Refugiarte con Sora dentro del cobertizo de atletismo entre colchonetas": "🌧️ Refugiarte con Sora dentro del cobertizo de atletismo entre colchonetas",
+    "☔ Compartir el paraguas y caminar juntos bajo la lluvia hacia los dormitorios": "☔ Compartir el paraguas y caminar juntos bajo la lluvia hacia los dormitorios",
+    "📖 Leer juntos en el rincón más apartado de la biblioteca compartiendo el silencio": "📖 Leer juntos en el rincón más apartado de la biblioteca compartiendo el silencio",
+    "🍵 Invitar a Yumi a una taza de té caliente en el salón de té de Shanghai": "🍵 Invitar a Yumi a una taza de té caliente en el salón de té de Shanghai",
+    "🌸 Subir al santuario con Yumi en Yukata lejos del bullicio del festival": "🌸 Subir al santuario con Yumi en Yukata lejos del bullicio del festival",
+    "🏮 Recorrer los puestos de feria y comprar manzanas de caramelo para animarla": "🏮 Recorrer los puestos de feria y comprar manzanas de caramelo para animarla",
+    "🌅 Acompañar a Elena en un paseo al mirador de la colina al atardecer": "🌅 Acompañar a Elena en un paseo al mirador de la colina al atardecer",
+    "🎹 Escuchar a Elena interpretar una sonata clásica en el piano del salón": "🎹 Escuchar a Elena interpretar una sonata clásica en el piano del salón",
+    "📜 Leer la carta de Escocia en voz alta y sostener su mano temblorosa": "📜 Leer la carta de Escocia en voz alta y sostener su mano temblorosa",
+    "🌊 Abrazarla y sellar la promesa de que la distancia jamás los separará": "🌊 Abrazarla y sellar la promesa de que la distancia jamás los separará",
+    "🎨 Ponerte un mono de trabajo y ayudar a Aiko a mezclar los colores del mural": "🎨 Ponerte un mono de trabajo y ayudar a Aiko a mezclar los colores del mural",
+    "🪟 Sentarte en el alféizar de la ventana en silencio observando las nubes": "🪟 Sentarte en el alféizar de la ventana en silencio observando las nubes",
+    "🌾 Subir con Aiko al prado de dientes de león para liberar su mente": "🌾 Subir con Aiko al prado de dientes de león para liberar su mente",
+    "🏛️ Abrazarla bajo la claraboya de la galería hasta que la ansiedad se disipe": "🏛️ Abrazarla bajo la claraboya de la galería hasta que la ansiedad se disipe",
+    "♟️ Aceptar el reto de ajedrez de Shizune en el tablero de madera": "♟️ Aceptar el reto de ajedrez de Shizune en el tablero de madera",
+    "🤝 Dejar que guíe tus manos para aprender señas íntimas y secretas": "🤝 Dejar que guíe tus manos para aprender señas íntimas y secretas",
+    "🎋 Escribir sus deseos en tanzaku bajo las cañas de bambú en Tanabata": "🎋 Escribir sus deseos en tanzaku bajo las cañas de bambú en Tanabata",
+    "🐟 Escapar hacia el estanque de carpas en el jardín para conversar en paz": "🐟 Escapar hacia el estanque de carpas en el jardín para conversar en paz"
   },
   "scenes": {
     "start": [
@@ -8750,6 +8790,98 @@
       "¡Oye, Hisao! ¡Deja de filosofar y ven a nadar con nosotras!",
       "¡Te guardamos el mejor lugar bajo el sol!",
       "Corrí hacia ellas por la arena tibia. Mi corazón latía fuerte, pleno, vivo... y en perfecta armonía con el mundo."
+    ],
+    "sora_gym_sprint": [
+      "¡Ja, ja! ¿Un sprint de cien metros? ¿De verdad crees que tu corazón aguantará mi ritmo? ¡Te daré cinco metros de ventaja!",
+      "El viento fresco de la mañana nos golpea de frente. Sora se inclina sobre los tacos de salida, con sus prótesis de fibra de carbono brillando bajo el sol naciente.",
+      "¡Preparados... listos... YA! ¡No mires hacia abajo, siente la pista en cada zancada!",
+      "Cruzamos la meta jadeando. Mis pulmones arden, pero la risa de Sora es tan contagiosa que el dolor en mi pecho desaparece por completo."
+    ],
+    "sora_prosthetic_heart": [
+      "Nos sentamos en la hierba húmeda al borde de la pista. Sora desabrocha los arneses de sus piernas ortopédicas con movimientos ágiles y familiares.",
+      "¿Preguntas si duele correr con ellas? Al principio ardía como fuego... pero cuando corro rápido, siento que mi padre sigue corriendo a mi lado.",
+      "Eres la primera persona en Yamaku que no me mira con lástima. Gracias por mirarme a los ojos y no a mis piernas."
+    ],
+    "sora_shed_intimacy": [
+      "La tormenta de verano estalla de improviso. Nos lanzamos dentro del cobertizo de material deportivo, cerrando la puerta corredera de madera justo a tiempo.",
+      "¡Uf, estamos completamente empapados! El aroma a colchonetas y cedro mojado siempre me trae recuerdos del instituto.",
+      "Hace... un poco de frío aquí dentro, ¿verdad? Ven más cerca... déjame apoyar mi cabeza en tu hombro hasta que pare la lluvia."
+    ],
+    "sora_rain_walk": [
+      "Compartimos un paraguas estrecho mientras subimos la colina hacia los dormitorios. La lluvia golpea rítmicamente contra la tela.",
+      "Si caminas tan despacio te vas a resfriar. ¡Oye! ¿Qué tal si corremos los dos juntos bajo el paraguas hasta la entrada?"
+    ],
+    "yumi_library_reading": [
+      "El rincón más profundo de la biblioteca está bañado por la luz ámbar de la tarde. Yumi sostiene una vieja novela de aventuras entre sus manos temblorosas.",
+      "M-me gusta este capítulo... el protagonista cruza el mar sin mirar atrás. Ojalá... ojalá yo fuera tan valiente como él.",
+      "Coloco con cuidado mi mano sobre la suya en la mesa. Yumi no se aparta; al contrario, un leve suspiro de calma escapa de sus labios."
+    ],
+    "yumi_tea_shanghai": [
+      "El salón de té de Shanghai está casi vacío. El vapor del té de jazmín asciende en espirales cálidas entre nosotros.",
+      "Elena siempre me trae aquí cuando las cosas en la escuela se vuelven abrumadoras... pero contigo... me siento diferente. Más protegida."
+    ],
+    "yumi_yukata_shrine": [
+      "Yumi camina con paso suave bajo las sombras de los árboles del parque iluminado por los faroles del festival.",
+      "¿De... de verdad crees que me veo bonita? Tenía tanto miedo de que la gente me mirara fijamente... pero si sostienes mi mano, ya no tengo miedo.",
+      "Los farolillos de papel proyectan una luz dorada en sus ojos oscuros. Por primera vez en mucho tiempo, Yumi sonríe sin esconderse."
+    ],
+    "yumi_festival_stalls": [
+      "El paseo al atardecer huele a flores y brisa fresca. Comparto un dulce con Yumi mientras contemplamos las primeras estrellas.",
+      "¡G-gracias! No comía un dulce así desde que era una niña pequeña... es crujiente y dulce, como un recuerdo feliz."
+    ],
+    "elena_hill_stroll": [
+      "El viento del atardecer agita el largo cabello dorado de Elena mientras caminamos por el sendero alto del mirador.",
+      "Puedo sentir el calor del sol desvaneciéndose contra mis mejillas y el aroma del océano que sube desde el valle. Es un atardecer hermoso, ¿verdad?",
+      "Tomo su mano suavemente para guiar su paso entre las raíces del camino. Elena entrelaza sus dedos con los míos con una sonrisa radiante."
+    ],
+    "elena_piano_melody": [
+      "Las teclas de marfil del piano resuenan bajo las manos expertas de Elena. Una pieza suave y melancólica llena la estancia iluminada por velas.",
+      "Mi abuela solía tocar esta sonata en Escocia. Cuando la música suena, los ojos ya no son necesarios para ver la belleza del mundo."
+    ],
+    "elena_scotland_letter": [
+      "En la mesa privada del salón de té nocturno, un sobre grueso con sello consular descansa abierto. Elena sostiene la carta con dedos tensos.",
+      "Mis padres han preparado mi traslado definitivo a Inverness para finales de mes. Dicen que es por mi futuro... pero mi corazón entero se quedaría aquí contigo.",
+      "Rodeo sus hombros con mis brazos. Elena apoya su frente contra mi pecho, y siento sus lágrimas silenciosas empapar mi camisa."
+    ],
+    "elena_ocean_vow": [
+      "Ni diez mil millas de océano podrán borrar lo que hemos construido. Si debo marcharme, te prometo que volveré a buscarte."
+    ],
+    "aiko_mural_painting": [
+      "El taller de arte está inundado de botes de óleo, trementina y bocetos gigantescos. Aiko lleva su mono de trabajo gris manchado de azul cerúleo y magenta.",
+      "La gente piensa que los árboles son verdes, pero hoy los árboles en mi mente son de un violeta furioso. Ayúdame a sujetar la paleta antes de que el sol se oculte.",
+      "Aiko guía los movimientos con sus pies con una destreza hipnótica. Un trazo audaz cruza el lienzo, capturando la luz del crepúsculo de una forma que corta la respiración."
+    ],
+    "aiko_window_silence": [
+      "Nos sentamos en el alféizar de la ventana alta del pasillo de arte. Aiko contempla las nubes distantes como si estuviera leyendo un lenguaje oculto.",
+      "¿Crees que las nubes se sienten solas cuando se convierten en lluvia? Yo a veces siento que me derrito cuando intento explicar lo que siento."
+    ],
+    "aiko_dandelion_freedom": [
+      "La cima de la colina está cubierta de un manto interminable de dientes de león dorados y semillas blancas listas para volar con la brisa.",
+      "Mira eso... un millón de paracaídas esperando a que soplemos. Si soplamos juntos, tal vez nuestras ideas viajen hasta el fin del mundo.",
+      "Nos tumbamos sobre la hierba alta. Aiko cierra los ojos y por primera vez la agitación de su mente parece detenerse en una paz absoluta."
+    ],
+    "aiko_skylight_hug": [
+      "Todo el mundo me pide cuadros... pero yo solo quiero que alguien me entienda a mí, no solo a los colores que dejo atrás.",
+      "La rodeo con mis brazos con firmeza y ternura. Aiko apoya su mejilla contra mi pecho y suspira con profundo alivio."
+    ],
+    "shizu_chess_match": [
+      "La sala del consejo está en silencio absoluto, salvo por el 'clac' rotundo de las piezas de madera sobre el tablero pulido.",
+      "*(Señas rápidas y decididas)* ¡Has dejado a tu reina desprotegida por defender un simple peón! En el ajedrez como en la vida, dudar cuesta caro.",
+      "Muevo mi caballo a f3 con una sonrisa. Los ojos oscuros de Shizune tras sus gafas se abren con asombro al comprender la trampa.",
+      "*(Señas suaves, con una sonrisa de respeto)* Jaque mate encubierto... Nadie había logrado sorprenderme de esta forma desde que entré a Yamaku."
+    ],
+    "shizu_secret_signs": [
+      "Shizune toma mis manos y guía mis dedos pacientemente para formar una frase en lengua de señas que no aparece en ningún libro escolar.",
+      "*(Señas lentas y cargadas de emoción)* Este signo significa: 'Confío en ti pase lo que pase'. Ahora ya sabes nuestro secreto compartido."
+    ],
+    "shizu_tanabata_wishes": [
+      "El santuario está decorado con altas cañas de bambú repletas de tiras de colores tanzaku. Shizune luce una yukata tradicional de seda oscura bordada con flores de ciruelo.",
+      "*(Señas)* No le digas a Misha ni a Hideaki lo que escribí en mi tira de papel... Pedí que este verano con nosotros nunca termine.",
+      "Atamos nuestras tiras juntas en la misma rama alta del bambú mientras los fuegos artificiales iluminan el cielo nocturno."
+    ],
+    "shizu_garden_pond": [
+      "Nos escapamos del bullicio del festival hacia el estanque sereno del jardín trasero. Las carpas doradas dibujan ondas suaves en el agua.",
+      "*(Señas tranquilas)* Ser presidenta exige ser invencible todo el tiempo... pero contigo puedo simplemente descansar y ser yo misma."
     ]
   },
   "endings": {

@@ -25226,7 +25226,22 @@
       ],
       "bgm": "audio/ks_running.ogg",
       "ambience": null,
-      "next": "sora_seq_4"
+      "choices": [
+        {
+          "text": {
+            "es": "🏃 Desafiar a Sora a un sprint de 100m en la pista para sentir su ritmo",
+            "en": "🏃 Challenge Sora to a 100m track sprint to match her stride"
+          },
+          "next": "sora_gym_sprint"
+        },
+        {
+          "text": {
+            "es": "❤️ Sentarse en la hierba y preguntarle sobre sus prótesis y su amor por correr",
+            "en": "❤️ Sit on the grass and ask about her running blades and true passion"
+          },
+          "next": "sora_prosthetic_heart"
+        }
+      ]
     },
     "sora_seq_4": {
       "chapter": {
@@ -26774,7 +26789,22 @@
       ],
       "bgm": "audio/ks_running.ogg",
       "ambience": null,
-      "next": "sora_seq_8"
+      "choices": [
+        {
+          "text": {
+            "es": "🌧️ Refugiarte con Sora dentro del cobertizo de atletismo entre colchonetas",
+            "en": "🌧️ Seek shelter with Sora inside the athletic storage shed"
+          },
+          "next": "sora_shed_intimacy"
+        },
+        {
+          "text": {
+            "es": "☔ Compartir el paraguas y caminar juntos bajo la lluvia hacia los dormitorios",
+            "en": "☔ Share the umbrella and walk together through the rain to the dorms"
+          },
+          "next": "sora_rain_walk"
+        }
+      ]
     },
     "sora_seq_8": {
       "chapter": {
@@ -33002,7 +33032,22 @@
       ],
       "bgm": "audio/ks_comfort.ogg",
       "ambience": null,
-      "next": "yumi_seq_4"
+      "choices": [
+        {
+          "text": {
+            "es": "📖 Leer juntos en el rincón más apartado de la biblioteca compartiendo el silencio",
+            "en": "📖 Read together in the secluded library corner sharing the peaceful silence"
+          },
+          "next": "yumi_library_reading"
+        },
+        {
+          "text": {
+            "es": "🍵 Invitar a Yumi a una taza de té caliente en el salón de té de Shanghai",
+            "en": "🍵 Invite Yumi for a warm cup of jasmine tea at the Shanghai parlour"
+          },
+          "next": "yumi_tea_shanghai"
+        }
+      ]
     },
     "yumi_seq_4": {
       "chapter": {
@@ -34543,7 +34588,22 @@
       ],
       "bgm": "audio/ks_comfort.ogg",
       "ambience": null,
-      "next": "yumi_seq_8"
+      "choices": [
+        {
+          "text": {
+            "es": "🌸 Subir al santuario con Yumi en Yukata lejos del bullicio del festival",
+            "en": "🌸 Walk up to the hillside shrine with Yumi in Yukata away from the crowds"
+          },
+          "next": "yumi_yukata_shrine"
+        },
+        {
+          "text": {
+            "es": "🏮 Recorrer los puestos de feria y comprar manzanas de caramelo para animarla",
+            "en": "🏮 Tour the festival stalls and buy candied apples to cheer her up"
+          },
+          "next": "yumi_festival_stalls"
+        }
+      ]
     },
     "yumi_seq_8": {
       "chapter": {
@@ -40697,7 +40757,22 @@
       ],
       "bgm": "audio/ks_innocence.ogg",
       "ambience": null,
-      "next": "elena_seq_4"
+      "choices": [
+        {
+          "text": {
+            "es": "🌅 Acompañar a Elena en un paseo al mirador de la colina al atardecer",
+            "en": "🌅 Accompany Elena on a sunset stroll to the scenic hill viewpoint"
+          },
+          "next": "elena_hill_stroll"
+        },
+        {
+          "text": {
+            "es": "🎹 Escuchar a Elena interpretar una sonata clásica en el piano del salón",
+            "en": "🎹 Listen to Elena play a classical sonata on the parlour piano"
+          },
+          "next": "elena_piano_melody"
+        }
+      ]
     },
     "elena_seq_4": {
       "chapter": {
@@ -42241,7 +42316,22 @@
       ],
       "bgm": "audio/ks_innocence.ogg",
       "ambience": null,
-      "next": "elena_seq_8"
+      "choices": [
+        {
+          "text": {
+            "es": "📜 Leer la carta de Escocia en voz alta y sostener su mano temblorosa",
+            "en": "📜 Read the letter from Scotland aloud and hold her trembling hand"
+          },
+          "next": "elena_scotland_letter"
+        },
+        {
+          "text": {
+            "es": "🌊 Abrazarla y sellar la promesa de que la distancia jamás los separará",
+            "en": "🌊 Hold her close and vow that oceans will never diminish your bond"
+          },
+          "next": "elena_ocean_vow"
+        }
+      ]
     },
     "elena_seq_8": {
       "chapter": {
@@ -48402,7 +48492,22 @@
       ],
       "bgm": "audio/ks_ease.ogg",
       "ambience": null,
-      "next": "aiko_seq_4"
+      "choices": [
+        {
+          "text": {
+            "es": "🎨 Ponerte un mono de trabajo y ayudar a Aiko a mezclar los colores del mural",
+            "en": "🎨 Put on studio overalls and help Aiko mix vibrant pigments for the mural"
+          },
+          "next": "aiko_mural_painting"
+        },
+        {
+          "text": {
+            "es": "🪟 Sentarte en el alféizar de la ventana en silencio observando las nubes",
+            "en": "🪟 Sit quietly on the high window ledge observing the drifting clouds"
+          },
+          "next": "aiko_window_silence"
+        }
+      ]
     },
     "aiko_seq_4": {
       "chapter": {
@@ -49941,7 +50046,22 @@
       ],
       "bgm": "audio/ks_ease.ogg",
       "ambience": null,
-      "next": "aiko_seq_8"
+      "choices": [
+        {
+          "text": {
+            "es": "🌾 Subir con Aiko al prado de dientes de león para liberar su mente",
+            "en": "🌾 Climb with Aiko to the dandelion hill to free her crowded mind"
+          },
+          "next": "aiko_dandelion_freedom"
+        },
+        {
+          "text": {
+            "es": "🏛️ Abrazarla bajo la claraboya de la galería hasta que la ansiedad se disipe",
+            "en": "🏛️ Hold her beneath the gallery skylight until all anxiety dissolves"
+          },
+          "next": "aiko_skylight_hug"
+        }
+      ]
     },
     "aiko_seq_8": {
       "chapter": {
@@ -56108,7 +56228,22 @@
       ],
       "bgm": "audio/ks_the_student_council.ogg",
       "ambience": null,
-      "next": "shizu_seq_4"
+      "choices": [
+        {
+          "text": {
+            "es": "♟️ Aceptar el reto de ajedrez de Shizune en el tablero de madera",
+            "en": "♟️ Accept Shizune's chess challenge on the polished wooden board"
+          },
+          "next": "shizu_chess_match"
+        },
+        {
+          "text": {
+            "es": "🤝 Dejar que guíe tus manos para aprender señas íntimas y secretas",
+            "en": "🤝 Let her guide your hands to learn intimate, secret sign language"
+          },
+          "next": "shizu_secret_signs"
+        }
+      ]
     },
     "shizu_seq_4": {
       "chapter": {
@@ -57673,7 +57808,22 @@
       ],
       "bgm": "audio/ks_the_student_council.ogg",
       "ambience": null,
-      "next": "shizu_seq_8"
+      "choices": [
+        {
+          "text": {
+            "es": "🎋 Escribir sus deseos en tanzaku bajo las cañas de bambú en Tanabata",
+            "en": "🎋 Write your heartfelt wishes on tanzaku strips under bamboo at Tanabata"
+          },
+          "next": "shizu_tanabata_wishes"
+        },
+        {
+          "text": {
+            "es": "🐟 Escapar hacia el estanque de carpas en el jardín para conversar en paz",
+            "en": "🐟 Slip away to the koi pond in the quiet garden to talk in peace"
+          },
+          "next": "shizu_garden_pond"
+        }
+      ]
     },
     "shizu_seq_8": {
       "chapter": {
@@ -71599,6 +71749,649 @@
         }
       ],
       "ending": "ending_meta_epiphany"
+    },
+    "sora_gym_sprint": {
+      "chapter": {
+        "es": "Acto II: El Latido en la Pista de Tartán",
+        "en": "Act II: The Heartbeat on the Tartan Track"
+      },
+      "bg": "img/emitrack_blocks.jpg",
+      "mood": "romance",
+      "lines": [
+        {
+          "speaker": "sora",
+          "name": "Sora",
+          "sprite": "img/sora_basic_closedhappy_gym.png",
+          "text": {
+            "es": "¡Ja, ja! ¿Un sprint de cien metros? ¿De verdad crees que tu corazón aguantará mi ritmo? ¡Te daré cinco metros de ventaja!",
+            "en": "Hahaha! A hundred-meter sprint? You really think your heart can match my pace? I'll give you a five-meter head start!"
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El viento fresco de la mañana nos golpea de frente. Sora se inclina sobre los tacos de salida, con sus prótesis de fibra de carbono brillando bajo el sol naciente.",
+            "en": "The cool morning wind greets us head-on. Sora leans into the starting stance, her carbon-fiber blades gleaming under the rising sun."
+          },
+          "bg": "img/emitrack_finish.jpg"
+        },
+        {
+          "speaker": "sora",
+          "name": "Sora",
+          "sprite": "img/sora_excited_smile_gym.png",
+          "text": {
+            "es": "¡Preparados... listos... YA! ¡No mires hacia abajo, siente la pista en cada zancada!",
+            "en": "On your mark... get set... GO! Don't look down, feel the track under every stride!"
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Cruzamos la meta jadeando. Mis pulmones arden, pero la risa de Sora es tan contagiosa que el dolor en mi pecho desaparece por completo.",
+            "en": "We cross the finish line panting. My lungs burn, but Sora's radiant laughter is so infectious that all ache in my chest completely dissolves."
+          },
+          "sprite": "img/sora_excited_laugh_gym.png"
+        }
+      ],
+      "next": "sora_seq_4"
+    },
+    "sora_prosthetic_heart": {
+      "chapter": {
+        "es": "Acto II: El Secreto de la Velocidad",
+        "en": "Act II: The Secret of Speed"
+      },
+      "bg": "img/emitrack_finishtop.jpg",
+      "mood": "romance",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Nos sentamos en la hierba húmeda al borde de la pista. Sora desabrocha los arneses de sus piernas ortopédicas con movimientos ágiles y familiares.",
+            "en": "We sit on the damp grass beside the track. Sora unbuckles the straps of her running blades with practiced, fluid ease."
+          }
+        },
+        {
+          "speaker": "sora",
+          "name": "Sora",
+          "sprite": "img/sora_basic_annoyed_gym.png",
+          "text": {
+            "es": "¿Preguntas si duele correr con ellas? Al principio ardía como fuego... pero cuando corro rápido, siento que mi padre sigue corriendo a mi lado.",
+            "en": "Are you asking if it hurts to run with them? In the beginning it burned like fire... but when I run fast, I feel like my dad is still running beside me."
+          }
+        },
+        {
+          "speaker": "sora",
+          "name": "Sora",
+          "sprite": "img/sora_sad_shyblush_gym.png",
+          "text": {
+            "es": "Eres la primera persona en Yamaku que no me mira con lástima. Gracias por mirarme a los ojos y no a mis piernas.",
+            "en": "You're the first person at Yamaku who didn't look at me with pity. Thank you for looking into my eyes instead of down at my legs."
+          }
+        }
+      ],
+      "next": "sora_seq_4"
+    },
+    "sora_shed_intimacy": {
+      "chapter": {
+        "es": "Acto II: Refugio en el Cobertizo",
+        "en": "Act II: Shelter in the Track Shed"
+      },
+      "bg": "img/dating_cgs/full/cg_emi_shed.jpg",
+      "mood": "romance",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "La tormenta de verano estalla de improviso. Nos lanzamos dentro del cobertizo de material deportivo, cerrando la puerta corredera de madera justo a tiempo.",
+            "en": "The summer thunderstorm breaks without warning. We tumble into the athletic storage shed, sliding the heavy wooden door shut just in time."
+          }
+        },
+        {
+          "speaker": "sora",
+          "name": "Sora",
+          "sprite": "img/sora_annoyed.png",
+          "text": {
+            "es": "¡Uf, estamos completamente empapados! El aroma a colchonetas y cedro mojado siempre me trae recuerdos del instituto.",
+            "en": "Phew, we're completely soaked! The scent of gym mats and damp cedar wood always reminds me of school."
+          }
+        },
+        {
+          "speaker": "sora",
+          "name": "Sora",
+          "sprite": "img/sora_sad_shyblush_gym.png",
+          "text": {
+            "es": "Hace... un poco de frío aquí dentro, ¿verdad? Ven más cerca... déjame apoyar mi cabeza en tu hombro hasta que pare la lluvia.",
+            "en": "It's... pretty chilly in here, isn't it? Come closer... let me rest my head on your shoulder until the rain stops."
+          }
+        }
+      ],
+      "next": "sora_seq_8"
+    },
+    "sora_rain_walk": {
+      "chapter": {
+        "es": "Acto II: Gotas de Verano en la Colina",
+        "en": "Act II: Summer Raindrops on the Hill"
+      },
+      "bg": "img/campus_hill_rain.jpg",
+      "mood": "romance",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Compartimos un paraguas estrecho mientras subimos la colina hacia los dormitorios. La lluvia golpea rítmicamente contra la tela.",
+            "en": "We share a narrow umbrella as we climb the hill toward the dormitories. The rain drums rhythmically against the fabric."
+          }
+        },
+        {
+          "speaker": "sora",
+          "name": "Sora",
+          "sprite": "img/sora_smile.png",
+          "text": {
+            "es": "Si caminas tan despacio te vas a resfriar. ¡Oye! ¿Qué tal si corremos los dos juntos bajo el paraguas hasta la entrada?",
+            "en": "If you walk that slow you'll catch a cold! Hey, what if we run together under the umbrella straight to the porch?"
+          }
+        }
+      ],
+      "next": "sora_seq_8"
+    },
+    "yumi_library_reading": {
+      "chapter": {
+        "es": "Acto II: El Silencio Compartido",
+        "en": "Act II: Shared Silence in the Library"
+      },
+      "bg": "img/school_library_ss.jpg",
+      "mood": "romance",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El rincón más profundo de la biblioteca está bañado por la luz ámbar de la tarde. Yumi sostiene una vieja novela de aventuras entre sus manos temblorosas.",
+            "en": "The deepest corner of the library is bathed in amber afternoon light. Yumi holds an old adventure novel between her delicate, trembling hands."
+          }
+        },
+        {
+          "speaker": "yumi",
+          "name": "Yumi",
+          "sprite": "img/yumi_cover_smile.png",
+          "text": {
+            "es": "M-me gusta este capítulo... el protagonista cruza el mar sin mirar atrás. Ojalá... ojalá yo fuera tan valiente como él.",
+            "en": "I... I really like this chapter... the hero crosses the vast ocean without ever looking back. I wish... I wish I were as brave as him."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Coloco con cuidado mi mano sobre la suya en la mesa. Yumi no se aparta; al contrario, un leve suspiro de calma escapa de sus labios.",
+            "en": "I gently rest my hand over hers on the wooden desk. Yumi doesn't pull away; instead, a soft sigh of peaceful relief escapes her lips."
+          },
+          "sprite": "img/yumi_emb_blushing.png"
+        }
+      ],
+      "next": "yumi_seq_4"
+    },
+    "yumi_tea_shanghai": {
+      "chapter": {
+        "es": "Acto II: El Aroma del Salón de Té",
+        "en": "Act II: Fragrance of the Shanghai Tearoom"
+      },
+      "bg": "img/suburb_shanghaiint.jpg",
+      "mood": "romance",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El salón de té de Shanghai está casi vacío. El vapor del té de jazmín asciende en espirales cálidas entre nosotros.",
+            "en": "The Shanghai tea parlour is quiet and serene. Spirals of fragrant jasmine steam rise gently between us."
+          }
+        },
+        {
+          "speaker": "yumi",
+          "name": "Yumi",
+          "sprite": "img/yumi_emb_timid.png",
+          "text": {
+            "es": "Elena siempre me trae aquí cuando las cosas en la escuela se vuelven abrumadoras... pero contigo... me siento diferente. Más protegida.",
+            "en": "Elena always brings me here whenever school gets too overwhelming... but with you... it feels different. Warm and safe."
+          }
+        }
+      ],
+      "next": "yumi_seq_4"
+    },
+    "yumi_yukata_shrine": {
+      "chapter": {
+        "es": "Acto II: La Noche del Festival Junto al Parque",
+        "en": "Act II: Festival Evening by the Park"
+      },
+      "bg": "img/hanako_park.jpg",
+      "mood": "romance",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Yumi camina con paso suave bajo las sombras de los árboles del parque iluminado por los faroles del festival.",
+            "en": "Yumi walks with gentle steps beneath the tree shadows of the park lit by festive lanterns."
+          }
+        },
+        {
+          "speaker": "yumi",
+          "name": "Yumi",
+          "sprite": "img/yumi_emb_blushing.png",
+          "text": {
+            "es": "¿De... de verdad crees que me veo bonita? Tenía tanto miedo de que la gente me mirara fijamente... pero si sostienes mi mano, ya no tengo miedo.",
+            "en": "Do you... do you really think I look pretty? I was terrified everyone would stare at my scars... but holding your hand, I'm not afraid anymore."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Los farolillos de papel proyectan una luz dorada en sus ojos oscuros. Por primera vez en mucho tiempo, Yumi sonríe sin esconderse.",
+            "en": "The paper lanterns cast a golden glow across her dark eyes. For the first time in years, Yumi smiles openly without pulling away."
+          },
+          "sprite": "img/yumi_cover_smile.png"
+        }
+      ],
+      "next": "yumi_seq_8"
+    },
+    "yumi_festival_stalls": {
+      "chapter": {
+        "es": "Acto II: Farolillos y Manzanas de Caramelo",
+        "en": "Act II: Paper Lanterns and Candy Apples"
+      },
+      "bg": "img/suburb_park_ss.jpg",
+      "mood": "romance",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El paseo al atardecer huele a flores y brisa fresca. Comparto un dulce con Yumi mientras contemplamos las primeras estrellas.",
+            "en": "The twilight walk smells of blossoms and fresh breeze. I share a sweet treat with Yumi as we watch the first stars appear."
+          }
+        },
+        {
+          "speaker": "yumi",
+          "name": "Yumi",
+          "sprite": "img/yumi_cover_smile.png",
+          "text": {
+            "es": "¡G-gracias! No comía un dulce así desde que era una niña pequeña... es crujiente y dulce, como un recuerdo feliz.",
+            "en": "Th-thank you! I haven't eaten a treat like this since I was a little girl... it's sweet and crisp, like a treasured childhood memory."
+          }
+        }
+      ],
+      "next": "yumi_seq_8"
+    },
+    "elena_hill_stroll": {
+      "chapter": {
+        "es": "Acto II: La Brisa en el Mirador de la Colina",
+        "en": "Act II: The Breeze on the Hill Viewpoint"
+      },
+      "bg": "img/campus_hill_sunset.jpg",
+      "mood": "romance",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El viento del atardecer agita el largo cabello dorado de Elena mientras caminamos por el sendero alto del mirador.",
+            "en": "The sunset breeze gently ripples Elena's long golden hair as we stroll along the high scenic trail of the viewpoint."
+          }
+        },
+        {
+          "speaker": "elena",
+          "name": "Elena",
+          "sprite": "img/elena_cane_cheerful.png",
+          "text": {
+            "es": "Puedo sentir el calor del sol desvaneciéndose contra mis mejillas y el aroma del océano que sube desde el valle. Es un atardecer hermoso, ¿verdad?",
+            "en": "I can feel the fading sun warming my cheeks and the scent of salt air rising from the valley. It's a gorgeous sunset, isn't it?"
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Tomo su mano suavemente para guiar su paso entre las raíces del camino. Elena entrelaza sus dedos con los míos con una sonrisa radiante.",
+            "en": "I gently take her hand to guide her steps through the winding roots of the trail. Elena laces her slender fingers with mine, smiling radiantly."
+          },
+          "sprite": "img/elena_cane_giggle.png"
+        }
+      ],
+      "next": "elena_seq_4"
+    },
+    "elena_piano_melody": {
+      "chapter": {
+        "es": "Acto II: Melodía en el Salón Principal",
+        "en": "Act II: Melody in the Living Room"
+      },
+      "bg": "img/venue_living_room.jpg",
+      "mood": "romance",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Las teclas de marfil del piano resuenan bajo las manos expertas de Elena. Una pieza suave y melancólica llena la estancia iluminada por velas.",
+            "en": "The ivory piano keys ring out under Elena's practiced hands. A gentle, yearning classical piece fills the candlelit room."
+          }
+        },
+        {
+          "speaker": "elena",
+          "name": "Elena",
+          "sprite": "img/elena_behind_cheerful.png",
+          "text": {
+            "es": "Mi abuela solía tocar esta sonata en Escocia. Cuando la música suena, los ojos ya no son necesarios para ver la belleza del mundo.",
+            "en": "My grandmother used to play this sonata in Scotland. When the melody plays, eyes are no longer needed to behold the true beauty of the world."
+          }
+        }
+      ],
+      "next": "elena_seq_4"
+    },
+    "elena_scotland_letter": {
+      "chapter": {
+        "es": "Acto II: La Carta Sellada de Ultramar",
+        "en": "Act II: The Sealed Letter from Across the Sea"
+      },
+      "bg": "img/elena_tearoom.jpg",
+      "mood": "tension",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "En la mesa privada del salón de té nocturno, un sobre grueso con sello consular descansa abierto. Elena sostiene la carta con dedos tensos.",
+            "en": "On the private table in the night tearoom, a thick envelope with consular seals lies open. Elena holds the letter with tense, tremulous fingers."
+          }
+        },
+        {
+          "speaker": "elena",
+          "name": "Elena",
+          "sprite": "img/elena_cane_sad.png",
+          "text": {
+            "es": "Mis padres han preparado mi traslado definitivo a Inverness para finales de mes. Dicen que es por mi futuro... pero mi corazón entero se quedaría aquí contigo.",
+            "en": "My parents have finalized my transfer to Inverness before the month ends. They say it's for my future... but my entire heart would remain here with you."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Rodeo sus hombros con mis brazos. Elena apoya su frente contra mi pecho, y siento sus lágrimas silenciosas empapar mi camisa.",
+            "en": "I wrap my arms around her shoulders. Elena rests her forehead against my chest, and I feel her silent, warm tears soaking into my shirt."
+          },
+          "sprite": "img/elena_cane_emb.png"
+        }
+      ],
+      "next": "elena_seq_8"
+    },
+    "elena_ocean_vow": {
+      "chapter": {
+        "es": "Acto II: Promesa Frente a la Marea",
+        "en": "Act II: Vow Against the Tide"
+      },
+      "bg": "img/dating_cgs/full/cg_lilly_touch.jpg",
+      "mood": "romance",
+      "lines": [
+        {
+          "speaker": "elena",
+          "name": "Elena",
+          "sprite": "img/elena_cane_giggle.png",
+          "text": {
+            "es": "Ni diez mil millas de océano podrán borrar lo que hemos construido. Si debo marcharme, te prometo que volveré a buscarte.",
+            "en": "Not ten thousand miles of open ocean could ever diminish what we have built. If I must cross the sea, I promise I will return for you."
+          }
+        }
+      ],
+      "next": "elena_seq_8"
+    },
+    "aiko_mural_painting": {
+      "chapter": {
+        "es": "Acto II: La Alquimia de los Colores",
+        "en": "Act II: Alchemy of Colors in the Studio"
+      },
+      "bg": "img/art_room_sunset.jpg",
+      "mood": "romance",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El taller de arte está inundado de botes de óleo, trementina y bocetos gigantescos. Aiko lleva su mono de trabajo gris manchado de azul cerúleo y magenta.",
+            "en": "The art studio is flooded with open oil tins, turpentine, and giant canvases. Aiko wears her paint-splattered studio overalls stained in cerulean and magenta."
+          }
+        },
+        {
+          "speaker": "aiko",
+          "name": "Aiko",
+          "sprite": "img/rinpan_basic_amused.png",
+          "text": {
+            "es": "La gente piensa que los árboles son verdes, pero hoy los árboles en mi mente son de un violeta furioso. Ayúdame a sujetar la paleta antes de que el sol se oculte.",
+            "en": "People think trees are just green, but today the trees inside my mind are a furious violent violet. Help me hold the palette before the sun dips down."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Aiko guía los movimientos con sus pies con una destreza hipnótica. Un trazo audaz cruza el lienzo, capturando la luz del crepúsculo de una forma que corta la respiración.",
+            "en": "Aiko guides the brushwork using her bare feet with hypnotic, effortless grace. A bold stroke sweeps across the canvas, capturing the twilight in breathtaking beauty."
+          },
+          "sprite": "img/rinpan_basic_deadpandelight.png"
+        }
+      ],
+      "next": "aiko_seq_4"
+    },
+    "aiko_window_silence": {
+      "chapter": {
+        "es": "Acto II: Preguntas Bajo el Tragaluz",
+        "en": "Act II: Questions Under the Skylight"
+      },
+      "bg": "img/school_hallway2.jpg",
+      "mood": "romance",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Nos sentamos en el alféizar de la ventana alta del pasillo de arte. Aiko contempla las nubes distantes como si estuviera leyendo un lenguaje oculto.",
+            "en": "We sit on the wide window ledge of the high art corridor. Aiko gazes at the distant drifting clouds as though reading an ancient, hidden language."
+          }
+        },
+        {
+          "speaker": "aiko",
+          "name": "Aiko",
+          "sprite": "img/rinpan_relaxed_doubt.png",
+          "text": {
+            "es": "¿Crees que las nubes se sienten solas cuando se convierten en lluvia? Yo a veces siento que me derrito cuando intento explicar lo que siento.",
+            "en": "Do you think clouds feel lonely when they turn into rain? Sometimes I feel like I'm melting away whenever I try to explain what I feel."
+          }
+        }
+      ],
+      "next": "aiko_seq_4"
+    },
+    "aiko_dandelion_freedom": {
+      "chapter": {
+        "es": "Acto II: El Prado de los Dientes de León",
+        "en": "Act II: Field of Whispering Dandelions"
+      },
+      "bg": "img/campus_hill_sunset.jpg",
+      "mood": "romance",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "La cima de la colina está cubierta de un manto interminable de dientes de león dorados y semillas blancas listas para volar con la brisa.",
+            "en": "The crown of the high hill is blanketed in an endless expanse of golden dandelions and fluffy white seeds ready to take flight."
+          }
+        },
+        {
+          "speaker": "aiko",
+          "name": "Aiko",
+          "sprite": "img/aiko_amused.png",
+          "text": {
+            "es": "Mira eso... un millón de paracaídas esperando a que soplemos. Si soplamos juntos, tal vez nuestras ideas viajen hasta el fin del mundo.",
+            "en": "Look at that... a million little parachutes waiting for a breath. If we blow together, maybe our thoughts will travel all the way to the edge of the world."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Nos tumbamos sobre la hierba alta. Aiko cierra los ojos y por primera vez la agitación de su mente parece detenerse en una paz absoluta.",
+            "en": "We lie down in the tall grass side by side. Aiko closes her eyes, and for the first time the restless whirlwind in her mind settles into absolute peace."
+          },
+          "sprite": "img/aiko_relaxed_sleepy.png"
+        }
+      ],
+      "next": "aiko_seq_8"
+    },
+    "aiko_skylight_hug": {
+      "chapter": {
+        "es": "Acto II: El Abrazo Bajo la Claraboya",
+        "en": "Act II: Embraced Beneath the Skylight"
+      },
+      "bg": "img/dating_cgs/full/cg_rin_galleryskylight.jpg",
+      "mood": "romance",
+      "lines": [
+        {
+          "speaker": "aiko",
+          "name": "Aiko",
+          "sprite": "img/aiko_negative_sad.png",
+          "text": {
+            "es": "Todo el mundo me pide cuadros... pero yo solo quiero que alguien me entienda a mí, no solo a los colores que dejo atrás.",
+            "en": "Everyone keeps asking for paintings... but I just want someone to understand me, not just the colors I leave behind on the wall."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "La rodeo con mis brazos con firmeza y ternura. Aiko apoya su mejilla contra mi pecho y suspira con profundo alivio.",
+            "en": "I wrap my arms around her with gentle certainty. Aiko rests her cheek against my chest and exhales with profound relief."
+          },
+          "sprite": "img/aiko_blush.png"
+        }
+      ],
+      "next": "aiko_seq_8"
+    },
+    "shizu_chess_match": {
+      "chapter": {
+        "es": "Acto II: Jaque al Destino en el Tablero",
+        "en": "Act II: Checkmate to Destiny on the Board"
+      },
+      "bg": "img/dating_cgs/full/cg_shizu_chess.jpg",
+      "mood": "tension",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "La sala del consejo está en silencio absoluto, salvo por el 'clac' rotundo de las piezas de madera sobre el tablero pulido.",
+            "en": "The student council chamber is steeped in silence, broken only by the sharp, authoritative click of wooden chess pieces."
+          }
+        },
+        {
+          "speaker": "shizune",
+          "name": "Shizune",
+          "sprite": "img/shizu_adjust_smug.png",
+          "text": {
+            "es": "*(Señas rápidas y decididas)* ¡Has dejado a tu reina desprotegida por defender un simple peón! En el ajedrez como en la vida, dudar cuesta caro.",
+            "en": "*(Swift, decisive signing)* You left your queen unguarded just to shield a humble pawn! In chess as in life, hesitation costs dearly."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Muevo mi caballo a f3 con una sonrisa. Los ojos oscuros de Shizune tras sus gafas se abren con asombro al comprender la trampa.",
+            "en": "I move my knight to f3 with a quiet smile. Shizune's sharp eyes behind her spectacles widen in sudden amazement as she realizes the trap."
+          },
+          "sprite": "img/shizu_cross_stunned_close.png"
+        },
+        {
+          "speaker": "shizune",
+          "name": "Shizune",
+          "sprite": "img/shizu_adjust_blush.png",
+          "text": {
+            "es": "*(Señas suaves, con una sonrisa de respeto)* Jaque mate encubierto... Nadie había logrado sorprenderme de esta forma desde que entré a Yamaku.",
+            "en": "*(Gentle signing, with respectful warmth)* A disguised checkmate... No one has outwitted me like this since I set foot in Yamaku."
+          }
+        }
+      ],
+      "next": "shizu_seq_4"
+    },
+    "shizu_secret_signs": {
+      "chapter": {
+        "es": "Acto II: Palabras en la Piel",
+        "en": "Act II: Words Carved in Gestures"
+      },
+      "bg": "img/dating_cgs/full/cg_shizu_hands.jpg",
+      "mood": "romance",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Shizune toma mis manos y guía mis dedos pacientemente para formar una frase en lengua de señas que no aparece en ningún libro escolar.",
+            "en": "Shizune takes my hands in hers, guiding my fingers patiently to form a phrase in sign language that exists in no textbook."
+          }
+        },
+        {
+          "speaker": "shizune",
+          "name": "Shizune",
+          "sprite": "img/shizu_adjust_blush.png",
+          "text": {
+            "es": "*(Señas lentas y cargadas de emoción)* Este signo significa: 'Confío en ti pase lo que pase'. Ahora ya sabes nuestro secreto compartido.",
+            "en": "*(Slow, deliberate signing brimming with emotion)* This gesture means: 'I trust you whatever comes'. Now our shared secret is sealed."
+          }
+        }
+      ],
+      "next": "shizu_seq_4"
+    },
+    "shizu_tanabata_wishes": {
+      "chapter": {
+        "es": "Acto II: La Noche de Tanabata y las Estrellas",
+        "en": "Act II: The Star Festival of Tanabata"
+      },
+      "bg": "img/cg_hideaki_festival.jpg",
+      "mood": "romance",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "El santuario está decorado con altas cañas de bambú repletas de tiras de colores tanzaku. Shizune luce una yukata tradicional de seda oscura bordada con flores de ciruelo.",
+            "en": "The hillside shrine is adorned with tall swaying bamboo stalks laden with colorful tanzaku wish strips. Shizune looks striking in an indigo silk yukata."
+          }
+        },
+        {
+          "speaker": "shizune",
+          "name": "Shizune",
+          "sprite": "img/shizuyu_basic_blush.png",
+          "text": {
+            "es": "*(Señas)* No le digas a Misha ni a Hideaki lo que escribí en mi tira de papel... Pedí que este verano con nosotros nunca termine.",
+            "en": "*(Signing softly)* Don't tell Misha or Hideaki what I wrote on my paper strip... I wished that this summer with you would never have to end."
+          }
+        },
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Atamos nuestras tiras juntas en la misma rama alta del bambú mientras los fuegos artificiales iluminan el cielo nocturno.",
+            "en": "We tie our strips together on the very same high branch of bamboo while festive fireworks illuminate the summer night sky."
+          },
+          "bg": "img/dating_cgs/full/cg_shizu_tanabata.jpg"
+        }
+      ],
+      "next": "shizu_seq_8"
+    },
+    "shizu_garden_pond": {
+      "chapter": {
+        "es": "Acto II: El Refugio Junto al Estanque de Carpas",
+        "en": "Act II: Sanctuary by the Koi Pond"
+      },
+      "bg": "img/suburb_park_ss.jpg",
+      "mood": "romance",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": {
+            "es": "Nos escapamos del bullicio del festival hacia el estanque sereno del jardín trasero. Las carpas doradas dibujan ondas suaves en el agua.",
+            "en": "We slip away from the noisy festival toward the serene koi pond in the back garden. Golden fish trace gentle ripples across the surface."
+          }
+        },
+        {
+          "speaker": "shizune",
+          "name": "Shizune",
+          "sprite": "img/shizu_adjust_happy.png",
+          "text": {
+            "es": "*(Señas tranquilas)* Ser presidenta exige ser invencible todo el tiempo... pero contigo puedo simplemente descansar y ser yo misma.",
+            "en": "*(Peaceful signing)* Being council president demands being invincible at all times... but with you I can simply rest and just be me."
+          }
+        }
+      ],
+      "next": "shizu_seq_8"
     }
   }
 }
