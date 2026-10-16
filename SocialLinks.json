@@ -78,5 +78,14 @@
     "web": false
   },
   "enlaseweb": 1,
-  "active_actress_ids": "0,1"
+  "active_actress_ids": "0,1",
+  "ads": {
+    "interstitial_enabled": true,
+    "banner_enabled": true,
+    "rewarded_enabled": true,
+    "interstitial_interval_minutes": 2,
+    "interstitial_interval": 2,
+    "interstitial_cooldown_minutes": 2,
+    "cooldown_minutes": 2
+  }
 }
