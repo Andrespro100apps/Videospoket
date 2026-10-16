@@ -39,10 +39,10 @@
     "interstitial_enabled": true,
     "banner_enabled": true,
     "rewarded_enabled": true,
-    "interstitial_interval_minutes": 2,
-    "interstitial_interval": 2,
-    "interstitial_cooldown_minutes": 2,
-    "cooldown_minutes": 2
+    "interstitial_interval_minutes": 3,
+    "interstitial_interval": 3,
+    "interstitial_cooldown_minutes": 3,
+    "cooldown_minutes": 3
   },
   "multiplayer": {
     "invitation_timeout_minutes": 180,
