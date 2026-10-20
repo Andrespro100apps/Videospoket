@@ -2,7 +2,7 @@
   "menu_buttons": {
     "visual_novel": true,
     "dating_sim": true,
-    "full_web": true,
+    "full_web": false,
     "car_sort": true,
     "mega_arcade": true,
     "poki": true,
@@ -31,9 +31,9 @@
     "novel_enabled": true,
     "dating": true,
     "dating_enabled": true,
-    "is_full_web_enabled": true,
-    "full_web_enabled": true,
-    "web": true
+    "is_full_web_enabled": false,
+    "full_web_enabled": false,
+    "web": false
   },
   "ads": {
     "interstitial_enabled": true,
