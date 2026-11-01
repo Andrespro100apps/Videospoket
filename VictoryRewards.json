@@ -1,5 +1,5 @@
 {
-  "total_rewards": 7,
+  "total_rewards": 42,
   "description": "Catalogo de fotos y wallpapers desbloqueables al ganar minijuegos. Puedes agregar mas fotos (ej. imagenganadora8.jpg) y aumentar total_rewards sin necesidad de actualizar la aplicacion en Google Play.",
   "rewards": [
     {
@@ -36,6 +36,181 @@
       "id": 7,
       "title": "Victoria Mítica • Chica Clásica 7",
       "image": "two_or_more_rewards/imagenganadora7.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Victoria Encantadora • Chica Clásica 8",
+      "image": "two_or_more_rewards/imagenganadora8.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Victoria Deslumbrante • Chica Clásica 9",
+      "image": "two_or_more_rewards/imagenganadora9.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Victoria Magnífica • Chica Clásica 10",
+      "image": "two_or_more_rewards/imagenganadora10.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Victoria Deseada • Chica Clásica 11",
+      "image": "two_or_more_rewards/imagenganadora11.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Victoria Triunfal • Chica Clásica 12",
+      "image": "two_or_more_rewards/imagenganadora12.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Victoria Sublime • Chica Clásica 13",
+      "image": "two_or_more_rewards/imagenganadora13.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Victoria Divina • Chica Clásica 14",
+      "image": "two_or_more_rewards/imagenganadora14.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Victoria Majestuosa • Chica Clásica 15",
+      "image": "two_or_more_rewards/imagenganadora15.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Victoria Exclusiva • Foto #16",
+      "image": "two_or_more_rewards/imagenganadora16.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Victoria Exclusiva • Foto #17",
+      "image": "two_or_more_rewards/imagenganadora17.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Victoria Exclusiva • Foto #18",
+      "image": "two_or_more_rewards/imagenganadora18.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Victoria Exclusiva • Foto #19",
+      "image": "two_or_more_rewards/imagenganadora19.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Victoria Exclusiva • Foto #20",
+      "image": "two_or_more_rewards/imagenganadora20.jpg"
+    },
+    {
+      "id": 21,
+      "title": "Victoria Exclusiva • Foto #21",
+      "image": "two_or_more_rewards/imagenganadora21.jpg"
+    },
+    {
+      "id": 22,
+      "title": "Victoria Exclusiva • Foto #22",
+      "image": "two_or_more_rewards/imagenganadora22.jpg"
+    },
+    {
+      "id": 23,
+      "title": "Victoria Exclusiva • Foto #23",
+      "image": "two_or_more_rewards/imagenganadora23.jpg"
+    },
+    {
+      "id": 24,
+      "title": "Victoria Exclusiva • Foto #24",
+      "image": "two_or_more_rewards/imagenganadora24.jpg"
+    },
+    {
+      "id": 25,
+      "title": "Victoria Exclusiva • Foto #25",
+      "image": "two_or_more_rewards/imagenganadora25.jpg"
+    },
+    {
+      "id": 26,
+      "title": "Victoria Exclusiva • Foto #26",
+      "image": "two_or_more_rewards/imagenganadora26.jpg"
+    },
+    {
+      "id": 27,
+      "title": "Victoria Exclusiva • Foto #27",
+      "image": "two_or_more_rewards/imagenganadora27.jpg"
+    },
+    {
+      "id": 28,
+      "title": "Victoria Exclusiva • Foto #28",
+      "image": "two_or_more_rewards/imagenganadora28.jpg"
+    },
+    {
+      "id": 29,
+      "title": "Victoria Exclusiva • Foto #29",
+      "image": "two_or_more_rewards/imagenganadora29.jpg"
+    },
+    {
+      "id": 30,
+      "title": "Victoria Exclusiva • Foto #30",
+      "image": "two_or_more_rewards/imagenganadora30.jpg"
+    },
+    {
+      "id": 31,
+      "title": "Victoria Exclusiva • Foto #31",
+      "image": "two_or_more_rewards/imagenganadora31.jpg"
+    },
+    {
+      "id": 32,
+      "title": "Victoria Exclusiva • Foto #32",
+      "image": "two_or_more_rewards/imagenganadora32.jpg"
+    },
+    {
+      "id": 33,
+      "title": "Victoria Exclusiva • Foto #33",
+      "image": "two_or_more_rewards/imagenganadora33.jpg"
+    },
+    {
+      "id": 34,
+      "title": "Victoria Exclusiva • Foto #34",
+      "image": "two_or_more_rewards/imagenganadora34.jpg"
+    },
+    {
+      "id": 35,
+      "title": "Victoria Exclusiva • Foto #35",
+      "image": "two_or_more_rewards/imagenganadora35.jpg"
+    },
+    {
+      "id": 36,
+      "title": "Victoria Exclusiva • Foto #36",
+      "image": "two_or_more_rewards/imagenganadora36.jpg"
+    },
+    {
+      "id": 37,
+      "title": "Victoria Exclusiva • Foto #37",
+      "image": "two_or_more_rewards/imagenganadora37.jpg"
+    },
+    {
+      "id": 38,
+      "title": "Victoria Exclusiva • Foto #38",
+      "image": "two_or_more_rewards/imagenganadora38.jpg"
+    },
+    {
+      "id": 39,
+      "title": "Victoria Exclusiva • Foto #39",
+      "image": "two_or_more_rewards/imagenganadora39.jpg"
+    },
+    {
+      "id": 40,
+      "title": "Victoria Exclusiva • Foto #40",
+      "image": "two_or_more_rewards/imagenganadora40.jpg"
+    },
+    {
+      "id": 41,
+      "title": "Victoria Exclusiva • Foto #41",
+      "image": "two_or_more_rewards/imagenganadora41.jpg"
+    },
+    {
+      "id": 42,
+      "title": "Victoria Exclusiva • Foto #42",
+      "image": "two_or_more_rewards/imagenganadora42.jpg"
     }
   ]
 }
